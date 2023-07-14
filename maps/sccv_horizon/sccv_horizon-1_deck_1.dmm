@@ -393,7 +393,8 @@
 /area/engineering/atmos/propulsion)
 "arn" = (
 /obj/machinery/power/smes/buildable/substation{
-	RCon_tag = "Substation - Service"
+	RCon_tag = "Substation - Service";
+	name = "Service Substation"
 	},
 /obj/structure/cable,
 /obj/structure/cable/green{
@@ -5821,7 +5822,8 @@
 /area/engineering/atmos)
 "ejL" = (
 /obj/machinery/power/smes/buildable/substation{
-	RCon_tag = "Substation - Engineering Lower Deck"
+	RCon_tag = "Substation - Engineering Lower Deck";
+	name = "Lower Engineering Substation"
 	},
 /obj/structure/cable/green,
 /obj/structure/cable{
@@ -11383,7 +11385,8 @@
 /area/engineering/atmos/propulsion/starboard)
 "hXX" = (
 /obj/machinery/power/smes/buildable/substation{
-	RCon_tag = "Substation - Xenoarchaeology"
+	RCon_tag = "Substation - Xenoarchaeology";
+	name = "Xenoarchaeology Substation"
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -12275,7 +12278,8 @@
 /area/security/checkpoint)
 "iJR" = (
 /obj/machinery/power/smes/buildable/substation{
-	RCon_tag = "Substation - Operations"
+	RCon_tag = "Substation - Operations";
+	name = "Operations Substation"
 	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
@@ -16178,7 +16182,8 @@
 	dir = 1
 	},
 /obj/machinery/power/smes/buildable/horizon_shuttle{
-	RCon_tag = "Intrepid"
+	RCon_tag = "Intrepid";
+	name = "Intrepid power storage unit"
 	},
 /obj/machinery/light/small{
 	dir = 4
@@ -20194,7 +20199,8 @@
 /area/maintenance/wing/port/deck1)
 "ogU" = (
 /obj/machinery/power/smes/buildable/horizon_shuttle{
-	RCon_tag = "Canary"
+	RCon_tag = "Canary";
+	name = "Canary power storage unit"
 	},
 /obj/structure/cable/green{
 	icon_state = "0-4"
@@ -21595,7 +21601,8 @@
 /area/hangar/canary)
 "pkG" = (
 /obj/machinery/power/smes/buildable/substation{
-	RCon_tag = "Substation - Security"
+	RCon_tag = "Substation - Security";
+	name = "Security Substation"
 	},
 /obj/structure/cable,
 /obj/structure/cable/green{
@@ -30735,7 +30742,8 @@
 /area/assembly/chargebay)
 "vFD" = (
 /obj/machinery/power/smes/buildable/horizon_shuttle{
-	RCon_tag = "Spark"
+	RCon_tag = "Spark";
+	name = "Spark power storage unit"
 	},
 /obj/structure/cable/green{
 	icon_state = "0-2"

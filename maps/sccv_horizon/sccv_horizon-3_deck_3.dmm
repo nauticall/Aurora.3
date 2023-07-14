@@ -7383,7 +7383,8 @@
 	input_attempt = 1;
 	input_level = 200000;
 	output_attempt = 1;
-	output_level = 200000
+	output_level = 200000;
+	name = "Telecommunications Substation"
 	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
@@ -11175,7 +11176,8 @@
 /area/tcommsat/entrance)
 "jbg" = (
 /obj/machinery/power/smes/buildable/substation{
-	RCon_tag = "Substation - Deck 3 Civilian"
+	RCon_tag = "Substation - Deck 3 Civilian";
+	name = "Deck 3 Civilian Substation"
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -17269,7 +17271,8 @@
 	input_attempt = 1;
 	input_level = 500000;
 	output_attempt = 1;
-	output_level = 500000
+	output_level = 500000;
+	name = "Shield Substation"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/cyan{
@@ -19363,7 +19366,8 @@
 /area/horizon/crew_quarters/fitness/changing)
 "pxf" = (
 /obj/machinery/power/smes/buildable/substation{
-	RCon_tag = "Substation - Deck 3 Command"
+	RCon_tag = "Substation - Deck 3 Command";
+	name = "Deck 3 Command Substation"
 	},
 /obj/structure/cable,
 /obj/structure/cable/green{
