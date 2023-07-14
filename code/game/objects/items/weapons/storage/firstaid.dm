@@ -42,8 +42,8 @@
 /obj/item/storage/firstaid/toxin
 	name = "toxin first-aid"
 	desc = "Used to treat when you have a high amount of toxins in your body."
-	icon_state = "antitoxinfirstaid"
-	item_state = "antitoxinfirstaid"
+	icon_state = "antitoxfirstaid"
+	item_state = "antitoxfirstaid"
 	starts_with = list(
 		/obj/item/storage/box/fancy/med_pouch/toxin = 4
 	)
