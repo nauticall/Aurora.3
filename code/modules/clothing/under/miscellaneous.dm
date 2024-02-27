@@ -569,6 +569,18 @@
 		)
 	siemens_coefficient = 0.7
 
+/obj/item/clothing/under/swat
+	name = "special operations uniform"
+	desc = "Black kevlar-reinforced fatigues used by special operators, both in private security and in law enforcement. Lightly armored."
+	icon_state = "swat"
+	worn_state = "swat"
+	armor = list(
+		melee = ARMOR_MELEE_KEVLAR,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_KEVLAR
+		)
+	siemens_coefficient = 0.5
+
 /obj/item/clothing/under/lance
 	name = "ceres lance fatigues"
 	desc = "A set of drab fatigues meant to be worn by the Ceres' Lance Regiment, with their emblem found on the shoulder."

@@ -104,6 +104,34 @@
 	head = /obj/item/clothing/head/konyang/police/lieutenant
 	back = /obj/item/storage/backpack/satchel/leather
 
+/datum/ghostspawner/human/ert/konyang_cop/swat
+	short_name = "konyang_swat"
+	name = "Point Verdant SWAT Operator"
+	desc = "Be a SWAT operator on Point Verdant. Be called in when shit really, genuinely hits the fan - because you're equipped to handle it."
+	enabled = FALSE
+	max_count = 6
+	assigned_role = "Konyang National Police Tactical Unit Officer"
+	special_role = "Konyang National Police Tactical Unit Officer"
+	outfit =
+
+/datum/outfit/admin/ert/konyang_swat
+	name = "Konyang SwAT Operator"
+	uniform = /obj/item/clothing/under/swat
+	accessory = /obj/item/clothing/accessory/holster/thigh
+	accessory_contents = list(
+		/obj/item/gun/projectile/sec/lethal = 1;
+	)
+	shoes = /obj/item/clothing/shoes/jackboots
+	head = /obj/item/clothing/head/helmet/security/generic
+	id = /obj/item/card/id/navy
+	belt = /obj/item/storage/belt/security/full
+	l_pocket = /obj/item/device/radio
+	r_pocket = /obj/item/melee/telebaton
+	back = /obj/item/storage/backpack/satchel/sec
+	backpack_contents = list(
+		/obj/item/ammo_magazine/c45m = 1,
+	)
+
 //5-Cheung
 /datum/ghostspawner/human/konyang_goon
 	short_name = "konyang_goon"
