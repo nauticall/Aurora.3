@@ -32,11 +32,28 @@
 		/obj/item/clothing/accessory/storage/modular_pouch
 	)
 
+/obj/item/clothing/suit/armor/carrier/officer/equipped
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate,
+		/obj/item/clothing/accessory/storage/modular_pouch,
+		/obj/item/clothing/accessory/leg_guard,
+		/obj/item/clothing/accessory/arm_guard
+	)
+
 /obj/item/clothing/suit/armor/carrier/hos
 	starting_accessories = list(
 		/obj/item/clothing/accessory/armor_plate,
 		/obj/item/clothing/accessory/storage/modular_pouch/large,
 		/obj/item/clothing/accessory/sec_commander_stripes
+	)
+
+/obj/item/clothing/suit/armor/carrier/hos/equipped
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate,
+		/obj/item/clothing/accessory/storage/modular_pouch/large,
+		/obj/item/clothing/accessory/sec_commander_stripes,
+		/obj/item/clothing/accessory/leg_guard,
+		/obj/item/clothing/accessory/arm_guard
 	)
 
 /obj/item/clothing/suit/armor/carrier/generic
@@ -121,6 +138,20 @@
 		/obj/item/clothing/accessory/armor_plate/tcaf/tcaf_light,
 		/obj/item/clothing/accessory/leg_guard/tcaf,
 		/obj/item/clothing/accessory/storage/chest_gear
+	)
+
+/obj/item/clothing/suit/armor/carrier/navy
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/military/navy,
+		/obj/item/clothing/accessory/leg_guard/konyang_navy,
+		/obj/item/clothing/accessory/arm_guard/konyang_navy,
+		/obj/item/clothing/accessory/storage/modular_pouch/large,
+		/obj/item/clothing/accessory/flagpatch/konyang
+	)
+
+/obj/item/clothing/suit/armor/carrier/press
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/press
 	)
 
 /obj/item/clothing/accessory/armor_plate
@@ -268,6 +299,18 @@
 	item_state = "tcaf_plate_light"
 	slowdown = 0
 
+/obj/item/clothing/accessory/armor_plate/press
+	name = "press armor plate"
+	desc = "A light-weight kevlar armor plate in blue colors and a 'PRESS' sticker included. Used by wartime correspondents."
+	icon_state = "plate_press"
+	item_state = "plate_press"
+
+/obj/item/clothing/accessory/armor_plate/military/navy
+	name = "konyang navy armor plate"
+	desc = "A military-grade armor plate frequently seen in use by naval landing parties and sailors of the Konyang Navy."
+	icon_state = "plate_navy"
+	item_state = "plate_navy"
+
 /obj/item/clothing/accessory/storage/chestpouch
 	name = "chestpouch rig"
 	desc = "A harness made to be worn over a set of armor. Comes with three pouches on the front, and a hidden pouch on the back for your snacks!"
@@ -337,6 +380,12 @@
 	desc = "A shiny helmet in grey! Goes well with the respective plate carrier."
 	icon_state = "helm_generic"
 	item_state = "helm_generic"
+
+/obj/item/clothing/head/helmet/security/press
+	name = "press helmet"
+	desc = "A helmet in blue colors with a prominent 'PRESS' emblazoned in front. A common sight on journalists in the Wildlands."
+	icon_state = "helm_press"
+	item_state = "helm_press"
 
 /obj/item/clothing/head/helmet/security/skrell
 	name = "skrellmet"

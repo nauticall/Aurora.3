@@ -41,9 +41,6 @@
 	///Overlay of a screen to display on the zombie's monitor
 	var/image/screen_overlay
 
-	///IPC corpse to spawn on the simplemob's death
-	var/corpse = /obj/effect/landmark/corpse/ipc_zombie
-
 /mob/living/simple_animal/hostile/ipc_zombie/Initialize()
 	. = ..()
 	icon_state = pick("baseline_grey", "baseline_red", "baseline_green", "baseline_yellow")
@@ -62,10 +59,8 @@
 		add_overlay(screen_overlay)
 
 /mob/living/simple_animal/hostile/ipc_zombie/death()
-	..()
-	if(corpse)
-		new corpse(get_turf(src))
-		qdel(src)
+	. = ..()
+	set_light(0)
 
 /mob/living/simple_animal/hostile/ipc_zombie/get_bullet_impact_effect_type(var/def_zone)
 	return BULLET_IMPACT_METAL

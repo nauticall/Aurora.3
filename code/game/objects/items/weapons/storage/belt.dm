@@ -316,6 +316,14 @@
 		/obj/item/device/holowarrant = 1
 	)
 
+/obj/item/storage/belt/security/event
+	starts_with = list(
+		/obj/item/melee/baton/loaded = 1,
+		/obj/item/handcuffs = 1,
+		/obj/item/device/flash = 1,
+		/obj/item/device/flashlight/maglight = 1,
+		/obj/item/ammo_magazine/c45m = 3
+	)
 /obj/item/storage/belt/soulstone
 	name = "soul stone belt"
 	desc = "Designed for ease of access to the shards during a fight, as to not let a single enemy spirit slip away"
