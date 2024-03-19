@@ -175,7 +175,7 @@
 	deny_time = 16
 	vend_id = "volunteer"
 	products = list(
-		/obj/item/clothing/suit/armor/carrier/scc = 50,
+		/obj/item/clothing/suit/armor/carrier/scc/equipped = 50,
 		/obj/item/clothing/head/helmet/security/scc = 50,
 		/obj/item/gun/projectile/leyon = 50,
 		/obj/item/ammo_magazine/mc10mm/leyon = 100,

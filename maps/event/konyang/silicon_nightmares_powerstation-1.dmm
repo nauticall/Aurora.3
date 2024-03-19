@@ -51,7 +51,7 @@
 	pixel_y = -9
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "ad" = (
 /obj/effect/landmark/corpse/ipc_zombie,
 /obj/effect/floor_decal/corner_wide/paleblue{
@@ -126,7 +126,7 @@
 	layer = 9
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "av" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
@@ -183,7 +183,7 @@
 	tag_door = "canary_out"
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "aD" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -341,7 +341,7 @@
 	icon_state = "7,8"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "bf" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
@@ -438,7 +438,7 @@
 /obj/effect/floor_decal/industrial/warning/cee,
 /obj/structure/ship_weapon_dummy/barrel,
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "bz" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/door/airlock{
@@ -589,7 +589,7 @@
 	icon_state = "5,3"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "cB" = (
 /obj/structure/table/rack,
 /obj/item/storage/toolbox/electrical,
@@ -618,17 +618,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "cJ" = (
-/obj/machinery/computer/ship/targeting/cockpit{
-	layer = 3;
-	pixel_x = -25
-	},
 /obj/structure/bed/stool/chair/cockpit,
-/obj/machinery/computer/ship/engines/cockpit{
+/obj/machinery/computer/fake_cockpit_console/engines{
 	layer = 3;
 	pixel_x = 26
 	},
+/obj/machinery/computer/fake_cockpit_console/targeting{
+	pixel_x = -25;
+	layer = 3
+	},
 /turf/simulated/floor/carpet/rubber,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "cL" = (
 /obj/structure/shuttle_part/scc/scout{
 	density = 0;
@@ -636,7 +636,7 @@
 	layer = 9
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "cO" = (
 /obj/structure/table/wood,
 /obj/item/modular_computer/laptop/preset/security/hos{
@@ -764,7 +764,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "do" = (
 /obj/machinery/light/colored/dying,
 /obj/structure/sink{
@@ -999,7 +999,7 @@
 	icon_state = "7,6"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "ez" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/ammo_magazine/submachinemag,
@@ -1040,7 +1040,7 @@
 /turf/simulated/wall/shuttle/unique/scc/scout{
 	icon_state = "6,7"
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "eP" = (
 /obj/structure/lattice/catwalk/indoor,
 /mob/living/simple_animal/hostile/ipc_zombie,
@@ -1075,7 +1075,7 @@
 	name = "thruster mount";
 	opacity = 1
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "eW" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -1180,7 +1180,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "fp" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /obj/machinery/light/colored/dying{
@@ -1256,7 +1256,7 @@
 	},
 /obj/machinery/hologram/holopad/long_range,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "fE" = (
 /obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
 /obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
@@ -1294,7 +1294,7 @@
 	icon_state = "1,8"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "fI" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -1338,7 +1338,7 @@
 	icon_state = "7,4"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "fS" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
 /obj/structure/closet/secure_closet{
@@ -1544,7 +1544,7 @@
 	},
 /obj/effect/floor_decal/industrial/warning/cee,
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "gT" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/tiled/dark,
@@ -1583,7 +1583,7 @@
 	layer = 9
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "he" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -1681,7 +1681,7 @@
 	},
 /obj/machinery/atmospherics/unary/engine/scc_shuttle,
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "hC" = (
 /obj/structure/closet/secure_closet{
 	icon_state = "sec";
@@ -2034,7 +2034,7 @@
 	name = "thruster mount";
 	opacity = 1
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "jK" = (
 /turf/simulated/floor/reinforced,
 /area/kaneyama_boss)
@@ -2144,7 +2144,7 @@
 	name = "thruster mount";
 	opacity = 1
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "kp" = (
 /obj/machinery/door/blast/regular/open{
 	dir = 8;
@@ -2553,7 +2553,7 @@
 	weapon_id = "Francisca Rotary Gun"
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "mB" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -2634,7 +2634,7 @@
 	name = "thruster mount";
 	opacity = 1
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "mK" = (
 /obj/structure/konyang_cliff{
 	icon_state = "botcorner_west"
@@ -2836,11 +2836,8 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/obj/machinery/camera/network/canary{
-	c_tag = "Canary - Fore External"
-	},
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "nL" = (
 /obj/structure/table/standard,
 /obj/item/device/flash/synthetic{
@@ -2887,7 +2884,7 @@
 	icon_state = "7,10"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "nS" = (
 /obj/structure/sign/billboard{
 	icon_state = "board-c"
@@ -2920,7 +2917,7 @@
 	name = "thruster mount";
 	opacity = 1
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "nY" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 1
@@ -3023,7 +3020,7 @@
 	name = "thruster mount";
 	opacity = 1
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "ou" = (
 /obj/structure/flora/tree/konyang,
 /obj/structure/flora/bush/konyang_reeds,
@@ -3305,7 +3302,7 @@
 	icon_state = "1,3"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "pX" = (
 /obj/vehicle/train/cargo/trolley,
 /obj/machinery/status_display/supply_display{
@@ -3480,7 +3477,7 @@
 	icon_state = "7,5"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "qR" = (
 /obj/machinery/computer/operating,
 /obj/effect/floor_decal/corner_wide/paleblue{
@@ -3578,7 +3575,7 @@
 	layer = 9
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "rg" = (
 /obj/effect/floor_decal/corner_wide/yellow{
 	dir = 10
@@ -3686,7 +3683,7 @@
 	pixel_x = -5
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "rB" = (
 /obj/effect/decal/road_marking/center,
 /obj/effect/decal/road_marking/reflector,
@@ -3818,7 +3815,7 @@
 	name = "Fuel Tank to Thrusters"
 	},
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "sn" = (
 /obj/effect/landmark/corpse/kaneyama_guard,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -3960,7 +3957,7 @@
 /turf/simulated/wall/shuttle/unique/scc/scout{
 	icon_state = "3,10"
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "te" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 5
@@ -4084,7 +4081,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "tu" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -4145,7 +4142,7 @@
 	icon_state = "3,3"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "tH" = (
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 8
@@ -4178,7 +4175,7 @@
 	icon_state = "1,4"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "tQ" = (
 /obj/structure/chainlink_fence{
 	dir = 4
@@ -4241,7 +4238,7 @@
 	icon_state = "1,5"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "ug" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/power/radial_floodlight,
@@ -4283,7 +4280,7 @@
 /turf/simulated/wall/shuttle/unique/scc/scout{
 	icon_state = "5,10"
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "uw" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/gun/projectile/pistol/sol/konyang,
@@ -4382,7 +4379,7 @@
 	layer = 9
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "uO" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -4459,7 +4456,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "ve" = (
 /turf/unsimulated/mineral/konyang{
 	icon_state = "black"
@@ -5281,7 +5278,7 @@
 	icon_state = "3,5"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "zI" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/wood,
@@ -5530,7 +5527,7 @@
 	icon_state = "5,4"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "AM" = (
 /obj/structure/table/wood,
 /obj/item/device/radio/phone,
@@ -5585,7 +5582,7 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Ba" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
@@ -5709,7 +5706,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "BA" = (
 /obj/machinery/telecomms/bus/preset_two,
 /turf/unsimulated/floor,
@@ -6044,7 +6041,7 @@
 	icon_state = "7,3"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "CV" = (
 /obj/structure/reagent_dispensers/radioactive_waste,
 /turf/simulated/floor/hivebot,
@@ -6117,7 +6114,7 @@
 	weapon_id = "Francisca Rotary Gun"
 	},
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Di" = (
 /obj/structure/barricade/plasteel/wired{
 	dir = 8
@@ -6282,7 +6279,7 @@
 	},
 /obj/machinery/bluespace_beacon,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "DR" = (
 /obj/machinery/light/colored/dying{
 	dir = 1
@@ -6609,7 +6606,7 @@
 	id_tag = "canary_out"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "FK" = (
 /obj/vehicle/bike/motor/moped{
 	dir = 4
@@ -6862,7 +6859,7 @@
 	},
 /obj/machinery/shipsensors/strong/scc_shuttle,
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Hd" = (
 /obj/structure/shipping_container{
 	icon_state = "green2"
@@ -6917,7 +6914,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Ho" = (
 /obj/machinery/light{
 	dir = 4
@@ -7005,7 +7002,7 @@
 	pixel_x = -25
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "HR" = (
 /obj/machinery/door/blast/shutters{
 	id = "plant_gate4"
@@ -7150,7 +7147,7 @@
 	icon_state = "1,6"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "IC" = (
 /obj/effect/floor_decal/sign/c,
 /obj/structure/sink{
@@ -7267,7 +7264,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor/reinforced,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Je" = (
 /obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/hivebot,
@@ -7533,7 +7530,7 @@
 	icon_state = "3,11"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Kz" = (
 /obj/structure/table/wood,
 /obj/item/toy/comic/stormman,
@@ -8065,7 +8062,7 @@
 	icon_state = "7,2"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "ML" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/autolathe,
@@ -8082,7 +8079,7 @@
 	icon_state = "1,2"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "MO" = (
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/exoplanet/konyang,
@@ -8337,22 +8334,22 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
 "Oc" = (
-/obj/machinery/computer/ship/helm/cockpit{
-	layer = 3.1;
-	pixel_y = -18
-	},
 /obj/machinery/light/spot,
 /obj/structure/bed/stool/chair/cockpit,
-/obj/machinery/computer/shuttle_control/explore/canary{
-	layer = 3;
-	pixel_x = 25
-	},
-/obj/machinery/computer/ship/sensors/cockpit{
+/obj/machinery/computer/fake_cockpit_console/sensors{
 	layer = 3;
 	pixel_x = -25
 	},
+/obj/machinery/computer/shuttle_control/multi/sn_canary{
+	pixel_x = 25;
+	layer = 3
+	},
+/obj/machinery/computer/fake_cockpit_console{
+	layer = 3.1;
+	pixel_y = -18
+	},
 /turf/simulated/floor/carpet/rubber,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Oe" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -8441,7 +8438,7 @@
 	icon_state = "5,5"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Oz" = (
 /obj/effect/floor_decal/spline/plain/corner,
 /obj/structure/table/reinforced/steel,
@@ -8479,7 +8476,7 @@
 	icon_state = "1,10"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "OH" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
@@ -8501,7 +8498,7 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/carpet/rubber,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "ON" = (
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 4
@@ -8537,7 +8534,7 @@
 /turf/simulated/wall/shuttle/unique/scc/scout{
 	icon_state = "6,5"
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Pf" = (
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 1
@@ -8645,6 +8642,12 @@
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"PH" = (
+/obj/effect/shuttle_landmark/sn_canary/start{
+	dir = 1
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "PI" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -8725,7 +8728,7 @@
 /turf/simulated/wall/shuttle/unique/scc/scout{
 	icon_state = "2,7"
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "PZ" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -9133,7 +9136,7 @@
 	},
 /obj/machinery/atmospherics/unary/engine/scc_shuttle,
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Sj" = (
 /obj/machinery/door/blast/shutters{
 	id = "plant_gate2"
@@ -9321,7 +9324,7 @@
 /turf/simulated/wall/shuttle/unique/scc/scout{
 	icon_state = "6,6"
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Tf" = (
 /obj/effect/landmark/corpse/kaneyama_worker,
 /obj/effect/floor_decal/corner_wide/yellow{
@@ -9492,7 +9495,7 @@
 	name = "thruster mount";
 	opacity = 1
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "TH" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -9517,7 +9520,7 @@
 /turf/simulated/wall/shuttle/unique/scc/scout{
 	icon_state = "2,6"
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "TM" = (
 /obj/machinery/door/blast/shutters/open{
 	id = "plant_gate3";
@@ -9697,7 +9700,7 @@
 	icon_state = "5,11"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "UE" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -9835,7 +9838,7 @@
 	layer = 9
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "VC" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -9880,7 +9883,7 @@
 /turf/simulated/wall/shuttle/unique/scc/scout{
 	icon_state = "2,5"
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "VN" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/concrete,
@@ -9913,7 +9916,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "VS" = (
 /turf/simulated/floor/exoplanet/konyang,
 /area/kaneyama_interiors)
@@ -10014,7 +10017,7 @@
 	icon_state = "3,4"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Wn" = (
 /obj/structure/bed/stool/chair/sofa/brown{
 	dir = 1
@@ -10084,7 +10087,7 @@
 	name = "fore, cockpit"
 	},
 /turf/space,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Wt" = (
 /turf/simulated/floor/tiled/steel,
 /area/kaneyama_interiors)
@@ -10288,7 +10291,7 @@
 	target_pressure = 250
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Xl" = (
 /obj/machinery/button/remote/blast_door{
 	id = "mech_store";
@@ -10315,8 +10318,32 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
+/obj/item/device/spaceflare{
+	pixel_y = 12
+	},
+/obj/item/device/spaceflare{
+	pixel_y = 12
+	},
+/obj/item/device/spaceflare{
+	pixel_y = 12
+	},
+/obj/item/device/spaceflare{
+	pixel_y = 12
+	},
+/obj/item/device/spaceflare{
+	pixel_y = 12
+	},
+/obj/item/device/spaceflare{
+	pixel_y = 12
+	},
+/obj/item/device/spaceflare{
+	pixel_y = 12
+	},
+/obj/item/device/spaceflare{
+	pixel_y = 12
+	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Xp" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -10393,7 +10420,7 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "XL" = (
 /obj/effect/landmark/corpse/kaneyama_worker,
 /turf/simulated/floor/tiled/dark,
@@ -10440,7 +10467,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "Yf" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -10542,7 +10569,7 @@
 	name = "thruster mount";
 	opacity = 1
 	},
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "YF" = (
 /obj/structure/closet/crate/medical{
 	name = "first-aid"
@@ -10693,7 +10720,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/shuttle/sn_canary)
 "ZE" = (
 /obj/structure/lattice/catwalk/indoor,
 /obj/machinery/light/broken{
@@ -61134,7 +61161,7 @@ bK
 bK
 MO
 iY
-iY
+PH
 iM
 Jd
 FJ

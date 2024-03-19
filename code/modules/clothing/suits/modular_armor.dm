@@ -68,6 +68,14 @@
 		/obj/item/clothing/accessory/storage/modular_pouch
 	)
 
+/obj/item/clothing/suit/armor/carrier/scc/equipped
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/scc,
+		/obj/item/clothing/accessory/leg_guard/scc,
+		/obj/item/clothing/accessory/arm_guard/scc,
+		/obj/item/clothing/accessory/storage/modular_pouch
+	)
+
 /obj/item/clothing/suit/armor/carrier/riot
 	starting_accessories = list(
 		/obj/item/clothing/accessory/armor_plate/riot,

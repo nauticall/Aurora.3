@@ -4,7 +4,7 @@
 	path = "event/konyang"
 	lobby_icons = list('icons/misc/titlescreens/lore/silicon_nightmares.dmi')
 
-	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger, /datum/job/captain, /datum/job/xo, /datum/job/operations_manager, /datum/job/chief_engineer, /datum/job/cmo, /datum/job/rd, /datum/job/hos, /datum/job/eventeng, /datum/job/eventmed, /datum/job/eventops, /datum/job/eventsci, /datum/job/eventsec)
+	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger, /datum/job/captain, /datum/job/xo, /datum/job/operations_manager, /datum/job/chief_engineer, /datum/job/cmo, /datum/job/rd, /datum/job/hos, /datum/job/eventeng, /datum/job/eventmed, /datum/job/eventops, /datum/job/eventsci, /datum/job/eventsec, /datum/job/bridge_crew)
 
 	station_levels = list(1)
 	admin_levels = list(2)
@@ -22,7 +22,9 @@
 	station_type = "planet"
 	use_overmap = FALSE
 	map_shuttles = list(
-		/datum/shuttle/autodock/ferry/supply/konyang
+		/datum/shuttle/autodock/ferry/supply/konyang,
+		/datum/shuttle/autodock/multi/sn_canary,
+		/datum/shuttle/autodock/multi/kasf_ert
 	)
 
 //Areas
@@ -67,24 +69,3 @@
 	base_turf = /turf/simulated/floor/plating
 	ambience = AMBIENCE_TECH_RUINS
 	area_flags = AREA_FLAG_ECD_TRIGGER
-
-/datum/shuttle/autodock/ferry/supply/konyang
-	name = "OX Supply Shuttle"
-	location = 1
-	shuttle_area = /area/supply/dock
-	dock_target = "cargo_shuttle"
-	waypoint_station = "nav_cargo_shuttle_dock"
-	waypoint_offsite = "nav_cargo_shuttle_start"
-
-/obj/effect/shuttle_landmark/supply/konyang/start
-	name = "SCCV Horizon Cargo Dock"
-	landmark_tag = "nav_cargo_shuttle_start"
-	base_turf = /turf/unsimulated/floor/plating
-	base_area = /area/centcom
-
-/obj/effect/shuttle_landmark/supply/konyang/dock
-	name = "Planetary Docking Site"
-	landmark_tag = "nav_cargo_shuttle_dock"
-	docking_controller = "cargo_shuttle_dock"
-	base_turf = /turf/simulated/floor/plating
-	base_area = /area/kaneyama_ext

@@ -26094,7 +26094,6 @@
 /obj/machinery/door/airlock/hatch{
 	dir = 4;
 	frequency = 1337;
-	icon_state = "door_locked";
 	id_tag = "distress_shuttle_hatch_fore";
 	locked = 1;
 	name = "Port Shuttle Hatch";
@@ -35298,7 +35297,6 @@
 /obj/machinery/door/airlock/hatch{
 	dir = 1;
 	frequency = 1337;
-	icon_state = "door_locked";
 	id_tag = "distress_shuttle_hatch_aft";
 	locked = 1;
 	name = "Aft Shuttle Hatch";
@@ -38309,7 +38307,7 @@
 /area/centcom/shared_dream)
 "wDQ" = (
 /obj/machinery/button/remote/blast_door{
-	dir = 4;
+	dir = 8;
 	id = "distress_blast_aft";
 	name = "Blast Door";
 	pixel_x = -22;
