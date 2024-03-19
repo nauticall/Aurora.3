@@ -183,7 +183,9 @@
 		/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine = 10,
 		/obj/item/ammo_magazine/a556/carbine/polymer = 50,
 		/obj/item/gun/energy/gun = 10,
-		/obj/item/storage/firstaid/stab = 10
+		/obj/item/storage/firstaid/stab = 10,
+		/obj/item/device/flashlight/maglight = 50,
+		/obj/item/recharger_backpack = 3,
 	)
 	restock_items = FALSE
 	random_itemcount = FALSE
@@ -201,7 +203,8 @@
 		/obj/item/ammo_magazine/submachinemag = 50,
 		/obj/item/gun/projectile/pistol/sol/konyang = 10,
 		/obj/item/gun/projectile/automatic/tommygun/konyang = 5,
-		/obj/item/clothing/accessory/holster/hip = 50
+		/obj/item/clothing/accessory/holster/hip = 50,
+		/obj/item/device/flashlight/maglight,
 	)
 	restock_items = FALSE
 	random_itemcount = FALSE
@@ -216,5 +219,6 @@
 	req_access = list(ACCESS_SECURITY)
 	products = list(
 		/obj/item/ammo_magazine/c45m = 20,
-		/obj/item/ammo_magazine/a556/carbine = 20
+		/obj/item/ammo_magazine/a556/carbine = 20,
+		/obj/item/device/flashlight/maglight = 50,
 	)
