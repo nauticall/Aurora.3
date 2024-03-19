@@ -93,6 +93,13 @@
 /obj/item/storage/box/fancy/tray/machinist,
 /turf/simulated/floor/tiled/steel,
 /area/kaneyama_interiors)
+"ak" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "ar" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 5
@@ -109,12 +116,9 @@
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
 "at" = (
-/obj/machinery/door/airlock/multi_tile/glass{
-	name = "Medical Storage and Prep";
-	dir = 2
-	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors)
+/obj/effect/decal/curb,
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "au" = (
 /obj/structure/shuttle_part/scc/scout{
 	density = 0;
@@ -180,6 +184,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_ext)
+"aD" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "aE" = (
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 4
@@ -243,6 +253,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"aG" = (
+/obj/machinery/door/airlock/glass_medical{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "aN" = (
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/accessory/flagpatch/konyang,
@@ -279,6 +295,11 @@
 /obj/effect/floor_decal/industrial/outline/medical,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"aR" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "aS" = (
 /obj/effect/landmark/corpse/kaneyama_guard,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -521,6 +542,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/kaneyama_interiors)
+"cp" = (
+/obj/structure/barricade/plasteel/wired{
+	dir = 1
+	},
+/obj/item/crowbar,
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "cq" = (
 /obj/structure/konyang_cliff{
 	icon_state = "innercorner3"
@@ -753,12 +781,10 @@
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_plant)
 "dr" = (
-/obj/machinery/computer/operating{
-	dir = 1
-	},
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner_wide/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "ds" = (
@@ -879,6 +905,12 @@
 /area/kaneyama_plant)
 "dW" = (
 /obj/vehicle/bike/motor/moped/blue,
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
+"dX" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
 "ea" = (
@@ -1088,13 +1120,13 @@
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
 "fd" = (
-/obj/machinery/body_scanconsole,
-/obj/effect/floor_decal/spline/plain/green{
+/obj/machinery/light/spot{
 	dir = 4
 	},
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 4
+/obj/structure/table/steel,
+/obj/item/storage/box/fancy/tray,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -1442,9 +1474,6 @@
 /turf/simulated/floor/lino,
 /area/kaneyama_plant)
 "gG" = (
-/obj/machinery/chemical_dispenser/full{
-	dir = 1
-	},
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 4
 	},
@@ -1452,6 +1481,18 @@
 	must_start_working = 1;
 	dir = 4
 	},
+/obj/structure/table/standard,
+/obj/item/storage/box/fancy/vials{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/dropper/electronic_pipette{
+	pixel_x = -8
+	},
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "gI" = (
@@ -1464,9 +1505,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "gK" = (
-/obj/effect/floor_decal/industrial/loading/security{
-	dir = 1
+/obj/structure/window/reinforced{
+	dir = 4
 	},
+/obj/machinery/stasis_bed,
+/obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "gL" = (
@@ -1572,8 +1615,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
+	dir = 4
 	},
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/unsimulated/floor/plating,
@@ -1593,10 +1635,10 @@
 	},
 /area/kaneyama_ext/water)
 "hp" = (
-/obj/machinery/smartfridge/secure/medbay,
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 10
 	},
+/obj/machinery/smartfridge/secure/medbay,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "hq" = (
@@ -1624,6 +1666,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"hA" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "hB" = (
 /obj/structure/shuttle_part/scc/scout{
 	density = 0;
@@ -1747,6 +1795,15 @@
 	},
 /turf/simulated/floor/carpet/darkblue,
 /area/kaneyama_interiors)
+"ik" = (
+/obj/structure/barricade/metal/wired{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "im" = (
 /obj/effect/landmark/corpse/kaneyama_guard,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -1853,8 +1910,24 @@
 	},
 /turf/simulated/floor/tiled,
 /area/kaneyama_boss)
+"jg" = (
+/obj/effect/floor_decal/spline/plain/green,
+/obj/structure/table/standard,
+/obj/item/storage/box/beakers{
+	pixel_x = 6;
+	pixel_y = 12
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "jk" = (
-/obj/structure/table/reinforced/steel,
+/obj/structure/table/rack,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/steel/full,
@@ -1922,15 +1995,8 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
 	},
-/obj/machinery/computer/operating{
-	dir = 1
-	},
-/obj/machinery/light{
-	brightness_power = 0.5;
-	brightness_range = 3;
-	dir = 8;
-	name = "adjusted light fixture";
-	pixel_x = -10
+/obj/machinery/bodyscanner{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -1947,6 +2013,10 @@
 /obj/effect/decal/road_marking/no_pass,
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
+"jH" = (
+/obj/structure/utility_pole/street/on,
+/turf/simulated/floor/concrete,
 /area/kaneyama_ext)
 "jI" = (
 /obj/item/material/shard,
@@ -2127,11 +2197,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "kE" = (
-/obj/machinery/chemical_dispenser/ert,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 8
 	},
@@ -2170,11 +2235,14 @@
 /turf/simulated/floor/tiled,
 /area/kaneyama_plant)
 "kS" = (
-/obj/machinery/iv_drip,
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 5
 	},
-/obj/effect/floor_decal/industrial/outline/service,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "kT" = (
@@ -2419,11 +2487,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "mj" = (
-/obj/machinery/vending/wallmed2{
-	pixel_y = 29
-	},
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 1
+	},
+/obj/machinery/vending/medical{
+	density = 0;
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -2538,7 +2607,7 @@
 /area/kaneyama_interiors)
 "mD" = (
 /obj/structure/bed/stool/chair/office/light{
-	dir = 8
+	dir = 4
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
@@ -2819,6 +2888,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_ext)
+"nS" = (
+/obj/structure/sign/billboard{
+	icon_state = "board-c"
+	},
+/turf/simulated/floor/sidewalk/blocks,
+/area/kaneyama_ext)
 "nU" = (
 /obj/structure/konyang_cliff{
 	icon_state = "innercorner5"
@@ -2954,6 +3029,12 @@
 /obj/structure/flora/bush/konyang_reeds,
 /turf/simulated/floor/exoplanet/konyang,
 /area/kaneyama_ext)
+"ov" = (
+/obj/structure/utility_pole/power{
+	dir = 4
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "ow" = (
 /obj/machinery/light{
 	dir = 4
@@ -3009,6 +3090,13 @@
 "oO" = (
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 6
+	},
+/obj/structure/table/standard,
+/obj/machinery/reagentgrinder{
+	pixel_y = 7
+	},
+/obj/item/stack/material/phoron{
+	amount = 6
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
@@ -3066,6 +3154,13 @@
 "pa" = (
 /turf/simulated/wall,
 /area/kaneyama_interiors)
+"pc" = (
+/obj/structure/barricade/plasteel/wired{
+	dir = 1
+	},
+/obj/item/crowbar/red,
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "pg" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/industrial/warning{
@@ -3226,9 +3321,9 @@
 /turf/simulated/floor/tiled,
 /area/kaneyama_interiors)
 "pZ" = (
-/obj/effect/floor_decal/spline/plain/green,
-/obj/machinery/bodyscanner{
-	dir = 1
+/obj/machinery/optable,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -3387,10 +3482,9 @@
 /turf/simulated/floor/plating,
 /area/kaneyama_ext)
 "qR" = (
-/obj/effect/floor_decal/spline/plain/green,
-/obj/effect/floor_decal/industrial/outline/security,
-/obj/machinery/light{
-	must_start_working = 1
+/obj/machinery/computer/operating,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -3417,6 +3511,13 @@
 /obj/effect/floor_decal/industrial/outline/medical,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"qX" = (
+/obj/machinery/body_scanconsole{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_wide/lime/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "qY" = (
 /obj/machinery/door/urban{
 	dir = 4
@@ -3428,6 +3529,20 @@
 	icon_state = "red2"
 	},
 /obj/effect/overlay/container_logo,
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
+"rb" = (
+/obj/effect/decal/road_marking/center,
+/obj/effect/decal/road_marking/reflector,
+/obj/effect/decal/road_marking/no_pass{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/no_pass{
+	dir = 8
+	},
+/obj/structure/barricade/metal/wired{
+	dir = 1
+	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
 "rc" = (
@@ -3586,13 +3701,16 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
-"rD" = (
-/obj/machinery/iv_drip,
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 8
+"rC" = (
+/obj/structure/sign/billboard{
+	icon_state = "board-r"
 	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors)
+/turf/simulated/floor/sidewalk/blocks,
+/area/kaneyama_ext)
+"rD" = (
+/obj/structure/utility_pole/power,
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "rG" = (
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
@@ -3618,9 +3736,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "rS" = (
-/obj/effect/floor_decal/spline/plain/corner/green{
-	dir = 1
-	},
+/obj/effect/floor_decal/corner_wide/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "rT" = (
@@ -3760,19 +3876,20 @@
 	pixel_x = -13;
 	pixel_y = 2
 	},
-/obj/item/storage/box/inhalers{
-	pixel_x = 5;
-	pixel_y = 11
-	},
-/obj/item/storage/box/inhalers_auto{
-	pixel_x = 5
-	},
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
 	},
 /obj/machinery/light{
 	must_start_working = 1;
 	dir = 8
+	},
+/obj/item/defibrillator{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/obj/item/defibrillator{
+	pixel_x = 6;
+	pixel_y = 3
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -3864,6 +3981,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_plant)
+"tk" = (
+/obj/structure/sign/billboard,
+/obj/structure/sign/billboard/advert/random,
+/turf/simulated/floor/sidewalk/blocks,
+/area/kaneyama_ext)
 "tm" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/o2{
@@ -3915,10 +4037,6 @@
 	pixel_y = 3
 	},
 /obj/effect/floor_decal/spline/plain/green{
-	dir = 1
-	},
-/obj/machinery/light{
-	must_start_working = 1;
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -4293,12 +4411,11 @@
 /turf/simulated/floor/tiled,
 /area/kaneyama_plant)
 "uR" = (
-/obj/machinery/door/airlock/multi_tile/glass{
-	dir = 2;
-	name = "Medical"
+/obj/structure/barricade/plasteel/wired{
+	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors)
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "uS" = (
 /obj/structure/bed/stool/padded/red,
 /obj/machinery/light/broken{
@@ -4366,6 +4483,11 @@
 /obj/effect/landmark/corpse/kaneyama_worker,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_plant)
+"vo" = (
+/obj/structure/table/steel,
+/obj/item/storage/box/fancy/tray,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "vr" = (
 /obj/structure/lattice/catwalk/indoor,
 /obj/machinery/light/broken{
@@ -4374,15 +4496,21 @@
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "vs" = (
-/obj/machinery/chem_master,
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 5
 	},
+/obj/machinery/chem_master,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "vw" = (
-/obj/effect/floor_decal/industrial/outline/security,
 /obj/effect/floor_decal/spline/plain/green,
+/obj/machinery/vending/wallmed2{
+	pixel_x = -28
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "vx" = (
@@ -4412,6 +4540,11 @@
 /mob/living/heavy_vehicle/premade/ripley/loader,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"vI" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/decal/curb,
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "vJ" = (
 /obj/effect/landmark/scorcher,
 /turf/simulated/floor/asphalt,
@@ -4843,6 +4976,15 @@
 	},
 /turf/simulated/floor/concrete,
 /area/kaneyama_ext)
+"yi" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/structure/barricade/metal/wired{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "yk" = (
 /obj/structure/table/steel,
 /obj/item/paper_bin{
@@ -4984,10 +5126,18 @@
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
 "yV" = (
-/obj/machinery/sleeper{
-	dir = 1
+/obj/structure/table/standard,
+/obj/item/storage/box/sharps{
+	pixel_y = 9
 	},
-/obj/effect/floor_decal/spline/plain/green,
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	icon_state = "sterilesprayblue";
+	name = "surgery cleaner"
+	},
+/obj/machinery/vending/wallmed2{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "yX" = (
@@ -5002,10 +5152,22 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 9
 	},
-/obj/machinery/iv_drip,
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 1
+/obj/structure/table/steel,
+/obj/item/device/mass_spectrometer/adv{
+	pixel_y = 3;
+	pixel_x = -8
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_y = 7;
+	pixel_x = 8
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_y = 1;
+	pixel_x = 8
+	},
+/obj/item/device/mass_spectrometer/adv{
+	pixel_y = -2;
+	pixel_x = -8
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -5027,6 +5189,9 @@
 	pixel_y = 12
 	},
 /obj/item/storage/firstaid/large/combat,
+/obj/item/storage/firstaid/surgery{
+	pixel_y = -6
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "zf" = (
@@ -5746,6 +5911,15 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
+"Ct" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/structure/barricade/metal/wired{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Cu" = (
 /obj/structure/road_barrier{
 	dir = 4
@@ -5826,22 +6000,22 @@
 /turf/simulated/floor/sidewalk/blocks,
 /area/kaneyama_ext)
 "CO" = (
-/obj/structure/table/standard,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/reagentgrinder{
-	pixel_y = 7
-	},
-/obj/item/stack/material/phoron{
-	amount = 6
-	},
-/obj/item/stack/material/phoron{
-	amount = 6
-	},
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 9
 	},
+/obj/structure/closet/crate/medical{
+	name = "chemicals crate"
+	},
+/obj/item/reagent_containers/chem_disp_cartridge/acetone,
+/obj/item/reagent_containers/chem_disp_cartridge/acetone,
+/obj/item/reagent_containers/chem_disp_cartridge/carbon,
+/obj/item/reagent_containers/chem_disp_cartridge/carbon,
+/obj/item/reagent_containers/chem_disp_cartridge/inaprov,
+/obj/item/reagent_containers/chem_disp_cartridge/iron,
+/obj/item/reagent_containers/chem_disp_cartridge/sacid,
+/obj/item/storage/bag/chemistry,
+/obj/item/device/hand_labeler,
+/obj/item/storage/box/beakers,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "CQ" = (
@@ -5943,6 +6117,13 @@
 	weapon_id = "Francisca Rotary Gun"
 	},
 /turf/simulated/floor/reinforced,
+/area/kaneyama_ext)
+"Di" = (
+/obj/structure/barricade/plasteel/wired{
+	dir = 8
+	},
+/obj/item/crowbar,
+/turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
 "Dj" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -6130,6 +6311,9 @@
 /area/kaneyama_ext)
 "DX" = (
 /obj/effect/floor_decal/spline/plain/orange,
+/obj/machinery/chemical_dispenser/full{
+	dir = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "DZ" = (
@@ -6227,12 +6411,18 @@
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
 "Ev" = (
-/obj/machinery/optable,
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 8
+	},
+/obj/machinery/light/spot{
+	dir = 8
+	},
 /obj/machinery/vending/wallmed2{
 	pixel_x = -28
 	},
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 8
+/obj/structure/table/steel,
+/obj/item/storage/box/sharps{
+	pixel_y = 9
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -6333,25 +6523,10 @@
 /turf/simulated/floor/exoplanet/konyang,
 /area/kaneyama_ext)
 "Ff" = (
-/obj/structure/table/standard,
-/obj/item/reagent_containers/glass/beaker/large,
-/obj/item/reagent_containers/glass/beaker/large,
-/obj/item/reagent_containers/glass/beaker/large,
-/obj/item/reagent_containers/glass/beaker/large,
-/obj/item/storage/box/fancy/vials{
-	pixel_x = -10;
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/dropper/electronic_pipette{
-	pixel_x = -8
-	},
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 1
 	},
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 1
-	},
+/obj/machinery/chemical_dispenser/ert,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "Fi" = (
@@ -6400,9 +6575,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "Fz" = (
-/obj/machinery/vending/konyang,
-/turf/simulated/floor/concrete,
-/area/kaneyama_interiors)
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "FE" = (
 /obj/structure/bed/roller,
 /turf/simulated/floor/tiled/white,
@@ -6485,6 +6662,13 @@
 	},
 /turf/simulated/floor/carpet/darkblue,
 /area/kaneyama_interiors)
+"FZ" = (
+/obj/structure/barricade/metal/wired{
+	dir = 8
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Ga" = (
 /obj/structure/table/steel,
 /obj/machinery/door/window/desk/eastleft,
@@ -6529,15 +6713,22 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "Gi" = (
-/obj/machinery/optable,
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 4
+/obj/effect/decal/curb{
+	dir = 1;
+	layer = 2.02
 	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors)
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Gl" = (
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 5
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/computer/operating,
+/obj/effect/floor_decal/corner_wide/paleblue/full{
+	dir = 1
+	},
+/obj/machinery/light/spot{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -6593,6 +6784,14 @@
 /obj/structure/table/steel,
 /obj/item/toy/comic/stormman,
 /turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"GG" = (
+/obj/machinery/optable,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
+	},
+/obj/machinery/light/spot,
+/turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "GH" = (
 /obj/structure/konyang_cliff{
@@ -6681,8 +6880,10 @@
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
 "Hf" = (
-/obj/effect/floor_decal/industrial/loading/security{
-	dir = 8
+/obj/effect/floor_decal/sign/a,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -6778,13 +6979,19 @@
 /turf/simulated/floor/concrete,
 /area/kaneyama_ext)
 "HI" = (
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 4
+/obj/structure/table/steel,
+/obj/item/storage/box/fancy/tray,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "HL" = (
-/obj/machinery/body_scanconsole,
+/obj/effect/floor_decal/sign/b,
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "HQ" = (
@@ -6840,6 +7047,16 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
+/area/kaneyama_interiors)
+"HZ" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/optable,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "Ia" = (
 /obj/machinery/light/colored/dying{
@@ -6934,6 +7151,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_ext)
+"IC" = (
+/obj/effect/floor_decal/sign/c,
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "ID" = (
 /obj/machinery/door/airlock{
 	name = "Access Hallway";
@@ -6957,11 +7182,9 @@
 /turf/simulated/floor/concrete,
 /area/kaneyama_interiors)
 "IJ" = (
-/obj/machinery/bodyscanner{
-	dir = 1
-	},
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 6
+/obj/machinery/computer/operating,
+/obj/effect/floor_decal/corner_wide/paleblue/full{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -7222,9 +7445,7 @@
 /turf/simulated/floor/tiled,
 /area/kaneyama_interiors)
 "Kc" = (
-/obj/structure/window/reinforced{
-	dir = 2
-	},
+/obj/structure/window/reinforced,
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
 "Kd" = (
@@ -7418,6 +7639,10 @@
 "La" = (
 /turf/simulated/floor/hivebot,
 /area/kaneyama_plant)
+"Lc" = (
+/obj/structure/utility_pole/power/central,
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "Le" = (
 /obj/structure/bed/stool/chair/office/bridge/generic{
 	dir = 1;
@@ -7454,6 +7679,29 @@
 /area/kaneyama_ext)
 "Ll" = (
 /obj/effect/floor_decal/spline/plain/green,
+/obj/structure/table/standard,
+/obj/item/storage/box/inhalers_large{
+	pixel_y = 12;
+	pixel_x = 4
+	},
+/obj/item/storage/box/inhalers_large{
+	pixel_y = 6;
+	pixel_x = 4
+	},
+/obj/item/storage/box/inhalers_large{
+	pixel_x = 4
+	},
+/obj/item/storage/box/inhalers_auto{
+	pixel_y = 12;
+	pixel_x = -11
+	},
+/obj/item/storage/box/inhalers_auto{
+	pixel_y = 6;
+	pixel_x = -11
+	},
+/obj/item/storage/box/autoinjectors{
+	pixel_x = -11
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "Lm" = (
@@ -7493,6 +7741,50 @@
 /obj/machinery/light/broken,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"Lv" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/suit/armor/carrier/officer/equipped,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/turf/simulated/floor/concrete,
+/area/kaneyama_interiors)
 "Lx" = (
 /obj/machinery/door/blast/regular/open{
 	dir = 8;
@@ -7505,8 +7797,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
+	dir = 4
 	},
 /turf/unsimulated/floor/plating,
 /area/kaneyama_ext)
@@ -7895,6 +8186,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"Nl" = (
+/obj/structure/barricade/plasteel/wired{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Nm" = (
 /obj/effect/map_effect/window_spawner/full/reinforced,
 /turf/simulated/floor/tiled,
@@ -7915,6 +8212,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
+"Ny" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Nz" = (
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
@@ -8011,7 +8315,8 @@
 /area/kaneyama_ext/water)
 "NU" = (
 /obj/effect/floor_decal/spline/plain/green,
-/obj/effect/floor_decal/industrial/outline/security,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/iv_drip,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "NV" = (
@@ -8298,6 +8603,10 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 4
 	},
+/obj/item/storage/box/freezer/organcooler{
+	pixel_x = -1;
+	pixel_y = -2
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "Pu" = (
@@ -8362,6 +8671,10 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 5
 	},
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "PL" = (
@@ -8420,9 +8733,25 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"Qa" = (
+/obj/structure/utility_pole/street/on{
+	dir = 4;
+	pixel_x = 19
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "Qb" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Qd" = (
+/obj/effect/floor_decal/spline/plain/green,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/stasis_bed,
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "Qh" = (
 /obj/effect/floor_decal/spline/plain/blue{
@@ -8576,9 +8905,8 @@
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "QU" = (
-/obj/effect/floor_decal/industrial/loading/security{
-	dir = 4
-	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/iv_drip,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "QV" = (
@@ -8911,6 +9239,51 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_plant)
+"SL" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/suit/armor/carrier/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/obj/item/clothing/head/helmet/security/heavy,
+/turf/simulated/floor/concrete,
+/area/kaneyama_interiors)
 "SN" = (
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced,
 /obj/machinery/door/blast/regular/open{
@@ -9017,10 +9390,22 @@
 	dir = 8
 	},
 /obj/structure/table/standard,
-/obj/item/storage/box/gloves,
-/obj/item/storage/box/gloves,
-/obj/item/storage/box/masks,
-/obj/item/storage/box/masks,
+/obj/item/storage/box/masks{
+	pixel_x = 4;
+	pixel_y = 11
+	},
+/obj/item/storage/box/masks{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/obj/item/storage/box/gloves{
+	pixel_y = 3;
+	pixel_x = 4
+	},
+/obj/item/storage/box/gloves{
+	pixel_y = 3;
+	pixel_x = -5
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "Tu" = (
@@ -9109,12 +9494,11 @@
 	},
 /area/kaneyama_ext)
 "TH" = (
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 4
+/obj/effect/decal/curb{
+	dir = 1
 	},
-/obj/effect/floor_decal/industrial/loading/security,
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors)
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "TI" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -9320,6 +9704,13 @@
 	},
 /turf/simulated/floor/carpet/brown,
 /area/kaneyama_interiors)
+"UI" = (
+/obj/structure/utility_pole/street/on{
+	dir = 8;
+	pixel_x = -16
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "UJ" = (
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Chief Medical Officer"
@@ -9332,6 +9723,14 @@
 	},
 /turf/simulated/floor/carpet,
 /area/kaneyama_plant)
+"UN" = (
+/obj/machinery/door/airlock/engineering{
+	dir = 4;
+	name = "Engineering";
+	req_one_access = list(11,24)
+	},
+/turf/simulated/floor/tiled,
+/area/kaneyama_interiors)
 "UR" = (
 /obj/machinery/telecomms/server/presets/medical,
 /turf/unsimulated/floor,
@@ -9492,18 +9891,14 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "VP" = (
-/obj/machinery/computer/operating{
-	dir = 1
-	},
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
 	},
-/obj/machinery/light{
-	brightness_power = 0.5;
-	brightness_range = 3;
-	dir = 8;
-	name = "adjusted light fixture";
-	pixel_x = -10
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/obj/machinery/sleeper{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -9557,9 +9952,21 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/kaneyama_interiors)
+"Wd" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
+"We" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Wf" = (
-/obj/structure/table/standard,
-/obj/item/storage/box/fancy/tray,
+/obj/effect/floor_decal/industrial/outline/medical,
+/obj/structure/bed/roller,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "Wg" = (
@@ -9583,6 +9990,13 @@
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"Wi" = (
+/obj/structure/utility_pole/street/on{
+	dir = 1;
+	pixel_y = 16
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "Wj" = (
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
@@ -9912,6 +10326,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"Xt" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Xx" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -10238,6 +10658,15 @@
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /obj/machinery/vending/security_ammo,
 /turf/simulated/floor/tiled,
+/area/kaneyama_interiors)
+"Zn" = (
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 8
+	},
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "Zt" = (
 /obj/structure/closet/secure_closet/engineering_welding{
@@ -41612,7 +42041,7 @@ QC
 Lm
 QC
 QC
-QC
+tk
 dl
 bK
 QC
@@ -41682,7 +42111,7 @@ bK
 bK
 bK
 bK
-bK
+tk
 dl
 dl
 dl
@@ -41869,7 +42298,7 @@ QC
 QC
 bK
 QC
-bK
+nS
 dl
 QC
 QC
@@ -41939,7 +42368,7 @@ bK
 KR
 bK
 bK
-bK
+nS
 dl
 dl
 dl
@@ -42126,7 +42555,7 @@ QC
 QC
 QC
 QC
-bK
+rC
 dl
 bK
 bK
@@ -42196,7 +42625,7 @@ bK
 bK
 bK
 bK
-bK
+rC
 dl
 dl
 dl
@@ -42664,7 +43093,7 @@ kw
 lK
 kw
 Sj
-kw
+yi
 kw
 kw
 kw
@@ -42688,7 +43117,7 @@ kw
 lK
 kw
 hN
-kw
+yi
 kw
 kw
 kw
@@ -42921,7 +43350,7 @@ xu
 xu
 mU
 NE
-xu
+uR
 xu
 xu
 xu
@@ -42945,7 +43374,7 @@ xu
 xu
 xu
 lk
-xu
+uR
 xu
 xu
 xu
@@ -43178,7 +43607,7 @@ mU
 xu
 xu
 NE
-xu
+cp
 xu
 xu
 xu
@@ -43202,7 +43631,7 @@ xu
 xu
 xu
 lk
-xu
+uR
 xu
 xu
 xu
@@ -43435,7 +43864,7 @@ Iq
 Iq
 Iq
 tJ
-Iq
+rb
 Iq
 Iq
 Iq
@@ -43459,7 +43888,7 @@ Iq
 Iq
 Iq
 rB
-Iq
+rb
 Iq
 Iq
 Iq
@@ -43692,7 +44121,7 @@ xu
 xu
 mU
 NE
-xu
+uR
 xu
 xu
 xu
@@ -43716,7 +44145,7 @@ xu
 xu
 xu
 lk
-xu
+pc
 xu
 xu
 xu
@@ -43949,7 +44378,7 @@ xu
 Jc
 Jc
 NE
-xu
+uR
 xu
 xu
 xu
@@ -43973,7 +44402,7 @@ xu
 xu
 xu
 lk
-xu
+uR
 xu
 xu
 xu
@@ -44206,7 +44635,7 @@ MR
 Ho
 MR
 mr
-MR
+Ct
 MR
 MR
 MR
@@ -44230,7 +44659,7 @@ MR
 Ho
 MR
 mm
-MR
+Ct
 MR
 MR
 MR
@@ -44709,7 +45138,7 @@ QC
 QC
 bK
 QC
-QC
+tk
 dl
 bK
 bK
@@ -44966,7 +45395,7 @@ bK
 QC
 QC
 QC
-QC
+nS
 dl
 bK
 QC
@@ -45223,7 +45652,7 @@ QC
 bK
 QC
 QC
-QC
+rC
 dl
 bK
 bK
@@ -45538,10 +45967,10 @@ pa
 Ue
 pB
 Na
-xu
-xu
-xu
-xu
+FZ
+Nl
+Di
+ik
 qg
 yg
 yg
@@ -45795,16 +46224,16 @@ pa
 mO
 mO
 vY
+at
 xu
 xu
-xu
-xu
+TH
 qg
 iY
 pa
 pa
-pa
-pa
+Nm
+Nm
 pa
 pa
 pa
@@ -46052,10 +46481,10 @@ pa
 pa
 Vl
 pa
+at
 xu
 xu
-xu
-mq
+Ny
 qg
 iY
 pa
@@ -46309,20 +46738,20 @@ Ay
 Ay
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
+Lc
 iY
-iY
-pa
+Nm
 tm
-jP
-jP
-jP
-jP
-jP
-jP
+rS
+rS
+rS
+rS
+rS
+rS
 jW
 pa
 LY
@@ -46566,21 +46995,21 @@ Ay
 Ay
 iY
 qq
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
-pa
+Nm
 aF
-jP
-jP
-jP
-jP
-jP
-jP
-Ll
+rS
+rS
+rS
+rS
+rS
+rS
+jg
 pa
 LY
 bK
@@ -46822,11 +47251,11 @@ Ay
 Ay
 Ay
 iY
-iY
+jH
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
 pa
@@ -47080,21 +47509,21 @@ pa
 pa
 iY
 iY
-xu
-xu
-xu
-xu
-iY
-iY
-pa
-pa
-pa
-pa
-pa
-pa
-pa
-jP
 at
+xu
+xu
+TH
+iY
+iY
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+aG
+pa
 pa
 LY
 bK
@@ -47337,18 +47766,18 @@ aj
 pa
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
 pa
 yZ
 Ev
 jC
-rD
-Ev
+jC
+Zn
 VP
 jP
 vw
@@ -47594,19 +48023,19 @@ EL
 pa
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
 iv
 xP
-jP
-Wf
-jP
-jP
-Wf
+rS
+qX
+qX
+rS
+rS
 jP
 NU
 pa
@@ -47851,21 +48280,21 @@ Ao
 pa
 iY
 iY
-xu
+at
 xu
 mq
-xu
+TH
 iY
 iY
 jP
 xP
-jP
-jP
-jP
-jP
-jP
+rS
+Wf
+Wf
+Wf
+rS
 gK
-NU
+Qd
 pa
 LY
 QC
@@ -48108,20 +48537,20 @@ pa
 pa
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
 pa
 uK
-jP
-jP
+rS
 QU
-jP
-jP
-jP
+QU
+QU
+rS
+vo
 qR
 pa
 LY
@@ -48365,21 +48794,21 @@ MS
 pa
 Hj
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
 pa
 mj
-jP
+rS
 Wf
-jP
-ka
-jP
+Wf
+Wf
+rS
 Hf
-NU
+GG
 pa
 LY
 QC
@@ -48622,20 +49051,20 @@ mO
 LH
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
 pa
 kS
-Gi
+dr
 dr
 rS
-jP
-jP
-jP
+rS
+rS
+QU
 yV
 pa
 LY
@@ -48879,20 +49308,20 @@ mO
 LH
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
-pa
+Nm
 CO
 kE
 hp
-xP
+QU
 jP
-jP
-jP
+rS
+aR
 yV
 pa
 LY
@@ -49136,19 +49565,19 @@ mO
 LH
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
-pa
+Nm
 Ff
 mD
 DX
-xP
-jP
-jP
+HZ
+IC
+rS
 HL
 pZ
 pa
@@ -49393,19 +49822,19 @@ HS
 pa
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
-pa
+Nm
 vs
 gG
 oO
 Gl
 HI
-TH
+rS
 fd
 IJ
 pa
@@ -49644,25 +50073,25 @@ Ay
 Ay
 pa
 pa
-pa
+UN
 pa
 pa
 pa
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 iY
 iY
 pa
+Nm
 pa
 pa
 pa
-jP
-uR
 pa
+aG
 pa
 pa
 pa
@@ -49907,11 +50336,11 @@ Bv
 pa
 iY
 iY
+at
 xu
 xu
-xu
-xu
-iY
+TH
+ov
 iY
 iY
 iY
@@ -50163,19 +50592,19 @@ yl
 yl
 pa
 iY
-iY
+jH
+at
 xu
 xu
-xu
-xu
+TH
 pa
 pa
 pa
 pa
 pa
 pa
-xu
-xu
+We
+hA
 iY
 iY
 iY
@@ -50421,18 +50850,18 @@ yl
 MG
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 pa
 Bw
 Lf
 Lf
 Zj
 pa
-xu
-xu
+at
+Gi
 iY
 iY
 iY
@@ -50678,18 +51107,18 @@ yl
 pa
 iY
 iY
-xu
+at
 xu
 mq
-xu
+TH
 pa
 Kb
 Lf
 Lf
 Kf
 pa
-xu
-xu
+at
+Gi
 iY
 iY
 qq
@@ -50935,18 +51364,18 @@ vB
 pa
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 pa
 sN
 Lf
 Lf
 Tu
 pa
-xu
-xu
+at
+Gi
 iY
 iY
 iY
@@ -51192,18 +51621,18 @@ pa
 pa
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 pa
 qe
 Lf
 Lf
 fE
 pa
-xu
-xu
+at
+Gi
 iY
 iY
 iY
@@ -51449,18 +51878,18 @@ Ay
 Ay
 iY
 iY
+at
 xu
 xu
-xu
-xu
+TH
 pa
 tB
 Lf
 Lf
 oP
 pa
-xu
-xu
+at
+Gi
 iY
 iY
 iY
@@ -51699,25 +52128,25 @@ iY
 iY
 iY
 iY
+Qa
 iY
 iY
 iY
 iY
 iY
 iY
-iY
+at
 xu
 xu
-xu
-xu
+TH
 pa
 pa
 mO
 re
 pa
 pa
-xu
-xu
+at
+Gi
 iY
 iY
 iY
@@ -51945,36 +52374,36 @@ bK
 QC
 LY
 iY
-iY
+jH
+We
+Fz
+Fz
+Fz
+ak
+Fz
+Fz
+Fz
+Fz
+Fz
+Fz
+Fz
+Fz
+Fz
+Fz
+Fz
+Fz
+aD
 xu
 xu
+dX
+Fz
+Fz
 xu
 xu
-mq
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
+Fz
+Fz
+aD
+Gi
 iY
 CI
 Ex
@@ -52203,7 +52632,7 @@ ou
 LY
 iY
 iY
-xu
+at
 xu
 xu
 xu
@@ -52231,7 +52660,7 @@ xu
 xu
 xu
 xu
-xu
+Gi
 iY
 Yt
 fn
@@ -52460,7 +52889,7 @@ QC
 LY
 iY
 iY
-mq
+vI
 xu
 xu
 xu
@@ -52488,7 +52917,7 @@ xu
 xu
 xu
 xu
-xu
+Gi
 iY
 eb
 Mc
@@ -52717,35 +53146,35 @@ KR
 LY
 iY
 iY
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
-xu
+at
+dX
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+Xt
 iY
 iY
 iY
@@ -52974,11 +53403,12 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 qg
 iY
 iY
+rD
 iY
 iY
 iY
@@ -52987,19 +53417,18 @@ iY
 iY
 iY
 iY
+rD
 iY
 iY
-iY
+qq
+UI
 iY
 qq
 iY
 iY
 qq
 iY
-iY
-qq
-iY
-iY
+UI
 qq
 iY
 iY
@@ -53231,8 +53660,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -53488,8 +53917,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 fP
 Ay
@@ -53745,8 +54174,8 @@ bK
 LY
 iY
 Gq
-xu
-xu
+at
+Gi
 iY
 fq
 Ay
@@ -54002,9 +54431,9 @@ bK
 LY
 iY
 iY
-xu
-xu
-iY
+at
+Gi
+Wi
 IV
 Ay
 pa
@@ -54259,8 +54688,8 @@ KR
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -54516,8 +54945,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -54773,8 +55202,8 @@ bK
 LY
 iY
 Gq
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -55030,8 +55459,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -55287,8 +55716,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -55544,8 +55973,8 @@ KR
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 qq
 iY
 Ay
@@ -55801,8 +56230,8 @@ bK
 LY
 iY
 Gq
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -56058,8 +56487,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -56315,8 +56744,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -56572,8 +57001,8 @@ bK
 LY
 iY
 gP
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -56829,8 +57258,8 @@ KR
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -57086,9 +57515,9 @@ bK
 LY
 iY
 iY
-xu
-xu
-iY
+at
+Gi
+Wi
 iY
 Ay
 Ay
@@ -57343,8 +57772,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -57600,8 +58029,8 @@ bK
 LY
 iY
 qq
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -57857,8 +58286,8 @@ KR
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -58114,8 +58543,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -58140,11 +58569,11 @@ pa
 IG
 ez
 Bd
-Bd
+Ap
 Rp
 Bd
 Bd
-Ap
+SL
 pa
 iY
 LY
@@ -58371,8 +58800,8 @@ bK
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -58397,11 +58826,11 @@ pa
 IG
 in
 RP
-Bd
+ny
 WE
 Bd
 Bd
-ny
+Lv
 pa
 iY
 LY
@@ -58628,8 +59057,8 @@ bK
 LY
 iY
 iY
-mq
-xu
+vI
+Gi
 iY
 iY
 Ay
@@ -58658,7 +59087,7 @@ Bd
 Bd
 Bd
 Ca
-IG
+Lv
 pa
 iY
 LY
@@ -58885,8 +59314,8 @@ ou
 LY
 iY
 iY
-xu
-xu
+at
+Gi
 iY
 iY
 Ay
@@ -58910,12 +59339,12 @@ iY
 pa
 xH
 xH
-Fz
+xH
 IG
 IG
-Fz
 uw
 uw
+pa
 pa
 iY
 LY
@@ -59142,8 +59571,8 @@ KR
 LY
 iY
 iY
-xu
-xu
+Wd
+Xt
 iY
 qq
 Ay
