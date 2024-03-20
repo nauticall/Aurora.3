@@ -61,7 +61,9 @@
 	if(!istype(T))
 		is_powered = FALSE
 		return FALSE
-
+	var/area/A = get_area(src)
+	if(!A.requires_power)
+		return TRUE
 	var/obj/structure/cable/C = T.get_cable_node()
 	var/datum/powernet/PN
 	if(C)

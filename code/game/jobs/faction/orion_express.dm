@@ -50,11 +50,22 @@
 		"Chaplain" = /obj/outfit/job/chaplain/orion,
 		"Corporate Liaison" = /obj/outfit/job/representative/orion,
 		"Off-Duty Crew Member" = /obj/outfit/job/visitor/orion,
-		"Operations Personnel" = /obj/outfit/job/hangar_tech/orion
+		"Operations Personnel" = /obj/outfit/job/hangar_tech/event/orion
 	)
 
 /obj/outfit/job/hangar_tech/orion
 	name = "Hangar Technician - Orion Express"
+
+	uniform = /obj/item/clothing/under/rank/hangar_technician/orion
+	id = /obj/item/card/id/orion
+
+	backpack_faction = /obj/item/storage/backpack/orion
+	satchel_faction = /obj/item/storage/backpack/satchel/orion
+	dufflebag_faction = /obj/item/storage/backpack/duffel/orion
+	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
+
+/obj/outfit/job/hangar_tech/event/orion
+	name = "Operations Personnel - Orion Express"
 
 	uniform = /obj/item/clothing/under/rank/hangar_technician/orion
 	id = /obj/item/card/id/orion

@@ -173,6 +173,11 @@ SUBSYSTEM_DEF(ghostroles)
 			if(cant_spawn)
 				to_chat(usr, "Unable to spawn: [cant_spawn]")
 				return
+			if(S.password)
+				var/password = tgui_input_text(usr, "Input ghostrole password:", "Password")
+				if(password != S.password)
+					to_chat(usr, SPAN_WARNING("Incorrect password for [S.name]."))
+					return
 			if(isnewplayer(usr))
 				var/mob/abstract/new_player/N = usr
 				N.close_spawn_windows()
