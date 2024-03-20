@@ -6,11 +6,11 @@
 
 	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger, /datum/job/captain, /datum/job/xo, /datum/job/operations_manager, /datum/job/chief_engineer, /datum/job/cmo, /datum/job/rd, /datum/job/hos, /datum/job/eventeng, /datum/job/eventmed, /datum/job/eventops, /datum/job/eventsci, /datum/job/eventsec, /datum/job/bridge_crew)
 
-	station_levels = list(1)
-	admin_levels = list(2)
-	contact_levels = list(1)
-	player_levels = list(1)
-	accessible_z_levels = list(1)
+	station_levels = list(1,2)
+	admin_levels = list(3)
+	contact_levels = list(1,2)
+	player_levels = list(1,2)
+	accessible_z_levels = list(1,2)
 
 	station_name = "Konyang"
 	station_short = "Konyang"
@@ -46,6 +46,12 @@
 	name = "Kaneyama Water"
 	icon_state = "blue"
 	ambience = AMBIENCE_KONYANG_WATER
+
+/area/kaneyama_ext/underground
+	name = "Kaneyama Underground"
+	icon_state = "mining"
+	ambience = AMBIENCE_RUINS
+	lighting = FALSE
 
 /area/kaneyama_interiors
 	name = "Kaneyama Interiors"
