@@ -19,7 +19,7 @@
 	landmark_tag = "nav_cargo_shuttle_dock"
 	docking_controller = "cargo_shuttle_dock"
 	base_turf = /turf/simulated/floor/plating
-	base_area = /area/kaneyama_ext
+	base_area = /area/kaneyama_interiors
 
 //Canary
 /area/shuttle/sn_canary

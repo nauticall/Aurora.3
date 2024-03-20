@@ -682,6 +682,18 @@
 	icon_state = "beachcorner"
 	},
 /area/horizon/holodeck/source_moghes)
+"axk" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
+	id_tag = "cargo_shuttle";
+	name = "cargo shuttle docking controller";
+	pixel_x = 25;
+	pixel_y = 26;
+	req_one_access = list(13,31);
+	tag_door = "cargo_shuttle_airlock"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/supply/dock)
 "axm" = (
 /obj/item/deck/cards,
 /obj/effect/decal/cleanable/dirt,
@@ -51302,7 +51314,7 @@ oaz
 oaz
 cKQ
 kHA
-evy
+axk
 evy
 evy
 vgl

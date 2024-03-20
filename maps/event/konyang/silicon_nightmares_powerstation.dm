@@ -47,7 +47,6 @@
 	icon_state = "blue"
 	ambience = AMBIENCE_KONYANG_WATER
 
-
 /area/kaneyama_interiors
 	name = "Kaneyama Interiors"
 	icon_state = "red"
