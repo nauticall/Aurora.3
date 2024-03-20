@@ -57,7 +57,7 @@
 
 	id = /obj/item/card/id/kasf_corvette
 
-//Konyang Navy
+//Konyang Navy & Army
 /datum/ghostspawner/human/konyang_navy
 	name = "Konyang Naval Infantry"
 	short_name = "konyang_navy"
@@ -127,4 +127,69 @@
 		/obj/item/melee/energy/sword/knife/sol = 1,
 		/obj/item/storage/firstaid/stab = 1,
 		/obj/item/ammo_magazine/mc9mm = 4
+	)
+
+/datum/ghostspawner/human/konyang_army
+	short_name = "sn_konyang_army"
+	name = "Konyang Army Soldier"
+	desc = "You are a soldier of the Konyang army, deployed to assist with the Kaneyama crisis."
+	max_count = 4
+	tags = list("External")
+	spawnpoints = list("sn_konyang_army")
+	outfit = /obj/outfit/admin/sn_konyang_army
+	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_BISHOP, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_SHELL, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU)
+	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	assigned_role = "Konyang Army Soldier"
+	special_role = "Konyang Army Soldier"
+	mob_name_prefix = "Pfc. "
+	respawn_flag = null
+	enabled = FALSE
+
+/datum/ghostspawner/human/konyang_army/officer
+	short_name = "sn_konyang_army_officer"
+	name = "Konyang Army Officer"
+	desc = "You are an officer of the Konyang army, commanding the response to the Kaneyama crisis."
+	max_count = 1
+	outfit = /obj/outfit/admin/sn_konyang_army/officer
+	assigned_role = "Konyang Army Officer"
+	special_role = "Konyang Army Officer"
+	mob_name_prefix = "Lt. "
+
+/obj/outfit/admin/sn_konyang_army
+	name = "Konyang Army Cleanup"
+	uniform = /obj/item/clothing/under/rank/konyang
+	shoes = /obj/item/clothing/shoes/jackboots
+	head = /obj/item/clothing/head/helmet/konyang
+	suit = /obj/item/clothing/suit/armor/carrier/military
+	suit_accessory = /obj/item/clothing/accessory/flagpatch/konyang
+	glasses = /obj/item/clothing/glasses/safety/goggles/tactical/generic
+	l_ear = /obj/item/device/radio/headset/distress
+	belt = /obj/item/storage/belt/military
+	back = /obj/item/storage/backpack/rucksack/green
+	id = /obj/item/card/id
+	gloves = /obj/item/clothing/gloves/swat/ert
+	mask = /obj/item/clothing/mask/gas/tactical
+	suit_store = /obj/item/gun/projectile/automatic/rifle/konyang/k556
+	accessory = /obj/item/clothing/accessory/holster/hip
+	accessory_contents = list(/obj/item/gun/projectile/pistol/sol/konyang = 1)
+	backpack_contents = list(
+		/obj/item/storage/box/survival = 1,
+		/obj/item/handcuffs/ziptie = 2
+	)
+	belt_contents = list(
+		/obj/item/ammo_magazine/a556/k556 = 2,
+		/obj/item/ammo_magazine/mc9mm = 2,
+		/obj/item/grenade/frag = 1,
+		/obj/item/melee/energy/sword/knife/sol = 1
+	)
+
+/obj/outfit/admin/sn_konyang_army/officer
+	name = "Konyang Army Officer"
+	uniform = /obj/item/clothing/under/rank/konyang/officer
+	shoes = /obj/item/clothing/shoes/jackboots
+	head = /obj/item/clothing/head/konyang/army/officer
+	backpack_contents = list(
+		/obj/item/storage/box/survival = 1,
+		/obj/item/handcuffs/ziptie = 2,
+		/obj/item/clothing/head/helmet/konyang
 	)

@@ -260,24 +260,7 @@
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "aN" = (
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/accessory/flagpatch/konyang,
-/obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/head/helmet/konyang,
-/obj/item/storage/belt/military,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/under/rank/konyang,
-/obj/item/clothing/head/konyang/army,
-/obj/item/gun/projectile/pistol/sol,
-/obj/item/gun/projectile/automatic/rifle/shotgun/konyang,
-/obj/item/ammo_magazine/konyang_shotgun,
-/obj/item/ammo_magazine/konyang_shotgun,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/card/id/syndicate{
-	access = list(218)
-	},
-/obj/item/device/radio/headset/syndicate,
+/mob/living/carbon/human/hunter_killer,
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
 "aQ" = (
@@ -491,11 +474,6 @@
 "bK" = (
 /turf/simulated/floor/exoplanet/konyang,
 /area/kaneyama_ext)
-"bM" = (
-/turf/unsimulated/mineral/konyang{
-	icon_state = "black"
-	},
-/area/kaneyama_interiors)
 "bQ" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/concrete,
@@ -896,10 +874,6 @@
 	},
 /turf/simulated/floor/carpet/brown,
 /area/kaneyama_interiors)
-"dS" = (
-/mob/living/carbon/human,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "dU" = (
 /turf/simulated/floor/reinforced,
 /area/kaneyama_plant)
@@ -1106,19 +1080,6 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
-"fc" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 115;
-	teleport_y = 35;
-	teleport_z = 1;
-	invisibility = 0;
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "portal";
-	name = "Teleporter - One-Way";
-	desc = "This portal will take you to the event zone. It is one-way, so make sure you have your character set up before you go through!"
-	},
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "fd" = (
 /obj/machinery/light/spot{
 	dir = 4
@@ -1208,25 +1169,6 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/kaneyama_ext)
-"fx" = (
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/accessory/flagpatch/konyang,
-/obj/item/storage/belt/military,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/head/helmet/konyang/pilot,
-/obj/item/clothing/under/rank/konyang/mech_pilot,
-/obj/item/gun/projectile/pistol/sol,
-/obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/card/id/syndicate{
-	access = list(218)
-	},
-/obj/item/device/radio/headset/syndicate,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "fz" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/power/emitter{
@@ -1339,6 +1281,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/sn_canary)
+"fR" = (
+/obj/effect/decal/road_marking/center,
+/obj/effect/decal/road_marking/reflector,
+/obj/effect/decal/road_marking/no_pass{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/no_pass{
+	dir = 8
+	},
+/obj/effect/landmark/teleport_loc{
+	location_value = "Kaneyama Bridge Center";
+	name = "Kaneyama Bridge Center"
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "fS" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
 /obj/structure/closet/secure_closet{
@@ -1762,11 +1719,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"hU" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/machinery/acting/changer,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "ib" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/kaneyama_guard,
@@ -2273,11 +2225,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
-"lb" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/effect/floor_decal/industrial/loading/security,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "lc" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/kaneyama_suit/office,
@@ -2463,7 +2410,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "mf" = (
-/obj/machinery/recharge_station,
+/obj/item/rig/hunter_killer/equipped,
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
 "mg" = (
@@ -3078,12 +3025,6 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
-"oJ" = (
-/obj/effect/floor_decal/industrial/loading/security{
-	dir = 4
-	},
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "oO" = (
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 6
@@ -3585,9 +3526,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"ri" = (
-/turf/unsimulated/wall,
-/area/kaneyama_interiors)
 "rk" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -3890,6 +3828,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"sH" = (
+/obj/effect/landmark/teleport_loc{
+	location_value = "Power Plant Entrance";
+	name = "Power Plant Entrance"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "sL" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/power/radial_floodlight,
@@ -4327,19 +4272,15 @@
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
 "uB" = (
-/obj/item/clothing/shoes/jackboots,
-/obj/item/storage/belt/military,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/under/rank/konyang/officer,
-/obj/item/gun/projectile/pistol/sol,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/card/id/syndicate{
-	access = list(218)
+/obj/effect/decal/road_marking{
+	dir = 8
 	},
-/obj/item/device/radio/headset/syndicate,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
+/obj/effect/ghostspawpoint{
+	name = "igs - sn_konyang_army";
+	identifier = "sn_konyang_army"
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "uD" = (
 /obj/machinery/door/blast/shutters/open{
 	id = "plant_gate4"
@@ -4575,11 +4516,6 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
-"wd" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/machinery/recharge_station,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "we" = (
 /obj/structure/flora/bush/konyang_reeds,
 /obj/structure/flora/rock/konyang/small,
@@ -4759,13 +4695,6 @@
 /obj/effect/landmark/corpse/kaneyama_guard,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/wood,
-/area/kaneyama_interiors)
-"xj" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/effect/floor_decal/industrial/loading/security{
-	dir = 1
-	},
-/turf/unsimulated/floor,
 /area/kaneyama_interiors)
 "xk" = (
 /obj/structure/flora/bush/konyang_reeds,
@@ -5242,6 +5171,13 @@
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/kaneyama_ext/water)
+"zy" = (
+/obj/effect/landmark/teleport_loc{
+	location_value = "Power Plant Main Reactor";
+	name = "Power Plant Main Reactor"
+	},
+/turf/simulated/floor/hivebot,
+/area/kaneyama_boss)
 "zB" = (
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /obj/structure/closet/firecloset/full,
@@ -5724,6 +5660,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
+"BD" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "BE" = (
 /obj/structure/reagent_dispensers/coolanttank,
 /turf/simulated/floor/hivebot,
@@ -6735,6 +6677,10 @@
 	},
 /turf/simulated/floor/lino,
 /area/kaneyama_plant)
+"Gn" = (
+/obj/machinery/acting/changer,
+/turf/unsimulated/floor,
+/area/kaneyama_interiors)
 "Gp" = (
 /obj/structure/shipping_container{
 	icon_state = "grey2"
@@ -7220,27 +7166,6 @@
 /obj/item/device/camera_film,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
-"IX" = (
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/accessory/flagpatch/konyang,
-/obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/head/helmet/konyang,
-/obj/item/storage/belt/military,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/under/rank/konyang,
-/obj/item/clothing/head/konyang/army,
-/obj/item/gun/projectile/pistol/sol,
-/obj/item/gun/projectile/automatic/rifle/konyang/k556,
-/obj/item/ammo_magazine/a556/k556,
-/obj/item/ammo_magazine/a556/k556,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/card/id/syndicate{
-	access = list(218)
-	},
-/obj/item/device/radio/headset/syndicate,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "IZ" = (
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/simulated/floor/sidewalk/blocks,
@@ -7296,27 +7221,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "Jn" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/accessory/flagpatch/konyang,
-/obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/head/helmet/konyang,
-/obj/item/storage/belt/military,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/under/rank/konyang,
-/obj/item/clothing/head/konyang/army,
-/obj/item/gun/projectile/pistol/sol,
-/obj/item/gun/projectile/automatic/rifle/konyang/k556,
-/obj/item/ammo_magazine/a556/k556,
-/obj/item/ammo_magazine/a556/k556,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/card/id/syndicate{
-	access = list(218)
+/obj/effect/ghostspawpoint{
+	name = "igs - sn_konyang_army";
+	identifier = "sn_konyang_army"
 	},
-/obj/item/device/radio/headset/syndicate,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Jr" = (
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Executive Officer"
@@ -7525,6 +7435,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"Kx" = (
+/obj/effect/decal/road_marking/center,
+/obj/effect/decal/road_marking/reflector,
+/obj/effect/decal/road_marking/no_pass{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/no_pass{
+	dir = 8
+	},
+/obj/effect/landmark/teleport_loc{
+	location_value = "Kaneyama Bridge South";
+	name = "Kaneyama Bridge South"
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Ky" = (
 /obj/structure/shuttle_part/scc/scout{
 	icon_state = "3,11"
@@ -8512,10 +8437,6 @@
 /obj/effect/landmark/corpse/ipc_zombie,
 /turf/simulated/floor/concrete,
 /area/kaneyama_ext)
-"OW" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/turf/unsimulated/floor,
-/area/kaneyama_interiors)
 "OX" = (
 /obj/structure/shipping_container{
 	icon_state = "grey3"
@@ -9317,6 +9238,10 @@
 "SV" = (
 /obj/machinery/hologram/holopad/long_range,
 /obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/landmark/teleport_loc{
+	location_value = "SCC Outpost";
+	name = "SCC Outpost"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "SX" = (
@@ -9733,6 +9658,11 @@
 	req_one_access = list(11,24)
 	},
 /turf/simulated/floor/tiled,
+/area/kaneyama_interiors)
+"UQ" = (
+/obj/effect/decal/fake_object/light_source,
+/obj/item/rig/hunter_killer/equipped,
+/turf/unsimulated/floor,
 /area/kaneyama_interiors)
 "UR" = (
 /obj/machinery/telecomms/server/presets/medical,
@@ -10264,6 +10194,10 @@
 	},
 /obj/machinery/door/blast/shutters/open{
 	id = "plant_gate4"
+	},
+/obj/effect/landmark/teleport_loc{
+	location_value = "Kaneyama Bridge North";
+	name = "Kaneyama Bridge North"
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
@@ -11058,14 +10992,14 @@ ho
 ho
 ho
 ho
-bM
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+ho
+ho
+ho
+ho
+sV
+sV
+sV
+sV
 "}
 (2,1,1) = {"
 sV
@@ -11315,14 +11249,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-OW
-UV
-OW
+ic
+ic
+ic
+ho
+sV
 mf
-wd
-ri
+aN
+sV
 "}
 (3,1,1) = {"
 sV
@@ -11572,14 +11506,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-dS
-UV
-UV
-UV
-UV
-ri
+ic
+ic
+ic
+ho
+sV
+UQ
+aN
+sV
 "}
 (4,1,1) = {"
 sV
@@ -11829,14 +11763,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-uB
+ic
+ic
+ic
+ho
+sV
+Gn
 UV
-UV
-dS
-IX
-ri
+sV
 "}
 (5,1,1) = {"
 sV
@@ -12086,14 +12020,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-UV
-UV
-UV
-dS
-IX
-ri
+ic
+ic
+ic
+ho
+sV
+sV
+sV
+sV
 "}
 (6,1,1) = {"
 sV
@@ -12343,14 +12277,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-OW
-UV
-hU
-dS
-Jn
-ri
+ic
+ic
+ic
+ho
+ho
+ho
+ho
+ho
 "}
 (7,1,1) = {"
 sV
@@ -12600,14 +12534,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-UV
-UV
-UV
-dS
-aN
-ri
+ic
+ic
+ic
+ic
+ic
+ic
+ic
+ho
 "}
 (8,1,1) = {"
 ho
@@ -12857,14 +12791,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-UV
-UV
-UV
-dS
-fx
-ri
+ic
+ic
+ic
+ic
+ic
+ic
+ic
+ho
 "}
 (9,1,1) = {"
 ho
@@ -13114,14 +13048,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-UV
-oJ
-UV
-UV
-UV
-ri
+ic
+ic
+ic
+ic
+ic
+ic
+ic
+ho
 "}
 (10,1,1) = {"
 ho
@@ -13371,14 +13305,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-lb
-fc
-xj
-UV
-OW
-ri
+ic
+ic
+ic
+ic
+ic
+ic
+ic
+ho
 "}
 (11,1,1) = {"
 ho
@@ -13628,14 +13562,14 @@ ic
 ic
 ic
 ic
-bM
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+ic
+ic
+ic
+ic
+ic
+ic
+ic
+ho
 "}
 (12,1,1) = {"
 ho
@@ -13885,14 +13819,14 @@ ic
 ic
 ic
 ic
-bM
-bM
-bM
-bM
-bM
-bM
-bM
-bM
+ic
+ic
+ic
+ic
+ic
+ic
+ic
+ho
 "}
 (13,1,1) = {"
 ho
@@ -43186,9 +43120,9 @@ kw
 kw
 kw
 kw
-kw
-kw
-kw
+uB
+uB
+uB
 kw
 ve
 "}
@@ -43221,7 +43155,7 @@ rG
 he
 JG
 RS
-QV
+zy
 QV
 ME
 La
@@ -43245,7 +43179,7 @@ lc
 WL
 cy
 BV
-Kg
+sH
 Kg
 Hh
 Ks
@@ -43444,8 +43378,8 @@ xu
 xu
 xu
 xu
-xu
-xu
+Jn
+Jn
 xu
 ve
 "}
@@ -43816,7 +43750,7 @@ IE
 IE
 Iq
 Iq
-Iq
+fR
 Iq
 Iq
 Iq
@@ -43853,7 +43787,7 @@ Iq
 jv
 Iq
 Iq
-Iq
+Kx
 Iq
 Iq
 Iq
@@ -51392,7 +51326,7 @@ pa
 iY
 iY
 at
-xu
+BD
 xu
 TH
 pa

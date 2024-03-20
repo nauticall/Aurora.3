@@ -218,3 +218,44 @@
 		/obj/item/ammo_magazine/c45m = 20,
 		/obj/item/ammo_magazine/a556/carbine = 20
 	)
+
+/mob/living/carbon/human/proc/hk_teleport()
+	set name = "Bluespace Phase-Shift"
+	set desc = "Teleport to a set location on the map."
+	set category = "Abilities"
+
+	if(stat || paralysis || stunned || weakened || lying)
+		to_chat(src, SPAN_WARNING("You cannot do that in your current state."))
+		return
+
+	var/destination = tgui_input_list(src, "Select a location to teleport to:", "Bluespace Phase-Shift", GLOB.teleport_locs)
+	var/target = GLOB.teleport_locs[destination]
+	if(!target)
+		return
+	src.visible_message(SPAN_WARNING("\The [src] flares with blue light, disappearing into the air!"), SPAN_NOTICE("You activate your phase-shift projector, shifting through bluespace."))
+	spark(src, 3, GLOB.alldirs)
+	src.forceMove(target)
+	spark(target, 3, GLOB.alldirs)
+	src.visible_message(SPAN_WARNING("In a flare of blue light, \the [src] appears from thin air!"), SPAN_NOTICE("You complete your phase-shift, emerging into a new location."))
+
+/obj/effect/landmark/teleport_loc
+	name = "teleporter"
+	var/location_value
+
+/obj/effect/landmark/teleport_loc/do_landmark_effect()
+	if(location_value)
+		GLOB.teleport_locs[location_value] = loc
+
+/mob/living/carbon/human/proc/hk_despawn()
+	set name = "Teleport Out"
+	set desc = "Teleport to a safe location. This will remove you from the round."
+	set category = "Abilities"
+
+	if(stat)
+		return
+	var/choice = tgui_alert(src, "Are you sure you want to teleport out? This will remove you from the round!", "Teleport Out", list("Teleport Out", "Cancel"))
+	if(choice == "Teleport Out")
+		spark(src, 5, GLOB.alldirs)
+		QDEL_IN(src, 10)
+		src.visible_message(SPAN_WARNING("\The [src] flares with blue light, disappearing into the air!"), SPAN_NOTICE("You activate your phase-shift projector, shifting through bluespace."))
+		animate(src, alpha = 0, time = 9, easing = QUAD_EASING)

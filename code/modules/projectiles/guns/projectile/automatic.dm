@@ -771,7 +771,7 @@
 	item_state = "k556rifle"
 	slot_flags = SLOT_BACK|SLOT_OCLOTHING
 	w_class = ITEMSIZE_NORMAL
-	ammo_type = "/obj/item/ammo_casing/a556"
+	ammo_type = /obj/item/ammo_casing/a556
 	handle_casings = EJECT_CASINGS
 	caliber = "a556"
 	magazine_type = /obj/item/ammo_magazine/a556/k556
@@ -792,7 +792,7 @@
 	item_state = "k47"
 	slot_flags = SLOT_BACK|SLOT_OCLOTHING
 	w_class = ITEMSIZE_LARGE
-	ammo_type = "/obj/item/ammo_casing/a556"
+	ammo_type = /obj/item/ammo_casing/a556
 	handle_casings = EJECT_CASINGS
 	caliber = "a556"
 	magazine_type = /obj/item/ammo_magazine/a556/carbine/konyang47

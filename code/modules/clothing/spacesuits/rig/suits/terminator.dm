@@ -68,5 +68,6 @@
 		/obj/item/rig_module/voice,
 		/obj/item/rig_module/datajack,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/actuators/combat
+		/obj/item/rig_module/actuators/combat,
+		/obj/item/rig_module/teleporter
 	)
