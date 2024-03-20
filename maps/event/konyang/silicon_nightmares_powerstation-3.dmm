@@ -2021,6 +2021,12 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_sauna)
+"bsM" = (
+/obj/effect/landmark/lobby_mobs_location,
+/turf/unsimulated/floor,
+/area/centcom/start{
+	name = "Romanovich Cloud, Tau Ceti"
+	})
 "bsO" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "legion weapon cabinet";
@@ -41548,8 +41554,8 @@ pvr
 pvr
 pvr
 pvr
-pvr
-pvr
+nbp
+nbp
 nbp
 nbp
 nbp
@@ -41805,8 +41811,8 @@ pvr
 pvr
 pvr
 pvr
-pvr
-pvr
+nbp
+bsM
 nbp
 nch
 nch
@@ -42062,8 +42068,8 @@ pvr
 pvr
 pvr
 pvr
-pvr
-pvr
+nbp
+nbp
 nbp
 nch
 nch

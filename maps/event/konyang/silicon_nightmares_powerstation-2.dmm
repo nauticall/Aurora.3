@@ -5671,7 +5671,7 @@
 /obj/structure/lattice/catwalk/indoor/grate{
 	pixel_x = -10
 	},
-/obj/effect/plastic_explosive,
+/obj/item/plastique,
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/kaneyama_ext/water)
 "zf" = (

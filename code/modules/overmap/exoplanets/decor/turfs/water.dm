@@ -18,22 +18,30 @@
 /turf/simulated/floor/exoplanet/water/Initialize()
 	. = ..()
 	if(deep)
-		var/obj/effect/water_effect/W = new /obj/effect/water_effect(src)
-		W.icon = icon
-		W.icon_state = icon_state
-		water_overlay = W
-		W.alpha = 128
+		var/obj/structure/lattice/lattice = locate(/obj/structure/lattice, src)
+		var/obj/structure/konyang_cliff/cliff = locate(/obj/structure/konyang_cliff, src)
+		if(!lattice && !cliff)
+			create_water_overlay()
 	create_reagents(4)
+
+/turf/simulated/floor/exoplanet/water/proc/create_water_overlay()
+	var/obj/effect/water_effect/W = new /obj/effect/water_effect(src)
+	W.icon = icon
+	W.icon_state = icon_state
+	water_overlay = W
+	W.alpha = 128
 
 /turf/simulated/floor/exoplanet/water/Destroy()
 	if(water_overlay)
-		qdel(water_overlay)
-		water_overlay = null
+		QDEL_NULL(water_overlay)
 	return ..()
 
 /turf/simulated/floor/exoplanet/water/return_air_for_internal_lifeform(var/mob/living/carbon/L)
 	if(!L)
 		return
+	var/obj/structure/lattice/lattice = locate(/obj/structure/lattice, src)
+	if(lattice)
+		return return_air()
 	if(L.lying || deep) //are they lying down/is the water deep enough to keep their head above it?
 		if(water_overlay && L.layer > water_overlay.layer) //are they on a vehicle or something else that physically puts them above the water?
 			return return_air()
@@ -71,7 +79,7 @@
 	else if(isliving(AM))
 		numobjects += 1
 		var/mob/living/L = AM
-		if(!istype(oldloc, /turf/simulated/floor/exoplanet/water))
+		if(!istype(oldloc, /turf/simulated/floor/exoplanet/water) || (istype(oldloc, /turf/simulated/floor/exoplanet/water) && locate(/obj/structure/lattice(oldloc))))
 			to_chat(L, SPAN_WARNING("You get drenched in water from entering \the [src]!"))
 		wash(L)
 	..()
@@ -101,6 +109,10 @@
 		var/obj/structure/lattice/lattice = locate(/obj/structure/lattice, src)
 		if(!lattice)
 			wash(L)
+		if(lattice && water_overlay)
+			QDEL_NULL(water_overlay)
+		if(!lattice && !water_overlay)
+			create_water_overlay()
 	if(!numobjects)
 		STOP_PROCESSING(SSprocessing, src)
 

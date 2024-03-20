@@ -77,6 +77,9 @@
 		if(species && istype(T, /turf/simulated/floor/exoplanet/water))
 			if(species.can_breathe_water())
 				tally -= T.movement_cost
+		var/obj/structure/lattice/lattice = locate(/obj/structure/lattice, T)
+		if(lattice)
+			tally -= T.movement_cost
 
 	tally += GLOB.config.human_delay
 

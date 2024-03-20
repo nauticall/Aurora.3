@@ -2,6 +2,9 @@
 "a" = (
 /turf/unsimulated/mineral/konyang,
 /area/kaneyama_ext/underground)
+"b" = (
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/kaneyama_ext/underground)
 "H" = (
 /turf/simulated/mineral/konyang,
 /area/kaneyama_ext/underground)
@@ -27391,8 +27394,8 @@ H
 H
 H
 H
-H
-H
+b
+b
 H
 H
 H
@@ -27648,8 +27651,8 @@ H
 H
 H
 H
-H
-H
+b
+b
 H
 H
 H
