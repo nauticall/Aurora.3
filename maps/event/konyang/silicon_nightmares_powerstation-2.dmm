@@ -1118,6 +1118,10 @@
 /obj/effect/landmark/corpse/kaneyama_guard,
 /turf/simulated/floor/bluegrid,
 /area/kaneyama_interiors)
+"eK" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/kaneyama_plant)
 "eM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /turf/simulated/wall/shuttle/unique/scc/scout{
@@ -1240,11 +1244,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_ext)
 "fj" = (
-/obj/effect/floor_decal/corner_wide/yellow{
-	dir = 10
-	},
-/obj/machinery/light/colored/dying,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/open,
 /area/kaneyama_plant)
 "fk" = (
 /obj/machinery/body_scanconsole{
@@ -1490,6 +1490,23 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"gt" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "gu" = (
 /obj/structure/table/steel,
 /obj/machinery/door/window/desk/southright,
@@ -1545,6 +1562,9 @@
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"gE" = (
+/turf/simulated/floor/foamedmetal,
+/area/kaneyama_ext)
 "gF" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal/coc{
@@ -1686,6 +1706,10 @@
 	id = "reactor1_blast"
 	},
 /turf/simulated/floor/hivebot,
+/area/kaneyama_plant)
+"hk" = (
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "hn" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -2264,6 +2288,12 @@
 	dir = 1
 	},
 /obj/machinery/light/colored/dying,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
+"kn" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "ko" = (
@@ -2962,6 +2992,9 @@
 /obj/effect/floor_decal/corner_wide/yellow{
 	dir = 9
 	},
+/obj/machinery/light/colored/dying{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "no" = (
@@ -3279,6 +3312,14 @@
 	dir = 1
 	},
 /turf/unsimulated/floor,
+/area/kaneyama_interiors)
+"os" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "ot" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
@@ -3930,11 +3971,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "ri" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
+/obj/structure/flora/bush/konyang_reeds,
+/obj/structure/flora/tree/konyang,
+/turf/simulated/floor/exoplanet/konyang,
+/area/kaneyama_ext)
 "rk" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -5046,6 +5086,15 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/kaneyama_ext)
+"wq" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "ws" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -6255,6 +6304,12 @@
 /obj/machinery/telecomms/bus/preset_two,
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
+"BB" = (
+/obj/machinery/door/airlock{
+	name = "Access Hallway"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "BC" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
@@ -7153,6 +7208,9 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"Fl" = (
+/turf/simulated/floor/plating,
+/area/kaneyama_plant)
 "Fm" = (
 /obj/structure/bed/stool/chair/padded/beige,
 /turf/simulated/floor/lino,
@@ -7993,6 +8051,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"Jw" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "Jx" = (
 /obj/machinery/door/airlock/engineering{
 	dir = 8;
@@ -8047,11 +8112,11 @@
 /turf/simulated/floor/hivebot,
 /area/kaneyama_plant)
 "JQ" = (
-/obj/structure/railing/mapped{
-	dir = 4
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
+/area/kaneyama_plant)
 "JS" = (
 /obj/structure/closet/secure_closet/engineering_electrical{
 	req_access = null
@@ -10067,6 +10132,15 @@
 /obj/machinery/telecomms/bus/preset_four,
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
+"SE" = (
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "SG" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
 /obj/structure/closet/secure_closet{
@@ -10476,6 +10550,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"TW" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "TZ" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -10661,6 +10741,15 @@
 /obj/machinery/telecomms/server/presets/medical,
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
+"US" = (
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "UU" = (
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Captain"
@@ -11553,6 +11642,13 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/plating,
+/area/kaneyama_plant)
+"YB" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "YD" = (
 /obj/machinery/computer/cryopod{
@@ -32196,7 +32292,7 @@ bK
 bK
 KR
 bK
-bK
+KR
 bK
 bK
 bK
@@ -34786,13 +34882,13 @@ ou
 bK
 bK
 QC
-ou
+ri
 QC
 QC
 QC
 bK
 bK
-bK
+KR
 bK
 bK
 bK
@@ -35552,13 +35648,13 @@ bK
 bK
 bK
 bK
-bK
+KR
 bK
 bK
 IE
 IE
 IE
-bK
+KR
 bK
 bK
 bK
@@ -35817,15 +35913,15 @@ bK
 IE
 IE
 IE
-bK
-KR
-bK
-bK
-bK
-bK
-bK
-bK
-bK
+IE
+IB
+IE
+IE
+IE
+IE
+IE
+IE
+IE
 KR
 bK
 bK
@@ -36074,16 +36170,16 @@ bK
 bK
 IE
 IE
+IE
 bK
 bK
 bK
 bK
 bK
 bK
-bK
-KR
-bK
-bK
+IB
+IE
+IE
 bK
 bK
 QC
@@ -36340,7 +36436,7 @@ bK
 bK
 bK
 QC
-bK
+IE
 QC
 QC
 QC
@@ -36597,8 +36693,8 @@ QC
 ou
 QC
 bK
-bK
-bK
+IE
+IE
 KR
 bK
 bK
@@ -36855,8 +36951,8 @@ bK
 bK
 KR
 bK
-bK
-bK
+IE
+IE
 bK
 bK
 bK
@@ -37100,7 +37196,7 @@ IE
 bK
 bK
 bK
-KR
+bK
 bK
 bK
 IE
@@ -37113,7 +37209,7 @@ bK
 bK
 bK
 bK
-KR
+IB
 bK
 bK
 bK
@@ -37360,17 +37456,17 @@ bK
 bK
 bK
 bK
-IE
-IE
-IE
-IE
+bK
+bK
+bK
+bK
 bK
 bK
 KR
 bK
 bK
 bK
-bK
+IE
 bK
 bK
 bK
@@ -37598,37 +37694,37 @@ WA
 WA
 WA
 WA
-bK
-QC
-QC
-bK
-MO
-QC
-bK
-bK
-bK
-bK
-KR
-bK
-bK
-KR
-bK
-bK
-bK
-ou
-QC
-ou
-QC
-QC
-yd
-yd
-yd
+WA
+WA
+WA
+WA
+WA
+eK
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
 QC
 QC
 QC
 QC
-KR
-bK
+QC
+QC
+QC
+IB
+IE
 bK
 KR
 bK
@@ -37855,37 +37951,37 @@ rc
 nn
 Um
 WA
+SE
+La
+kn
+kn
+Fl
+kn
+kn
+Jw
+kn
+kn
+kn
+kn
+kn
+WA
+Kg
+rr
+Kg
+Kg
+Kg
+rr
+Kg
+WA
+bK
+bK
+bK
+bK
+bK
 bK
 bK
 QC
-bK
-MO
-QC
-QC
-ou
-bK
-bK
-bK
-bK
-bK
-bK
-QC
-QC
-QC
-QC
-bK
-bK
-bK
-bK
-bK
-bK
 IE
-IE
-IE
-bK
-bK
-QC
-bK
 QC
 QC
 QC
@@ -38110,39 +38206,39 @@ La
 La
 vV
 La
-fj
-WA
-bK
-QC
-QC
-QC
-MO
-bK
-bK
-bK
-QC
-ou
-QC
-QC
-ou
-QC
-bK
-bK
-bK
-KR
-bK
-bK
-bK
-KR
-bK
-bK
-KR
-bK
-IE
-IE
+La
+cD
+gf
+Kg
+Kg
+Kg
+Kg
+Kg
+hk
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+BB
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+BB
+dl
+dl
 bK
 bK
-KR
+bK
+bK
+bK
+bK
+IB
 bK
 bK
 KR
@@ -38369,37 +38465,37 @@ rc
 ds
 hx
 WA
+US
+TW
+wq
+TW
+TW
+YB
+wq
+TW
+TW
+TW
+wq
+TW
+TW
+WA
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+WA
+bK
+dl
+bK
 bK
 QC
-bK
-bK
-MO
-bK
-KR
-bK
-bK
-QC
-QC
-QC
-QC
-QC
-QC
-ou
-bK
-QC
 QC
 QC
 bK
-QC
-QC
-QC
-QC
-QC
-QC
 yd
-yd
-IE
-QC
 bK
 QC
 bK
@@ -38469,7 +38565,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 Qx
 Qx
@@ -38626,36 +38722,36 @@ rc
 La
 La
 WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+Kg
+Kg
+Kg
+WA
+bK
+dl
+bK
 bK
 QC
 bK
-bK
-MO
-bK
-bK
-bK
-bK
-KR
-bK
-bK
-bK
-bK
-bK
 QC
 QC
-QC
-KR
-bK
-KR
-bK
-KR
-bK
-QC
-KR
-QC
-bK
-QC
-yd
 IE
 QC
 QC
@@ -38726,13 +38822,13 @@ ic
 ic
 ic
 ic
-ic
 Qx
 cw
 cw
-cw
-cw
-cw
+gt
+gt
+gt
+gt
 cw
 Qx
 bK
@@ -38883,30 +38979,30 @@ Ta
 Eh
 La
 WA
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+WA
+fj
+fj
+fj
+fj
+JQ
+Kg
+od
+WA
 bK
-QC
-bK
-bK
-MO
-bK
-bK
-bK
-KR
-bK
-bK
-bK
-bK
-KR
-KR
-QC
-QC
-bK
-QC
-bK
-bK
-bK
-bK
-bK
+dl
 bK
 bK
 bK
@@ -38983,13 +39079,13 @@ ic
 ic
 ic
 ic
-ic
 Qx
 Ka
-Fy
-JQ
-JQ
-Fy
+pf
+bD
+bD
+bD
+bD
 lJ
 Qx
 bK
@@ -39140,33 +39236,33 @@ My
 La
 kM
 WA
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+gE
+WA
+fj
+fj
+fj
+fj
+JQ
+Kg
+od
+WA
+bK
+dl
 bK
 bK
-QC
-QC
-Oe
-On
-On
-On
-On
-On
-On
-On
-On
-On
-On
-On
-Oe
-On
-Oe
-On
-On
-Oe
-Oe
-Oe
-Oe
-Oe
-Oe
+bK
 On
 rk
 QO
@@ -39240,13 +39336,13 @@ ic
 ic
 ic
 ic
-ic
 Qx
 VE
 pf
 bD
 bD
-Fy
+bD
+bD
 Fy
 UG
 dl
@@ -39397,33 +39493,33 @@ aQ
 JP
 iT
 WA
+gE
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+fj
+fj
+fj
+fj
+JQ
+Kg
+od
+WA
 bK
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-bK
-QC
-QC
-QC
-QC
-QC
-QC
-QC
+dl
 bK
 bK
-QC
-QC
-QC
+bK
 bK
 LY
 nY
@@ -39497,13 +39593,13 @@ ic
 ic
 ic
 ic
-ic
 Qx
 kN
 pf
 bD
 bD
-Fy
+bD
+bD
 Fy
 Fy
 dl
@@ -39654,7 +39750,7 @@ Ia
 La
 iT
 WA
-bK
+gE
 WA
 YU
 YO
@@ -39668,17 +39764,17 @@ gR
 RJ
 CV
 WA
+fj
+fj
+fj
+fj
+JQ
+Kg
+od
+WA
 bK
-QC
+dl
 bK
-bK
-QC
-QC
-QC
-QC
-QC
-QC
-QC
 bK
 bK
 bK
@@ -39754,13 +39850,13 @@ ic
 ic
 ic
 ic
-ic
 Qx
 Ka
-Fy
-ri
-ri
-Fy
+pf
+bD
+bD
+bD
+bD
 lJ
 Qx
 bK
@@ -39911,7 +40007,7 @@ kM
 Eh
 hx
 WA
-bK
+gE
 WA
 Pi
 La
@@ -39925,14 +40021,14 @@ CV
 CV
 gR
 WA
-bK
-QC
-QC
-QC
-QC
-QC
-bK
-QC
+WA
+WA
+WA
+WA
+Kg
+Kg
+Kg
+WA
 bK
 dl
 dl
@@ -40011,13 +40107,13 @@ ic
 ic
 ic
 ic
-ic
 Qx
 pb
 pb
-pb
-pb
-pb
+os
+os
+os
+os
 pb
 Qx
 bK
@@ -40168,7 +40264,7 @@ La
 Eh
 Tf
 WA
-bK
+gE
 WA
 fp
 Kg
@@ -40182,15 +40278,15 @@ CV
 gR
 gR
 WA
-bK
-QC
-QC
-bK
-bK
-QC
-QC
-QC
-QC
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+Hn
+dl
 aL
 Ok
 kw
@@ -40268,7 +40364,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 Qx
 Qx
@@ -40425,7 +40521,7 @@ La
 La
 iT
 WA
-bK
+gE
 WA
 KN
 JH
@@ -40439,15 +40535,15 @@ CV
 gR
 gR
 WA
-bK
-bK
-bK
-bK
-QC
-bK
-QC
-bK
-QC
+Kg
+Kg
+Kg
+Kg
+Kg
+rw
+Kg
+Kg
+dl
 dl
 KJ
 QD
@@ -40525,7 +40621,7 @@ ic
 ic
 ic
 ic
-ic
+Jt
 Jt
 Jt
 Jt
@@ -40682,7 +40778,7 @@ rJ
 La
 iT
 WA
-bK
+gE
 WA
 Pi
 Kg
@@ -40697,14 +40793,14 @@ ys
 WA
 WA
 WA
+rT
 WA
 WA
-WA
-QC
-QC
-QC
+qg
+qg
+qg
+qg
 bK
-QC
 dl
 KJ
 Un
