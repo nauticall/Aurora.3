@@ -637,6 +637,17 @@
 /obj/effect/decal/road_marking/no_park,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"cT" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
+/area/kaneyama_ext)
 "cX" = (
 /obj/machinery/door/window/westleft{
 	req_access = list(218)
@@ -858,13 +869,6 @@
 /obj/item/clothing/suit/storage/toggle/labcoat,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
-"dO" = (
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
-/area/kaneyama_ext)
 "dR" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -985,17 +989,6 @@
 /obj/item/ammo_magazine/submachinemag,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
-"eA" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/railing/mapped,
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_ext)
 "eH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -1159,12 +1152,8 @@
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
 "fu" = (
-/obj/structure/railing/mapped,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "fz" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/power/emitter{
@@ -1592,7 +1581,18 @@
 /turf/simulated/floor/tiled,
 /area/kaneyama_plant)
 "hw" = (
-/obj/structure/plasticflaps/airtight,
+/obj/effect/shuttle_landmark/supply/konyang/dock{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	dir = 4;
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "cargo_shuttle_dock_airlock";
+	locked = 1;
+	name = "Cargo Shuttle";
+	req_access = list(13,31)
+	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "hx" = (
@@ -3004,6 +3004,18 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
+"oK" = (
+/obj/machinery/door/airlock/external{
+	dir = 4;
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "cargo_shuttle_dock_airlock";
+	locked = 1;
+	name = "Cargo Shuttle";
+	req_access = list(13,31)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "oO" = (
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 6
@@ -5609,6 +5621,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/sn_canary)
+"Bz" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped,
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_ext)
 "BA" = (
 /obj/machinery/telecomms/bus/preset_two,
 /turf/unsimulated/floor,
@@ -6496,17 +6519,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/asphalt,
-/area/kaneyama_ext)
-"FD" = (
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
 /area/kaneyama_ext)
 "FE" = (
 /obj/structure/bed/roller,
@@ -7579,8 +7591,12 @@
 /turf/simulated/floor/reinforced,
 /area/kaneyama_plant)
 "Lk" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors)
+/area/kaneyama_ext)
 "Ll" = (
 /obj/effect/floor_decal/spline/plain/green,
 /obj/structure/table/standard,
@@ -8475,13 +8491,6 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
-"Pr" = (
-/obj/structure/plasticflaps/airtight,
-/obj/effect/shuttle_landmark/supply/konyang/dock{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
 "Pt" = (
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/mechanical{
@@ -8536,17 +8545,6 @@
 	},
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/asphalt,
-/area/kaneyama_ext)
-"PC" = (
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/plating,
 /area/kaneyama_ext)
 "PH" = (
 /obj/effect/shuttle_landmark/sn_canary/start{
@@ -8821,6 +8819,17 @@
 "QV" = (
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
+"QX" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped,
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_ext)
 "QY" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/carpet/rubber,
@@ -8928,6 +8937,15 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_plant)
+"RH" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_ext)
 "RJ" = (
 /obj/structure/reagent_dispensers/radioactive_waste,
 /obj/machinery/light/colored/dying{
@@ -10188,6 +10206,13 @@
 /obj/machinery/photocopier/faxmachine,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"Xf" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_ext)
 "Xg" = (
 /obj/effect/decal/road_marking/center,
 /obj/effect/decal/road_marking/reflector,
@@ -10260,15 +10285,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/sn_canary)
-"Xo" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_ext)
 "Xp" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -10304,17 +10320,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
-"XB" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped,
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_ext)
 "XC" = (
 /obj/structure/barricade/liquid/wired{
 	dir = 1
@@ -10519,6 +10524,17 @@
 /obj/structure/bed/stool/padded/red,
 /turf/simulated/floor/carpet/lightblue,
 /area/kaneyama_interiors)
+"YL" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/plating,
+/area/kaneyama_ext)
 "YM" = (
 /obj/effect/floor_decal/corner_wide/yellow{
 	dir = 5
@@ -46683,15 +46699,15 @@ bK
 bK
 LY
 iY
-PC
-Xo
-Xo
-Xo
-Xo
-Xo
-Xo
-Xo
-XB
+YL
+RH
+RH
+RH
+RH
+RH
+RH
+RH
+QX
 iY
 Ay
 Ay
@@ -46940,15 +46956,15 @@ bK
 QC
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 Ay
 WZ
@@ -47197,15 +47213,15 @@ bK
 ou
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 Ay
 Ay
@@ -47454,15 +47470,15 @@ QC
 bK
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 Ay
 pa
@@ -47711,15 +47727,15 @@ QC
 bK
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 Ay
 pa
@@ -47968,15 +47984,15 @@ QC
 bK
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 Ay
 pa
@@ -48225,15 +48241,15 @@ ou
 bK
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 Ay
 pa
@@ -48482,15 +48498,15 @@ QC
 bK
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 pa
 pa
@@ -48739,15 +48755,15 @@ QC
 bK
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 pa
 wH
@@ -48996,15 +49012,15 @@ bK
 KR
 LY
 iY
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 pa
 JE
@@ -49253,15 +49269,15 @@ QC
 bK
 LY
 qq
-dO
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
 Lk
 fu
+fu
+fu
+fu
+fu
+fu
+fu
+Xf
 iY
 pa
 nL
@@ -49510,15 +49526,15 @@ bK
 bK
 LY
 iY
-FD
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
-Lk
-eA
+cT
+fu
+fu
+fu
+fu
+fu
+fu
+fu
+Bz
 iY
 pa
 VF
@@ -49770,9 +49786,9 @@ iY
 iY
 pa
 pa
+oK
 hw
-Pr
-hw
+oK
 pa
 pa
 iY
