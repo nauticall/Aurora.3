@@ -79,7 +79,7 @@
 	else if(isliving(AM))
 		numobjects += 1
 		var/mob/living/L = AM
-		if(!istype(oldloc, /turf/simulated/floor/exoplanet/water) || (istype(oldloc, /turf/simulated/floor/exoplanet/water) && locate(/obj/structure/lattice(oldloc))))
+		if(!istype(oldloc, /turf/simulated/floor/exoplanet/water) || (istype(oldloc, /turf/simulated/floor/exoplanet/water) && locate(/obj/structure/lattice, oldloc)))
 			to_chat(L, SPAN_WARNING("You get drenched in water from entering \the [src]!"))
 		wash(L)
 	..()
