@@ -38,6 +38,37 @@
 		/obj/item/pickaxe/hammer
 	)
 
+/datum/ghostspawner/human/infected/hos
+	name = "Infected Head of Security"
+	short_name = "infected_hos"
+	spawnpoints = list("infected_hos")
+	possible_species = list(SPECIES_IPC_SHELL)
+	assigned_role = "GON-ENE Head of Security"
+	special_role = "GON-ENE Head of Security"
+	max_count = 1
+	outfit = /obj/outfit/admin/infected_hos
+
+/datum/ghostspawner/human/infected/hos/post_spawn(mob/user)
+	. = ..()
+	var/mob/living/carbon/human/H = user
+	if(istype(H))
+		H.mutations |= mRun
+		H.AddComponent(/datum/component/armor, list(melee = ARMOR_MELEE_RESISTANT, bullet = ARMOR_BALLISTIC_MEDIUM, laser = ARMOR_LASER_MEDIUM))
+
+/obj/outfit/admin/infected_hos
+	name = "GON-ENE HOS"
+	uniform = /obj/item/clothing/under/suit_jacket/navy
+	shoes = /obj/item/clothing/shoes/jackboots
+	suit = /obj/item/clothing/suit/armor/carrier/hos
+	backpack = /obj/item/storage/backpack/satchel/hos
+	id = /obj/item/card/id
+	belt = /obj/item/storage/belt/security/full
+	accessory = /obj/item/clothing/accessory/holster
+	accessory_contents = list(
+		/obj/item/gun/energy/pistol = 1
+	)
+
+
 /obj/outfit/admin/infected_soldier
 	uniform = /obj/item/clothing/under/rank/konyang
 	head = /obj/item/clothing/head/helmet/konyang

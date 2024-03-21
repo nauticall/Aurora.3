@@ -259,3 +259,74 @@
 		QDEL_IN(src, 10)
 		src.visible_message(SPAN_WARNING("\The [src] flares with blue light, disappearing into the air!"), SPAN_NOTICE("You activate your phase-shift projector, shifting through bluespace."))
 		animate(src, alpha = 0, time = 9, easing = QUAD_EASING)
+
+//pinpointer
+/obj/item/ecdpointer
+	name = "pinpointer"
+	icon = 'icons/obj/device.dmi'
+	icon_state = "pinoff"
+	obj_flags = OBJ_FLAG_CONDUCTABLE
+	slot_flags = SLOT_BELT
+	w_class = ITEMSIZE_SMALL
+	item_state = "electronic"
+	throw_speed = 4
+	throw_range = 20
+	matter = list(DEFAULT_WALL_MATERIAL = 500)
+	var/obj/structure/konyang_mcguffin/ecd = null
+	var/active = 0
+
+/obj/item/ecdpointer/attack_self()
+	if(!active)
+		active = 1
+		START_PROCESSING(SSfast_process, src)
+		to_chat(usr, "<span class='notice'>You activate the pinpointer</span>")
+	else
+		active = 0
+		STOP_PROCESSING(SSfast_process, src)
+		icon_state = "pinoff"
+		to_chat(usr, "<span>You deactivate the pinpointer</span>")
+
+/obj/item/ecdpointer/process()
+	if (active)
+		workecd()
+	else
+		STOP_PROCESSING(SSfast_process, src)
+
+/obj/item/ecdpointer/proc/workecd()
+	if(!active) return
+	if(!ecd)
+		ecd = locate()
+		if(!ecd)
+			icon_state = "pinonnull"
+			return
+	set_dir(get_dir(src,ecd))
+	set_z_overlays(ecd)
+	switch(get_dist(src,ecd))
+		if(0)
+			icon_state = "pinondirect"
+		if(1 to 8)
+			icon_state = "pinonclose"
+		if(9 to 16)
+			icon_state = "pinonmedium"
+		if(16 to INFINITY)
+			icon_state = "pinonfar"
+	return TRUE
+
+/obj/item/ecdpointer/Destroy()
+	active = 0
+	STOP_PROCESSING(SSfast_process, src)
+	return ..()
+
+
+/obj/item/ecdpointer/proc/set_z_overlays(var/atom/target)
+	cut_overlays()
+	if(AreConnectedZLevels(src.loc.z, target.z))
+		if(src.loc.z > target.z)
+			add_overlay("pinzdown")
+		else if(src.loc.z < target.z)
+			add_overlay("pinzup")
+	else
+		active = 0
+		if(ismob(loc))
+			var/mob/holder = loc
+			to_chat(holder, "<span class='notice>\The [src] cannot locate chosen target, shutting down.</span>")
