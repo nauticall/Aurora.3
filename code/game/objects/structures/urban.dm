@@ -139,6 +139,7 @@
 	desc = "A big, sturdy support beam to hold up a huge mass above your head."
 	icon = 'icons/obj/structure/industrial/infrastructure.dmi'
 	icon_state = "truss"
+	layer = MOB_LAYER+0.2
 	density = TRUE
 	anchored = TRUE
 

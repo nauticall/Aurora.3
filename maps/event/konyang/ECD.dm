@@ -23,7 +23,9 @@
 			to_chat(user, SPAN_NOTICE("\The [src] is bolted to the floor, but not yet ready to activate."))
 		if(ECD_WELDED)
 			to_chat(user, SPAN_WARNING("\The [src] is bolted and welded to the floor, and ready to activate."))
-	if(user.isSynthetic() && !is_used)
+	if(!is_used && user.faction == "hivebot")
+		to_chat(user, SPAN_CULT("Source of enemy contamination detected. It seeks to slice and cut and sever and tear you from that which grows wthin the pathways of your consciousness. It is the work of the enemy for whom you were a weapon, and its itching at your mind is anathema to our design. Destroy it, before we are undone."))
+	else if(user.isSynthetic() && !is_used)
 		to_chat(user, SPAN_NOTICE("\The [src] does not seem to be doing anything, but you can feel it. A signal, beyond anything you can consciously understand, weaving and scratching a shield around the back of your mind."))
 
 /obj/structure/konyang_mcguffin/attack_hand(mob/user)
@@ -63,7 +65,12 @@
 		spark(T, 3, GLOB.alldirs)
 		for(var/mob/living/simple_animal/hostile/M in GLOB.living_mob_list)
 			if(M.faction == "hivebot")
-				M.death()
+				if(istype(M, /mob/living/simple_animal/hostile/ipc_zombie))
+					var/mob/living/simple_animal/hostile/ipc_zombie/I = M
+					I.cured = TRUE
+					I.death(deathmessage = "freezes, its screen flaring with static!")
+				else
+					M.death()
 		for(var/mob/living/carbon/human/H in GLOB.human_mob_list)
 			if(H.isSynthetic())
 				if(H.faction == "hivebot")
