@@ -437,6 +437,12 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
+"br" = (
+/obj/machinery/computer/shuttle_control/lift/wall/kaneyama_north{
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "bs" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/floor_decal/spline/fancy{
@@ -449,6 +455,9 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled,
+/area/kaneyama_plant)
+"bv" = (
+/turf/simulated/floor/plating,
 /area/kaneyama_plant)
 "bw" = (
 /obj/effect/floor_decal/spline/plain/corner{
@@ -804,6 +813,9 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"de" = (
+/turf/simulated/open,
+/area/kaneyama_plant)
 "df" = (
 /obj/machinery/door/airlock/multi_tile{
 	name = "Clinic"
@@ -1240,12 +1252,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_ext)
 "fj" = (
-/obj/effect/floor_decal/corner_wide/yellow{
-	dir = 10
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/railing/mapped{
+	dir = 8
 	},
-/obj/machinery/light/colored/dying,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "fk" = (
 /obj/machinery/body_scanconsole{
 	dir = 4;
@@ -1882,6 +1895,15 @@
 "ic" = (
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/kaneyama_ext/water)
+"id" = (
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "ie" = (
 /obj/machinery/door/airlock/medical{
 	name = "Operating Room"
@@ -1940,6 +1962,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
+/area/kaneyama_plant)
+"it" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "iu" = (
 /obj/structure/flora/rock/konyang/small,
@@ -2202,6 +2230,11 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
+"jT" = (
+/obj/structure/flora/bush/konyang_reeds,
+/obj/structure/flora/tree/konyang,
+/turf/simulated/floor/exoplanet/konyang,
+/area/kaneyama_ext)
 "jU" = (
 /obj/effect/landmark/corpse/kaneyama_suit,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -2564,8 +2597,11 @@
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
 "lJ" = (
-/obj/machinery/light{
-	pixel_y = -2
+/obj/machinery/computer/shuttle_control/lift/wall/kaneyama{
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
@@ -2928,6 +2964,15 @@
 /mob/living/heavy_vehicle/premade/ripley,
 /turf/simulated/floor/plating,
 /area/kaneyama_plant)
+"na" = (
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "ne" = (
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Research Director"
@@ -2955,12 +3000,21 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
+"nl" = (
+/obj/machinery/door/airlock{
+	name = "Access Hallway"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "nn" = (
 /obj/structure/sign/radiation{
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner_wide/yellow{
 	dir = 9
+	},
+/obj/machinery/light/colored/dying{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
@@ -3929,12 +3983,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"ri" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
 "rk" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -4571,6 +4619,10 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"tL" = (
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "tM" = (
 /obj/machinery/door/airlock/glass{
 	name = "Administrative Wing"
@@ -4666,6 +4718,10 @@
 /obj/structure/flora/bush/konyang_reeds,
 /turf/simulated/wall,
 /area/kaneyama_interiors)
+"ui" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/kaneyama_plant)
 "uj" = (
 /obj/structure/bed/stool/chair/sofa/right/brown{
 	dir = 1
@@ -4889,6 +4945,12 @@
 /obj/vehicle/bike/motor/blue,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"vi" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "vj" = (
 /obj/structure/utility_pole/street/on{
 	dir = 8;
@@ -5671,7 +5733,7 @@
 /obj/structure/lattice/catwalk/indoor/grate{
 	pixel_x = -10
 	},
-/obj/item/plastique,
+/obj/effect/plastic_explosive,
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/kaneyama_ext/water)
 "zf" = (
@@ -5974,6 +6036,15 @@
 /obj/item/ammo_magazine/mc9mm,
 /turf/simulated/floor/concrete,
 /area/kaneyama_interiors)
+"Aq" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "Ar" = (
 /obj/structure/chainlink_fence{
 	dir = 4
@@ -6018,6 +6089,12 @@
 "Ay" = (
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/kaneyama_ext)
+"Az" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "AA" = (
 /obj/vehicle/train/cargo/engine{
 	dir = 2
@@ -7261,6 +7338,10 @@
 /area/kaneyama_plant)
 "FS" = (
 /obj/structure/bed/stool/chair/office/bridge/generic,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_hos";
+	identifier = "infected_hos"
+	},
 /turf/simulated/floor/carpet,
 /area/kaneyama_plant)
 "FU" = (
@@ -8046,12 +8127,6 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/hivebot,
 /area/kaneyama_plant)
-"JQ" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
 "JS" = (
 /obj/structure/closet/secure_closet/engineering_electrical{
 	req_access = null
@@ -8906,6 +8981,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"Nc" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "Nf" = (
 /obj/structure/shipping_container{
 	icon_state = "red3"
@@ -9537,6 +9618,23 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
+"Qm" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "Qn" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/kaneyama_suit/office,
@@ -9989,6 +10087,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"Sl" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "So" = (
 /obj/structure/chainlink_fence,
 /obj/structure/chainlink_fence{
@@ -10051,6 +10156,14 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"SB" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light{
+	pixel_y = -2
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "SC" = (
 /obj/effect/decal/road_marking/center,
 /obj/effect/decal/road_marking/reflector,
@@ -10650,6 +10763,13 @@
 /area/kaneyama_interiors)
 "UO" = (
 /obj/effect/floor_decal/corner_wide/paleblue/full,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
+"UP" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/structure/girder,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "UQ" = (
@@ -11400,6 +11520,23 @@
 /obj/effect/landmark/corpse/kaneyama_worker,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"XM" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light{
+	pixel_y = -2
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "XO" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
 /obj/structure/closet/secure_closet{
@@ -11817,9 +11954,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "ZN" = (
-/obj/item/clothing/head/welding,
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_ext/water)
+/obj/effect/shuttle_landmark/lift/kaneyama_top,
+/turf/simulated/open,
+/area/kaneyama_interiors)
 "ZO" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
@@ -32196,7 +32333,7 @@ bK
 bK
 KR
 bK
-bK
+KR
 bK
 bK
 bK
@@ -34786,13 +34923,13 @@ ou
 bK
 bK
 QC
-ou
+jT
 QC
 QC
 QC
 bK
 bK
-bK
+KR
 bK
 bK
 bK
@@ -35552,13 +35689,13 @@ bK
 bK
 bK
 bK
-bK
+KR
 bK
 bK
 IE
 IE
 IE
-bK
+KR
 bK
 bK
 bK
@@ -35817,15 +35954,15 @@ bK
 IE
 IE
 IE
-bK
-KR
-bK
-bK
-bK
-bK
-bK
-bK
-bK
+IE
+IB
+IE
+IE
+IE
+IE
+IE
+IE
+IE
 KR
 bK
 bK
@@ -36074,16 +36211,16 @@ bK
 bK
 IE
 IE
+IE
 bK
 bK
 bK
 bK
 bK
 bK
-bK
-KR
-bK
-bK
+IB
+IE
+IE
 bK
 bK
 QC
@@ -36340,7 +36477,7 @@ bK
 bK
 bK
 QC
-bK
+IE
 QC
 QC
 QC
@@ -36597,8 +36734,8 @@ QC
 ou
 QC
 bK
-bK
-bK
+IE
+IE
 KR
 bK
 bK
@@ -36855,8 +36992,8 @@ bK
 bK
 KR
 bK
-bK
-bK
+IE
+IE
 bK
 bK
 bK
@@ -37100,7 +37237,7 @@ IE
 bK
 bK
 bK
-KR
+bK
 bK
 bK
 IE
@@ -37113,7 +37250,7 @@ bK
 bK
 bK
 bK
-KR
+IB
 bK
 bK
 bK
@@ -37360,17 +37497,17 @@ bK
 bK
 bK
 bK
-IE
-IE
-IE
-IE
+bK
+bK
+bK
+bK
 bK
 bK
 KR
 bK
 bK
 bK
-bK
+IE
 bK
 bK
 bK
@@ -37598,37 +37735,37 @@ WA
 WA
 WA
 WA
-bK
-QC
-QC
-bK
-MO
-QC
-bK
-bK
-bK
-bK
-KR
-bK
-bK
-KR
-bK
-bK
-bK
-ou
-QC
-ou
-QC
-QC
-yd
-yd
-yd
+WA
+WA
+WA
+WA
+WA
+ui
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
 QC
 QC
 QC
 QC
-KR
-bK
+QC
+QC
+QC
+IB
+IE
 bK
 KR
 bK
@@ -37855,37 +37992,37 @@ rc
 nn
 Um
 WA
+na
+La
+Az
+Az
+bv
+Az
+Az
+Sl
+Az
+Az
+Az
+Az
+Az
+WA
+Kg
+rr
+Kg
+Kg
+Kg
+rr
+Kg
+WA
+bK
+bK
+bK
+bK
+bK
 bK
 bK
 QC
-bK
-MO
-QC
-QC
-ou
-bK
-bK
-bK
-bK
-bK
-bK
-QC
-QC
-QC
-QC
-bK
-bK
-bK
-bK
-bK
-bK
 IE
-IE
-IE
-bK
-bK
-QC
-bK
 QC
 QC
 QC
@@ -38110,39 +38247,39 @@ La
 La
 vV
 La
-fj
-WA
-bK
-QC
-QC
-QC
-MO
-bK
-bK
-bK
-QC
-ou
-QC
-QC
-ou
-QC
-bK
-bK
-bK
-KR
-bK
-bK
-bK
-KR
-bK
-bK
-KR
-bK
-IE
-IE
+La
+cD
+gf
+Kg
+Kg
+Kg
+Kg
+Kg
+tL
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+nl
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+nl
+dl
+dl
 bK
 bK
-KR
+bK
+bK
+bK
+bK
+IB
 bK
 bK
 KR
@@ -38369,37 +38506,37 @@ rc
 ds
 hx
 WA
+id
+it
+Aq
+it
+it
+UP
+Aq
+it
+it
+it
+Aq
+it
+it
+WA
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+WA
+bK
+dl
+bK
 bK
 QC
-bK
-bK
-MO
-bK
-KR
-bK
-bK
-QC
-QC
-QC
-QC
-QC
-QC
-ou
-bK
-QC
 QC
 QC
 bK
-QC
-QC
-QC
-QC
-QC
-QC
 yd
-yd
-IE
-QC
 bK
 QC
 bK
@@ -38469,7 +38606,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 Qx
 Qx
@@ -38626,36 +38763,36 @@ rc
 La
 La
 WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+br
+Kg
+Kg
+WA
+bK
+dl
+bK
 bK
 QC
 bK
-bK
-MO
-bK
-bK
-bK
-bK
-KR
-bK
-bK
-bK
-bK
-bK
 QC
 QC
-QC
-KR
-bK
-KR
-bK
-KR
-bK
-QC
-KR
-QC
-bK
-QC
-yd
 IE
 QC
 QC
@@ -38726,14 +38863,14 @@ ic
 ic
 ic
 ic
-ic
 Qx
 cw
 cw
-cw
-cw
-cw
-cw
+Qm
+Qm
+Qm
+Qm
+XM
 Qx
 bK
 QC
@@ -38883,30 +39020,30 @@ Ta
 Eh
 La
 WA
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+WA
+de
+de
+de
+de
+Nc
+Kg
+od
+WA
 bK
-QC
-bK
-bK
-MO
-bK
-bK
-bK
-KR
-bK
-bK
-bK
-bK
-KR
-KR
-QC
-QC
-bK
-QC
-bK
-bK
-bK
-bK
-bK
+dl
 bK
 bK
 bK
@@ -38968,7 +39105,6 @@ ic
 ic
 ic
 ic
-ZN
 ic
 ic
 ic
@@ -38986,11 +39122,12 @@ ic
 ic
 Qx
 Ka
-Fy
-JQ
-JQ
-Fy
-lJ
+pf
+bD
+bD
+bD
+bD
+vi
 Qx
 bK
 QC
@@ -39140,33 +39277,33 @@ My
 La
 kM
 WA
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+WA
+de
+de
+de
+de
+Nc
+Kg
+od
+WA
+bK
+dl
 bK
 bK
-QC
-QC
-Oe
-On
-On
-On
-On
-On
-On
-On
-On
-On
-On
-On
-Oe
-On
-Oe
-On
-On
-Oe
-Oe
-Oe
-Oe
-Oe
-Oe
+bK
 On
 rk
 QO
@@ -39240,14 +39377,14 @@ ic
 ic
 ic
 ic
-ic
 Qx
 VE
 pf
 bD
+ZN
 bD
-Fy
-Fy
+bD
+vi
 UG
 dl
 dl
@@ -39397,33 +39534,33 @@ aQ
 JP
 iT
 WA
+ZW
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+de
+de
+de
+de
+Nc
+Kg
+od
+WA
 bK
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-bK
-QC
-QC
-QC
-QC
-QC
-QC
-QC
+dl
 bK
 bK
-QC
-QC
-QC
+bK
 bK
 LY
 nY
@@ -39497,14 +39634,14 @@ ic
 ic
 ic
 ic
-ic
 Qx
 kN
 pf
 bD
 bD
-Fy
-Fy
+bD
+bD
+vi
 Fy
 dl
 dl
@@ -39654,7 +39791,7 @@ Ia
 La
 iT
 WA
-bK
+ZW
 WA
 YU
 YO
@@ -39668,17 +39805,17 @@ gR
 RJ
 CV
 WA
+de
+de
+de
+de
+Nc
+Kg
+od
+WA
 bK
-QC
+dl
 bK
-bK
-QC
-QC
-QC
-QC
-QC
-QC
-QC
 bK
 bK
 bK
@@ -39754,13 +39891,13 @@ ic
 ic
 ic
 ic
-ic
 Qx
 Ka
-Fy
-ri
-ri
-Fy
+pf
+bD
+bD
+bD
+bD
 lJ
 Qx
 bK
@@ -39911,7 +40048,7 @@ kM
 Eh
 hx
 WA
-bK
+ZW
 WA
 Pi
 La
@@ -39925,14 +40062,14 @@ CV
 CV
 gR
 WA
-bK
-QC
-QC
-QC
-QC
-QC
-bK
-QC
+WA
+WA
+WA
+WA
+Kg
+Kg
+Kg
+WA
 bK
 dl
 dl
@@ -40011,14 +40148,14 @@ ic
 ic
 ic
 ic
-ic
 Qx
 pb
 pb
-pb
-pb
-pb
-pb
+fj
+fj
+fj
+fj
+SB
 Qx
 bK
 QC
@@ -40168,7 +40305,7 @@ La
 Eh
 Tf
 WA
-bK
+ZW
 WA
 fp
 Kg
@@ -40182,15 +40319,15 @@ CV
 gR
 gR
 WA
-bK
-QC
-QC
-bK
-bK
-QC
-QC
-QC
-QC
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+Kg
+Hn
+dl
 aL
 Ok
 kw
@@ -40268,7 +40405,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 Qx
 Qx
@@ -40425,7 +40562,7 @@ La
 La
 iT
 WA
-bK
+ZW
 WA
 KN
 JH
@@ -40439,15 +40576,15 @@ CV
 gR
 gR
 WA
-bK
-bK
-bK
-bK
-QC
-bK
-QC
-bK
-QC
+Kg
+Kg
+Kg
+Kg
+Kg
+rw
+Kg
+Kg
+dl
 dl
 KJ
 QD
@@ -40525,7 +40662,7 @@ ic
 ic
 ic
 ic
-ic
+Jt
 Jt
 Jt
 Jt
@@ -40682,7 +40819,7 @@ rJ
 La
 iT
 WA
-bK
+ZW
 WA
 Pi
 Kg
@@ -40697,14 +40834,14 @@ ys
 WA
 WA
 WA
+rT
 WA
 WA
 WA
-QC
-QC
-QC
+WA
+WA
+WA
 bK
-QC
 dl
 KJ
 Un

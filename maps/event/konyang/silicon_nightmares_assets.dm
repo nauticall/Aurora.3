@@ -292,10 +292,10 @@
 	else
 		STOP_PROCESSING(SSfast_process, src)
 
-/obj/item/pinpointer/proc/workecd()
+/obj/item/ecdpointer/proc/workecd()
 	if(!active) return
 	if(!ecd)
-		ecd = ecd()
+		ecd = locate()
 		if(!ecd)
 			icon_state = "pinonnull"
 			return

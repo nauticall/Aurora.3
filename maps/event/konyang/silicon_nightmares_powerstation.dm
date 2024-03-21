@@ -23,7 +23,8 @@
 	use_overmap = FALSE
 	map_shuttles = list(
 		/datum/shuttle/autodock/ferry/supply/konyang,
-		/datum/shuttle/autodock/multi/sn_canary
+		/datum/shuttle/autodock/multi/sn_canary,
+		/datum/shuttle/autodock/ferry/lift/kaneyama
 	)
 
 //Areas
