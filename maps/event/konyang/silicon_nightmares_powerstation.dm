@@ -61,6 +61,13 @@
 	requires_power = FALSE
 	ambience = AMBIENCE_KONYANG_RAIN_MUFFLED
 
+/area/kaneyama_interiors/subterrane
+	name = "Kaneyama Service Tunnels"
+	icon_state = "maintcentral"
+	sound_env = TUNNEL_ENCLOSED
+	ambience = AMBIENCE_MAINTENANCE
+	requires_power = TRUE
+
 /area/kaneyama_plant
 	name = "Kaneyama Power Plant"
 	icon_state = "green"
