@@ -395,6 +395,7 @@
 	icon = 'icons/clothing/rig/diving.dmi'
 	icon_state = "diving_rig"
 	armor = list(
+		melee = ARMOR_MELEE_VERY_HIGH,
 		bullet = ARMOR_BALLISTIC_MAJOR,
 		laser = ARMOR_LASER_RIFLE,
 		energy = ARMOR_ENERGY_SMALL,
