@@ -191,6 +191,19 @@
 	if(istype(H))
 		H.mutations |= HULK
 
+/datum/ghostspawner/human/infected/diver_entrance
+	name = "Infected Diver - Entrance"
+	short_name = "infected_diver_entrance"
+	spawnpoints = list("infected_diver")
+	max_count = 1
+	possible_species = list(SPECIES_IPC_SHELL)
+	outfit = /obj/outfit/admin/infected_diver
+
+/obj/outfit/admin/infected_diver
+	suit = null
+	head = null
+	back = /obj/item/rig/diving
+
 /datum/ghostspawner/human/infected/police
 	name = "Infected Police - South"
 	short_name = "infected_cop"
@@ -413,7 +426,7 @@
 	respawn_flag = null
 	password = "bytetheminute"
 
-/datum/outfit/admin/bitbyte
+/obj/outfit/admin/bitbyte
 	name = "BitByte Reporter"
 	uniform = /obj/item/clothing/under/sl_suit
 	accessory = /obj/item/clothing/accessory/tie/blue_clip
@@ -424,5 +437,5 @@
 		/obj/item/storage/box/survival = 1
 	)
 
-/datum/outfit/admin/bitbyte/get_id_access()
+/obj/outfit/admin/bitbyte/get_id_access()
 	return list(ACCESS_JOURNALIST)

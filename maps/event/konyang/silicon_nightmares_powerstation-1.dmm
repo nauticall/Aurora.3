@@ -572,6 +572,10 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
+"hP" = (
+/obj/item/crowbar/rescue_axe,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
 "ib" = (
 /turf/unsimulated/wall,
 /area/kaneyama_ext/underground)
@@ -819,22 +823,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "lB" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_guard_underground";
+	identifier = "infected_guard_underground"
 	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/random/dirt_75,
-/obj/item/rig/diving{
-	name = "GON-ENE diving suit control module";
-	desc = "A heavy hardsuit designated for operations under the water. It has the GON-ENE logo, specifically for use in the Kaneyama Nuclear Power Plant's coolant pumping system."
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
 "lG" = (
 /obj/structure/platform/ledge{
@@ -910,6 +903,10 @@
 /obj/effect/decal/exterior_stairs/half{
 	dir = 1;
 	layer = 2.9
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
@@ -1005,6 +1002,10 @@
 /area/kaneyama_interiors)
 "mU" = (
 /obj/item/clothing/glasses/thermal/aviator,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_diver";
+	identifier = "infected_diver"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "ne" = (
@@ -1058,6 +1059,10 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/turbolift/kaneyama/north)
+"nL" = (
+/obj/item/crowbar,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
 "nN" = (
 /obj/machinery/computer/terminal,
 /turf/simulated/floor/tiled/dark,
@@ -1283,9 +1288,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "rh" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/mob/living/simple_animal/hostile/ipc_zombie,
-/turf/simulated/floor/plating,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_guard_underground";
+	identifier = "infected_guard_underground"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "rm" = (
 /turf/simulated/floor/tiled/dark,
@@ -1300,6 +1307,13 @@
 	name = "KRC underwater power loader"
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_interiors)
+"rC" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "rD" = (
 /obj/structure/lattice/catwalk/indoor/grate{
@@ -1888,6 +1902,16 @@
 "AA" = (
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"AJ" = (
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
 "AK" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	pixel_y = 10;
@@ -1915,7 +1939,6 @@
 	pixel_x = 5
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
-/mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "AL" = (
@@ -1987,6 +2010,10 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"Bx" = (
+/obj/item/crowbar/red,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "BO" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Hazmat Storage"
@@ -2039,6 +2066,10 @@
 	dir = 4
 	},
 /obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"CC" = (
+/obj/item/crowbar/rescue_axe,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "CD" = (
@@ -2630,6 +2661,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"JU" = (
+/obj/item/crowbar/red,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
 "JY" = (
 /obj/structure/closet/radiation,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2645,6 +2680,10 @@
 	name = "vent grate"
 	},
 /turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"KD" = (
+/obj/item/crowbar,
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "KR" = (
 /obj/item/clothing/mask/exclusionist,
@@ -3144,6 +3183,14 @@
 /obj/effect/decal/cleanable/floor_damage/random_broken,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"RY" = (
+/obj/effect/decal/cleanable/floor_damage/random_broken,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_diver_entrance";
+	identifier = "infected_diver_entrance"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "Sc" = (
 /obj/structure/platform/ledge,
 /obj/structure/platform/ledge{
@@ -3224,9 +3271,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "SU" = (
-/obj/random/dirt_75,
-/obj/item/device/suit_cooling_unit,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
 "Tc" = (
 /obj/random/dirt_75,
@@ -26275,7 +26324,7 @@ yH
 yH
 yH
 ZI
-Zc
+lB
 Gr
 Gr
 Gr
@@ -26532,7 +26581,7 @@ CD
 CD
 iZ
 Ol
-Zc
+nL
 Gr
 rm
 Xx
@@ -27046,7 +27095,7 @@ AA
 II
 yC
 rm
-Zc
+hP
 AL
 rm
 OY
@@ -27302,8 +27351,8 @@ AA
 YN
 AA
 cl
-rm
-Zc
+CC
+JU
 AL
 rm
 OY
@@ -27552,8 +27601,8 @@ sg
 sg
 sg
 Gr
-Zc
-rm
+SU
+rh
 OH
 XI
 AA
@@ -27810,13 +27859,13 @@ sg
 sg
 Gr
 Zc
-rm
+KD
 Gr
 gk
 nq
 Gg
 Gr
-rm
+CC
 Zc
 Gr
 NP
@@ -28325,7 +28374,7 @@ sg
 Gr
 GW
 rm
-rm
+rh
 El
 Xc
 El
@@ -28581,7 +28630,7 @@ sg
 sg
 Gr
 PV
-rm
+CC
 rm
 El
 El
@@ -28838,7 +28887,7 @@ sg
 sg
 Gr
 PV
-rm
+Bx
 rm
 El
 El
@@ -29352,7 +29401,7 @@ sg
 sg
 Gr
 YW
-rm
+CC
 rm
 El
 LB
@@ -29361,7 +29410,7 @@ ce
 UF
 Dc
 AL
-Qp
+rm
 OY
 OH
 XI
@@ -29609,8 +29658,8 @@ sg
 sg
 Gr
 YW
-Qp
-rm
+CC
+rC
 LB
 Dc
 xE
@@ -29865,10 +29914,10 @@ sg
 sg
 sg
 Gr
-Zc
+lB
+CC
 rm
-rm
-rm
+Bx
 rm
 rm
 so
@@ -30122,9 +30171,9 @@ sg
 sg
 sg
 Gr
+nL
 Zc
-Zc
-Az
+AJ
 Zc
 Zc
 Zc
@@ -30649,7 +30698,7 @@ RM
 eo
 BQ
 wS
-BQ
+wS
 oC
 ba
 wS
@@ -30962,7 +31011,7 @@ sg
 qj
 FU
 FU
-RV
+RY
 MZ
 qi
 MZ
@@ -31220,7 +31269,7 @@ Gr
 qj
 Pw
 FU
-SU
+MZ
 rm
 rm
 rm
@@ -31477,7 +31526,7 @@ sg
 Gr
 TW
 rZ
-lB
+VM
 wS
 rm
 wS
@@ -32962,7 +33011,7 @@ Hw
 UA
 RL
 rm
-Qp
+rm
 Rr
 RL
 lG
@@ -33475,7 +33524,7 @@ Pf
 Hw
 rm
 rm
-rm
+rh
 rm
 rm
 rm
@@ -34022,7 +34071,7 @@ sg
 sg
 sg
 Gr
-rh
+iC
 Gr
 sg
 sg
