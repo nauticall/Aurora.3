@@ -177,7 +177,7 @@
 	short_name = "infected_diver"
 	spawnpoints = list("infected_diver")
 	max_count = 1
-	possible_species = list(SPECIES_IPC_G2, SPECIES_SHELL)
+	possible_species = list(SPECIES_IPC_G2, SPECIES_IPC_SHELL)
 	outfit = /obj/outfit/admin/infected_diver
 
 /obj/outfit/admin/infected_diver
@@ -282,6 +282,7 @@
 /obj/outfit/admin/konyang_navy/officer
 	uniform = /obj/item/clothing/under/rank/konyang/navy/officer
 	head = /obj/item/clothing/head/konyang/navy
+	glasses = null
 	suit = null
 	suit_store = null
 	belt = /obj/item/material/sword/katana/konyang
@@ -291,7 +292,7 @@
 		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1,
 		/obj/item/storage/firstaid/stab = 1,
-		/obj/item/ammo_magazine/mc9mm = 4
+		/obj/item/ammo_magazine/mc9mm = 4,
 		/obj/item/device/flashlight/maglight = 1
 	)
 
