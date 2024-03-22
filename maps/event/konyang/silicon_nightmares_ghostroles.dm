@@ -273,7 +273,7 @@
 	max_count = 2
 	spawnpoints = list("konyang_navy_officer")
 	outfit = /obj/outfit/admin/konyang_navy/officer
-
+	possible_species = list(SPECIES_HUMAN, SPECIES_IPC)
 	assigned_role = "Konyang Navy Officer"
 	special_role = "Konyang Navy Officer"
 	welcome_message = "You are in command of the Konyang Navy personnel sent to destroy the source of the rampancy virus. Work with corporate forces in the area to eliminate the Hivebot transmission source."
@@ -299,7 +299,7 @@
 	short_name = "sn_konyang_army"
 	name = "Konyang Army Soldier"
 	desc = "You are a soldier of the Konyang army, deployed to assist with the Kaneyama crisis."
-	max_count = 4
+	max_count = 8
 	tags = list("External")
 	spawnpoints = list("sn_konyang_army")
 	outfit = /obj/outfit/admin/sn_konyang_army
@@ -315,7 +315,7 @@
 	short_name = "sn_konyang_army_officer"
 	name = "Konyang Army Officer"
 	desc = "You are an officer of the Konyang army, commanding the response to the Kaneyama crisis."
-	max_count = 1
+	max_count = 2
 	outfit = /obj/outfit/admin/sn_konyang_army/officer
 	assigned_role = "Konyang Army Officer"
 	special_role = "Konyang Army Officer"
