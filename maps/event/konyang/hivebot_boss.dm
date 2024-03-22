@@ -57,6 +57,7 @@
 
 /mob/living/simple_animal/hostile/hivebotbeacon/hivebotboss/Life()
 	. =..()
+	adjustBruteLoss(-5)
 	if(prob(1))
 		for(var/mob/living/carbon/human/H in GLOB.player_list)
 			if(H.isSynthetic())

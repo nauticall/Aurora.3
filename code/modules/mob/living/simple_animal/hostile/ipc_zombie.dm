@@ -88,6 +88,13 @@
 	else if (health < maxHealth)
 		. += "<span class='warning'>It looks damaged.</span>"
 
+/mob/living/simple_animal/hostile/ipc_zombie/think()
+	. = ..()
+	if(stance != HOSTILE_STANCE_IDLE)
+		environment_smash = TRUE
+	else
+		environment_smash = FALSE
+
 /mob/living/simple_animal/hostile/ipc_zombie/get_bullet_impact_effect_type(var/def_zone)
 	return BULLET_IMPACT_METAL
 

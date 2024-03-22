@@ -180,7 +180,7 @@
 		/obj/item/gun/projectile/leyon = 100,
 		/obj/item/ammo_magazine/mc10mm/leyon = 100,
 		/obj/item/device/flashlight = 100,
-		/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine = 0,
+		/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine = 20,
 		/obj/item/ammo_magazine/a556/carbine/polymer = 50,
 		/obj/item/gun/energy/gun = 10,
 		/obj/item/storage/firstaid/stab = 10
@@ -202,7 +202,8 @@
 		/obj/item/gun/projectile/pistol/sol/konyang = 10,
 		/obj/item/gun/projectile/automatic/tommygun/konyang = 5,
 		/obj/item/clothing/accessory/holster/hip = 50,
-		/obj/item/shovel/gadpathur = 50
+		/obj/item/shovel/gadpathur = 50,
+		/obj/item/ammo_magazine.a556/carbine/konyang47 = 50
 	)
 	restock_items = FALSE
 	random_itemcount = FALSE
@@ -342,8 +343,8 @@
 	icon = 'maps/event/konyang/smallboss.dmi'
 	icon_state = "small_boss"
 	icon_living = "small_boss"
-	maxHealth = 900
-	health = 900
+	maxHealth = 750
+	health = 750
 	melee_damage_lower = 35
 	melee_damage_upper = 35
 	armor_penetration = 15
@@ -395,6 +396,9 @@
 	spark(T, 3, GLOB.alldirs)
 	qdel(src)
 	return
+
+/mob/living/simple_animal/hostile/miniboss/get_bullet_impact_effect_type(var/def_zone)
+	return BULLET_IMPACT_METAL
 
 /mob/living/simple_animal/hostile/miniboss/isSynthetic()
 	return TRUE
