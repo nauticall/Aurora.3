@@ -392,3 +392,37 @@
 	back = /obj/item/storage/backpack/satchel/leather
 	l_pocket = /obj/item/storage/wallet/sol_rich
 	id = /obj/item/card/id
+
+//The Reporter
+/datum/ghostspawner/human/bitbyte
+	name = "BitByte Reporter"
+	short_name = "bitbyte"
+	tags = list("External")
+	desc = "As a BitByte field reporter, cover the LIVE response to the rampancy outbreak!"
+	spawnpoints = list("bitbyte")
+	max_count = 1
+	enabled = TRUE
+
+	outfit = /datum/outfit/admin/bitbyte
+	possible_species = list(SPECIES_HUMAN)
+	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	extra_languages = list(LANGUAGE_SOL_COMMON)
+
+	assigned_role = "BitByte Reporter"
+	special_role = "BitByte Reporter"
+	respawn_flag = null
+	password = "bytetheminute"
+
+/datum/outfit/admin/bitbyte
+	name = "BitByte Reporter"
+	uniform = /obj/item/clothing/under/sl_suit
+	accessory = /obj/item/clothing/accessory/tie/blue_clip
+	shoes = /obj/item/clothing/shoes/laceup
+	back = /obj/item/storage/backpack/satchel/leather
+	id = /obj/item/card/id
+	backpack_contents = list(
+		/obj/item/storage/box/survival = 1
+	)
+
+/datum/outfit/admin/bitbyte/get_id_access()
+	return list(ACCESS_JOURNALIST)

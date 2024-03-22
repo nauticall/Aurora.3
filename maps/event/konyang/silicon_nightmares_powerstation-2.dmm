@@ -4006,6 +4006,13 @@
 /obj/effect/landmark/corpse/ipc_zombie,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"pI" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - bitbyte reporter";
+	identifier = "bitbyte"
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "pL" = (
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/dark,
@@ -56259,7 +56266,7 @@ iY
 Gq
 at
 Gi
-iY
+pI
 fq
 Ay
 pa
