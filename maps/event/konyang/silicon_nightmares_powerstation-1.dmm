@@ -301,6 +301,7 @@
 /area/kaneyama_interiors)
 "dU" = (
 /obj/structure/bed/roller,
+/obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "ee" = (
@@ -343,6 +344,15 @@
 	name = "veggie GwokRation"
 	},
 /turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"eG" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/gun/launcher/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "eH" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
@@ -2067,6 +2077,7 @@
 "DI" = (
 /obj/item/reagent_containers/blood/OMinus,
 /obj/structure/table/rack,
+/obj/item/reagent_containers/spray/cleaner,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "DT" = (
@@ -33106,7 +33117,7 @@ sg
 Gr
 xT
 Vz
-iC
+eG
 uD
 ti
 sg

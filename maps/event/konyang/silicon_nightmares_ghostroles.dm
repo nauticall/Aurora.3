@@ -177,7 +177,7 @@
 	short_name = "infected_diver"
 	spawnpoints = list("infected_diver")
 	max_count = 1
-	possible_species = list(SPECIES_IPC_G2)
+	possible_species = list(SPECIES_IPC_G2, SPECIES_SHELL)
 	outfit = /obj/outfit/admin/infected_diver
 
 /obj/outfit/admin/infected_diver
@@ -244,7 +244,6 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit = /obj/item/clothing/suit/armor/carrier/navy
 	head = /obj/item/clothing/head/helmet/konyang/navy
-	glasses = /obj/item/clothing/glasses/night
 	l_ear = /obj/item/device/radio/headset/syndicate
 	accessory = /obj/item/clothing/accessory/holster/hip
 	accessory_contents = list(/obj/item/gun/projectile/pistol/sol/konyang = 1)
@@ -252,14 +251,15 @@
 	belt = /obj/item/storage/belt/military
 	belt_contents = list(
 		/obj/item/ammo_magazine/mc9mm = 3,
-		/obj/item/ammo_magazine/a556/k556 = 3
+		/obj/item/ammo_magazine/a556/carbine/konyang47 = 3
 	)
-	suit_store = /obj/item/gun/projectile/automatic/rifle/konyang/k556
+	suit_store = /obj/item/gun/projectile/automatic/rifle/konyang/konyang47
 	backpack_contents = list(
 		/obj/item/handcuffs/ziptie = 2,
 		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1,
-		/obj/item/storage/firstaid/stab = 1
+		/obj/item/storage/firstaid/stab = 1,
+		/obj/item/device/flashlight/maglight = 1
 	)
 	id = /obj/item/card/id
 
@@ -284,7 +284,6 @@
 	head = /obj/item/clothing/head/konyang/navy
 	suit = null
 	suit_store = null
-	glasses = /obj/item/clothing/glasses/night/aviator
 	belt = /obj/item/material/sword/katana/konyang
 	belt_contents = null
 	backpack_contents = list(
@@ -293,6 +292,7 @@
 		/obj/item/melee/energy/sword/knife/sol = 1,
 		/obj/item/storage/firstaid/stab = 1,
 		/obj/item/ammo_magazine/mc9mm = 4
+		/obj/item/device/flashlight/maglight = 1
 	)
 
 /datum/ghostspawner/human/konyang_army
