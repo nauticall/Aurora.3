@@ -12,6 +12,32 @@
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"aK" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "smg crate";
+	desc = "A weapons crate. This one seems to be covered in Xanan markings."
+	},
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "aM" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -104,6 +130,14 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"bA" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/gun/projectile/automatic/rifle/dpra/gold,
+/obj/item/ammo_magazine/c762/dpra,
+/obj/item/ammo_magazine/c762/dpra,
+/obj/item/ammo_magazine/c762/dpra,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "bB" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /obj/item/storage/toolbox/mechanical,
@@ -146,6 +180,19 @@
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"cG" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"cW" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpse/kaneyama_guard,
+/obj/item/gun/energy/pistol,
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "de" = (
 /obj/machinery/door/window/brigdoor/northleft{
@@ -371,6 +418,17 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"gM" = (
+/obj/effect/landmark/corpse/ipc_zombie,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"gP" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
 "gY" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -388,6 +446,20 @@
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"ho" = (
+/obj/machinery/door/blast/shutters{
+	name = "Underwater Warehouse";
+	dir = 4;
+	id = "underground_garage_2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"hs" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
 "hM" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_x = -28;
@@ -402,6 +474,11 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
+"hX" = (
+/obj/item/storage/toolbox/mechanical,
+/obj/item/pipewrench,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "ib" = (
 /turf/unsimulated/wall,
 /area/kaneyama_ext/underground)
@@ -409,8 +486,8 @@
 /obj/structure/lattice/catwalk/indoor/grate{
 	name = "vent grate"
 	},
-/obj/structure/grille{
-	name = "vent bars"
+/obj/structure/plasticflaps{
+	name = "vent flaps"
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
@@ -512,6 +589,13 @@
 /obj/item/device/flashlight/maglight,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"jL" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/indestructible,
+/obj/machinery/door/blast/odin/open{
+	id = "underground_merchant"
+	},
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
 "jN" = (
 /obj/structure/closet/crate/secure/large,
 /obj/item/clothing/head/helmet/konyang/navy,
@@ -575,12 +659,34 @@
 /obj/item/clothing/accessory/leg_guard/konyang_navy,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"jQ" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
 "jY" = (
 /obj/structure/shipping_container{
 	icon_state = "blue2"
 	},
 /obj/effect/overlay/container_logo/zenghu,
 /turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"kc" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/atm{
+	dir = 4;
+	pixel_x = 16
+	},
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "kd" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -649,6 +755,13 @@
 	},
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"lI" = (
+/obj/machinery/power/smes/batteryrack,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "lQ" = (
 /obj/structure/closet/secure_closet/guncabinet{
@@ -911,6 +1024,12 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"pl" = (
+/obj/machinery/computer/terminal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
 "pq" = (
 /obj/structure/tank_wall{
 	icon_state = "m-7"
@@ -922,6 +1041,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"pz" = (
+/obj/item/clothing/glasses/thermal/aviator,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_diver";
+	identifier = "infected_diver"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "pJ" = (
 /obj/structure/platform/ledge{
@@ -1005,9 +1132,47 @@
 /area/kaneyama_interiors)
 "qX" = (
 /obj/machinery/door/airlock/security{
-	name = "Bridge Checkpoint"
+	name = "Underground Checkpoint"
 	},
 /turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"rf" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "rifles crate";
+	desc = "A weapons crate. This one is stamped as evidence belonging to the Konyang Navy."
+	},
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38/emp,
+/obj/item/ammo_magazine/c38/emp,
+/obj/item/ammo_magazine/c38/emp,
+/obj/item/ammo_magazine/c38/emp,
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "rm" = (
 /turf/simulated/floor/tiled/dark,
@@ -1065,12 +1230,25 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
+"sl" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "sp" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /mob/living/simple_animal/hostile/hivebot,
 /turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"st" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "sB" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -1106,12 +1284,34 @@
 /obj/structure/closet,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"tz" = (
+/obj/random/dirt_75,
+/obj/structure/closet/crate/weapon/alt{
+	name = "shotgun crate";
+	desc = "A weapons crate. This one is stamped as property of the Konyang Army."
+	},
+/obj/item/storage/box/flares,
+/obj/item/storage/box/flares,
+/obj/item/storage/box/flares,
+/obj/item/storage/box/flares,
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "tO" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"tP" = (
+/obj/structure/table/reinforced/steel,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/door/blast/odin/open{
+	id = "underground_merchant"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "uG" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -1166,6 +1366,12 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"uK" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Emergency Power"
+	},
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
 "uV" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 6
@@ -1204,6 +1410,94 @@
 "uW" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"vd" = (
+/obj/structure/toilet{
+	pixel_y = 16
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"vh" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "pistol crate";
+	desc = "A weapons crate. This one seems to be covered in San Colettish markings."
+	},
+/obj/item/gun/projectile/colt/super,
+/obj/item/gun/projectile/colt/super,
+/obj/item/gun/projectile/colt/super,
+/obj/item/gun/projectile/colt/super,
+/obj/item/gun/projectile/colt/super,
+/obj/item/gun/projectile/colt/super,
+/obj/item/ammo_magazine/c45m/auto,
+/obj/item/ammo_magazine/c45m/auto,
+/obj/item/ammo_magazine/c45m/auto,
+/obj/item/ammo_magazine/c45m/auto,
+/obj/item/ammo_magazine/c45m/auto,
+/obj/item/ammo_magazine/c45m/auto,
+/obj/item/gun/projectile/revolver,
+/obj/item/gun/projectile/revolver,
+/obj/item/gun/projectile/revolver,
+/obj/item/gun/projectile/revolver,
+/obj/item/gun/projectile/revolver,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/a357,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "vu" = (
@@ -1254,15 +1548,13 @@
 /area/kaneyama_interiors)
 "ws" = (
 /obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 5
 	},
 /obj/effect/floor_decal/corner_wide/paleblue,
+/obj/item/material/shard,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "wE" = (
@@ -1320,6 +1612,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"xj" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
 "xs" = (
 /obj/effect/floor_decal/industrial/outline/medical,
@@ -1394,6 +1691,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"yt" = (
+/obj/structure/bed/stool/chair/folding{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "yC" = (
 /obj/structure/tank_wall{
 	icon_state = "m-14"
@@ -1420,6 +1724,47 @@
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"yR" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "swords crate";
+	desc = "A weapons crate. This one is spray-painted with an Exclusionist half-angle on it."
+	},
+/obj/item/material/sword/dao,
+/obj/item/material/sword/dao,
+/obj/item/material/sword/dao,
+/obj/item/material/sword/dao,
+/obj/item/material/sword/dao,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/dao,
+/obj/item/melee/chainsword,
+/obj/item/melee/chainsword,
+/obj/item/melee/chainsword,
+/obj/item/melee/chainsword,
+/obj/item/melee/energy/sword/pirate/generic,
+/obj/item/melee/energy/sword/pirate/generic,
+/obj/item/melee/energy/sword/knife/sol,
+/obj/item/melee/energy/sword/knife/sol,
+/obj/item/melee/energy/sword/knife/sol,
+/obj/item/melee/energy/sword/knife/sol,
+/obj/item/melee/chainsword,
+/obj/item/melee/chainsword,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/toy/plushie/shark{
+	throwforce = 30;
+	name = "weighted shark plush";
+	desc = "A beloved jumbo sized shark that is sure to impress your friends. This one seems weighted down with something and looks like it could hurt someone."
+	},
+/obj/machinery/light/colored/dying{
+	dir = 1
+	},
+/obj/item/material/sword/katana/konyang,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "yS" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light/small/emergency{
@@ -1432,6 +1777,48 @@
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
+"zl" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/structure/mirror{
+	pixel_x = 27
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"zm" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/closet/crate/drop{
+	desc = "A large, sturdy crate meant for airdrops. This one has TCAF markings on it."
+	},
+/obj/item/rig/unathi/redsnout,
+/obj/item/gun/projectile/gauss,
+/obj/item/gun/projectile/gauss,
+/obj/item/gun/projectile/gauss,
+/obj/item/gun/projectile/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "zp" = (
 /obj/structure/table/steel,
@@ -1452,6 +1839,24 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"zC" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/random/dirt_75,
+/obj/item/rig/diving{
+	name = "GON-ENE diving suit control module";
+	desc = "A heavy hardsuit designated for operations under the water. It has the GON-ENE logo, specifically for use in the Kaneyama Nuclear Power Plant's coolant pumping system."
+	},
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "zJ" = (
 /turf/unsimulated/mineral/konyang,
@@ -1479,6 +1884,10 @@
 /obj/item/material/twohanded/baseballbat,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"Ar" = (
+/obj/machinery/power/smes/batteryrack,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "Az" = (
 /obj/machinery/light/colored/dying{
 	dir = 4
@@ -1487,6 +1896,10 @@
 /area/kaneyama_interiors)
 "AA" = (
 /turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"AB" = (
+/obj/item/storage/toolbox/electrical,
+/turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
 "AK" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -1540,9 +1953,9 @@
 /area/kaneyama_interiors)
 "BO" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Safe Room"
+	name = "Hazmat Storage"
 	},
-/turf/simulated/floor/hivebot,
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "BQ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
@@ -1585,6 +1998,11 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
+"Cz" = (
+/obj/effect/landmark/corpse/kaneyama_worker,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "CD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -1611,9 +2029,35 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/turbolift/kaneyama/north)
+"CV" = (
+/obj/random/dirt_75,
+/obj/item/device/suit_cooling_unit,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "CW" = (
 /turf/simulated/floor/tiled/dark/full,
 /area/turbolift/kaneyama/north)
+"CZ" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "Dc" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
@@ -1783,6 +2227,18 @@
 "Gr" = (
 /turf/simulated/wall/r_wall,
 /area/kaneyama_interiors)
+"GB" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"GL" = (
+/obj/machinery/light{
+	dir = 8;
+	pixel_y = 0;
+	pixel_x = -4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "GW" = (
 /obj/machinery/light/colored/dying{
 	dir = 1
@@ -1843,6 +2299,16 @@
 "Hw" = (
 /obj/structure/platform/ledge,
 /turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Hz" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"HF" = (
+/turf/simulated/floor/hivebot,
 /area/kaneyama_interiors)
 "HL" = (
 /obj/structure/platform/ledge,
@@ -1997,6 +2463,24 @@
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"KK" = (
+/obj/effect/floor_decal/industrial/outline/medical,
+/obj/item/reagent_containers/hypospray/autoinjector/inaprovaline,
+/obj/item/reagent_containers/hypospray/autoinjector/inaprovaline,
+/obj/item/stack/medical/ointment,
+/obj/item/stack/medical/ointment,
+/obj/item/stack/medical/bruise_pack,
+/obj/item/stack/medical/bruise_pack,
+/obj/structure/closet/walllocker/medical{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"KM" = (
+/obj/random/dirt_75,
+/mob/living/simple_animal/hostile/miniboss,
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
 "KR" = (
 /obj/item/clothing/mask/exclusionist,
 /obj/structure/sign/flag/exclusionist{
@@ -2005,6 +2489,22 @@
 /obj/structure/lattice/catwalk/indoor/grate{
 	name = "vent grate"
 	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"KW" = (
+/obj/item/storage/firstaid/large,
+/obj/item/storage/firstaid/large{
+	pixel_y = -10
+	},
+/obj/item/storage/firstaid/large{
+	pixel_y = 10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"KZ" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/towel_flat,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "La" = (
@@ -2122,6 +2622,7 @@
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
 	},
+/obj/item/recharger_backpack/high,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "NS" = (
@@ -2129,6 +2630,11 @@
 	dir = 8;
 	pixel_y = -8
 	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Oi" = (
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "Oz" = (
@@ -2250,6 +2756,15 @@
 /obj/item/gun/energy/pistol,
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
+"PN" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "PT" = (
 /obj/item/gun/projectile/automatic/konyang_pirate,
 /obj/structure/bed/stool/chair/folding,
@@ -2310,6 +2825,53 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"QG" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "rifles crate";
+	desc = "A weapons crate. This one is stamped as property of the Konyang Aerospace Forces."
+	},
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "QL" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark,
@@ -2319,6 +2881,38 @@
 /obj/effect/decal/cleanable/blood,
 /obj/item/gun/energy/pistol,
 /turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"QT" = (
+/obj/machinery/button/remote/blast_door{
+	dir = 4;
+	pixel_x = -13;
+	id = "underground_garage_2";
+	name = "Garage Control"
+	},
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
+"QV" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
+"QX" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/button/remote/blast_door{
+	pixel_y = 20;
+	id = "underground_merchant"
+	},
+/obj/item/storage/box/syndie_kit/stimulants,
+/obj/item/storage/box/syndie_kit/stimulants{
+	pixel_y = -6;
+	pixel_x = 7
+	},
+/obj/item/storage/box/syndie_kit/stimulants{
+	pixel_y = 10;
+	pixel_x = 7
+	},
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "Rl" = (
 /obj/effect/decal/exterior_stairs/half/left{
@@ -2406,6 +3000,10 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_interiors)
+"Sv" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "Sw" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -2449,6 +3047,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"TA" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4;
+	name = "Coolant Pumping"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "TC" = (
 /obj/item/bedsheet/black,
 /obj/item/ammo_magazine/smg10mm,
@@ -2463,6 +3068,51 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"TQ" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "adhomai crate";
+	desc = "A weapons crate. This one is stamped with seals of the NKA, DPRA, and PRA all at once."
+	},
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/gun/energy/rifle/icelance,
+/obj/item/gun/energy/rifle/icelance,
+/obj/item/gun/projectile/deagle/adhomai,
+/obj/item/ammo_magazine/a50,
+/obj/item/ammo_magazine/a50,
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "TT" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -2476,11 +3126,58 @@
 /obj/effect/decal/cleanable/floor_damage/random_broken,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"Ud" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
 "Uh" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light/small/emergency{
 	dir = 8
 	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Uv" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "shotgun crate";
+	desc = "A weapons crate. This one is stamped as property of the Konyang Army."
+	},
+/obj/item/storage/box/incendiaryshells,
+/obj/item/gun/projectile/automatic/rifle/shotgun/konyang,
+/obj/item/gun/projectile/automatic/rifle/shotgun/konyang,
+/obj/item/gun/projectile/automatic/rifle/shotgun/konyang,
+/obj/item/gun/projectile/automatic/rifle/shotgun/konyang,
+/obj/item/ammo_magazine/konyang_shotgun,
+/obj/item/ammo_magazine/konyang_shotgun,
+/obj/item/ammo_magazine/konyang_shotgun,
+/obj/item/ammo_magazine/konyang_shotgun,
+/obj/item/ammo_magazine/konyang_shotgun,
+/obj/item/ammo_magazine/konyang_shotgun,
+/obj/item/ammo_magazine/konyang_shotgun,
+/obj/item/ammo_magazine/konyang_shotgun,
+/obj/item/gun/projectile/shotgun/pump,
+/obj/item/gun/projectile/shotgun/pump,
+/obj/item/gun/projectile/shotgun/pump,
+/obj/item/gun/projectile/shotgun/pump,
+/obj/item/gun/projectile/shotgun/pump,
+/obj/item/gun/projectile/shotgun/pump,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "Uz" = (
@@ -2527,7 +3224,6 @@
 /area/kaneyama_interiors)
 "Vf" = (
 /obj/structure/table/rack,
-/obj/item/storage/firstaid/large/adv,
 /obj/item/storage/firstaid/large/radiation,
 /obj/item/storage/firstaid/large/fire,
 /obj/item/storage/firstaid/adv,
@@ -2592,6 +3288,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"VY" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_guard_underground";
+	identifier = "infected_guard_underground"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
 "Wc" = (
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
@@ -2628,6 +3331,11 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"Xk" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/device/radio/all_channels,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "Xx" = (
 /obj/machinery/light/colored/dying{
 	dir = 8
@@ -2658,6 +3366,13 @@
 	dir = 1;
 	name = "Pumping & Coolant Control Room"
 	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Yi" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "Yr" = (
@@ -2722,6 +3437,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"ZD" = (
+/obj/effect/decal/cleanable/floor_damage/random_broken,
+/obj/random/dirt_75,
+/obj/item/trash/broken_electronics,
+/obj/item/stack/material/steel,
+/obj/item/stack/rods,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "ZI" = (
 /obj/effect/decal/exterior_stairs/half,
 /turf/simulated/floor/tiled/dark,
@@ -2731,6 +3454,25 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"ZR" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/hivebot,
 /area/kaneyama_interiors)
 
 (1,1,1) = {"
@@ -25140,14 +25882,14 @@ sg
 sg
 sg
 Gr
-Zc
+gP
 Hu
 CD
 CD
 CD
 CD
 iZ
-Zc
+AB
 Zc
 Gr
 sg
@@ -25661,7 +26403,7 @@ CD
 CD
 CD
 iZ
-rm
+hX
 Zc
 Gr
 rm
@@ -25911,7 +26653,7 @@ sg
 sg
 sg
 Gr
-Zc
+VY
 vG
 Gr
 fW
@@ -26460,14 +27202,14 @@ iC
 iC
 iC
 iC
-UQ
+ij
 rm
 Fg
 rm
-ZK
+cG
 Zc
 Zc
-lY
+xj
 rm
 rm
 rm
@@ -26725,7 +27467,7 @@ ZK
 Zc
 Zc
 lY
-rm
+MZ
 rm
 rm
 Gr
@@ -26963,27 +27705,27 @@ AA
 kS
 Qj
 OY
-rm
+vG
 Gr
-iC
+ij
 Gr
-sg
-sg
-sg
-sg
-sg
-sg
-sg
+AA
+AA
+GL
+AA
+AA
+AA
+Gr
 Gr
 rm
 PU
 rm
 ZK
-Zc
+Wc
 Zc
 lY
 rm
-rm
+MZ
 Mp
 Gr
 Gr
@@ -27221,16 +27963,16 @@ oN
 Gr
 OY
 rm
+wS
+wS
 Gr
-iC
+rm
+rm
+rm
+rm
+rm
+rm
 Gr
-sg
-sg
-sg
-sg
-sg
-sg
-sg
 Gr
 rm
 rm
@@ -27477,19 +28219,19 @@ iC
 wS
 wS
 OY
-vG
-Gr
-iC
-Gr
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-Gr
 rm
+rm
+rm
+uK
+rm
+rm
+rm
+rm
+rm
+rm
+Gr
+Gr
+MZ
 JE
 rm
 ZK
@@ -27735,23 +28477,23 @@ EZ
 Gr
 OY
 rm
+wS
+wS
 Gr
-iC
+rm
+rm
+rm
+rm
+rm
+rm
 Gr
-sg
-sg
-sg
-sg
-sg
-sg
-sg
 Gr
 He
 aZ
 rm
 Ej
 Zc
-Zc
+Wc
 lY
 rm
 Eb
@@ -27991,23 +28733,23 @@ AA
 II
 yC
 OY
-rm
+vG
 Gr
-iC
+ij
 Gr
-sg
-sg
-sg
-sg
-sg
-sg
-sg
+Ar
+Ar
+lI
+Ar
+Ar
+Ar
+Gr
 Gr
 rm
 jN
 rm
 ZK
-Zc
+Wc
 Zc
 lY
 rm
@@ -28252,13 +28994,13 @@ rm
 Gr
 iC
 Gr
-sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 Gr
 rm
 rm
@@ -28284,7 +29026,7 @@ Gr
 QN
 rm
 rm
-MZ
+KM
 rm
 rm
 Gr
@@ -28522,7 +29264,7 @@ mx
 rm
 ZK
 Zc
-Zc
+Wc
 lY
 rm
 Fg
@@ -28541,7 +29283,7 @@ Gr
 rm
 rm
 rm
-rm
+HF
 MZ
 rm
 MZ
@@ -28765,10 +29507,10 @@ OY
 rm
 Gr
 iC
-UQ
+ij
 rm
 qX
-rm
+xs
 JP
 SD
 lQ
@@ -29001,8 +29743,8 @@ rm
 rm
 rm
 rm
-td
-rm
+QV
+HF
 Zc
 Gr
 rm
@@ -29036,7 +29778,7 @@ RO
 rm
 ZK
 Zc
-Zc
+Wc
 lY
 rm
 PU
@@ -29260,22 +30002,22 @@ Zc
 Zc
 Az
 Zc
-Zc
+HF
 Gr
 rm
+Sg
 rm
 rm
 rm
-rm
-rm
+HF
+ZR
+HF
 OY
 rm
-OY
 rm
 rm
 rm
-rm
-rm
+Sg
 rm
 Gr
 iC
@@ -29289,10 +30031,10 @@ Ya
 Gr
 Gr
 rm
-rm
-ks
+MZ
+Yi
 zB
-XX
+bL
 XX
 vK
 ks
@@ -29301,7 +30043,7 @@ rm
 Gr
 sg
 Gr
-rm
+pz
 Gr
 OY
 MZ
@@ -29526,7 +30268,7 @@ Gr
 Gr
 Gr
 Gr
-jr
+TA
 Gr
 Gr
 Gr
@@ -29551,8 +30293,8 @@ Gr
 BR
 BR
 BR
-BR
-Gr
+ho
+QT
 jr
 Gr
 Gr
@@ -29784,7 +30526,7 @@ oC
 ba
 wS
 Fu
-wS
+Ud
 wS
 wS
 wS
@@ -29819,7 +30561,7 @@ wS
 wS
 wS
 rm
-wS
+Je
 wS
 wS
 wS
@@ -30042,7 +30784,7 @@ qK
 rm
 Al
 rm
-MZ
+jQ
 MZ
 rm
 rm
@@ -30059,6 +30801,12 @@ Qp
 MZ
 rm
 rm
+MZ
+rm
+rm
+rm
+rm
+MZ
 rm
 rm
 rm
@@ -30066,13 +30814,7 @@ rm
 rm
 rm
 rm
-rm
-rm
-rm
-rm
-rm
-rm
-rm
+MZ
 rm
 rm
 rm
@@ -30313,29 +31055,29 @@ qr
 Pc
 MZ
 MZ
+MZ
 rm
 rm
 rm
 rm
 rm
-rm
-rm
+MZ
 rm
 rm
 Qp
 rm
 rm
+MZ
 rm
 rm
 rm
 rm
+MZ
 rm
 rm
 rm
 rm
-rm
-rm
-rm
+Oi
 rm
 mv
 MZ
@@ -30350,7 +31092,7 @@ Gr
 qj
 Pw
 FU
-MZ
+CV
 rm
 rm
 rm
@@ -30559,13 +31301,13 @@ wS
 wS
 wS
 wS
-rm
+MZ
 wS
 wS
 wS
 wS
 wS
-QL
+sl
 qr
 Pc
 xb
@@ -30593,7 +31335,7 @@ mo
 wS
 wS
 xb
-wS
+kc
 wS
 nW
 Gr
@@ -30607,7 +31349,7 @@ sg
 Gr
 TW
 rZ
-VM
+zC
 wS
 rm
 wS
@@ -30816,7 +31558,7 @@ Gr
 Gr
 Gr
 Gr
-rm
+ZD
 Gr
 Gr
 Gr
@@ -30844,11 +31586,11 @@ Gr
 Gr
 Gr
 Gr
+ij
 Gr
 Gr
-Gr
-Gr
-Gr
+jL
+tP
 Gr
 Gr
 Gr
@@ -31059,26 +31801,26 @@ sg
 sg
 Gr
 sk
-Zc
-Zc
+HF
+KK
 Zc
 sk
-rm
-rm
-rm
+Fu
+Fu
+HF
 rm
 rm
 YU
 Ns
 lx
 yD
-Jc
+yt
 rm
 bG
 Gr
-qd
+vd
 lo
-lm
+Sv
 lm
 Gr
 sg
@@ -31100,15 +31842,15 @@ rm
 ne
 Gr
 sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+iC
+Gr
+Gr
+QX
+KZ
+iC
+QG
+ti
 sg
 sg
 sg
@@ -31315,7 +32057,7 @@ sg
 sg
 sg
 Gr
-Zc
+HF
 rm
 FE
 FE
@@ -31323,20 +32065,20 @@ FE
 rm
 rm
 FE
-FE
+hs
 FE
 YU
 TT
 lx
 yD
 Jc
-rm
+gM
 Gb
 Gr
 Gr
 Gr
 lm
-lm
+Sv
 Gr
 sg
 sg
@@ -31357,15 +32099,15 @@ Sg
 bN
 Gr
 sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+Gr
+Gr
+Gr
+rf
+iC
+iC
+CZ
+ti
 sg
 sg
 sg
@@ -31586,14 +32328,14 @@ rm
 de
 rm
 rm
-rm
+MZ
 rm
 cj
 Gr
 qd
 lo
 lm
-lm
+Sv
 Gr
 sg
 sg
@@ -31610,19 +32352,19 @@ sg
 sg
 Gr
 Gr
-UQ
+ij
 Gr
 Gr
 sg
 sg
 sg
 sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+yR
+iC
+iC
+vh
+ti
 sg
 sg
 sg
@@ -31841,10 +32583,10 @@ rm
 lG
 rm
 aS
+MZ
 rm
 rm
-rm
-rm
+MZ
 zp
 Gr
 Gr
@@ -31874,12 +32616,12 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+Uv
+iC
+iC
+aK
+ti
 sg
 sg
 sg
@@ -32092,7 +32834,7 @@ Hw
 UA
 RL
 rm
-rm
+Qp
 Rr
 RL
 lG
@@ -32104,10 +32846,10 @@ qJ
 dj
 qJ
 Gr
-qd
+GB
 lo
 lm
-lm
+Sv
 Gr
 sg
 sg
@@ -32131,12 +32873,12 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+TQ
+bA
+Xk
+tz
+ti
 sg
 sg
 sg
@@ -32388,12 +33130,12 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+zm
+Hz
+iC
+KW
+ti
 sg
 sg
 sg
@@ -32610,10 +33352,10 @@ rm
 rm
 rm
 Rl
+MZ
 rm
 rm
-rm
-rm
+cW
 rm
 rm
 rm
@@ -32645,12 +33387,12 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+Gr
+Gr
+Gr
+Gr
+ti
 sg
 sg
 sg
@@ -32863,7 +33605,7 @@ Hw
 rm
 rm
 rm
-rm
+gM
 rm
 rm
 Rl
@@ -32871,13 +33613,13 @@ rm
 rm
 rm
 rm
-rm
+MZ
 rm
 rm
 ee
 lm
-lm
-lm
+Sv
+Sv
 wm
 Gr
 sg
@@ -33119,22 +33861,22 @@ Pf
 Hw
 WC
 RL
-rm
+Cz
 rm
 Qu
 RL
 lG
 rm
 rm
-rm
-rm
-rm
-rm
+PN
+PN
+PN
+PN
 Cb
 Gr
 lm
 lm
-lm
+Sv
 lm
 Gr
 Gr
@@ -33383,18 +34125,18 @@ RL
 lG
 rm
 Zc
-Zc
-Zc
-Zc
-Zc
+pl
+pl
+pl
+pl
 Zc
 Gr
+zl
 QD
 QD
-QD
-QD
+zl
 ij
-tO
+st
 uW
 iC
 iC
@@ -33923,7 +34665,7 @@ sg
 sg
 sg
 Gr
-tO
+st
 iC
 iC
 uW
@@ -33956,7 +34698,7 @@ iC
 uW
 iC
 iC
-tO
+st
 Gr
 sg
 sg

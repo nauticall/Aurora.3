@@ -177,10 +177,10 @@
 	products = list(
 		/obj/item/clothing/suit/armor/carrier/scc/equipped = 50,
 		/obj/item/clothing/head/helmet/security/scc = 50,
-		/obj/item/gun/projectile/leyon = 50,
+		/obj/item/gun/projectile/leyon = 100,
 		/obj/item/ammo_magazine/mc10mm/leyon = 100,
 		/obj/item/device/flashlight = 100,
-		/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine = 10,
+		/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine = 0,
 		/obj/item/ammo_magazine/a556/carbine/polymer = 50,
 		/obj/item/gun/energy/gun = 10,
 		/obj/item/storage/firstaid/stab = 10
@@ -201,7 +201,8 @@
 		/obj/item/ammo_magazine/submachinemag = 50,
 		/obj/item/gun/projectile/pistol/sol/konyang = 10,
 		/obj/item/gun/projectile/automatic/tommygun/konyang = 5,
-		/obj/item/clothing/accessory/holster/hip = 50
+		/obj/item/clothing/accessory/holster/hip = 50,
+		/obj/item/shovel/gadpathur = 50
 	)
 	restock_items = FALSE
 	random_itemcount = FALSE
@@ -216,7 +217,10 @@
 	req_access = list(ACCESS_SECURITY)
 	products = list(
 		/obj/item/ammo_magazine/c45m = 20,
-		/obj/item/ammo_magazine/a556/carbine = 20
+		/obj/item/ammo_magazine/a556/carbine = 20,
+		/obj/item/melee/baton/loaded = 20,
+		/obj/item/device/flash = 20,
+		/obj/item/device/flashlight/maglight = 20
 	)
 
 /mob/living/carbon/human/proc/hk_teleport()

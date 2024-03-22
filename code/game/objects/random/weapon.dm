@@ -247,3 +247,36 @@
 		E.charge_cost *= 2
 		E.self_recharge = 0
 		E.reliability = 90
+
+/obj/random/civgun/konyang
+	name = "random security sidearm"
+	spawnlist = list(
+		/obj/item/gun/energy/disruptorpistol,
+		/obj/item/gun/energy/pistol,
+		/obj/item/gun/projectile/sec,
+		/obj/item/gun/energy/taser,
+		/obj/item/gun/projectile/sec/lethal
+	)
+
+/obj/random/civgun/rifle/konyang
+	name = "random security longarm"
+	spawnlist = list(
+		/obj/item/gun/energy/gun,
+		/obj/item/gun/projectile/shotgun/pump,
+		/obj/item/gun/energy/rifle,
+		/obj/item/gun/energy/laser
+	)
+
+/obj/random/melee/konyang
+	name = "random improvised weapon"
+	spawnlist = list(
+		/obj/item/material/knife,
+		/obj/item/material/knife/tacknife,
+		/obj/item/hammer,
+		/obj/item/material/hatchet,
+		/obj/item/material/hatchet/machete/steel,
+		/obj/item/shovel,
+		/obj/random/toolbox,
+		/obj/item/crowbar,
+		/obj/item/crowbar/rescue_axe/red
+	)
