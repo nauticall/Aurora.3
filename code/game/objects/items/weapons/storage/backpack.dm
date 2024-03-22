@@ -864,6 +864,12 @@
 	icon_state = "rucksack_tan"
 	item_state = "rucksack_tan"
 
+/obj/item/storage/backpack/rucksack/radio
+	name = "radio backpack"
+	desc = "A large backpack-mounted radio capable of reaching orbiting vessels. This one is in navy colors."
+	icon_state = "rucksack_radio"
+	item_state = "rucksack_radio"
+
 // Vaurca stuff.
 
 /obj/item/storage/backpack/typec

@@ -342,11 +342,11 @@
 	icon = 'maps/event/konyang/smallboss.dmi'
 	icon_state = "small_boss"
 	icon_living = "small_boss"
-	maxHealth = 600
-	health = 600
-	melee_damage_lower = 40
-	melee_damage_upper = 40
-	armor_penetration = 20
+	maxHealth = 900
+	health = 900
+	melee_damage_lower = 35
+	melee_damage_upper = 35
+	armor_penetration = 15
 	organ_names = list("antenna", "core", "primary appendage", "secondary appendage", "tertiary appendage", "stinger")
 	attack_flags = DAMAGE_FLAG_SHARP|DAMAGE_FLAG_EDGE
 	attacktext = "stabbed"

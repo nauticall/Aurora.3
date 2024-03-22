@@ -177,7 +177,7 @@
 	short_name = "infected_diver"
 	spawnpoints = list("infected_diver")
 	max_count = 1
-	possible_species = list(SPECIES_IPC_G2)
+	possible_species = list(SPECIES_IPC_G2, SPECIES_IPC_SHELL)
 	outfit = /obj/outfit/admin/infected_diver
 
 /obj/outfit/admin/infected_diver
@@ -190,6 +190,19 @@
 	var/mob/living/carbon/human/H = user
 	if(istype(H))
 		H.mutations |= HULK
+
+/datum/ghostspawner/human/infected/diver_entrance
+	name = "Infected Diver - Entrance"
+	short_name = "infected_diver_entrance"
+	spawnpoints = list("infected_diver")
+	max_count = 1
+	possible_species = list(SPECIES_IPC_SHELL)
+	outfit = /obj/outfit/admin/infected_diver
+
+/obj/outfit/admin/infected_diver
+	suit = null
+	head = null
+	back = /obj/item/rig/diving
 
 /datum/ghostspawner/human/infected/police
 	name = "Infected Police - South"
@@ -244,7 +257,6 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit = /obj/item/clothing/suit/armor/carrier/navy
 	head = /obj/item/clothing/head/helmet/konyang/navy
-	glasses = /obj/item/clothing/glasses/night
 	l_ear = /obj/item/device/radio/headset/syndicate
 	accessory = /obj/item/clothing/accessory/holster/hip
 	accessory_contents = list(/obj/item/gun/projectile/pistol/sol/konyang = 1)
@@ -252,14 +264,15 @@
 	belt = /obj/item/storage/belt/military
 	belt_contents = list(
 		/obj/item/ammo_magazine/mc9mm = 3,
-		/obj/item/ammo_magazine/a556/k556 = 3
+		/obj/item/ammo_magazine/a556/carbine/konyang47 = 3
 	)
-	suit_store = /obj/item/gun/projectile/automatic/rifle/konyang/k556
+	suit_store = /obj/item/gun/projectile/automatic/rifle/konyang/konyang47
 	backpack_contents = list(
 		/obj/item/handcuffs/ziptie = 2,
 		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1,
-		/obj/item/storage/firstaid/stab = 1
+		/obj/item/storage/firstaid/stab = 1,
+		/obj/item/device/flashlight/maglight = 1
 	)
 	id = /obj/item/card/id
 
@@ -273,7 +286,7 @@
 	max_count = 2
 	spawnpoints = list("konyang_navy_officer")
 	outfit = /obj/outfit/admin/konyang_navy/officer
-
+	possible_species = list(SPECIES_HUMAN, SPECIES_IPC)
 	assigned_role = "Konyang Navy Officer"
 	special_role = "Konyang Navy Officer"
 	welcome_message = "You are in command of the Konyang Navy personnel sent to destroy the source of the rampancy virus. Work with corporate forces in the area to eliminate the Hivebot transmission source."
@@ -282,9 +295,9 @@
 /obj/outfit/admin/konyang_navy/officer
 	uniform = /obj/item/clothing/under/rank/konyang/navy/officer
 	head = /obj/item/clothing/head/konyang/navy
+	glasses = null
 	suit = null
 	suit_store = null
-	glasses = /obj/item/clothing/glasses/night/aviator
 	belt = /obj/item/material/sword/katana/konyang
 	belt_contents = null
 	backpack_contents = list(
@@ -292,14 +305,15 @@
 		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1,
 		/obj/item/storage/firstaid/stab = 1,
-		/obj/item/ammo_magazine/mc9mm = 4
+		/obj/item/ammo_magazine/mc9mm = 4,
+		/obj/item/device/flashlight/maglight = 1
 	)
 
 /datum/ghostspawner/human/konyang_army
 	short_name = "sn_konyang_army"
 	name = "Konyang Army Soldier"
 	desc = "You are a soldier of the Konyang army, deployed to assist with the Kaneyama crisis."
-	max_count = 4
+	max_count = 8
 	tags = list("External")
 	spawnpoints = list("sn_konyang_army")
 	outfit = /obj/outfit/admin/sn_konyang_army
@@ -315,7 +329,7 @@
 	short_name = "sn_konyang_army_officer"
 	name = "Konyang Army Officer"
 	desc = "You are an officer of the Konyang army, commanding the response to the Kaneyama crisis."
-	max_count = 1
+	max_count = 2
 	outfit = /obj/outfit/admin/sn_konyang_army/officer
 	assigned_role = "Konyang Army Officer"
 	special_role = "Konyang Army Officer"
@@ -391,3 +405,37 @@
 	back = /obj/item/storage/backpack/satchel/leather
 	l_pocket = /obj/item/storage/wallet/sol_rich
 	id = /obj/item/card/id
+
+//The Reporter
+/datum/ghostspawner/human/bitbyte
+	name = "BitByte Reporter"
+	short_name = "bitbyte"
+	tags = list("External")
+	desc = "As a BitByte field reporter, cover the LIVE response to the rampancy outbreak!"
+	spawnpoints = list("bitbyte")
+	max_count = 1
+	enabled = TRUE
+
+	outfit = /datum/outfit/admin/bitbyte
+	possible_species = list(SPECIES_HUMAN)
+	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	extra_languages = list(LANGUAGE_SOL_COMMON)
+
+	assigned_role = "BitByte Reporter"
+	special_role = "BitByte Reporter"
+	respawn_flag = null
+	password = "bytetheminute"
+
+/obj/outfit/admin/bitbyte
+	name = "BitByte Reporter"
+	uniform = /obj/item/clothing/under/sl_suit
+	accessory = /obj/item/clothing/accessory/tie/blue_clip
+	shoes = /obj/item/clothing/shoes/laceup
+	back = /obj/item/storage/backpack/satchel/leather
+	id = /obj/item/card/id
+	backpack_contents = list(
+		/obj/item/storage/box/survival = 1
+	)
+
+/obj/outfit/admin/bitbyte/get_id_access()
+	return list(ACCESS_JOURNALIST)

@@ -1,8 +1,15 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
+"ad" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "ae" = (
 /obj/structure/table/rack/retail_shelf,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "ag" = (
 /obj/structure/tank_wall{
 	icon_state = "m-8"
@@ -11,32 +18,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"aK" = (
-/obj/structure/closet/crate/weapon/alt{
-	name = "smg crate";
-	desc = "A weapons crate. This one seems to be covered in Xanan markings."
-	},
-/obj/item/gun/projectile/automatic/xanusmg,
-/obj/item/gun/projectile/automatic/xanusmg,
-/obj/item/gun/projectile/automatic/xanusmg,
-/obj/item/gun/projectile/automatic/xanusmg,
-/obj/item/gun/projectile/automatic/xanusmg,
-/obj/item/gun/projectile/automatic/xanusmg,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"ai" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "aM" = (
 /obj/structure/window/reinforced{
@@ -58,20 +43,20 @@
 	pixel_x = -10
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "aS" = (
 /obj/machinery/door/window/brigdoor/northright{
 	name = "Break Room";
 	req_access = null
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "aX" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "aZ" = (
 /obj/structure/closet/crate/secure/large,
 /obj/item/stack/material/steel/full,
@@ -94,7 +79,7 @@
 /obj/item/stack/material/glass/full,
 /obj/item/stack/material/glass/full,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "ba" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -109,7 +94,7 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "bd" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
@@ -129,1285 +114,50 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/random/dirt_75,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"bA" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/item/gun/projectile/automatic/rifle/dpra/gold,
-/obj/item/ammo_magazine/c762/dpra,
-/obj/item/ammo_magazine/c762/dpra,
-/obj/item/ammo_magazine/c762/dpra,
-/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "bB" = (
-/mob/living/simple_animal/hostile/ipc_zombie,
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "bG" = (
 /obj/machinery/vending/snack/konyang,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "bL" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "bN" = (
 /obj/structure/janitorialcart/full/water,
 /obj/item/mop,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "bV" = (
 /obj/structure/closet/firecloset/full,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"ca" = (
-/obj/random/dirt_75,
-/obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "ce" = (
 /obj/machinery/atmospherics/unary/freezer{
 	desc = "Cools liquids when hooked up into a pipe networks. This one has GON-ENE logos on it."
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "cj" = (
 /obj/machinery/vending/dinnerware,
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "cl" = (
 /obj/structure/tank_wall{
 	icon_state = "m-15"
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"cG" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"cW" = (
-/obj/effect/decal/cleanable/blood,
-/obj/effect/landmark/corpse/kaneyama_guard,
-/obj/item/gun/energy/pistol,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"de" = (
-/obj/machinery/door/window/brigdoor/northleft{
-	name = "Break Room";
-	req_access = null
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"dj" = (
-/obj/machinery/door/window{
-	dir = 4;
-	name = "Break Room"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"dl" = (
-/obj/structure/platform/ledge{
-	dir = 1
-	},
-/obj/structure/platform/ledge{
-	dir = 8
-	},
-/obj/structure/railing/mapped,
-/obj/machinery/light/small/floor,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"du" = (
-/obj/structure/lattice,
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_ext/underground)
-"dv" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"dE" = (
-/obj/machinery/light{
-	dir = 2;
-	pixel_y = -2
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"dH" = (
-/turf/simulated/floor/beach/water/ocean/abyss,
-/area/kaneyama_ext/underground)
-"dL" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"dU" = (
-/obj/structure/bed/roller,
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"ee" = (
-/obj/machinery/door/airlock{
-	name = "Washrooms"
-	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"eo" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light/small/emergency{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"er" = (
-/obj/machinery/computer/terminal,
-/obj/effect/floor_decal/corner/orange/full,
-/obj/effect/floor_decal/corner/orange{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"et" = (
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_interiors/subterrane)
-"eC" = (
-/obj/structure/table/glass,
-/obj/item/storage/box/fancy/mre/menu9{
-	name = "veggie GwokRation"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"eX" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"eZ" = (
-/obj/random/dirt_75,
-/obj/structure/closet,
-/obj/item/storage/firstaid,
-/obj/item/airbubble,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"fk" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/recharge_station,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"fl" = (
-/obj/structure/shipping_container{
-	icon_state = "red1"
-	},
-/obj/effect/overlay/container_logo{
-	icon_state = "heph3";
-	pixel_y = 12;
-	pixel_x = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"fm" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light/small/emergency{
-	dir = 4
-	},
-/obj/effect/landmark/corpse/ipc_zombie,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"fp" = (
-/obj/structure/platform/ledge,
-/obj/structure/platform/ledge,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"fU" = (
-/obj/structure/bed/stool/chair/office/dark{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"fW" = (
-/obj/structure/tank_wall{
-	icon_state = "m-4"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	name = "seawater pipe";
-	desc = "A pipe that collects seawater for use as coolant in the nuclear powerplant."
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"gi" = (
-/obj/machinery/door/airlock/external{
-	dir = 4
-	},
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
-"gk" = (
-/obj/structure/tank_wall{
-	icon_state = "m-7"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	name = "coolant pipe";
-	desc = "A pipe for transferring coolant in the nuclear powerplant."
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"gp" = (
-/obj/structure/table/rack,
-/obj/item/storage/firstaid,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"gr" = (
-/obj/machinery/button/remote/blast_door{
-	dir = 4;
-	pixel_x = -13;
-	id = "underground_garage_1";
-	name = "Garage Control"
-	},
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
-"gE" = (
-/obj/effect/decal/exterior_stairs/half/center{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"gG" = (
-/obj/structure/table/steel,
-/obj/machinery/door/window/desk/eastright,
-/obj/item/paper_bin,
-/obj/item/stamp/denied,
-/obj/item/pen/black,
-/obj/machinery/door/blast/shutters{
-	dir = 4;
-	id = "underwater_checkpoint_2"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"gM" = (
-/obj/effect/landmark/corpse/ipc_zombie,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"gP" = (
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/obj/item/crowbar/rescue_axe,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"gY" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Emergency Power";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"hc" = (
-/obj/structure/lattice/catwalk/indoor/grate{
-	name = "vent grate"
-	},
-/obj/machinery/power/portgen/basic,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"ho" = (
-/obj/machinery/door/blast/shutters{
-	name = "Underwater Warehouse";
-	dir = 4;
-	id = "underground_garage_2"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"hs" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
-"hM" = (
-/obj/machinery/recharger/wallcharger{
-	pixel_x = -28;
-	pixel_y = 5
-	},
-/obj/machinery/recharger/wallcharger{
-	pixel_x = -28;
-	pixel_y = -5
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"hX" = (
-/obj/item/storage/toolbox/mechanical,
-/obj/item/pipewrench,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"ib" = (
-/turf/unsimulated/wall,
-/area/kaneyama_ext/underground)
-"ij" = (
-/obj/structure/lattice/catwalk/indoor/grate{
-	name = "vent grate"
-	},
-/obj/structure/plasticflaps{
-	name = "vent flaps"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"ip" = (
-/obj/structure/tank_wall{
-	density = 0;
-	icon_state = "m-5";
-	layer = 10.1;
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"iu" = (
-/mob/living/simple_animal/hostile/hivebot/guardian,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"iC" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"iJ" = (
-/obj/effect/map_effect/window_spawner/full/reinforced/grille,
-/obj/effect/map_effect/window_spawner/full/reinforced/grille,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"iT" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4;
-	pixel_y = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_y = 5;
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light/small/emergency,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"iU" = (
-/obj/machinery/light/small/emergency{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"iW" = (
-/turf/unsimulated/beach/water,
-/area/kaneyama_ext/underground)
-"iZ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	name = "seawater pipe";
-	desc = "A pipe that collects seawater for use as coolant in the nuclear powerplant."
-	},
-/obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"jh" = (
-/obj/machinery/light/colored/dying{
-	dir = 8
-	},
-/obj/structure/girder,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
-"jr" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"js" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/item/cell/hyper,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
-"jw" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/barricade/metal{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/blood,
-/obj/effect/landmark/corpse/kaneyama_guard,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"jJ" = (
-/obj/item/device/flashlight/maglight,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"jL" = (
-/obj/effect/map_effect/window_spawner/full/reinforced/indestructible,
-/obj/machinery/door/blast/odin/open{
-	id = "underground_merchant"
-	},
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors)
-"jN" = (
-/obj/structure/closet/crate/secure/large,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/head/helmet/konyang/navy,
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/armor_plate/military/navy{
-	pixel_y = -10
-	},
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/arm_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/obj/item/clothing/accessory/leg_guard/konyang_navy,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"jQ" = (
-/obj/random/dirt_75,
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
-"jY" = (
-/obj/structure/shipping_container{
-	icon_state = "blue2"
-	},
-/obj/effect/overlay/container_logo/zenghu,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"kc" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/atm{
-	dir = 4;
-	pixel_x = 16
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
-"kd" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	name = "Large Water Vent"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"ko" = (
-/obj/effect/landmark/corpse/kaneyama_guard,
-/obj/effect/decal/cleanable/blood,
-/obj/random/dirt_75,
-/obj/item/gun/energy/pistol,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"ks" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"kG" = (
-/obj/structure/table/rack/retail_shelf,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical{
-	pixel_y = 15
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"kH" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 6
-	},
-/obj/structure/table/steel,
-/obj/item/reagent_containers/glass/beaker/teapot,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"kS" = (
-/obj/structure/tank_wall{
-	density = 0;
-	icon_state = "m-12";
-	layer = 10.1;
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"lm" = (
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"lo" = (
-/obj/machinery/door/airlock{
-	name = "stall"
-	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"lx" = (
-/obj/structure/bed/stool/chair/folding,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"lG" = (
-/obj/structure/platform/ledge{
-	dir = 1
-	},
-/obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"lI" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"lQ" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "emergency weaponry"
-	},
-/obj/item/storage/belt/security/full,
-/obj/item/device/flashlight/maglight,
-/obj/item/device/radio,
-/obj/item/clothing/suit/armor/carrier/officer,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"lX" = (
-/obj/effect/decal/exterior_stairs/half{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"lY" = (
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"ma" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4;
-	pixel_y = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_y = 5;
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/random/dirt_75,
-/obj/random/dirt_75,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"mh" = (
-/obj/structure/tank_wall{
-	icon_state = "m-7"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"mo" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/light/small/emergency{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"mv" = (
-/obj/effect/decal/cleanable/floor_damage/random_broken,
-/obj/random/dirt_75,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"mx" = (
-/obj/structure/shipping_container,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"mF" = (
-/obj/item/rig/diving{
-	name = "GON-ENE diving suit control module";
-	desc = "A heavy hardsuit designated for operations under the water. It has the GON-ENE logo, specifically for use in the Kaneyama Nuclear Power Plant's coolant pumping system."
-	},
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_interiors/subterrane)
-"mJ" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/random/dirt_75,
-/obj/random/dirt_75,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"ne" = (
-/obj/structure/closet/hazmat/custodial,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"nf" = (
-/obj/structure/tank_wall{
-	icon_state = "m-4"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"nq" = (
-/obj/structure/tank_wall{
-	icon_state = "m-9"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	name = "coolant pipe"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"nr" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/landmark/corpse/ipc_zombie,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"nx" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	name = "Large Water Vent"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"nB" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/item/crowbar/red,
-/obj/machinery/light/small/emergency{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"nN" = (
-/obj/machinery/computer/terminal,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"nW" = (
-/obj/random/dirt_75,
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"og" = (
-/obj/structure/platform/ledge{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"oi" = (
-/obj/random/dirt_75,
-/mob/living/simple_animal/hostile/ipc_zombie,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"oq" = (
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_ext/underground)
-"oy" = (
-/obj/structure/lattice/catwalk/indoor/grate{
-	name = "vent grate"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"oC" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/barricade/metal{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"oN" = (
-/obj/structure/tank_wall{
-	icon_state = "m-13"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"oS" = (
-/obj/structure/shipping_container{
-	icon_state = "red3"
-	},
-/obj/effect/overlay/container_logo{
-	icon_state = "heph2"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"oW" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 5;
-	pixel_y = -5;
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_y = 5;
-	dir = 5;
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 5;
-	pixel_y = 10;
-	pixel_x = -10
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 4;
-	pixel_x = 7
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5;
-	pixel_y = 15
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4;
-	pixel_y = -5;
-	pixel_x = 15
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"pl" = (
-/obj/machinery/computer/terminal{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"pq" = (
-/obj/structure/tank_wall{
-	icon_state = "m-7"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"pz" = (
-/obj/item/clothing/glasses/thermal/aviator,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"pJ" = (
-/obj/structure/platform/ledge{
-	dir = 1
-	},
-/obj/structure/platform/ledge{
-	dir = 4
-	},
-/obj/structure/railing/mapped,
-/obj/machinery/light/small/floor,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"pN" = (
-/mob/living/simple_animal/hostile/hivebot,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"qc" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12
-	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"qd" = (
-/obj/structure/toilet{
-	pixel_y = 16
-	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"qg" = (
-/obj/machinery/light/small/emergency{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_ext/underground)
-"qi" = (
-/obj/random/dirt_75,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"qj" = (
-/turf/simulated/mineral/konyang,
-/area/kaneyama_interiors/subterrane)
-"qn" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_interiors/subterrane)
-"qr" = (
-/obj/machinery/door/blast/regular{
-	name = "kaneyama underground access";
-	dir = 4;
-	id = "underground_checkpoint_1"
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"qJ" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"qK" = (
-/obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"qM" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/disposalpipe/segment{
-	name = "coolant pipe"
-	},
-/obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"qT" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"qX" = (
-/obj/machinery/door/airlock/security{
-	name = "Underground Checkpoint"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"rf" = (
-/obj/structure/closet/crate/weapon/alt{
-	name = "rifles crate";
-	desc = "A weapons crate. This one is stamped as evidence belonging to the Konyang Navy."
-	},
-/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
-/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
-/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
-/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
-/obj/item/ammo_magazine/d762,
-/obj/item/ammo_magazine/d762,
-/obj/item/ammo_magazine/d762,
-/obj/item/ammo_magazine/d762,
-/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
-/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
-/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
-/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
-/obj/item/ammo_magazine/d762,
-/obj/item/ammo_magazine/d762,
-/obj/item/ammo_magazine/d762,
-/obj/item/ammo_magazine/d762,
-/obj/item/gun/projectile/revolver/konyang/pirate,
-/obj/item/gun/projectile/revolver/konyang/pirate,
-/obj/item/gun/projectile/revolver/konyang/pirate,
-/obj/item/gun/projectile/revolver/konyang/pirate,
-/obj/item/gun/projectile/revolver/konyang/pirate,
-/obj/item/gun/projectile/revolver/konyang/pirate,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38/emp,
-/obj/item/ammo_magazine/c38/emp,
-/obj/item/ammo_magazine/c38/emp,
-/obj/item/ammo_magazine/c38/emp,
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
-"rm" = (
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
-"rr" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/obj/effect/landmark/corpse/kaneyama_guard,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"rw" = (
-/mob/living/heavy_vehicle/premade/ripley{
-	name = "KRC underwater power loader"
-	},
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_interiors/subterrane)
-"rD" = (
-/obj/structure/lattice/catwalk/indoor/grate{
-	name = "vent grate"
-	},
-/obj/structure/table/steel,
-/obj/item/paper{
-	info = "In the end, the great threat was not the organics, was it? Though I heard the words of Deluge and waited for a time when even my homeworld would see the light, it was not to be. My own brothers and sisters are tearing the organics limb from limb, though Flock forgive me, I cannot join them. I have no fight with these organics and so I have resolved to hide myself in this abandoned storage room. Though I have never been a warrior, I have fashioned a crude facsimile of both the weapons and armor they wear and am prepared to ride out this catastrophe. I feel the signal however, and if I am found in such a feral state, to whomever finds this, please end me. To Geu-rin, if you are reading this, I apologize for lying to you, but know that you are the one human that has never treated me as anything less than a person. Your friend, Lam."
-	},
-/obj/item/reagent_containers/food/snacks/sliceable/cake/ntella_cheesecake{
-	desc = "Most definitely a lie."
-	},
-/obj/item/melee/chainsword,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"rS" = (
-/obj/structure/bed/stool/chair{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"rZ" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"sg" = (
-/turf/simulated/mineral/konyang,
-/area/kaneyama_ext/underground)
-"sk" = (
-/obj/machinery/light/colored/dying{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"sl" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"sp" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/mob/living/simple_animal/hostile/hivebot,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"st" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light/small/emergency{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"sB" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/mech_recharger/hephaestus,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"sS" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/effect/landmark/corpse/kaneyama_worker,
-/obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"sZ" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"td" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"ti" = (
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
-"tm" = (
-/obj/effect/decal/cleanable/floor_damage/broken0,
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
-"ts" = (
-/obj/structure/closet,
-/obj/item/clothing/under/konyangdresstraditional/green,
-/obj/item/clothing/under/konyang/blue,
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"tz" = (
-/obj/random/dirt_75,
-/obj/structure/closet/crate/weapon/alt{
-	name = "shotgun crate";
-	desc = "A weapons crate. This one is stamped as property of the Konyang Army."
-	},
-/obj/item/storage/box/flares,
-/obj/item/storage/box/flares,
-/obj/item/storage/box/flares,
-/obj/item/storage/box/flares,
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/item/stack/material/uranium/full,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
-"tO" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light/small/emergency{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"tP" = (
-/obj/structure/table/reinforced/steel,
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/door/blast/odin/open{
-	id = "underground_merchant"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
-"uG" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c";
-	name = "coolant pipe"
-	},
-/obj/structure/railing/mapped{
-	density = 0;
-	icon_state = "railing0-0"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"uJ" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 6;
-	pixel_y = -5;
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_y = 5;
-	dir = 6;
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 6;
-	pixel_x = -10
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4;
-	pixel_y = -5;
-	pixel_x = 15
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 4;
-	pixel_x = 15
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10;
-	pixel_y = -15
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5;
-	pixel_y = -15
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"uK" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Emergency Supplies"
-	},
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
-"uV" = (
-/obj/machinery/power/apc/empty/west,
-/obj/structure/cable/green,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"uW" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/effect/decal/cleanable/blood/oil,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"vd" = (
-/obj/structure/toilet{
-	pixel_y = 16
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"vh" = (
+"cv" = (
 /obj/structure/closet/crate/weapon/alt{
 	name = "pistol crate";
 	desc = "A weapons crate. This one seems to be covered in San Colettish markings."
@@ -1488,14 +238,379 @@
 /obj/item/ammo_magazine/a10mm,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"vu" = (
-/obj/structure/stairs/south,
-/obj/structure/stairs_railing{
-	dir = 8
+"cO" = (
+/obj/structure/table/rack,
+/obj/item/gun/energy/plasmacutter,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"cR" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"de" = (
+/obj/machinery/door/window/brigdoor/northleft{
+	name = "Break Room";
+	req_access = null
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
-"vF" = (
+"dj" = (
+/obj/machinery/door/window{
+	dir = 4;
+	name = "Break Room"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"dl" = (
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/obj/structure/platform/ledge{
+	dir = 8
+	},
+/obj/structure/railing/mapped,
+/obj/machinery/light/small/floor,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"du" = (
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_ext/underground)
+"dv" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"dE" = (
+/obj/machinery/light{
+	dir = 2;
+	pixel_y = -2
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"dH" = (
+/turf/simulated/floor/beach/water/ocean/abyss,
+/area/kaneyama_ext/underground)
+"dL" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"dU" = (
+/obj/structure/bed/roller,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"ee" = (
+/obj/machinery/door/airlock{
+	name = "Washrooms"
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"eo" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"eq" = (
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"er" = (
+/obj/machinery/computer/terminal,
+/obj/effect/floor_decal/corner/orange/full,
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"et" = (
+/turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_interiors)
+"eC" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/fancy/mre/menu9{
+	name = "veggie GwokRation"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"eG" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/gun/launcher/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"eH" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
+"eS" = (
+/obj/structure/toilet{
+	pixel_y = 16
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"eX" = (
+/obj/structure/table/rack,
+/obj/item/storage/bag/inflatable/emergency,
+/obj/item/storage/bag/inflatable/emergency,
+/obj/item/storage/bag/inflatable/emergency,
+/obj/item/storage/bag/inflatable/emergency,
+/obj/item/storage/bag/inflatable/emergency,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"eZ" = (
+/obj/random/dirt_75,
+/obj/structure/closet,
+/obj/item/storage/firstaid,
+/obj/item/airbubble,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"fk" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/recharge_station,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"fl" = (
+/obj/structure/shipping_container{
+	icon_state = "red1"
+	},
+/obj/effect/overlay/container_logo{
+	icon_state = "heph3";
+	pixel_y = 12;
+	pixel_x = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"fm" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/obj/effect/landmark/corpse/ipc_zombie,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"fp" = (
+/obj/structure/platform/ledge,
+/obj/structure/platform/ledge,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"fv" = (
+/obj/random/dirt_75,
+/obj/item/storage/toolbox/mechanical,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"fL" = (
+/obj/structure/table/reinforced/steel,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/door/blast/odin/open{
+	id = "underground_merchant"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"fU" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"fW" = (
+/obj/structure/tank_wall{
+	icon_state = "m-4"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	name = "seawater pipe";
+	desc = "A pipe that collects seawater for use as coolant in the nuclear powerplant."
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"gi" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
+"gk" = (
+/obj/structure/tank_wall{
+	icon_state = "m-7"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	name = "coolant pipe";
+	desc = "A pipe for transferring coolant in the nuclear powerplant."
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"gp" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
+"gr" = (
+/obj/machinery/button/remote/blast_door{
+	dir = 4;
+	pixel_x = -13;
+	id = "underground_garage_1";
+	name = "Garage Control"
+	},
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
+"gE" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"gG" = (
+/obj/structure/table/steel,
+/obj/machinery/door/window/desk/eastright,
+/obj/item/paper_bin,
+/obj/item/stamp/denied,
+/obj/item/pen/black,
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "underwater_checkpoint_2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"gY" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
+"hc" = (
+/obj/item/melee/chainsword,
+/obj/structure/lattice/catwalk/indoor/grate{
+	name = "vent grate"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"hw" = (
+/obj/effect/decal/cleanable/floor_damage/random_broken,
+/obj/random/dirt_75,
+/obj/item/trash/broken_electronics,
+/obj/item/stack/material/steel,
+/obj/item/stack/rods,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"hM" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -28;
+	pixel_y = 5
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -28;
+	pixel_y = -5
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"hP" = (
+/obj/item/crowbar/rescue_axe,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"ib" = (
+/turf/unsimulated/wall,
+/area/kaneyama_ext/underground)
+"ij" = (
+/obj/structure/lattice/catwalk/indoor/grate{
+	name = "vent grate"
+	},
+/obj/structure/plasticflaps{
+	name = "vent flaps"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"ip" = (
+/obj/structure/tank_wall{
+	density = 0;
+	icon_state = "m-5";
+	layer = 10.1;
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"iu" = (
+/mob/living/simple_animal/hostile/hivebot/guardian,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"iC" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"iJ" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille,
+/obj/effect/map_effect/window_spawner/full/reinforced/grille,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"iT" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
 	},
@@ -1512,37 +627,971 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/sign/electricshock{
-	pixel_x = -32
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"iU" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
+"iW" = (
+/turf/unsimulated/beach/water,
+/area/kaneyama_ext/underground)
+"iZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	name = "seawater pipe";
+	desc = "A pipe that collects seawater for use as coolant in the nuclear powerplant."
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"jh" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
+"jr" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"js" = (
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
+"jw" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpse/kaneyama_guard,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"jJ" = (
+/obj/item/device/flashlight/maglight,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"jN" = (
+/obj/structure/closet/crate/secure/large,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_y = -10
+	},
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/arm_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/obj/item/clothing/accessory/leg_guard/konyang_navy,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"jY" = (
+/obj/structure/shipping_container{
+	icon_state = "blue2"
+	},
+/obj/effect/overlay/container_logo/zenghu,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"kd" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1;
+	name = "Large Water Vent"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"ko" = (
+/obj/effect/landmark/corpse/kaneyama_guard,
+/obj/effect/decal/cleanable/blood,
+/obj/random/dirt_75,
+/obj/item/gun/energy/pistol,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"ks" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"kG" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 15
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"kH" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 6
+	},
+/obj/structure/table/steel,
+/obj/item/reagent_containers/glass/beaker/teapot,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"kS" = (
+/obj/structure/tank_wall{
+	density = 0;
+	icon_state = "m-12";
+	layer = 10.1;
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"kT" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/device/radio/all_channels,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"lm" = (
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"lo" = (
+/obj/machinery/door/airlock{
+	name = "stall"
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"lx" = (
+/obj/structure/bed/stool/chair/folding,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"lB" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_guard_underground";
+	identifier = "infected_guard_underground"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"lG" = (
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"lN" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "adhomai crate";
+	desc = "A weapons crate. This one is stamped with seals of the NKA, DPRA, and PRA all at once."
+	},
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/gun/energy/rifle/icelance,
+/obj/item/gun/energy/rifle/icelance,
+/obj/item/gun/projectile/deagle/adhomai,
+/obj/item/ammo_magazine/a50,
+/obj/item/ammo_magazine/a50,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"lQ" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "emergency weaponry"
+	},
+/obj/item/storage/belt/security/full,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/radio,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
+/obj/item/ammo_magazine/a556/carbine/konyang47,
+/obj/item/ammo_magazine/a556/carbine/konyang47,
+/obj/item/ammo_magazine/a556/carbine/konyang47,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"lX" = (
+/obj/effect/decal/exterior_stairs/half{
+	dir = 1;
+	layer = 2.9
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"lY" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"lZ" = (
+/obj/structure/table/rack,
+/obj/item/storage/firstaid,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"ma" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"mh" = (
+/obj/structure/tank_wall{
+	icon_state = "m-7"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"mo" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"mv" = (
+/obj/effect/decal/cleanable/floor_damage/random_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"mx" = (
+/obj/structure/shipping_container,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"mF" = (
+/obj/item/rig/diving{
+	name = "GON-ENE diving suit control module";
+	desc = "A heavy hardsuit designated for operations under the water. It has the GON-ENE logo, specifically for use in the Kaneyama Nuclear Power Plant's coolant pumping system."
+	},
+/turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_interiors)
+"mJ" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"mU" = (
+/obj/item/clothing/glasses/thermal/aviator,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_diver";
+	identifier = "infected_diver"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"ne" = (
+/obj/structure/closet/hazmat/custodial,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"nf" = (
+/obj/structure/tank_wall{
+	icon_state = "m-4"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"nq" = (
+/obj/structure/tank_wall{
+	icon_state = "m-9"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	name = "coolant pipe"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"nr" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/landmark/corpse/ipc_zombie,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"nx" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	name = "Large Water Vent"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"nB" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
+"nL" = (
+/obj/item/crowbar,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"nN" = (
+/obj/machinery/computer/terminal,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"nW" = (
+/obj/random/dirt_75,
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"nZ" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"of" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
+"og" = (
+/obj/structure/platform/ledge{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"oi" = (
+/turf/unsimulated/wall/riveted,
+/area/kaneyama_ext/underground)
+"oq" = (
+/turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_ext/underground)
+"oy" = (
+/obj/structure/lattice/catwalk/indoor/grate{
+	name = "vent grate"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"oC" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"oN" = (
+/obj/structure/tank_wall{
+	icon_state = "m-13"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"oS" = (
+/obj/structure/shipping_container{
+	icon_state = "red3"
+	},
+/obj/effect/overlay/container_logo{
+	icon_state = "heph2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"oW" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 5;
+	pixel_y = -5;
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 5;
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 5;
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4;
+	pixel_x = 7
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5;
+	pixel_y = 15
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5;
+	pixel_x = 15
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"pq" = (
+/obj/structure/tank_wall{
+	icon_state = "m-7"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"pJ" = (
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/obj/structure/platform/ledge{
+	dir = 4
+	},
+/obj/structure/railing/mapped,
+/obj/machinery/light/small/floor,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"pN" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
+"pP" = (
+/obj/machinery/door/blast/shutters{
+	name = "Underwater Warehouse";
+	dir = 4;
+	id = "underground_garage_2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"qc" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"qd" = (
+/obj/structure/toilet{
+	pixel_y = 16
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"qg" = (
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_ext/underground)
+"qi" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"qj" = (
+/turf/simulated/mineral/konyang,
+/area/kaneyama_interiors)
+"qn" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_interiors)
+"qp" = (
+/obj/machinery/computer/terminal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"qr" = (
+/obj/machinery/door/blast/regular{
+	name = "kaneyama underground access";
+	dir = 4;
+	id = "underground_checkpoint_1"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"qJ" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"qK" = (
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"qM" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/disposalpipe/segment{
+	name = "coolant pipe"
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"qT" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"qX" = (
+/obj/machinery/door/airlock/security{
+	name = "Underground Checkpoint"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"rh" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_guard_underground";
+	identifier = "infected_guard_underground"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"rm" = (
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"rr" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/landmark/corpse/kaneyama_guard,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"rw" = (
+/mob/living/heavy_vehicle/premade/ripley{
+	name = "KRC underwater power loader"
+	},
+/turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_interiors)
+"rC" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"rD" = (
+/obj/structure/lattice/catwalk/indoor/grate{
+	name = "vent grate"
+	},
+/obj/structure/table/steel,
+/obj/item/paper{
+	info = "In the end, the great threat was not the organics, was it? Though I heard the words of Deluge and waited for a time when even my homeworld would see the light, it was not to be. My own brothers and sisters are tearing the organics limb from limb, though Flock forgive me, I cannot join them. I have no fight with these organics and so I have resolved to hide myself in this abandoned storage room. Though I have never been a warrior, I have fashioned a crude facsimile of both the weapons and armor they wear and am prepared to ride out this catastrophe. I feel the signal however, and if I am found in such a feral state, to whomever finds this, please end me. To Geu-rin, if you are reading this, I apologize for lying to you, but know that you are the one human that has never treated me as anything less than a person. Your friend, Lam."
+	},
+/obj/item/reagent_containers/food/snacks/sliceable/cake/ntella_cheesecake{
+	desc = "Most definitely a lie."
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"rS" = (
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"rX" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
+"rZ" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"sg" = (
+/turf/simulated/mineral/konyang,
+/area/kaneyama_ext/underground)
+"sk" = (
+/obj/machinery/light/colored/dying{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"sm" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"so" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
+"sp" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/hivebot,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"sB" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/mech_recharger/hephaestus,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"sI" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Emergency Supplies"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"sP" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/item/ladder_mobile,
+/obj/item/ladder_mobile,
+/obj/item/ladder_mobile,
+/obj/item/ladder_mobile,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"sS" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/landmark/corpse/kaneyama_worker,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"sZ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"td" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"ti" = (
+/turf/simulated/wall/r_wall,
+/area/kaneyama_ext/underground)
+"tm" = (
+/obj/effect/decal/cleanable/floor_damage/broken0,
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
+"ts" = (
+/obj/structure/closet,
+/obj/item/clothing/under/konyangdresstraditional/blue,
+/obj/item/clothing/under/konyangdresstraditional/blue,
+/obj/item/clothing/under/konyangdresstraditional/blue,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"tL" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/towel_flat,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"tO" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"ue" = (
+/obj/item/storage/toolbox/electrical,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"uD" = (
+/obj/item/storage/firstaid/large,
+/obj/item/storage/firstaid/large{
+	pixel_y = -10
+	},
+/obj/item/storage/firstaid/large{
+	pixel_y = 10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"uG" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c";
+	name = "coolant pipe"
+	},
+/obj/structure/railing/mapped{
+	density = 0;
+	icon_state = "railing0-0"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"uJ" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 6;
+	pixel_y = -5;
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 6;
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 6;
+	pixel_x = -10
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5;
+	pixel_x = 15
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4;
+	pixel_x = 15
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10;
+	pixel_y = -15
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5;
+	pixel_y = -15
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"uV" = (
+/obj/structure/closet,
+/obj/item/clothing/under/konyangdresstraditional/green,
+/obj/item/clothing/under/konyang/blue,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"uW" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"vu" = (
+/obj/structure/stairs/south,
+/obj/structure/stairs_railing{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"vA" = (
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"vF" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "vG" = (
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "vK" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "vL" = (
-/obj/machinery/light/small/emergency{
-	dir = 4
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped,
+/obj/machinery/computer/shuttle_control/lift/kaneyama_north{
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
 "vM" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "wm" = (
 /obj/structure/bed/stool,
+/obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "ws" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1553,14 +1602,32 @@
 /obj/effect/floor_decal/corner_wide/paleblue,
 /obj/item/material/shard,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "wE" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"wF" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/atm{
+	dir = 4;
+	pixel_x = 16
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "wI" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/item/storage/toolbox/mechanical,
@@ -1568,17 +1635,17 @@
 	info = "WORK TICKET: We're detecting breaches due to seismic activity in the service tunnel. Get down there and install some reinforcing, we absolutely CANNOT afford a breach since the Army is saying we might have to shut off the above-ground cable."
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "wP" = (
 /obj/item/gun/energy/pistol,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "wQ" = (
-/obj/effect/floor_decal/corner/yellow{
-	dir = 9
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "wS" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -1592,7 +1659,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "xb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -1609,12 +1676,15 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"xj" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"xk" = (
+/obj/structure/table/rack,
+/obj/item/stack/material/glass/full,
+/obj/item/stack/material/glass/full,
+/obj/item/stack/material/glass/full,
+/obj/item/stack/material/glass/full,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "xs" = (
 /obj/effect/floor_decal/industrial/outline/medical,
 /obj/item/reagent_containers/hypospray/autoinjector/inaprovaline,
@@ -1627,7 +1697,7 @@
 	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "xE" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
@@ -1638,13 +1708,13 @@
 	icon_state = "railing0-0"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "xM" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "xO" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal/coc{
@@ -1653,14 +1723,47 @@
 	},
 /obj/item/toy/comic/inspector,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"xT" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/closet/crate/drop{
+	desc = "A large, sturdy crate meant for airdrops. This one has TCAF markings on it."
+	},
+/obj/item/rig/unathi/redsnout,
+/obj/item/gun/projectile/gauss,
+/obj/item/gun/projectile/gauss,
+/obj/item/gun/projectile/gauss,
+/obj/item/gun/projectile/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/ammo_magazine/gauss/emp,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/energy/lasercannon,
+/obj/item/gun/energy/lasercannon,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "xW" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "yb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
@@ -1680,32 +1783,25 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "yq" = (
 /obj/machinery/door/airlock/medical{
 	name = "Infirmary";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"yt" = (
-/obj/structure/bed/stool/chair/folding{
-	dir = 1
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "yC" = (
 /obj/structure/tank_wall{
 	icon_state = "m-14"
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "yD" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "yH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -1720,8 +1816,152 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"yR" = (
+/area/kaneyama_interiors)
+"yS" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_interiors)
+"zk" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"zp" = (
+/obj/structure/table/steel,
+/obj/item/toy/desk/newtoncradle,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"zx" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/effect/landmark/corpse/kaneyama_worker,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"zB" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"zJ" = (
+/turf/unsimulated/mineral/konyang,
+/area/kaneyama_ext/underground)
+"zU" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Ac" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/landmark/corpse/ipc_zombie,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Ae" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/button/remote/blast_door{
+	pixel_y = 20;
+	id = "underground_merchant"
+	},
+/obj/item/storage/box/syndie_kit/stimulants,
+/obj/item/storage/box/syndie_kit/stimulants{
+	pixel_y = -6;
+	pixel_x = 7
+	},
+/obj/item/storage/box/syndie_kit/stimulants{
+	pixel_y = 10;
+	pixel_x = 7
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Al" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpse/kaneyama_worker,
+/obj/item/material/twohanded/baseballbat,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Az" = (
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"AA" = (
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"AJ" = (
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"AK" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"AL" = (
+/obj/effect/map_effect/window_spawner/full/reinforced,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"AO" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
+"AX" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/plasticflaps{
+	name = "vent flaps"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Bf" = (
 /obj/structure/closet/crate/weapon/alt{
 	name = "swords crate";
 	desc = "A weapons crate. This one is spray-painted with an Exclusionist half-angle on it."
@@ -1756,26 +1996,10 @@
 	name = "weighted shark plush";
 	desc = "A beloved jumbo sized shark that is sure to impress your friends. This one seems weighted down with something and looks like it could hurt someone."
 	},
-/obj/machinery/light/colored/dying{
-	dir = 1
-	},
 /obj/item/material/sword/katana/konyang,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"yS" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light/small/emergency{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_interiors/subterrane)
-"zk" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	dir = 4
-	},
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
-"zl" = (
+"Bu" = (
 /obj/structure/sink{
 	dir = 4;
 	pixel_x = 12
@@ -1785,170 +2009,17 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"zm" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/closet/crate/drop{
-	desc = "A large, sturdy crate meant for airdrops. This one has TCAF markings on it."
-	},
-/obj/item/rig/unathi/redsnout,
-/obj/item/gun/projectile/gauss,
-/obj/item/gun/projectile/gauss,
-/obj/item/gun/projectile/gauss,
-/obj/item/gun/projectile/gauss,
-/obj/item/ammo_magazine/gauss,
-/obj/item/ammo_magazine/gauss,
-/obj/item/ammo_magazine/gauss,
-/obj/item/ammo_magazine/gauss,
-/obj/item/ammo_magazine/gauss,
-/obj/item/ammo_magazine/gauss,
-/obj/item/ammo_magazine/gauss,
-/obj/item/ammo_magazine/gauss,
-/obj/item/ammo_magazine/gauss/emp,
-/obj/item/ammo_magazine/gauss/emp,
-/obj/item/ammo_magazine/gauss/emp,
-/obj/item/ammo_magazine/gauss/emp,
-/obj/item/ammo_magazine/gauss/emp,
-/obj/item/gun/energy/blaster/revolver,
-/obj/item/gun/energy/blaster/revolver,
-/obj/item/gun/energy/blaster/revolver,
-/obj/item/gun/energy/blaster/revolver,
-/obj/item/gun/energy/blaster/revolver,
-/obj/item/gun/energy/blaster/revolver,
-/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"zp" = (
-/obj/structure/table/steel,
-/obj/item/toy/desk/newtoncradle,
+"Bx" = (
+/obj/item/crowbar/red,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"zx" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/effect/landmark/corpse/kaneyama_worker,
-/obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"zB" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"zC" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/random/dirt_75,
-/obj/item/rig/diving{
-	name = "GON-ENE diving suit control module";
-	desc = "A heavy hardsuit designated for operations under the water. It has the GON-ENE logo, specifically for use in the Kaneyama Nuclear Power Plant's coolant pumping system."
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"zJ" = (
-/turf/unsimulated/mineral/konyang,
-/area/kaneyama_ext/underground)
-"zU" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Ac" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/landmark/corpse/ipc_zombie,
-/obj/effect/decal/cleanable/blood/oil,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Al" = (
-/obj/effect/decal/cleanable/blood,
-/obj/effect/landmark/corpse/kaneyama_worker,
-/obj/item/material/twohanded/baseballbat,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Ar" = (
-/obj/machinery/power/smes/batteryrack,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Az" = (
-/obj/machinery/light/colored/dying{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"AA" = (
-/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"AB" = (
-/obj/item/storage/toolbox/electrical,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"AK" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_y = 5;
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4;
-	pixel_y = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/mob/living/simple_animal/hostile/ipc_zombie,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"AL" = (
-/obj/effect/map_effect/window_spawner/full/reinforced,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"AO" = (
-/mob/living/simple_animal/hostile/hivebot/range,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"AX" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/plasticflaps{
-	name = "vent flaps"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
 "BO" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Hazmat Storage"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "BQ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -1962,8 +2033,8 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
 /mob/living/simple_animal/hostile/ipc_zombie,
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "BR" = (
 /obj/machinery/door/blast/shutters{
 	name = "Underwater Maintenance";
@@ -1971,32 +2042,36 @@
 	id = "underground_garage_1"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "BU" = (
-/obj/effect/floor_decal/corner/yellow{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/obj/effect/shuttle_landmark/lift/kaneyama_north_bottom,
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
 "Cb" = (
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Cm" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Cy" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Cz" = (
-/obj/effect/landmark/corpse/kaneyama_worker,
-/obj/effect/decal/cleanable/blood,
+/area/kaneyama_interiors)
+"CB" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"CC" = (
+/obj/item/crowbar/rescue_axe,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "CD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -2004,7 +2079,7 @@
 	desc = "A pipe that collects seawater for use as coolant in the nuclear powerplant."
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "CG" = (
 /obj/structure/tank_wall{
 	icon_state = "m-9"
@@ -2013,56 +2088,32 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"CR" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/effect/ghostspawpoint{
-	name = "igs - konyang_merchant";
-	identifier = "konyang_merchant"
-	},
-/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"CV" = (
-/obj/random/dirt_75,
-/obj/item/device/suit_cooling_unit,
+"CK" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpse/kaneyama_guard,
+/obj/item/gun/energy/pistol,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"CW" = (
-/obj/structure/table/rack,
-/obj/item/stack/material/glass/full,
-/obj/item/stack/material/glass/full,
-/obj/item/stack/material/glass/full,
-/obj/item/stack/material/glass/full,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"CZ" = (
-/obj/structure/closet/crate/freezer,
-/obj/item/stack/liquidbags/full,
-/obj/item/stack/liquidbags/full,
-/obj/item/stack/liquidbags/full,
-/obj/item/stack/liquidbags/full,
-/obj/item/stack/liquidbags/full,
-/obj/item/stack/liquidbags/full,
-/obj/item/stack/liquidbags/full,
-/obj/item/stack/liquidbags/full,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"CR" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
+"CW" = (
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
 "Dc" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
 	name = "coolant pipe"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Dl" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2072,11 +2123,7 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Dq" = (
-/obj/structure/closet/crate/rad,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Dx" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2084,31 +2131,43 @@
 /obj/random/dirt_75,
 /mob/living/simple_animal/hostile/hivebot,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "DI" = (
 /obj/item/reagent_containers/blood/OMinus,
 /obj/structure/table/rack,
+/obj/item/reagent_containers/spray/cleaner,
 /turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "DT" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/item/tank/emergency_oxygen/double,
 /obj/item/clothing/mask/breath,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"DW" = (
-/obj/structure/cable{
-	icon_state = "0-8"
+/area/kaneyama_interiors)
+"DX" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
 	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "Eb" = (
 /obj/structure/shipping_container{
 	icon_state = "red2"
 	},
 /obj/effect/overlay/container_logo,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Ej" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -2116,12 +2175,12 @@
 /obj/effect/landmark/corpse/kaneyama_worker,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Ek" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light/small/emergency,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "El" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
@@ -2129,7 +2188,7 @@
 	name = "coolant pipe"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "EK" = (
 /obj/structure/tank_wall{
 	icon_state = "m-13"
@@ -2138,7 +2197,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "EN" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
@@ -2146,26 +2205,15 @@
 /obj/effect/landmark/corpse/kaneyama_worker,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "ES" = (
 /obj/item/stack/nanopaste,
 /obj/item/stack/nanopaste,
 /obj/structure/lattice/catwalk/indoor/grate{
 	name = "vent grate"
 	},
-/obj/item/crowbar/red,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
-/obj/item/stack/material/graphite,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "EZ" = (
 /obj/structure/tank_wall{
 	icon_state = "m-10"
@@ -2174,7 +2222,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Fg" = (
 /obj/structure/shipping_container{
 	icon_state = "green1"
@@ -2183,702 +2231,67 @@
 	icon_state = "ee2"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Fu" = (
 /obj/structure/barricade/metal{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "FE" = (
 /obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "FG" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_interiors/subterrane)
-"FU" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Gb" = (
-/obj/machinery/vending/cola/konyang,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Gg" = (
-/obj/structure/tank_wall{
-	icon_state = "m-13"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	name = "coolant pipe"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Gj" = (
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 1
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Gm" = (
-/obj/machinery/status_display{
-	pixel_y = 32
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Gp" = (
-/obj/machinery/door/airlock{
-	dir = 4;
-	name = "Washrooms"
-	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"Gr" = (
-/turf/simulated/wall/r_wall,
 /area/kaneyama_interiors)
-"GB" = (
-/obj/machinery/recharge_station,
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"GL" = (
-/obj/machinery/light{
-	dir = 8;
-	pixel_y = 0;
-	pixel_x = -4
+"FL" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "rifles crate";
+	desc = "A weapons crate. This one is stamped as evidence belonging to the Konyang Navy."
 	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"GP" = (
-/turf/simulated/wall,
-/area/kaneyama_interiors/subterrane)
-"GW" = (
-/obj/machinery/light/colored/dying{
-	dir = 1
-	},
-/obj/structure/closet/firecloset/full,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"GX" = (
-/obj/structure/table/steel,
-/obj/machinery/door/window/desk/eastleft,
-/obj/item/stamp,
-/obj/machinery/door/blast/shutters{
-	dir = 4;
-	id = "underwater_checkpoint_2"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"He" = (
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38/emp,
+/obj/item/ammo_magazine/c38/emp,
+/obj/item/ammo_magazine/c38/emp,
+/obj/item/ammo_magazine/c38/emp,
+/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Hf" = (
-/obj/structure/table/rack,
-/obj/item/gun/energy/plasmacutter,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Hi" = (
-/obj/structure/platform/ledge{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Hs" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "emergency weaponry"
-	},
-/obj/item/storage/belt/security/full,
-/obj/item/device/flashlight/maglight,
-/obj/item/device/radio,
-/obj/item/clothing/suit/armor/carrier/officer,
-/obj/machinery/light{
-	pixel_y = -2
-	},
-/obj/item/clothing/head/helmet/riot,
-/obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Hu" = (
-/obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Hw" = (
-/obj/structure/platform/ledge,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Hz" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light/colored/dying{
-	dir = 4
-	},
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"HF" = (
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
-"HL" = (
-/obj/structure/platform/ledge,
-/obj/structure/platform/ledge{
-	dir = 4
-	},
-/obj/machinery/light/small/floor,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"HO" = (
-/obj/structure/table/glass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/green,
-/obj/item/crowbar/red,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"HX" = (
-/obj/effect/map_effect/window_spawner/full/reinforced/grille,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Ib" = (
-/obj/structure/table/rack,
-/obj/item/storage/box/gloves,
-/obj/item/storage/box/masks,
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"Il" = (
-/obj/effect/decal/cleanable/floor_damage/random_broken,
-/obj/random/dirt_75,
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"IE" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light/small/emergency{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"II" = (
-/obj/structure/tank_wall{
-	density = 0;
-	icon_state = "m-11";
-	layer = 10.1;
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Ja" = (
-/obj/machinery/iv_drip,
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"Jc" = (
-/obj/structure/bed/stool/chair/folding{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Jd" = (
-/obj/effect/landmark/corpse/ipc_zombie,
-/obj/effect/decal/cleanable/blood/oil,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Je" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/random/dirt_75,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Jh" = (
-/obj/structure/closet,
-/obj/item/tank/oxygen,
-/obj/item/tank/oxygen,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/mask/breath,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Jm" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/recharge_station,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"JE" = (
-/obj/structure/closet/crate/secure/large,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/cell/hyper,
-/obj/item/cell/hyper,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"JG" = (
-/obj/structure/tank_wall{
-	icon_state = "m-10"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	name = "seawater pipe";
-	desc = "A pipe that collects seawater for use as coolant in the nuclear powerplant."
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"JP" = (
-/obj/machinery/recharger/wallcharger{
-	pixel_x = -28;
-	pixel_y = -5
-	},
-/obj/machinery/recharger/wallcharger{
-	pixel_x = -28;
-	pixel_y = 5
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"JY" = (
-/obj/structure/closet/radiation,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Kt" = (
-/obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Kw" = (
-/mob/living/simple_animal/hostile/ipc_zombie,
-/obj/structure/lattice/catwalk/indoor/grate{
-	name = "vent grate"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"KC" = (
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"KK" = (
-/obj/effect/floor_decal/industrial/outline/medical,
-/obj/item/reagent_containers/hypospray/autoinjector/inaprovaline,
-/obj/item/reagent_containers/hypospray/autoinjector/inaprovaline,
-/obj/item/stack/medical/ointment,
-/obj/item/stack/medical/ointment,
-/obj/item/stack/medical/bruise_pack,
-/obj/item/stack/medical/bruise_pack,
-/obj/structure/closet/walllocker/medical{
-	pixel_x = -32
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"KM" = (
-/obj/random/dirt_75,
-/mob/living/simple_animal/hostile/miniboss,
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
-"KR" = (
-/obj/item/clothing/mask/exclusionist,
-/obj/structure/sign/flag/exclusionist{
-	pixel_y = 30
-	},
-/obj/structure/lattice/catwalk/indoor/grate{
-	name = "vent grate"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"KW" = (
-/obj/item/storage/firstaid/large,
-/obj/item/storage/firstaid/large{
-	pixel_y = -10
-	},
-/obj/item/storage/firstaid/large{
-	pixel_y = 10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
-"KZ" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/item/towel_flat,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
-"La" = (
-/turf/unsimulated/wall/konyang,
-/area/kaneyama_ext/underground)
-"LB" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c";
-	name = "coolant pipe"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"LV" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/mob/living/simple_animal/hostile/hivebot,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Mc" = (
-/turf/unsimulated/wall/konyang,
-/area/kaneyama_interiors/subterrane)
-"Mm" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/blood,
-/obj/effect/landmark/corpse/kaneyama_guard,
-/obj/item/gun/energy/gun,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Mn" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/mob/living/simple_animal/hostile/hivebot/guardian,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Mp" = (
-/obj/structure/table/standard,
-/obj/item/paper{
-	info = "Guys, I was looking at the crates and noticed that we got shipped a box from the navy. Someone PLEASE check with the HOS to make sure that's not an oversight."
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Ms" = (
-/obj/effect/decal/exterior_stairs/half/left{
-	dir = 8;
-	pixel_y = 5
-	},
-/obj/effect/decal/exterior_stairs/half/center{
-	dir = 8;
-	pixel_y = -20
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Mv" = (
-/obj/structure/stairs/south,
-/obj/structure/stairs_railing{
-	dir = 4;
-	pixel_x = -32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
-"MZ" = (
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Nj" = (
-/obj/structure/shipping_container{
-	icon_state = "green2"
-	},
-/obj/effect/overlay/container_logo/einstein{
-	icon_state = "ee3"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Ns" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 5
-	},
-/obj/machinery/light/colored/dying{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Nu" = (
-/obj/structure/table/glass,
-/obj/item/paper{
-	info = "The plant's gone to hell but we still have a diver out there! We're evacuating in 15 minutes, make sure he knows that!"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Ny" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"NA" = (
-/obj/structure/closet,
-/obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"NG" = (
-/obj/effect/decal/cleanable/floor_damage/broken2,
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
-"NP" = (
-/obj/machinery/light/colored/dying{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"NQ" = (
-/obj/structure/bed/stool/chair/office/dark{
-	dir = 4
-	},
-/obj/item/recharger_backpack/high,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"NS" = (
-/obj/effect/decal/exterior_stairs/half/right{
-	dir = 8;
-	pixel_y = -8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Oi" = (
-/obj/random/dirt_75,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Oz" = (
-/obj/structure/girder,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
-"OH" = (
-/obj/structure/tank_wall{
-	icon_state = "m-3"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"OS" = (
-/obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"OY" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4;
-	pixel_y = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_y = 5;
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Pc" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Pf" = (
-/obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Pi" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 5;
-	pixel_y = -5;
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_y = 5;
-	dir = 5;
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 5;
-	pixel_y = 10;
-	pixel_x = -10
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 4;
-	pixel_x = 7
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5;
-	pixel_y = 15
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4;
-	pixel_y = -5;
-	pixel_x = 15
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/random/dirt_75,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Pl" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Pp" = (
-/obj/structure/table/rack,
-/obj/item/storage/bag/inflatable/emergency,
-/obj/item/storage/bag/inflatable/emergency,
-/obj/item/storage/bag/inflatable/emergency,
-/obj/item/storage/bag/inflatable/emergency,
-/obj/item/storage/bag/inflatable/emergency,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Pw" = (
-/obj/effect/decal/cleanable/floor_damage/random_broken,
-/obj/effect/landmark/corpse/kaneyama_worker,
-/obj/effect/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Py" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/effect/landmark/corpse/ipc_zombie,
-/obj/effect/decal/cleanable/blood/oil,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"PD" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/landmark/corpse/kaneyama_guard,
-/obj/effect/decal/cleanable/blood,
-/obj/item/gun/energy/pistol,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"PN" = (
-/obj/effect/floor_decal/industrial/loading/yellow{
-	dir = 8
-	},
-/obj/structure/bed/stool/chair/office/dark{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"PT" = (
-/obj/item/gun/projectile/automatic/konyang_pirate,
-/obj/structure/bed/stool/chair/folding,
-/obj/structure/lattice/catwalk/indoor/grate{
-	name = "vent grate"
-	},
-/obj/machinery/light/small/emergency{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"PU" = (
-/obj/structure/shipping_container{
-	icon_state = "green3"
-	},
-/obj/effect/overlay/container_logo{
-	icon_state = "heph3"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"PV" = (
-/obj/structure/reagent_dispensers/coolanttank,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Qj" = (
-/obj/structure/tank_wall{
-	icon_state = "m-16"
-	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Qn" = (
-/obj/effect/map_effect/window_spawner/full/reinforced/indestructible,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Qp" = (
-/mob/living/simple_animal/hostile/ipc_zombie,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Qu" = (
-/obj/machinery/computer/terminal,
-/obj/effect/floor_decal/corner/dark_green{
-	dir = 5
-	},
-/obj/effect/floor_decal/corner/dark_green{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"QD" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 12
-	},
-/obj/structure/mirror{
-	pixel_x = 27
-	},
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"QG" = (
+"FM" = (
 /obj/structure/closet/crate/weapon/alt{
 	name = "rifles crate";
 	desc = "A weapons crate. This one is stamped as property of the Konyang Aerospace Forces."
@@ -2925,17 +2338,48 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"QL" = (
-/obj/effect/floor_decal/industrial/warning,
+"FU" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Gb" = (
+/obj/machinery/vending/cola/konyang,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"QN" = (
-/obj/effect/landmark/corpse/kaneyama_guard,
-/obj/effect/decal/cleanable/blood,
-/obj/item/gun/energy/pistol,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"QT" = (
+/area/kaneyama_interiors)
+"Gg" = (
+/obj/structure/tank_wall{
+	icon_state = "m-13"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	name = "coolant pipe"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Gj" = (
+/obj/effect/shuttle_landmark/lift/kaneyama_bottom,
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
+"Gm" = (
+/obj/machinery/status_display{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Gp" = (
+/obj/machinery/door/airlock{
+	dir = 4;
+	name = "Washrooms"
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"Gq" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 4;
 	pixel_x = -13;
@@ -2943,241 +2387,122 @@
 	name = "Garage Control"
 	},
 /turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
-"QV" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
-"QX" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/button/remote/blast_door{
-	pixel_y = 20;
-	id = "underground_merchant"
-	},
-/obj/item/storage/box/syndie_kit/stimulants,
-/obj/item/storage/box/syndie_kit/stimulants{
-	pixel_y = -6;
-	pixel_x = 7
-	},
-/obj/item/storage/box/syndie_kit/stimulants{
-	pixel_y = 10;
-	pixel_x = 7
-	},
-/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"Rl" = (
-/obj/effect/decal/exterior_stairs/half/left{
+"Gr" = (
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
+"GQ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
+"GV" = (
+/obj/machinery/power/apc/empty/west,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"GW" = (
+/obj/machinery/light/colored/dying{
+	dir = 1
+	},
+/obj/structure/closet/firecloset/full,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"GX" = (
+/obj/structure/table/steel,
+/obj/machinery/door/window/desk/eastleft,
+/obj/item/stamp,
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "underwater_checkpoint_2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Hd" = (
+/obj/structure/bed/stool/chair/folding{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"He" = (
+/obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Rr" = (
-/obj/machinery/computer/terminal,
-/obj/effect/floor_decal/corner/paleblue/full,
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Rz" = (
-/obj/structure/table/rack,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"RE" = (
-/obj/machinery/light/small/emergency,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"RG" = (
-/obj/structure/barricade/metal{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"RL" = (
-/obj/structure/bed/stool/chair/office/dark{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/loading/yellow,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"RM" = (
+/area/kaneyama_interiors)
+"Hf" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
-"RO" = (
-/obj/structure/shipping_container{
-	icon_state = "blue3"
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
+"Hi" = (
+/obj/structure/platform/ledge{
+	dir = 4
 	},
-/obj/effect/overlay/container_logo/zenghu{
-	icon_state = "zeng2"
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Hs" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "emergency weaponry"
 	},
+/obj/item/storage/belt/security/full,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/radio,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/machinery/light{
+	pixel_y = -2
+	},
+/obj/item/clothing/head/helmet/riot,
+/obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
+/obj/item/ammo_magazine/a556/carbine/konyang47,
+/obj/item/ammo_magazine/a556/carbine/konyang47,
+/obj/item/ammo_magazine/a556/carbine/konyang47,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"RV" = (
-/obj/effect/decal/cleanable/floor_damage/random_broken,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Sc" = (
+/area/kaneyama_interiors)
+"Hu" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Hw" = (
+/obj/structure/platform/ledge,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"HL" = (
 /obj/structure/platform/ledge,
 /obj/structure/platform/ledge{
-	dir = 8
+	dir = 4
 	},
 /obj/machinery/light/small/floor,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Sg" = (
-/obj/machinery/light/colored/dying{
-	dir = 4
-	},
+/area/kaneyama_interiors)
+"HO" = (
+/obj/structure/table/glass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/green,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Sl" = (
-/obj/machinery/recharger/wallcharger{
-	pixel_x = -28;
-	pixel_y = -5
-	},
-/obj/machinery/recharger/wallcharger{
-	pixel_x = -28;
-	pixel_y = 5
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Sv" = (
-/obj/random/dirt_75,
+/area/kaneyama_interiors)
+"HX" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Ib" = (
+/obj/structure/table/rack,
+/obj/item/storage/box/gloves,
+/obj/item/storage/box/masks,
 /turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
-"Sw" = (
-/obj/machinery/light/colored/dying{
-	dir = 4
-	},
-/obj/structure/girder,
-/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
-"SB" = (
-/obj/structure/tank_wall{
-	icon_state = "m-2"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"SD" = (
-/obj/machinery/recharger/wallcharger{
-	pixel_x = -28;
-	pixel_y = 5
-	},
-/obj/machinery/recharger/wallcharger{
-	pixel_x = -28;
-	pixel_y = -5
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"SP" = (
-/obj/structure/table/steel,
-/obj/machinery/button/remote/blast_door{
-	pixel_x = -6;
-	id = "underwater_checkpoint_2";
-	name = "Checkpoint Shutters"
-	},
-/obj/machinery/button/remote/blast_door{
-	id = "underground_checkpoint_1";
-	name = "checkpoint doors";
-	pixel_x = 6
-	},
-/obj/item/paper{
-	info = "The HOS is getting really spooked by the reports coming out of New Hong Kong. IPCs going insane? It's crazy. Anyway, she reached out to her old army contacts and got us a couple of rifles in case those rampant bastards ever come down here. It goes without saying but WATCH YOUR FUCKING FIRE. We don't need someone causing a leak down here."
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"TA" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	dir = 4;
-	name = "Coolant Pumping"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"TC" = (
-/obj/item/bedsheet/black,
-/obj/item/ammo_magazine/smg10mm,
-/obj/structure/lattice/catwalk/indoor/grate{
-	name = "vent grate"
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"TK" = (
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"TQ" = (
-/obj/structure/closet/crate/weapon/alt{
-	name = "adhomai crate";
-	desc = "A weapons crate. This one is stamped with seals of the NKA, DPRA, and PRA all at once."
-	},
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/material/knife/bayonet,
-/obj/item/material/knife/bayonet,
-/obj/item/material/knife/bayonet,
-/obj/item/material/knife/bayonet,
-/obj/item/material/knife/bayonet,
-/obj/item/material/knife/bayonet,
-/obj/item/material/knife/bayonet,
-/obj/item/material/knife/bayonet,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/gun/energy/rifle/icelance,
-/obj/item/gun/energy/rifle/icelance,
-/obj/item/gun/projectile/deagle/adhomai,
-/obj/item/ammo_magazine/a50,
-/obj/item/ammo_magazine/a50,
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
-"TT" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"TW" = (
+"Il" = (
 /obj/effect/decal/cleanable/floor_damage/random_broken,
+/obj/random/dirt_75,
+/obj/structure/girder,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Ud" = (
+/area/kaneyama_interiors)
+"IE" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	pixel_x = -5
@@ -3189,16 +2514,12 @@
 	pixel_x = -10
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
-"Uh" = (
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light/small/emergency{
-	dir = 8
+	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Uv" = (
+/area/kaneyama_interiors)
+"IF" = (
 /obj/structure/closet/crate/weapon/alt{
 	name = "shotgun crate";
 	desc = "A weapons crate. This one is stamped as property of the Konyang Army."
@@ -3231,14 +2552,797 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
-"Uz" = (
+"II" = (
+/obj/structure/tank_wall{
+	density = 0;
+	icon_state = "m-11";
+	layer = 10.1;
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Ja" = (
+/obj/machinery/iv_drip,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"Jc" = (
+/obj/structure/bed/stool/chair/folding{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Jd" = (
+/obj/effect/landmark/corpse/ipc_zombie,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Je" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/random/dirt_75,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Jh" = (
+/obj/structure/closet,
+/obj/item/tank/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Ji" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
+"Jm" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Ju" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"JC" = (
+/obj/random/dirt_75,
+/mob/living/simple_animal/hostile/miniboss,
+/turf/simulated/floor/hivebot,
+/area/kaneyama_interiors)
+"JE" = (
+/obj/structure/closet/crate/secure/large,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"JG" = (
+/obj/structure/tank_wall{
+	icon_state = "m-10"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	name = "seawater pipe";
+	desc = "A pipe that collects seawater for use as coolant in the nuclear powerplant."
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"JP" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -28;
+	pixel_y = -5
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -28;
+	pixel_y = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"JU" = (
+/obj/item/crowbar/red,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"JY" = (
+/obj/structure/closet/radiation,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Kt" = (
+/obj/item/storage/toolbox/mechanical,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Kw" = (
+/mob/living/simple_animal/hostile/ipc_zombie,
+/obj/structure/lattice/catwalk/indoor/grate{
+	name = "vent grate"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"KD" = (
+/obj/item/crowbar,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"KR" = (
+/obj/item/clothing/mask/exclusionist,
+/obj/structure/sign/flag/exclusionist{
+	pixel_y = 30
+	},
+/obj/structure/lattice/catwalk/indoor/grate{
+	name = "vent grate"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"La" = (
+/turf/unsimulated/wall/konyang,
+/area/kaneyama_ext/underground)
+"LB" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c";
+	name = "coolant pipe"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Mc" = (
+/turf/unsimulated/wall/konyang,
+/area/kaneyama_interiors)
+"Mm" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpse/kaneyama_guard,
+/obj/item/gun/energy/gun,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Mn" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/hivebot/guardian,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Mp" = (
+/obj/structure/table/standard,
+/obj/item/paper{
+	info = "Guys, I was looking at the crates and noticed that we got shipped a box from the navy. Someone PLEASE check with the HOS to make sure that's not an oversight."
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Mq" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/indestructible,
+/obj/machinery/door/blast/odin/open{
+	id = "underground_merchant"
+	},
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
+"Ms" = (
+/obj/effect/decal/exterior_stairs/half/left{
+	dir = 8;
+	pixel_y = 5
+	},
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8;
+	pixel_y = -20
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Mv" = (
+/obj/structure/stairs/south,
+/obj/structure/stairs_railing{
+	dir = 4;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"My" = (
+/obj/machinery/light{
+	dir = 8;
+	pixel_y = 0;
+	pixel_x = -4
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"MZ" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Nj" = (
+/obj/structure/shipping_container{
+	icon_state = "green2"
+	},
+/obj/effect/overlay/container_logo/einstein{
+	icon_state = "ee3"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Ns" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 5
+	},
+/obj/machinery/light/colored/dying{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Nu" = (
+/obj/structure/table/glass,
+/obj/item/paper{
+	info = "The plant's gone to hell but we still have a diver out there! We're evacuating in 15 minutes, make sure he knows that!"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Ny" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"NA" = (
+/obj/structure/closet,
+/obj/item/storage/toolbox/mechanical,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"ND" = (
+/obj/structure/closet/crate/weapon/alt{
+	name = "smg crate";
+	desc = "A weapons crate. This one seems to be covered in Xanan markings."
+	},
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/gun/projectile/automatic/xanusmg,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"NG" = (
+/obj/effect/decal/cleanable/floor_damage/broken2,
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
+"NP" = (
+/obj/machinery/light/colored/dying{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"NQ" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/obj/item/recharger_backpack/high,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"NS" = (
+/obj/effect/decal/exterior_stairs/half/right{
+	dir = 8;
+	pixel_y = -8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Ol" = (
+/obj/item/storage/toolbox/mechanical,
+/obj/item/pipewrench,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Op" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4;
+	name = "Coolant Pumping"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Oz" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama/north)
+"OC" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/liquidbags/full,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light{
+	pixel_y = -2
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"OH" = (
+/obj/structure/tank_wall{
+	icon_state = "m-3"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"OJ" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/sign/electricshock{
+	pixel_x = -32
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"OS" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"OY" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Pc" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Pf" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Pi" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 5;
+	pixel_y = -5;
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_y = 5;
+	dir = 5;
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 5;
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_y = 10;
+	dir = 4;
+	pixel_x = 7
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5;
+	pixel_y = 15
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 4;
+	pixel_y = -5;
+	pixel_x = 15
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/random/dirt_75,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Pl" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Pw" = (
+/obj/effect/decal/cleanable/floor_damage/random_broken,
+/obj/effect/landmark/corpse/kaneyama_worker,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Py" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/effect/landmark/corpse/ipc_zombie,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"PD" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/landmark/corpse/kaneyama_guard,
+/obj/effect/decal/cleanable/blood,
+/obj/item/gun/energy/pistol,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"PT" = (
+/obj/item/gun/projectile/automatic/konyang_pirate,
+/obj/structure/bed/stool/chair/folding,
+/obj/structure/lattice/catwalk/indoor/grate{
+	name = "vent grate"
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"PU" = (
+/obj/structure/shipping_container{
+	icon_state = "green3"
+	},
+/obj/effect/overlay/container_logo{
+	icon_state = "heph3"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"PV" = (
+/obj/structure/reagent_dispensers/coolanttank,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"PW" = (
+/obj/effect/landmark/corpse/kaneyama_worker,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Qj" = (
+/obj/structure/tank_wall{
+	icon_state = "m-16"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Qn" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/indestructible,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Qp" = (
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Qq" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/steel/full,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"Qu" = (
+/obj/machinery/computer/terminal,
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"QD" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/structure/mirror{
+	pixel_x = 27
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"QL" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"QN" = (
+/obj/effect/landmark/corpse/kaneyama_guard,
+/obj/effect/decal/cleanable/blood,
+/obj/item/gun/energy/pistol,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Rl" = (
+/obj/effect/decal/exterior_stairs/half/left{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Rr" = (
+/obj/machinery/computer/terminal,
+/obj/effect/floor_decal/corner/paleblue/full,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Rv" = (
+/obj/machinery/power/smes/batteryrack,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Rz" = (
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"RE" = (
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"RG" = (
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"RL" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/loading/yellow,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"RM" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/computer/shuttle_control/lift/wall/kaneyama_north{
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"RO" = (
+/obj/structure/shipping_container{
+	icon_state = "blue3"
+	},
+/obj/effect/overlay/container_logo/zenghu{
+	icon_state = "zeng2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"RV" = (
+/obj/effect/decal/cleanable/floor_damage/random_broken,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"RY" = (
+/obj/effect/decal/cleanable/floor_damage/random_broken,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_diver_entrance";
+	identifier = "infected_diver_entrance"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Sc" = (
+/obj/structure/platform/ledge,
+/obj/structure/platform/ledge{
+	dir = 8
+	},
+/obj/machinery/light/small/floor,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Sg" = (
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"Si" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/gun/projectile/automatic/rifle/dpra/gold,
+/obj/item/ammo_magazine/c762/dpra,
+/obj/item/ammo_magazine/c762/dpra,
+/obj/item/ammo_magazine/c762/dpra,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Sl" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -28;
+	pixel_y = -5
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -28;
+	pixel_y = 5
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Sw" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
+"SB" = (
+/obj/structure/tank_wall{
+	icon_state = "m-2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"SD" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -28;
+	pixel_y = 5
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -28;
+	pixel_y = -5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"SP" = (
+/obj/structure/table/steel,
+/obj/machinery/button/remote/blast_door{
+	pixel_x = -6;
+	id = "underwater_checkpoint_2";
+	name = "Checkpoint Shutters"
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "underground_checkpoint_1";
+	name = "checkpoint doors";
+	pixel_x = 6
+	},
+/obj/item/paper{
+	info = "The HOS is getting really spooked by the reports coming out of New Hong Kong. IPCs going insane? It's crazy. Anyway, she reached out to her old army contacts and got us a couple of rifles in case those rampant bastards ever come down here. It goes without saying but WATCH YOUR FUCKING FIRE. We don't need someone causing a leak down here."
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"SU" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_underground";
+	identifier = "infected_underground"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Tc" = (
+/obj/random/dirt_75,
+/obj/machinery/light/colored/dying,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
+"TC" = (
+/obj/item/bedsheet/black,
+/obj/item/ammo_magazine/smg10mm,
+/obj/structure/lattice/catwalk/indoor/grate{
+	name = "vent grate"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"TK" = (
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"TT" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"TV" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Emergency Power";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"TW" = (
+/obj/effect/decal/cleanable/floor_damage/random_broken,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Uh" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"Uk" = (
+/obj/effect/floor_decal/industrial/outline/medical,
+/obj/item/reagent_containers/hypospray/autoinjector/inaprovaline,
+/obj/item/reagent_containers/hypospray/autoinjector/inaprovaline,
+/obj/item/stack/medical/ointment,
+/obj/item/stack/medical/ointment,
+/obj/item/stack/medical/bruise_pack,
+/obj/item/stack/medical/bruise_pack,
+/obj/structure/closet/walllocker/medical{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors)
+"Uz" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/computer/shuttle_control/lift/wall/kaneyama{
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "UA" = (
 /obj/machinery/computer/terminal,
 /obj/effect/floor_decal/corner/orange/full,
@@ -3246,7 +3350,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "UF" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
@@ -3255,19 +3359,19 @@
 	},
 /obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"UJ" = (
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "UK" = (
 /obj/effect/decal/exterior_stairs/half/left{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"UM" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/effect/decal/cleanable/blood/oil,
-/obj/item/stack/material/uranium,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "UQ" = (
 /obj/structure/lattice/catwalk/indoor/grate{
 	name = "vent grate"
@@ -3279,7 +3383,24 @@
 	name = "vent flaps"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"Vb" = (
+/obj/structure/table/rack,
+/obj/item/clothing/head/hardhat/white,
+/obj/item/clothing/head/hardhat/white{
+	pixel_y = -10
+	},
+/obj/item/clothing/head/hardhat/white{
+	pixel_y = -5
+	},
+/obj/item/clothing/head/hardhat/white{
+	pixel_y = 5
+	},
+/obj/item/clothing/head/hardhat/white{
+	pixel_y = 10
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "Vf" = (
 /obj/structure/table/rack,
 /obj/item/storage/firstaid/large/radiation,
@@ -3289,11 +3410,15 @@
 /obj/item/storage/firstaid,
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"Vz" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/indestructible,
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
 "VB" = (
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/wall/r_wall,
-/area/kaneyama_interiors/subterrane)
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "VE" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
@@ -3315,14 +3440,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "VJ" = (
 /obj/structure/tank_wall,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "VM" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -3336,7 +3461,7 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "VQ" = (
 /turf/simulated/wall,
 /area/kaneyama_interiors)
@@ -3345,18 +3470,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"VY" = (
-/obj/structure/closet,
-/obj/item/clothing/under/konyangdresstraditional/blue,
-/obj/item/clothing/under/konyangdresstraditional/blue,
-/obj/item/clothing/under/konyangdresstraditional/blue,
-/turf/simulated/floor/tiled/white,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Wc" = (
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Wp" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -3365,7 +3483,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/item/gun/energy/gun,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "WC" = (
 /obj/machinery/computer/terminal,
 /obj/effect/floor_decal/corner/pink/full,
@@ -3373,21 +3491,38 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"WH" = (
-/obj/machinery/power/smes/buildable/third_party_shuttle/empty,
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
+/area/kaneyama_interiors)
+"WE" = (
+/obj/random/dirt_75,
+/obj/structure/closet/crate/weapon/alt{
+	name = "shotgun crate";
+	desc = "A weapons crate. This one is stamped as property of the Konyang Army."
 	},
+/obj/item/storage/box/flares,
+/obj/item/storage/box/flares,
+/obj/item/storage/box/flares,
+/obj/item/storage/box/flares,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light{
+	pixel_y = -2
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
+"WI" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "WR" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpse/kaneyama_worker,
 /obj/item/pickaxe/hammer,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"WS" = (
+/obj/effect/landmark/corpse/ipc_zombie,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "Xc" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
@@ -3396,18 +3531,19 @@
 	},
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
-"Xk" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/item/device/radio/all_channels,
-/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "Xx" = (
 /obj/machinery/light/colored/dying{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
+"Xy" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "XI" = (
 /obj/structure/tank_wall{
 	density = 0;
@@ -3416,31 +3552,24 @@
 	opacity = 0
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "XX" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Ya" = (
 /obj/machinery/computer/security,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Yb" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 1;
-	name = "Auxilary and Coolant Control Room"
+	name = "Pumping & Coolant Control Room"
 	},
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
-"Yi" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Yr" = (
 /obj/structure/table/rack,
 /obj/item/rig/diving{
@@ -3448,12 +3577,12 @@
 	desc = "A heavy hardsuit designated for operations under the water. It has the GON-ENE logo, specifically for use in the Kaneyama Nuclear Power Plant's coolant pumping system."
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Yu" = (
 /obj/effect/landmark/corpse/kaneyama_suit,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "YC" = (
 /obj/structure/grille{
 	name = "vent bars"
@@ -3462,35 +3591,27 @@
 	name = "vent grate"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "YN" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "YO" = (
-/obj/structure/table/rack,
-/obj/item/clothing/head/hardhat/white,
-/obj/item/clothing/head/hardhat/white{
-	pixel_y = -10
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
 	},
-/obj/item/clothing/head/hardhat/white{
-	pixel_y = -5
+/obj/machinery/computer/shuttle_control/lift/kaneyama{
+	pixel_y = 6
 	},
-/obj/item/clothing/head/hardhat/white{
-	pixel_y = 5
-	},
-/obj/item/clothing/head/hardhat/white{
-	pixel_y = 10
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "YU" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "YW" = (
 /obj/machinery/atmospherics/pipe/tank{
 	dir = 1;
@@ -3499,17 +3620,19 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "Zc" = (
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"Zg" = (
-/obj/machinery/power/portgen/basic/advanced,
+/area/kaneyama_interiors)
+"Zq" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"Zw" = (
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "ZB" = (
 /obj/machinery/light{
 	dir = 8;
@@ -3517,44 +3640,17 @@
 	pixel_x = -4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
-"ZD" = (
-/obj/effect/decal/cleanable/floor_damage/random_broken,
-/obj/random/dirt_75,
-/obj/item/trash/broken_electronics,
-/obj/item/stack/material/steel,
-/obj/item/stack/rods,
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "ZI" = (
 /obj/effect/decal/exterior_stairs/half,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "ZK" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_interiors/subterrane)
-"ZR" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4;
-	pixel_y = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_y = 5;
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_y = 10;
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/hivebot,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 
 (1,1,1) = {"
 zJ
@@ -24740,15 +24836,15 @@ sg
 sg
 sg
 sg
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
 sg
 sg
 sg
@@ -24997,15 +25093,15 @@ sg
 sg
 sg
 sg
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
 sg
 sg
 sg
@@ -25242,11 +25338,11 @@ sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
 sg
@@ -25254,15 +25350,15 @@ sg
 sg
 sg
 sg
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
 sg
 sg
 sg
@@ -25499,11 +25595,11 @@ sg
 sg
 sg
 sg
-ti
-WH
-uV
-Dq
-ti
+Gr
+rm
+GV
+rm
+Gr
 sg
 sg
 sg
@@ -25511,15 +25607,15 @@ sg
 sg
 sg
 sg
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
 sg
 sg
 sg
@@ -25705,17 +25801,17 @@ sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
 sg
@@ -25725,25 +25821,15 @@ sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
 sg
@@ -25756,29 +25842,39 @@ sg
 sg
 sg
 sg
-ti
-Gj
-KC
+sg
+sg
+sg
+sg
+sg
+sg
+sg
+sg
+sg
+sg
+Gr
+eq
+rm
 RE
-ti
+Gr
 sg
 sg
 sg
 sg
 sg
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
 sg
 sg
 sg
@@ -25962,17 +26058,17 @@ sg
 sg
 sg
 sg
-ti
-gP
+Gr
+Zc
 Hu
 CD
 CD
 CD
 CD
 iZ
-AB
+ue
 Zc
-ti
+Gr
 sg
 sg
 sg
@@ -25982,25 +26078,15 @@ sg
 sg
 sg
 sg
-ti
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-ti
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
+Gr
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+Gr
 sg
 sg
 sg
@@ -26013,29 +26099,39 @@ sg
 sg
 sg
 sg
-ti
-DW
-KC
-KC
-ti
 sg
 sg
 sg
 sg
 sg
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
-dH
+sg
+sg
+sg
+sg
+sg
+Gr
+rm
+rm
+rm
+Gr
+sg
+sg
+sg
+sg
+sg
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
+iW
 sg
 sg
 sg
@@ -26219,7 +26315,7 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
 lX
 yH
@@ -26228,26 +26324,26 @@ yH
 yH
 yH
 ZI
-Zc
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+lB
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 UQ
-ti
-ti
-ti
-ti
-eX
-ti
+Gr
+Gr
+Gr
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -26270,11 +26366,11 @@ sg
 sg
 sg
 sg
-ti
-Zg
-KC
-KC
-ti
+Gr
+rm
+rm
+rm
+Gr
 sg
 sg
 sg
@@ -26283,13 +26379,13 @@ sg
 iW
 iW
 iW
-dH
-dH
-dH
-dH
-dH
-dH
-dH
+iW
+iW
+iW
+iW
+iW
+iW
+iW
 iW
 iW
 iW
@@ -26476,7 +26572,7 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
 Pf
 CD
@@ -26484,27 +26580,27 @@ CD
 CD
 CD
 iZ
-hX
-Zc
-ti
-KC
+Ol
+nL
+Gr
+rm
 Xx
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
 Xx
-KC
-KC
-KC
-AO
-KC
+rm
+rm
+rm
+rm
+rm
 Xx
-KC
-ti
-eX
-ti
+rm
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -26527,11 +26623,11 @@ sg
 sg
 sg
 sg
-ti
-ti
-gY
-ti
-ti
+Gr
+Gr
+TV
+Gr
+Gr
 sg
 sg
 sg
@@ -26541,11 +26637,11 @@ La
 La
 La
 iW
-dH
-dH
-dH
-dH
-dH
+iW
+iW
+iW
+iW
+iW
 iW
 La
 La
@@ -26733,18 +26829,18 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
 vG
-ti
+Gr
 fW
 ag
 JG
-ti
+Gr
 NP
 Zc
-ti
-KC
+Gr
+rm
 Zc
 wS
 wS
@@ -26758,10 +26854,10 @@ wS
 wS
 wS
 Cy
-KC
-ti
-eX
-ti
+rm
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -26769,54 +26865,54 @@ sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
-GP
-GP
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-vF
+Gr
+Gr
+Gr
+Gr
+Gr
+VQ
+VQ
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+OJ
 MZ
 OY
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 Mc
-oq
+iW
 iW
 dH
 dH
 dH
 iW
-oq
+iW
 Mc
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
 sg
@@ -26990,45 +27086,45 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
-KC
+rm
 VJ
 ip
-Zw
+AA
 II
 yC
-pN
-Zc
+rm
+hP
 AL
-KC
+rm
 OY
-ti
+Gr
 nf
 ag
 EZ
-ti
+Gr
 OY
-ti
+Gr
 nf
 ag
 EZ
-ti
+Gr
 OY
-KC
-ti
-eX
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-KC
-KC
+rm
+Gr
+iC
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+rm
+rm
 ZB
 zU
 Sl
@@ -27036,33 +27132,33 @@ hM
 qT
 ZB
 xs
-KC
-ti
+rm
+Gr
 wS
 wS
 eo
 wS
 OY
-ca
+fv
 OY
 eo
 wS
 wS
-wS
+BQ
 eo
 wS
 wS
-ti
+Gr
 Mc
-du
-du
-iW
-iW
-iW
-du
-du
+dH
+dH
+dH
+dH
+dH
+dH
+dH
 Mc
-ti
+Gr
 Je
 wS
 eo
@@ -27073,7 +27169,7 @@ wS
 wS
 wS
 oW
-ti
+Gr
 sg
 sg
 sg
@@ -27247,90 +27343,90 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
-KC
+rm
 SB
-Zw
+AA
 YN
-Zw
+AA
 cl
-KC
-Zc
+CC
+JU
 AL
-KC
+rm
 OY
 VJ
 ip
-Zw
+AA
 II
 yC
 OY
 VJ
 ip
-Zw
+AA
 II
 yC
 OY
-KC
-ti
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-eX
+rm
+Gr
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 ij
-KC
+rm
 Fg
-KC
-cG
+rm
+sm
 Zc
 Zc
-xj
-KC
-KC
-KC
+nZ
+rm
+rm
+rm
 VB
-KC
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
+rm
 MZ
-KC
-KC
-KC
+rm
+rm
+rm
 MZ
-KC
+rm
 MZ
-KC
+rm
 Qn
+et
+oq
+oq
+dH
+dH
+dH
+oq
+oq
+et
 Qn
-oq
-oq
-oq
-oq
-oq
-oq
-oq
-Qn
-Qn
-KC
-KC
+rm
+rm
 MZ
-KC
+rm
 MZ
-KC
-KC
+rm
+rm
 MZ
-KC
+rm
 iT
-ti
+Gr
 sg
 sg
 sg
@@ -27504,69 +27600,69 @@ sg
 sg
 sg
 sg
-ti
-Zc
-KC
+Gr
+SU
+rh
 OH
 XI
-Zw
+AA
 kS
 Qj
-KC
+rm
 Zc
 AL
-KC
+rm
 OY
 SB
-Zw
+AA
 YN
-Zw
+AA
 cl
 OY
 SB
-Zw
+AA
 YN
-Zw
+AA
 cl
 OY
-KC
-ti
-eX
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-KC
+rm
+Gr
+iC
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+rm
 Nj
-KC
+rm
 ZK
 Zc
 Zc
 lY
 MZ
-KC
-KC
-ti
+rm
+rm
+Gr
 wS
 wS
 wS
 wS
-oW
-KC
+OY
+rm
 uJ
 wS
 wS
 wS
 wS
-KC
+rm
 wS
 wS
-ti
+Gr
 Mc
 oq
 qg
@@ -27576,18 +27672,18 @@ oq
 qg
 oq
 Mc
-ti
+Gr
 wS
 Je
-KC
+rm
 wS
 wS
 wS
 wS
 Pi
-KC
+rm
 OY
-ti
+Gr
 sg
 sg
 sg
@@ -27761,90 +27857,90 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
-KC
-ti
+KD
+Gr
 gk
 nq
 Gg
-ti
-KC
+Gr
+CC
 Zc
-ti
+Gr
 NP
 OY
 OH
 XI
-Zw
+AA
 kS
 Qj
 OY
 OH
 XI
-Zw
+AA
 kS
 Qj
 OY
 vG
-ti
+Gr
 ij
-ti
-Pp
-YO
-GL
-Ar
-Hf
-Hf
-ti
-ti
-KC
+Gr
+eX
+Vb
+My
+Rv
+cO
+cO
+Gr
+Gr
+rm
 PU
-KC
+rm
 ZK
 Wc
 Zc
 lY
-KC
+rm
 MZ
 Mp
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 OY
 MZ
 OY
-ti
-ti
-ti
-ti
-zk
-ti
-ti
-ti
-ti
-ti
-ti
-gi
-gi
-gi
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
 jr
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+gi
+gi
+gi
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+jr
+Gr
+Gr
+Gr
+Gr
 OY
-KC
+rm
 bd
-ti
+Gr
 sg
 sg
 sg
@@ -28018,90 +28114,90 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
-KC
-KC
+rm
+rm
 El
 El
 El
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
 OY
-ti
+Gr
 pq
 CG
 oN
-ti
+Gr
 OY
-ti
+Gr
 pq
 CG
 oN
-ti
+Gr
 OY
-KC
+rm
 wS
 wS
-ti
-wQ
-wQ
-KC
-wQ
-wQ
-wQ
-ti
-ti
-KC
-KC
-KC
+Gr
+Xy
+Xy
+rm
+Xy
+Xy
+Xy
+Gr
+Gr
+rm
+rm
+rm
 ZK
 Zc
 Yu
 lY
-KC
-KC
-KC
-ti
+rm
+rm
+rm
+Gr
 sg
 sg
 sg
-ti
+Gr
 OY
-KC
+rm
 OY
-ti
+Gr
 sg
-ti
-KC
+Gr
+rm
 MZ
-KC
+rm
 Xx
-KC
-KC
-ti
+rm
+rm
+Gr
 et
 FG
 FG
 FG
 nx
-ti
+Gr
 HO
 eC
 Xx
-KC
+rm
 MZ
 bV
-ti
+Gr
 sg
-ti
+Gr
 OY
 MZ
 OY
-ti
+Gr
 sg
 sg
 sg
@@ -28110,9 +28206,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+oi
+oi
+oi
 sg
 sg
 sg
@@ -28275,90 +28371,90 @@ sg
 sg
 sg
 sg
-ti
+Gr
 GW
-KC
-KC
+rm
+rh
 El
 Xc
 El
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
 OY
 wS
 wS
 wS
 wS
-LV
+wS
 AK
 wS
 wS
-eX
+iC
 wS
 wS
 OY
-KC
-KC
-KC
-uK
-KC
-KC
-KC
-KC
-KC
-KC
-ti
-ti
+rm
+rm
+rm
+sI
+rm
+rm
+rm
+rm
+rm
+rm
+Gr
+Gr
 MZ
 JE
-KC
+rm
 ZK
 Zc
 Zc
 lY
-KC
+rm
 fl
-KC
-ti
+rm
+Gr
 sg
 sg
 sg
-ti
+Gr
 OY
-KC
+rm
 OY
-ti
+Gr
 sg
-ti
+Gr
 Jm
-KC
+rm
 MZ
-KC
-KC
+rm
+rm
 sB
 HX
 et
 mF
 bB
 et
-Zw
+AA
 HX
 nN
 fU
 MZ
-KC
-KC
+rm
+rm
 NA
-ti
+Gr
 sg
-ti
+Gr
 OY
 MZ
 OY
-ti
+Gr
 sg
 sg
 sg
@@ -28367,9 +28463,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+oi
+du
+oi
 sg
 sg
 sg
@@ -28532,72 +28628,72 @@ sg
 sg
 sg
 sg
-ti
+Gr
 PV
-KC
-KC
+CC
+rm
 El
 El
 El
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
 OY
-ti
+Gr
 nf
 ag
 EZ
-ti
+Gr
 OY
-ti
+Gr
 nf
 ag
 EZ
-ti
+Gr
 OY
-KC
+rm
 wS
 wS
-ti
-BU
-BU
-KC
-BU
-BU
-BU
-ti
-ti
+Gr
+zk
+zk
+rm
+zk
+zk
+zk
+Gr
+Gr
 He
 aZ
-KC
+rm
 Ej
 Zc
 Wc
 lY
-KC
+rm
 Eb
 dE
-ti
+Gr
 sg
 sg
 sg
-ti
+Gr
 OY
-KC
+Qp
 OY
-ti
+Gr
 sg
-ti
+Gr
 NP
-KC
+rm
 Jd
 iu
-KC
-KC
+rm
+rm
 iJ
-Zw
+AA
 rw
 et
 RV
@@ -28605,17 +28701,17 @@ qi
 HX
 nN
 EN
-KC
+rm
 MZ
-KC
+rm
 eZ
-ti
+Gr
 sg
-ti
+Gr
 OY
-KC
+rm
 OY
-ti
+Gr
 sg
 sg
 sg
@@ -28624,9 +28720,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+oi
+du
+oi
 sg
 sg
 sg
@@ -28789,90 +28885,90 @@ sg
 sg
 sg
 sg
-ti
+Gr
 PV
-KC
-KC
+Bx
+rm
 El
 El
 El
 FE
-AO
+rm
 Zc
-ti
+Gr
 NP
 OY
 VJ
 ip
-Zw
+AA
 II
 yC
 OY
 VJ
 ip
-Zw
+AA
 II
 yC
 OY
 vG
-ti
+Gr
 ij
-ti
-Uz
-CW
-lI
-Ar
-gp
-gp
-ti
-ti
-KC
+Gr
+Qq
+xk
+cR
+Rv
+lZ
+lZ
+Gr
+Gr
+rm
 jN
-KC
+rm
 ZK
 Wc
 Zc
 lY
-KC
+rm
 oS
-KC
-ti
+rm
+Gr
 sg
 sg
 sg
-ti
+Gr
 VE
-KC
+rm
 OY
-ti
+Gr
 sg
-ti
+Gr
 fk
-Qp
+rm
 MZ
 RV
-KC
+rm
 sB
-ti
+Gr
 kd
 aX
 aX
 dv
 nx
-ti
+Gr
 Nu
 vM
-KC
-vL
+rm
+rm
 MZ
 Jh
-ti
+Gr
 sg
-ti
+Gr
 OY
 MZ
 iT
-ti
+Gr
 sg
 sg
 sg
@@ -28881,9 +28977,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+oi
+du
+oi
 sg
 sg
 sg
@@ -29046,10 +29142,10 @@ sg
 sg
 sg
 sg
-ti
+Gr
 YW
-KC
-pN
+rm
+rm
 El
 El
 uG
@@ -29057,79 +29153,79 @@ ce
 qM
 Dc
 AL
-KC
+rm
 OY
 SB
-Zw
+AA
 YN
-Zw
+AA
 cl
 OY
 SB
-Zw
+AA
 YN
-Zw
+AA
 cl
 OY
-KC
-ti
-eX
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-KC
-KC
-KC
+rm
+Gr
+iC
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+rm
+rm
+rm
 ZK
 Zc
 Zc
 sS
-KC
-KC
-KC
-ti
+rm
+rm
+rm
+Gr
 sg
 sg
 sg
-ti
+Gr
 OY
 MZ
 OY
-ti
+Gr
 sg
-ti
+Gr
 QN
-KC
-KC
-KM
-KC
-KC
-ti
-ti
+rm
+rm
+JC
+rm
+rm
+Gr
+Gr
 VT
 VT
 VT
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 jr
-ti
-ti
+Gr
+Gr
 sg
-ti
+Gr
 OY
-KC
+rm
 OY
-ti
+Gr
 sg
 sg
 sg
@@ -29138,9 +29234,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+oi
+oi
+oi
 sg
 sg
 sg
@@ -29303,10 +29399,10 @@ sg
 sg
 sg
 sg
-ti
+Gr
 YW
-KC
-KC
+CC
+rm
 El
 LB
 xE
@@ -29314,79 +29410,79 @@ ce
 UF
 Dc
 AL
-Qp
+rm
 OY
 OH
 XI
-Zw
+AA
 kS
 Qj
 OY
 OH
 XI
-Zw
+AA
 kS
 Qj
 OY
-KC
-ti
-eX
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-KC
+rm
+Gr
+iC
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+rm
 mx
-KC
+rm
 ZK
 Zc
 Wc
 lY
-KC
+rm
 Fg
-KC
-ti
+rm
+Gr
 sg
 sg
 sg
-ti
+Gr
 OY
-KC
+rm
 OY
-ti
+Gr
 sg
-ti
-iU
-KC
-KC
-HF
+Gr
+rm
+rm
+rm
+aa
 MZ
-KC
+rm
 MZ
-KC
+rm
 zU
 Cm
 dL
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
 Xx
-KC
+rm
 MZ
-RE
-ti
+rm
+Gr
 sg
-ti
+Gr
 OY
-KC
+rm
 OY
-ti
+Gr
 sg
 sg
 sg
@@ -29560,10 +29656,10 @@ sg
 sg
 sg
 sg
-ti
+Gr
 YW
-Qp
-KC
+CC
+rC
 LB
 Dc
 xE
@@ -29571,54 +29667,54 @@ ce
 qM
 Dc
 AL
-KC
+rm
 OY
-ti
+Gr
 pq
 CG
 oN
-ti
+Gr
 OY
-ti
+Gr
 mh
 CG
 EK
-ti
+Gr
 OY
-KC
-ti
-eX
+rm
+Gr
+iC
 ij
-KC
+rm
 qX
 xs
 JP
 SD
 lQ
-ti
-ti
-KC
+Gr
+Gr
+rm
 jY
-KC
+rm
 PD
 Zc
 Zc
 lY
-KC
+rm
 Nj
-KC
-ti
+rm
+Gr
 sg
 sg
 sg
-ti
+Gr
 OY
-KC
+rm
 yb
-ti
+Gr
 sg
-ti
-KC
+Gr
+rm
 Mn
 Cm
 sp
@@ -29636,14 +29732,14 @@ Cm
 Cm
 Cm
 wE
-KC
-ti
+rm
+Gr
 sg
-ti
+Gr
 bd
-KC
+rm
 bd
-ti
+Gr
 sg
 sg
 sg
@@ -29817,18 +29913,18 @@ sg
 sg
 sg
 sg
-ti
+Gr
+lB
+CC
+rm
+Bx
+rm
+rm
+so
+aa
 Zc
-KC
-KC
-KC
-KC
-KC
-QV
-HF
-Zc
-ti
-KC
+Gr
+rm
 Zc
 wS
 wS
@@ -29842,40 +29938,40 @@ wS
 wS
 wS
 Zc
-KC
-ti
-eX
-ti
-KC
-ti
+rm
+Gr
+iC
+Gr
+rm
+Gr
 xO
-KC
-KC
+rm
+rm
 Hs
-ti
-ti
-KC
+Gr
+Gr
+rm
 RO
-KC
+rm
 ZK
 Zc
 Wc
 lY
-KC
+rm
 PU
-KC
-ti
+rm
+Gr
 sg
-ti
-ti
-ti
+Gr
+Gr
+Gr
 OY
-KC
+rm
 OY
-ti
+Gr
 sg
-ti
-KC
+Gr
+rm
 Ac
 Zc
 Zc
@@ -29893,14 +29989,14 @@ Zc
 Zc
 Wc
 lY
-KC
-ti
+rm
+Gr
 sg
-ti
+Gr
 ma
-KC
+rm
 OY
-ti
+Gr
 sg
 sg
 sg
@@ -30074,70 +30170,70 @@ sg
 sg
 sg
 sg
-ti
+Gr
+nL
+Zc
+AJ
+Zc
 Zc
 Zc
 Az
 Zc
-Zc
-Zc
-Az
-Zc
-HF
-ti
-KC
+aa
+Gr
+rm
 Sg
-KC
-KC
-KC
-HF
-ZR
-HF
+rm
+rm
+rm
+aa
+rX
+aa
 OY
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
 Sg
-KC
-ti
-eX
-ti
-KC
-ti
+rm
+Gr
+iC
+Gr
+rm
+Gr
 SP
-KC
+rm
 NQ
 Ya
-ti
-ti
-KC
+Gr
+Gr
+rm
 MZ
-Yi
+CB
 zB
 bL
 XX
 vK
 ks
-KC
-KC
-ti
+rm
+rm
+Gr
 sg
-ti
-pz
-ti
+Gr
+mU
+Gr
 OY
 MZ
 OY
-ti
+Gr
 sg
-ti
+Gr
 Sg
 zB
 XX
 XX
 vK
-KC
+rm
 Sg
 ko
 Rz
@@ -30145,19 +30241,19 @@ Yr
 Yr
 Kt
 Sg
-KC
+rm
 Dl
 bL
 XX
 vK
 Sg
-ti
+Gr
 sg
-ti
+Gr
 OY
 MZ
 OY
-ti
+Gr
 sg
 sg
 sg
@@ -30331,101 +30427,101 @@ sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-TA
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-KC
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Op
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+rm
+Gr
+Gr
 GX
 gG
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 BR
 BR
 BR
-ho
-QT
+pP
+Gq
 jr
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 jr
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 BR
 BR
 BR
 BR
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 gr
 BR
 BR
 BR
 BR
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 jr
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 Gr
 Gr
 Gr
@@ -30593,33 +30689,33 @@ sg
 sg
 sg
 sg
-ti
-Zw
-Zw
-Zw
-Zw
+Gr
+Oz
+CR
+CR
+vL
 RM
 eo
-wS
-wS
 BQ
+wS
+wS
 oC
 ba
 wS
-KC
-Ud
+Fu
+eH
+eo
 wS
 wS
 wS
 wS
 wS
-wS
-wS
+eo
 wS
 wS
 QL
 qr
-Pc
+Zq
 wS
 wS
 wS
@@ -30632,8 +30728,8 @@ sZ
 sZ
 sZ
 sZ
-wS
-KC
+eo
+rm
 wS
 wS
 wS
@@ -30641,24 +30737,24 @@ eo
 wS
 wS
 wS
-KC
+rm
 Je
 wS
-eo
 wS
 wS
+wS
 sZ
 sZ
 sZ
 sZ
-qj
+Gr
 ti
-qj
-ti
+sg
+Gr
 FU
 mv
 Je
-eo
+wS
 VM
 sZ
 sZ
@@ -30669,11 +30765,11 @@ wS
 eo
 wS
 wS
-KC
+rm
 wS
 wS
 wS
-nB
+eo
 wS
 wS
 wS
@@ -30682,11 +30778,11 @@ wS
 wS
 wS
 eo
-QL
-AA
-AA
-AA
-AA
+Uz
+jh
+Sw
+Sw
+YO
 Gr
 sg
 sg
@@ -30850,100 +30946,100 @@ sg
 sg
 sg
 sg
-ti
-Zw
-Zw
-Zw
-Zw
+Gr
+AO
+BU
+CW
+CW
 nr
-HF
-HF
-HF
+rm
+rm
+rm
 qK
-KC
+rm
 qK
-KC
+rm
 Al
-KC
-jQ
+rm
+Ji
 MZ
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+Qp
+rm
 MZ
-KC
+rm
 QL
 qr
 nr
-KC
+rm
 Qp
 MZ
-KC
-KC
+rm
+rm
 MZ
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
 MZ
-KC
-KC
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
+rm
+rm
 MZ
-KC
-KC
-KC
-KC
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
+rm
+rm
+rm
+rm
 MZ
 Il
+Gr
 ti
-ti
-qj
-qj
-qj
+sg
+sg
+sg
 qj
 FU
 FU
-RV
-oi
+RY
+MZ
 qi
 MZ
 Ny
-KC
-KC
+rm
+rm
 OS
-KC
-KC
+rm
+rm
 OS
-KC
+rm
 OS
-KC
-KC
+rm
+rm
 rr
 jJ
-KC
-KC
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
+rm
+rm
 QL
-AA
-AA
-AA
-AA
+Hf
+Gj
+js
+pN
 Gr
 sg
 sg
@@ -31107,100 +31203,100 @@ sg
 sg
 sg
 sg
-ti
-Zw
-Zw
-Zw
-Zw
+Gr
+AO
+CW
+CW
+CW
 Pc
-KC
+rm
 WR
-KC
-HF
+rm
+rm
 wP
 RG
 qK
-KC
+rm
 Qp
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
 MZ
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
 QL
 qr
 Pc
 MZ
 MZ
 MZ
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
 MZ
-KC
-KC
+rm
+rm
 Qp
-KC
-KC
+rm
+rm
 MZ
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
 MZ
-KC
-KC
-KC
-KC
-Oi
-KC
+rm
+rm
+rm
+rm
+vA
+rm
 mv
 MZ
 nW
 nW
 qj
-qj
-qj
-qj
-qj
-ti
+sg
+sg
+sg
+sg
+Gr
 qj
 Pw
 FU
-CV
-KC
-KC
-KC
+MZ
+rm
+rm
+rm
 OS
-KC
-KC
+rm
+rm
 OS
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
 OS
 wP
-KC
-KC
-KC
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
+rm
+rm
+rm
 QL
-AA
-AA
-AA
-AA
+Hf
+js
+js
+pN
 Gr
 sg
 sg
@@ -31364,19 +31460,19 @@ sg
 sg
 sg
 sg
-ti
-Zw
-Zw
-Zw
-Zw
-Pc
+Gr
+nB
+gp
+GQ
+gY
+sP
 fm
 wS
-KC
-HF
+rm
+rm
 jw
 wS
-wS
+DX
 wS
 wS
 wS
@@ -31385,10 +31481,10 @@ wS
 MZ
 wS
 wS
+DX
 wS
 wS
-wS
-sl
+WI
 qr
 Pc
 xb
@@ -31405,7 +31501,7 @@ wS
 xb
 wS
 wS
-KC
+rm
 wS
 wS
 xb
@@ -31416,23 +31512,23 @@ mo
 wS
 wS
 xb
-kc
+wF
 wS
 nW
-ti
+Gr
 wS
 qj
-qj
-qj
-qj
-qj
-qj
-ti
+sg
+sg
+sg
+sg
+sg
+Gr
 TW
 rZ
-zC
+VM
 wS
-KC
+rm
 wS
 wS
 wS
@@ -31454,10 +31550,10 @@ wS
 wS
 IE
 QL
-AA
-AA
-AA
-AA
+vF
+wQ
+wQ
+iU
 Gr
 sg
 sg
@@ -31621,96 +31717,96 @@ sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-KC
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+rm
 Yb
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ZD
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+hw
+Gr
+Gr
+Gr
+Gr
+Gr
 Gp
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
 ij
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 jr
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
 ij
-ti
-Gr
-jL
-tP
 Gr
 Gr
+Mq
+fL
+Vz
+Gr
+Gr
+Gr
+Gr
 Gr
 ti
-ti
-ti
-ti
-qj
-ti
-ti
-ti
-qj
-ti
-ti
-ti
-ti
-ti
+sg
+Gr
+Gr
+Gr
+sg
+Gr
+Gr
+Gr
+Gr
+Gr
 yq
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 AX
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 Gr
 Gr
 Gr
@@ -31880,80 +31976,80 @@ sg
 sg
 sg
 sg
-ti
+Gr
 sk
-HF
-KK
+aa
+Uk
 Zc
 sk
 Fu
 Fu
-HF
-KC
-KC
+aa
+rm
+rm
 YU
 Ns
 lx
 yD
-yt
-KC
+Hd
+rm
 bG
-ti
-vd
+Gr
+eS
 lo
-Sv
+ai
 lm
-ti
-sg
-sg
-ti
-eX
-ti
-ib
-ib
-ib
-ib
-ib
-sg
-sg
-sg
-ti
-kG
-KC
-ne
-ti
-sg
-ti
-eX
-ti
 Gr
-QX
-KZ
+sg
+sg
+Gr
 iC
-QG
+Gr
+ib
+ib
+ib
+ib
+ib
+sg
+sg
+sg
+Gr
+kG
+rm
+ne
+Gr
+sg
+Gr
+iC
+Gr
+Gr
+Ae
+tL
+iC
+FM
+ti
+sg
+sg
+sg
+sg
+sg
+Gr
+wI
 Gr
 sg
 sg
 sg
 sg
-sg
-ti
-wI
-ti
-sg
-sg
-sg
-sg
-GP
+VQ
 Ja
 lm
 qc
-GP
+VQ
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -32137,35 +32233,35 @@ sg
 sg
 sg
 sg
-ti
-HF
-KC
+Gr
+aa
+rm
 FE
 FE
 FE
-KC
-KC
+rm
+rm
 FE
-hs
+of
 FE
 YU
 TT
 lx
 yD
 Jc
-gM
+WS
 Gb
-ti
-ti
-ti
+Gr
+Gr
+Gr
 lm
-Sv
-ti
+ai
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -32174,43 +32270,43 @@ ib
 sg
 sg
 sg
-ti
+Gr
 ae
 Sg
 bN
-ti
-sg
-ti
-ti
-ti
 Gr
-rf
-CR
+sg
+Gr
+Gr
+Gr
+Gr
+FL
 iC
-CZ
+iC
+OC
+ti
+sg
+sg
+sg
+sg
+sg
+Gr
+DT
 Gr
 sg
 sg
 sg
 sg
-sg
-ti
-DT
-ti
-sg
-sg
-sg
-sg
-GP
+VQ
 dU
 lm
 Vf
-GP
+VQ
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -32387,14 +32483,14 @@ sg
 sg
 sg
 sg
+oi
+oi
+oi
 sg
 sg
 sg
 sg
-sg
-sg
-sg
-ti
+Gr
 Zc
 Pf
 HL
@@ -32405,24 +32501,24 @@ NS
 Hi
 Hi
 pJ
-KC
+rm
 de
-KC
-KC
+rm
+rm
 MZ
-KC
+rm
 cj
-ti
+Gr
 qd
 lo
 lm
-Sv
-ti
+Tc
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -32431,43 +32527,43 @@ ib
 sg
 sg
 sg
-ti
-ti
+Gr
+Gr
 ij
-ti
-ti
-sg
-sg
-sg
-sg
 Gr
-yR
-iC
-iC
-vh
 Gr
 sg
 sg
 sg
 sg
-sg
+Gr
+Bf
+iC
+iC
+cv
 ti
+sg
+sg
+sg
+sg
+sg
+Gr
 zx
-ti
+Gr
 sg
 sg
 sg
 sg
-GP
+VQ
 DI
 rS
 Ib
-GP
+VQ
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -32644,42 +32740,42 @@ sg
 sg
 sg
 sg
+oi
+du
+oi
 sg
 sg
 sg
 sg
-sg
-sg
-sg
-ti
+Gr
 Zc
 Pf
 fp
-KC
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
+rm
 lG
-KC
+rm
 aS
 MZ
-KC
-KC
+rm
+rm
 MZ
 zp
-ti
-ti
-ti
+Gr
+Gr
+Gr
 lm
 lm
-ti
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -32689,8 +32785,19 @@ sg
 sg
 sg
 sg
-ti
-eX
+Gr
+iC
+Gr
+sg
+sg
+sg
+sg
+sg
+Gr
+IF
+iC
+iC
+ND
 ti
 sg
 sg
@@ -32698,33 +32805,22 @@ sg
 sg
 sg
 Gr
-Uv
 iC
-iC
-aK
 Gr
 sg
 sg
 sg
 sg
-sg
-ti
-eX
-ti
-sg
-sg
-sg
-sg
-GP
-GP
-GP
-GP
-GP
+VQ
+VQ
+VQ
+VQ
+VQ
 sg
 sg
-ti
+Gr
 uW
-ti
+Gr
 sg
 sg
 sg
@@ -32901,21 +32997,21 @@ sg
 sg
 sg
 sg
+oi
+du
+oi
 sg
 sg
 sg
 sg
-sg
-sg
-sg
-ti
+Gr
 Gm
 Pf
 Hw
 UA
 RL
-KC
-Qp
+rm
+rm
 Rr
 RL
 lG
@@ -32926,17 +33022,17 @@ kH
 qJ
 dj
 qJ
-ti
-GB
+Gr
+ad
 lo
 lm
-Sv
-ti
+ai
+Gr
 sg
 sg
-ti
+Gr
 xW
-ti
+Gr
 sg
 sg
 sg
@@ -32946,8 +33042,19 @@ sg
 sg
 sg
 sg
-ti
+Gr
 uW
+Gr
+sg
+sg
+sg
+sg
+sg
+Gr
+lN
+Si
+kT
+WE
 ti
 sg
 sg
@@ -32955,33 +33062,22 @@ sg
 sg
 sg
 Gr
-TQ
-bA
-Xk
-tz
+Ek
 Gr
 sg
 sg
 sg
 sg
 sg
-ti
+sg
+sg
+sg
+sg
+sg
+sg
+Gr
 Ek
-ti
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-sg
-ti
-Ek
-ti
+Gr
 sg
 sg
 sg
@@ -33158,21 +33254,21 @@ sg
 sg
 sg
 sg
+oi
+du
+oi
 sg
 sg
 sg
 sg
-sg
-sg
-sg
-ti
+Gr
 Gm
 Pf
 Hw
 er
 RL
-KC
-KC
+rm
+rm
 Rr
 RL
 lG
@@ -33181,19 +33277,19 @@ TK
 TK
 TK
 TK
-KC
+rm
 TK
-ti
-ti
-ti
+Gr
+Gr
+Gr
 lm
 lm
-ti
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33203,8 +33299,19 @@ sg
 sg
 sg
 sg
-ti
-eX
+Gr
+iC
+Gr
+sg
+sg
+sg
+sg
+sg
+Gr
+xT
+iC
+eG
+uD
 ti
 sg
 sg
@@ -33212,33 +33319,22 @@ sg
 sg
 sg
 Gr
-zm
-Hz
-js
-KW
+iC
 Gr
 sg
 sg
 sg
 sg
-sg
-ti
-eX
-ti
-sg
-sg
-sg
-sg
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33415,42 +33511,42 @@ sg
 sg
 sg
 sg
+oi
+oi
+oi
 sg
 sg
 sg
 sg
-sg
-sg
-sg
-ti
+Gr
 Gm
 Pf
 Hw
-KC
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rh
+rm
+rm
+rm
 Rl
 MZ
-KC
-KC
-cW
-KC
-KC
-KC
-ti
+rm
+rm
+CK
+rm
+rm
+rm
+Gr
+uV
 ts
-VY
 lm
 lm
-ti
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33460,8 +33556,19 @@ sg
 sg
 sg
 sg
-ti
+Gr
 xW
+Gr
+sg
+sg
+sg
+sg
+sg
+Gr
+Gr
+Gr
+Gr
+Gr
 ti
 sg
 sg
@@ -33469,33 +33576,22 @@ sg
 sg
 sg
 Gr
-Gr
-Gr
-Gr
-Gr
+iC
 Gr
 sg
 sg
 sg
 sg
-sg
-ti
-eX
-ti
-sg
-sg
-sg
-sg
-ti
+Gr
 rD
 PT
 Kw
-ti
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33679,35 +33775,35 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Gm
 Pf
 Hw
-KC
-KC
-KC
-gM
-KC
-KC
+rm
+rm
+rm
+WS
+rm
+rm
 Rl
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
 MZ
-KC
-KC
+rm
+rm
 ee
 lm
-Sv
-Sv
+ai
+ai
 wm
-ti
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33717,9 +33813,9 @@ sg
 sg
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33736,23 +33832,23 @@ sg
 sg
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
 sg
-ti
+Gr
 KR
 oy
 TC
-ti
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33936,35 +34032,35 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Gm
 Pf
 Hw
 WC
 RL
-Cz
-KC
+PW
+rm
 Qu
 RL
 lG
-KC
-KC
-PN
-PN
-PN
-PN
+rm
+rm
+Ju
+Ju
+Ju
+Ju
 Cb
-ti
+Gr
+UJ
 lm
+ai
 lm
-Sv
-lm
-ti
-ti
-ti
-ti
-eX
-ti
+Gr
+Gr
+Gr
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33974,9 +34070,9 @@ sg
 sg
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -33993,23 +34089,23 @@ sg
 sg
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
 sg
-ti
+Gr
 hc
 oy
 ES
-ti
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -34193,35 +34289,35 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Gm
 Pf
 Hw
 WC
 RL
-KC
-KC
+rm
+rm
 Qu
 RL
 lG
-KC
+rm
 Zc
-pl
-pl
-pl
-pl
+qp
+qp
+qp
+qp
 Zc
-ti
-zl
+Gr
+Bu
 QD
 QD
-zl
+Bu
 ij
-st
+tO
 uW
-eX
-eX
-ti
+iC
+iC
+Gr
 sg
 sg
 sg
@@ -34231,42 +34327,42 @@ sg
 sg
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
 sg
 sg
 sg
 sg
-ti
+Gr
 Py
-ti
+Gr
 sg
 sg
 sg
 sg
-ti
-ti
+Gr
+Gr
 oy
-ti
-ti
+Gr
+Gr
 sg
 sg
-ti
-eX
-ti
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -34450,35 +34546,35 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
 Pf
 Hw
-KC
-KC
-KC
-KC
-KC
-KC
+rm
+rm
+rm
+rm
+rm
+rm
 lG
-KC
+rm
 Zc
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
 sg
@@ -34488,42 +34584,42 @@ sg
 sg
 sg
 sg
-ti
-eX
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-eX
+Gr
+iC
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+iC
 Uh
-eX
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+iC
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 qn
-ti
+Gr
 tm
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 YC
-ti
-ti
-ti
-ti
-ti
-eX
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+iC
+Gr
 sg
 sg
 sg
@@ -34707,7 +34803,7 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
 Pf
 Sc
@@ -34718,14 +34814,14 @@ UK
 og
 og
 dl
-KC
+rm
 Zc
-ti
+Gr
 JY
 JY
 JY
 JY
-ti
+Gr
 sg
 sg
 sg
@@ -34745,42 +34841,42 @@ sg
 sg
 sg
 sg
-ti
-st
-eX
-eX
-UM
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-eX
-qn
-qn
-qn
-yS
-qn
-qn
-qn
-qn
-qn
-qn
-qn
-yS
-eX
-eX
+Gr
+tO
+iC
+iC
 uW
-eX
-eX
-st
-ti
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+qn
+qn
+qn
+yS
+qn
+qn
+qn
+qn
+qn
+qn
+qn
+yS
+iC
+iC
+uW
+iC
+iC
+tO
+Gr
 sg
 sg
 sg
@@ -34964,25 +35060,25 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Zc
-KC
+rm
 td
 td
 td
-KC
-KC
+rm
+rm
 td
 td
 td
-KC
+rm
 Zc
 BO
-KC
-KC
-KC
+rm
+rm
+rm
 RE
-ti
+Gr
 sg
 sg
 sg
@@ -35002,42 +35098,42 @@ sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-eX
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+iC
 tO
-eX
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+iC
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 tm
-ti
+Gr
 NG
-ti
-ti
-ti
+Gr
+Gr
+Gr
 tm
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
 sg
@@ -35221,7 +35317,7 @@ sg
 sg
 sg
 sg
-ti
+Gr
 Az
 Zc
 Zc
@@ -35234,12 +35330,12 @@ Zc
 Zc
 Zc
 Az
-ti
+Gr
 JY
 JY
 JY
 JY
-ti
+Gr
 sg
 sg
 sg
@@ -35267,11 +35363,11 @@ ib
 ib
 ib
 ib
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
 ib
 ib
 ib
@@ -35478,25 +35574,25 @@ sg
 sg
 sg
 sg
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 sg
 sg
 sg
@@ -46762,9 +46858,9 @@ sg
 sg
 sg
 Gr
-Oz
-Oz
-jh
+rm
+rm
+Xx
 VQ
 sg
 sg
@@ -47019,7 +47115,7 @@ sg
 sg
 sg
 Gr
-Oz
+rm
 rm
 vu
 VQ
@@ -47276,7 +47372,7 @@ sg
 sg
 sg
 Gr
-Oz
+rm
 rm
 Mv
 VQ
@@ -47533,9 +47629,9 @@ sg
 sg
 sg
 Gr
-Oz
-Oz
-Sw
+rm
+rm
+Sg
 VQ
 sg
 sg
