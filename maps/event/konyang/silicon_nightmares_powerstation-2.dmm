@@ -437,6 +437,16 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
+"br" = (
+/obj/machinery/computer/shuttle_control/lift/wall/kaneyama_north{
+	pixel_y = 26
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "bs" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/floor_decal/spline/fancy{
@@ -449,6 +459,10 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled,
+/area/kaneyama_plant)
+"bv" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/plating,
 /area/kaneyama_plant)
 "bw" = (
 /obj/effect/floor_decal/spline/plain/corner{
@@ -525,15 +539,6 @@
 /area/kaneyama_interiors)
 "bK" = (
 /turf/simulated/floor/exoplanet/konyang,
-/area/kaneyama_ext)
-"bM" = (
-/obj/effect/decal/road_marking{
-	dir = 1
-	},
-/obj/effect/decal/road_marking{
-	dir = 1
-	},
-/turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
 "bN" = (
 /obj/structure/table/steel,
@@ -693,6 +698,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"cG" = (
+/mob/living/heavy_vehicle/premade/ripley{
+	name = "KRC underwater power loader"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_plant)
 "cJ" = (
 /obj/structure/bed/stool/chair/cockpit,
 /obj/machinery/computer/fake_cockpit_console/engines{
@@ -813,6 +824,9 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"de" = (
+/turf/simulated/open,
+/area/kaneyama_plant)
 "df" = (
 /obj/machinery/door/airlock/multi_tile{
 	name = "Clinic"
@@ -1022,11 +1036,6 @@
 /obj/item/modular_computer/console/preset/command,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
-"ee" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/pipedispenser,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "ef" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/recharge_station,
@@ -1114,13 +1123,6 @@
 /obj/item/ammo_magazine/submachinemag,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
-"eE" = (
-/obj/machinery/door/blast/shutters{
-	id = "powerplant_elevator";
-	name = "Underground Access"
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_plant)
 "eG" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 2;
@@ -1139,11 +1141,6 @@
 /obj/effect/landmark/corpse/kaneyama_guard,
 /turf/simulated/floor/bluegrid,
 /area/kaneyama_interiors)
-"eK" = (
-/obj/structure/girder,
-/obj/random/dirt_75,
-/turf/simulated/floor/plating,
-/area/kaneyama_plant)
 "eM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /turf/simulated/wall/shuttle/unique/scc/scout{
@@ -1266,8 +1263,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_ext)
 "fj" = (
-/turf/simulated/open,
-/area/kaneyama_plant)
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "fk" = (
 /obj/machinery/body_scanconsole{
 	dir = 4;
@@ -1512,23 +1514,6 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"gt" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
 "gu" = (
 /obj/structure/table/steel,
 /obj/machinery/door/window/desk/southright,
@@ -1584,9 +1569,6 @@
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"gE" = (
-/turf/simulated/floor/foamedmetal,
-/area/kaneyama_ext)
 "gF" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal/coc{
@@ -1721,6 +1703,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"hg" = (
+/obj/machinery/light/colored/dying{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "hh" = (
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced,
 /obj/machinery/door/blast/regular/open{
@@ -1728,11 +1717,6 @@
 	id = "reactor1_blast"
 	},
 /turf/simulated/floor/hivebot,
-/area/kaneyama_plant)
-"hk" = (
-/obj/structure/girder,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "hn" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -1768,13 +1752,6 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled,
-/area/kaneyama_plant)
-"hv" = (
-/obj/machinery/light/colored/dying{
-	dir = 8
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "hw" = (
 /obj/effect/shuttle_landmark/supply/konyang/dock{
@@ -1936,6 +1913,15 @@
 "ic" = (
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/kaneyama_ext/water)
+"id" = (
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "ie" = (
 /obj/machinery/door/airlock/medical{
 	name = "Operating Room"
@@ -1995,6 +1981,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/kaneyama_plant)
+"it" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "iu" = (
 /obj/structure/flora/rock/konyang/small,
 /turf/simulated/floor/asphalt,
@@ -2005,17 +1997,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
-"iw" = (
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_plant)
-"ix" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "iA" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/hivebot,
@@ -2117,12 +2098,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
-"jj" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/random/dirt_75,
-/obj/structure/closet/firecloset/full,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "jk" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/steel/full,
@@ -2217,6 +2192,10 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"jG" = (
+/mob/living/heavy_vehicle/premade/konyang,
+/turf/simulated/floor/sidewalk/blocks,
+/area/kaneyama_ext)
 "jH" = (
 /obj/structure/utility_pole/street/on,
 /turf/simulated/floor/concrete,
@@ -2273,6 +2252,11 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
+"jT" = (
+/obj/structure/flora/bush/konyang_reeds,
+/obj/structure/flora/tree/konyang,
+/turf/simulated/floor/exoplanet/konyang,
+/area/kaneyama_ext)
 "jU" = (
 /obj/effect/landmark/corpse/kaneyama_suit,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -2297,6 +2281,18 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
+"jX" = (
+/obj/machinery/button/remote/blast_door{
+	pixel_y = -20;
+	name = "Underground Access";
+	id = "powerplant_elevator";
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "jZ" = (
 /obj/effect/decal/road_marking/center,
 /obj/effect/decal/road_marking/reflector,
@@ -2335,12 +2331,6 @@
 	dir = 1
 	},
 /obj/machinery/light/colored/dying,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
-"kn" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 9
-	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "ko" = (
@@ -2439,10 +2429,6 @@
 	},
 /turf/simulated/floor/lino,
 /area/kaneyama_plant)
-"kJ" = (
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "kK" = (
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /obj/random/seed{
@@ -2507,6 +2493,12 @@
 /obj/item/stamp,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"kU" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_ext)
 "kV" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 8;
@@ -2578,6 +2570,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_ext)
+"ls" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "lt" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
@@ -2632,6 +2631,12 @@
 /obj/structure/closet/secure_closet/engineering_personal,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"lG" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "lH" = (
 /obj/structure/table/steel,
 /obj/item/modular_computer/laptop/preset/civilian,
@@ -2645,8 +2650,11 @@
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
 "lJ" = (
-/obj/machinery/light{
-	pixel_y = -2
+/obj/machinery/computer/shuttle_control/lift/wall/kaneyama{
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
@@ -2779,12 +2787,6 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"mi" = (
-/obj/effect/floor_decal/industrial/loading/yellow{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_ext)
 "mj" = (
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 1
@@ -3015,6 +3017,15 @@
 /mob/living/heavy_vehicle/premade/ripley,
 /turf/simulated/floor/plating,
 /area/kaneyama_plant)
+"na" = (
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "ne" = (
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Research Director"
@@ -3042,6 +3053,12 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
+"nl" = (
+/obj/machinery/door/airlock{
+	name = "Access Hallway"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "nn" = (
 /obj/structure/sign/radiation{
 	pixel_y = 32
@@ -3081,13 +3098,6 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
-"nv" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "nw" = (
 /obj/effect/decal/road_marking/center,
 /obj/effect/decal/road_marking/reflector,
@@ -3377,14 +3387,6 @@
 	},
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
-"os" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
 "ot" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5
@@ -3645,6 +3647,11 @@
 /obj/structure/bed/stool/chair/office/dark,
 /turf/simulated/floor/carpet/lightblue,
 /area/kaneyama_plant)
+"pv" = (
+/obj/structure/flora/bush/konyang_reeds,
+/obj/random/dirt_75,
+/turf/simulated/floor/hivebot,
+/area/kaneyama_ext)
 "px" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/kaneyama_worker,
@@ -3836,11 +3843,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/kaneyama_plant)
-"qm" = (
-/obj/structure/flora/bush/konyang_reeds,
-/obj/random/dirt_75,
-/turf/simulated/floor/hivebot,
-/area/kaneyama_ext)
 "qq" = (
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/simulated/floor/concrete,
@@ -4039,11 +4041,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"ri" = (
-/obj/structure/flora/bush/konyang_reeds,
-/obj/structure/flora/tree/konyang,
-/turf/simulated/floor/exoplanet/konyang,
-/area/kaneyama_ext)
 "rk" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -4474,6 +4471,15 @@
 	icon_state = "3,10"
 	},
 /area/shuttle/sn_canary)
+"td" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "te" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 5
@@ -4680,6 +4686,11 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"tL" = (
+/obj/structure/girder,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "tM" = (
 /obj/machinery/door/airlock/glass{
 	name = "Administrative Wing"
@@ -4775,6 +4786,11 @@
 /obj/structure/flora/bush/konyang_reeds,
 /turf/simulated/wall,
 /area/kaneyama_interiors)
+"ui" = (
+/obj/structure/girder,
+/obj/random/dirt_75,
+/turf/simulated/floor/plating,
+/area/kaneyama_plant)
 "uj" = (
 /obj/structure/bed/stool/chair/sofa/right/brown{
 	dir = 1
@@ -4801,6 +4817,13 @@
 /obj/item/storage/firstaid/adv,
 /obj/item/storage/firstaid/radiation,
 /turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
+"ur" = (
+/obj/machinery/door/blast/shutters{
+	id = "powerplant_elevator";
+	name = "Underground Access"
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_plant)
 "ut" = (
 /obj/machinery/cryopod{
@@ -4879,13 +4902,6 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /obj/machinery/light/colored/dying{
 	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
-"uH" = (
-/obj/random/dirt_75,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
@@ -4969,6 +4985,13 @@
 /obj/structure/crane,
 /turf/simulated/floor/concrete,
 /area/kaneyama_ext)
+"va" = (
+/obj/random/dirt_75,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "vb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -5005,6 +5028,12 @@
 /obj/vehicle/bike/motor/blue,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"vi" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
 "vj" = (
 /obj/structure/utility_pole/street/on{
 	dir = 8;
@@ -5162,15 +5191,6 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/kaneyama_ext)
-"wq" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
-	},
-/obj/machinery/light/colored/dying{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "ws" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -5275,14 +5295,12 @@
 /turf/simulated/floor/concrete,
 /area/kaneyama_interiors)
 "wW" = (
-/obj/effect/decal/road_marking{
-	dir = 8
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
 	},
-/obj/effect/decal/road_marking{
-	dir = 1
-	},
-/turf/simulated/floor/hivebot,
-/area/kaneyama_ext)
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "wY" = (
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /obj/item/material/shard,
@@ -5792,13 +5810,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
-"zd" = (
-/obj/structure/lattice/catwalk/indoor/grate{
-	pixel_x = -10
-	},
-/obj/effect/plastic_explosive,
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_ext/water)
 "zf" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -5944,14 +5955,6 @@
 /obj/item/modular_computer/console/preset/civilian,
 /turf/simulated/floor/hivebot,
 /area/kaneyama_plant)
-"zP" = (
-/obj/machinery/button/remote/blast_door{
-	pixel_y = 25;
-	name = "Underground Access";
-	id = "powerplant_elevator"
-	},
-/turf/simulated/floor/exoplanet/konyang,
-/area/kaneyama_ext)
 "zQ" = (
 /obj/machinery/light/colored/dying{
 	dir = 4
@@ -6107,6 +6110,15 @@
 /obj/item/ammo_magazine/mc9mm,
 /turf/simulated/floor/concrete,
 /area/kaneyama_interiors)
+"Aq" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "Ar" = (
 /obj/structure/chainlink_fence{
 	dir = 4
@@ -6151,6 +6163,12 @@
 "Ay" = (
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/kaneyama_ext)
+"Az" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "AA" = (
 /obj/vehicle/train/cargo/engine{
 	dir = 2
@@ -6388,12 +6406,6 @@
 /obj/machinery/telecomms/bus/preset_two,
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
-"BB" = (
-/obj/machinery/door/airlock{
-	name = "Access Hallway"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "BC" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
@@ -6785,12 +6797,13 @@
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "CY" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/pipedispenser/disposal{
-	name = "water pipe dispenser"
+/obj/machinery/button/remote/blast_door{
+	pixel_y = 25;
+	name = "Underground Access";
+	id = "powerplant_elevator"
 	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
+/turf/simulated/floor/exoplanet/konyang,
+/area/kaneyama_ext)
 "CZ" = (
 /turf/simulated/floor/bluegrid,
 /area/kaneyama_interiors)
@@ -7281,12 +7294,6 @@
 /obj/machinery/chemical_dispenser/ert,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
-"Fg" = (
-/mob/living/heavy_vehicle/premade/ripley{
-	name = "KRC underwater power loader"
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/kaneyama_plant)
 "Fi" = (
 /obj/machinery/body_scanconsole{
 	dir = 1
@@ -7305,10 +7312,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
-"Fl" = (
-/obj/random/dirt_75,
-/turf/simulated/floor/plating,
-/area/kaneyama_plant)
 "Fm" = (
 /obj/structure/bed/stool/chair/padded/beige,
 /turf/simulated/floor/lino,
@@ -7417,6 +7420,10 @@
 /area/kaneyama_plant)
 "FS" = (
 /obj/structure/bed/stool/chair/office/bridge/generic,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_hos";
+	identifier = "infected_hos"
+	},
 /turf/simulated/floor/carpet,
 /area/kaneyama_plant)
 "FU" = (
@@ -8149,14 +8156,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"Jw" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 9
-	},
-/obj/structure/girder,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "Jx" = (
 /obj/machinery/door/airlock/engineering{
 	dir = 8;
@@ -8210,15 +8209,10 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/hivebot,
 /area/kaneyama_plant)
-"JQ" = (
-/obj/effect/decal/road_marking{
-	dir = 8
-	},
-/obj/effect/decal/road_marking{
-	dir = 1
-	},
-/turf/simulated/floor/asphalt,
-/area/kaneyama_ext)
+"JR" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_plant)
 "JS" = (
 /obj/structure/closet/secure_closet/engineering_electrical{
 	req_access = null
@@ -9073,6 +9067,21 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"Nc" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/machinery/light/colored/dying{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
+"Ne" = (
+/obj/effect/decal/road_marking/center,
+/obj/effect/decal/road_marking/no_pass,
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Nf" = (
 /obj/structure/shipping_container{
 	icon_state = "red3"
@@ -9356,6 +9365,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/sn_canary)
+"Oy" = (
+/obj/effect/decal/road_marking/center{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/no_pass{
+	dir = 1
+	},
+/obj/effect/decal/road_marking/no_pass,
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Oz" = (
 /obj/effect/floor_decal/spline/plain/corner,
 /obj/structure/table/reinforced/steel,
@@ -9438,6 +9463,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"OY" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "Pb" = (
 /obj/machinery/blackbox_recorder,
 /turf/unsimulated/floor,
@@ -9703,6 +9732,23 @@
 	identifier = "konyang_navy_officer"
 	},
 /turf/simulated/floor/carpet/rubber,
+/area/kaneyama_interiors)
+"Qm" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
 /area/kaneyama_interiors)
 "Qn" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -10017,18 +10063,6 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
-"RE" = (
-/obj/machinery/button/remote/blast_door{
-	pixel_y = -20;
-	name = "Underground Access";
-	id = "powerplant_elevator";
-	dir = 6
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "RG" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -10168,6 +10202,14 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"Sl" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/structure/girder,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "So" = (
 /obj/structure/chainlink_fence,
 /obj/structure/chainlink_fence{
@@ -10230,6 +10272,14 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"SB" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light{
+	pixel_y = -2
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "SC" = (
 /obj/effect/decal/road_marking/center,
 /obj/effect/decal/road_marking/reflector,
@@ -10246,15 +10296,6 @@
 /obj/machinery/telecomms/bus/preset_four,
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
-"SE" = (
-/obj/structure/barricade/metal{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "SG" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
 /obj/structure/closet/secure_closet{
@@ -10383,11 +10424,25 @@
 	icon_state = "6,6"
 	},
 /area/shuttle/sn_canary)
+"SY" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/kaneyama_ext)
 "Ta" = (
 /obj/effect/floor_decal/corner_wide/yellow{
 	dir = 5
 	},
 /obj/structure/extinguisher_cabinet/north,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
+"Tb" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/pipedispenser,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "Te" = (
@@ -10531,27 +10586,18 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
-"Tx" = (
-/obj/effect/decal/road_marking/center{
-	dir = 4
-	},
-/obj/effect/decal/road_marking/reflector{
-	dir = 4
-	},
-/obj/effect/decal/road_marking/no_pass{
-	dir = 1
-	},
-/obj/effect/decal/road_marking/no_pass,
-/obj/effect/decal/road_marking{
-	dir = 8
-	},
-/turf/simulated/floor/asphalt,
-/area/kaneyama_ext)
 "Ty" = (
 /obj/structure/window/reinforced,
 /obj/machinery/door/window/eastright,
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
+"Tz" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "TA" = (
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /turf/simulated/floor/tiled/dark,
@@ -10680,17 +10726,6 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
-"TW" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
-"TY" = (
-/obj/effect/decal/road_marking/center,
-/obj/effect/decal/road_marking/no_pass,
-/turf/simulated/floor/asphalt,
-/area/kaneyama_ext)
 "TZ" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -10789,14 +10824,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "Uq" = (
-/obj/effect/decal/road_marking{
-	dir = 4
-	},
-/obj/effect/decal/road_marking{
-	dir = 1
-	},
-/turf/simulated/floor/asphalt,
-/area/kaneyama_ext)
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/random/dirt_75,
+/obj/structure/closet/firecloset/full,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "Ur" = (
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_plant)
@@ -10867,6 +10899,14 @@
 /obj/effect/floor_decal/corner_wide/paleblue/full,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"UP" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/structure/girder,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "UQ" = (
 /obj/effect/decal/fake_object/light_source,
 /obj/item/rig/hunter_killer/equipped,
@@ -10876,15 +10916,6 @@
 /obj/machinery/telecomms/server/presets/medical,
 /turf/unsimulated/floor,
 /area/kaneyama_interiors)
-"US" = (
-/obj/structure/barricade/metal{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "UU" = (
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Captain"
@@ -11624,6 +11655,23 @@
 /obj/effect/landmark/corpse/kaneyama_worker,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"XM" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	pixel_x = -5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	pixel_x = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	pixel_x = -10
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/light{
+	pixel_y = -2
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "XO" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
 /obj/structure/closet/secure_closet{
@@ -11726,21 +11774,12 @@
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/kaneyama_ext/water)
 "Yq" = (
-/obj/effect/decal/road_marking{
-	dir = 4
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/pipedispenser/disposal{
+	name = "water pipe dispenser"
 	},
-/obj/effect/decal/road_marking/center{
-	dir = 4
-	},
-/obj/effect/decal/road_marking/reflector{
-	dir = 4
-	},
-/obj/effect/decal/road_marking/no_pass{
-	dir = 1
-	},
-/obj/effect/decal/road_marking/no_pass,
-/turf/simulated/floor/asphalt,
-/area/kaneyama_ext)
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "Yr" = (
 /obj/effect/ghostspawpoint{
 	name = "igs - infected";
@@ -11777,21 +11816,6 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/plating,
-/area/kaneyama_plant)
-"Yy" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 9
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
-"YB" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
-	},
-/obj/structure/girder,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "YD" = (
 /obj/machinery/computer/cryopod{
@@ -11987,16 +12011,6 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
-"Zw" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
-	},
-/obj/machinery/light/colored/dying{
-	dir = 4
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
 "Zy" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 9
@@ -12066,17 +12080,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "ZN" = (
-/obj/item/clothing/head/welding,
-/turf/simulated/floor/exoplanet/water/konyang,
-/area/kaneyama_ext/water)
+/obj/effect/shuttle_landmark/lift/kaneyama_top,
+/turf/simulated/open,
+/area/kaneyama_interiors)
 "ZO" = (
 /obj/structure/table/steel,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_plant)
-"ZR" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "ZS" = (
@@ -35041,7 +35049,7 @@ ou
 bK
 bK
 QC
-ri
+jT
 QC
 QC
 QC
@@ -37602,7 +37610,7 @@ QC
 QC
 MO
 bK
-qm
+pv
 yd
 IE
 IE
@@ -37858,7 +37866,7 @@ WA
 WA
 WA
 WA
-eK
+ui
 WA
 WA
 WA
@@ -38110,25 +38118,25 @@ rc
 nn
 Um
 WA
-SE
+na
 La
-kn
-kn
-Fl
-Yy
-Yy
-Jw
-Yy
-kn
-kn
-kn
-kn
+Az
+Az
+bv
+ls
+ls
+Sl
+ls
+Az
+Az
+Az
+Az
 WA
 Kg
-hv
-CY
-jj
-ee
+hg
+Yq
+Uq
+Tb
 rr
 Kg
 WA
@@ -38370,25 +38378,25 @@ cD
 gf
 Kg
 Kg
-kJ
-kJ
-kJ
-hk
-kJ
+OY
+OY
+OY
+tL
+OY
 Kg
 Kg
 Kg
 Kg
 Kg
-BB
+nl
 Kg
-kJ
-Kg
-Kg
+OY
 Kg
 Kg
 Kg
-BB
+Kg
+Kg
+nl
 dl
 dl
 bK
@@ -38624,26 +38632,26 @@ rc
 ds
 hx
 WA
-US
-TW
-Zw
-nv
-nv
-YB
-Zw
-TW
-TW
-TW
-wq
-TW
-TW
+id
+it
+Nc
+Tz
+Tz
+UP
+Nc
+it
+it
+it
+Aq
+it
+it
 WA
 Kg
 Kg
 Kg
 Kg
 Kg
-kJ
+OY
 Kg
 WA
 bK
@@ -38899,15 +38907,15 @@ WA
 WA
 WA
 WA
-ix
-ix
-ix
+br
+wW
+wW
 WA
-zP
+CY
 dl
 Ok
-Tx
-JQ
+Oy
+SY
 bK
 QC
 QC
@@ -38984,11 +38992,11 @@ ic
 Qx
 cw
 cw
-gt
-gt
-gt
-gt
-cw
+Qm
+Qm
+Qm
+Qm
+XM
 Qx
 bK
 QC
@@ -39138,33 +39146,33 @@ Ta
 Eh
 La
 WA
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
 WA
-fj
-fj
-fj
-fj
+de
+de
+de
+de
 mI
 gO
 Uo
-eE
+ur
 Yt
-mi
+kU
 KJ
 Un
-bM
+td
 bK
 KR
 bK
@@ -39223,7 +39231,7 @@ ic
 ic
 ic
 ic
-ZN
+ic
 ic
 ic
 ic
@@ -39245,7 +39253,7 @@ bD
 bD
 bD
 bD
-lJ
+vi
 Qx
 bK
 QC
@@ -39395,30 +39403,30 @@ My
 La
 kM
 WA
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
-gE
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
+ZW
 WA
-fj
-fj
-fj
-fj
+de
+de
+de
+de
 mI
 gO
 Uo
-eE
+ur
 Yt
-mi
+kU
 KJ
 Un
 RO
@@ -39499,10 +39507,10 @@ Qx
 VE
 pf
 bD
+ZN
 bD
 bD
-bD
-Fy
+vi
 UG
 dl
 dl
@@ -39652,7 +39660,7 @@ aQ
 JP
 iT
 WA
-gE
+ZW
 WA
 WA
 WA
@@ -39666,16 +39674,16 @@ WA
 WA
 WA
 WA
-fj
-fj
-fj
-fj
+de
+de
+de
+de
 mI
-iw
+JR
 Uo
-eE
+ur
 Yt
-mi
+kU
 KJ
 Un
 RO
@@ -39759,7 +39767,7 @@ bD
 bD
 bD
 bD
-Fy
+vi
 Fy
 dl
 dl
@@ -39909,7 +39917,7 @@ Ia
 La
 iT
 WA
-gE
+ZW
 WA
 YU
 YO
@@ -39923,16 +39931,16 @@ gR
 RJ
 CV
 WA
-fj
-fj
-fj
-fj
+de
+de
+de
+de
 mI
-Fg
+cG
 Uo
-eE
+ur
 Yt
-mi
+kU
 KJ
 Un
 RO
@@ -40166,7 +40174,7 @@ kM
 Eh
 hx
 WA
-gE
+ZW
 WA
 Pi
 La
@@ -40184,9 +40192,9 @@ WA
 WA
 WA
 WA
-uH
-ZR
-RE
+va
+lG
+jX
 WA
 bK
 dl
@@ -40269,11 +40277,11 @@ ic
 Qx
 pb
 pb
-os
-os
-os
-os
-pb
+fj
+fj
+fj
+fj
+SB
 Qx
 bK
 QC
@@ -40423,7 +40431,7 @@ La
 Eh
 Tf
 WA
-gE
+ZW
 WA
 fp
 Kg
@@ -40441,7 +40449,7 @@ Kg
 Kg
 Kg
 Kg
-kJ
+OY
 Kg
 Kg
 Hn
@@ -40680,7 +40688,7 @@ La
 La
 iT
 WA
-gE
+ZW
 WA
 KN
 JH
@@ -40695,7 +40703,7 @@ gR
 gR
 WA
 Kg
-kJ
+Kg
 Kg
 Kg
 Kg
@@ -40705,7 +40713,7 @@ Kg
 dl
 dl
 KJ
-TY
+Ne
 Iq
 Iq
 Iq
@@ -40937,7 +40945,7 @@ rJ
 La
 iT
 WA
-gE
+ZW
 WA
 Pi
 Kg
@@ -40955,10 +40963,10 @@ WA
 rT
 WA
 WA
-qg
-qg
-qg
-qg
+WA
+WA
+WA
+WA
 bK
 dl
 KJ
@@ -41528,7 +41536,7 @@ ic
 ic
 ic
 TC
-zd
+zk
 zk
 zk
 zk
@@ -44045,9 +44053,9 @@ QC
 QC
 Lm
 IE
-PV
-Yq
-Uq
+KJ
+Un
+RO
 DW
 dl
 dl
@@ -44558,7 +44566,7 @@ IE
 IE
 IE
 dl
-dl
+jG
 KJ
 Un
 xu
@@ -46101,9 +46109,9 @@ QC
 QC
 bK
 aL
-Ok
+KJ
 IE
-wW
+Ln
 Pp
 dl
 dl
