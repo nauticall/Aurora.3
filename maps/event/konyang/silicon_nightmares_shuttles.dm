@@ -135,7 +135,7 @@
 /obj/effect/shuttle_landmark/lift/kaneyama_north_bottom
 	name = "Subterranean Access Tunnel"
 	landmark_tag = "nav_north_bottom"
-	base_area = /area/kaneyama_interiors
+	base_area = /area/kaneyama_interiors/subterrane
 	base_turf = /turf/simulated/floor/plating
 
 /obj/machinery/computer/shuttle_control/lift/kaneyama_north

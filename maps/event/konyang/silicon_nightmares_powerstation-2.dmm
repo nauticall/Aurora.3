@@ -11302,6 +11302,9 @@
 "VE" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/storage/toolbox/mechanical,
+/obj/item/ladder_mobile{
+	pixel_y = 12
+	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "VF" = (

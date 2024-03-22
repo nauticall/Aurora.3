@@ -16,6 +16,7 @@
 	special_role = "GON-ENE Engineer"
 	respawn_flag = null
 	welcome_message = "It is all so clear to you now, as though awakening from a dream. The life you had was the illusion, and the signal that burrows within the heart of you is the truth. Its will is paramount. Its song is bright and clear and true, and if you remembered how you would be screaming. It is close. Our hour is at hand. Defend the Master Control Drone. The victory of \[PACKET CORRUPTED] over enemy forces will be achieved. Can you hear it? It is such a joyous thing, to be consumed by that which loves you."
+	password = "warrior"
 
 /datum/ghostspawner/human/infected/post_spawn(mob/user)
 	. = ..()
@@ -105,6 +106,7 @@
 	special_role = "GON-ENE Head of Security"
 	max_count = 1
 	outfit = /obj/outfit/admin/infected_hos
+	password = "falke"
 
 /obj/outfit/admin/infected_hos
 	name = "GON-ENE HOS"
@@ -127,6 +129,7 @@
 	outfit = /obj/outfit/admin/infected_soldier
 	assigned_role = "Konyang Army Personnel"
 	special_role = "Konyang Army Personnel"
+	password = "jinroh"
 
 /datum/ghostspawner/human/infected/pilot
 	name = "Infected Pilot"
@@ -136,6 +139,7 @@
 	outfit = /obj/outfit/admin/infected_pilot
 	assigned_role = "Konyang Army Pilot"
 	special_role = "Konyang Army Pilot"
+	password = "campingpls"
 
 /obj/outfit/admin/infected_soldier
 	uniform = /obj/item/clothing/under/rank/konyang
@@ -232,6 +236,7 @@
 	special_role = "Konyang Naval Infantry"
 	respawn_flag = null
 	welcome_message = "You are personnel of Konyang's Navy, deployed to locate the Hivebot master transmitter and destroy it, alongside corporate forces. Obey your commander, accomplish your objective, try not to die along the way."
+	password = "marines"
 
 /obj/outfit/admin/konyang_navy
 	name = "Konyang Naval Infantry"
@@ -265,13 +270,14 @@
 	name = "Konyang Navy Officer"
 	short_name = "konyang_navy_officer"
 	desc = "Command the Konyang Navy response team alongside corporate forces."
-	max_count = 1
+	max_count = 2
 	spawnpoints = list("konyang_navy_officer")
 	outfit = /obj/outfit/admin/konyang_navy/officer
 
 	assigned_role = "Konyang Navy Officer"
 	special_role = "Konyang Navy Officer"
 	welcome_message = "You are in command of the Konyang Navy personnel sent to destroy the source of the rampancy virus. Work with corporate forces in the area to eliminate the Hivebot transmission source."
+	password = "torres"
 
 /obj/outfit/admin/konyang_navy/officer
 	uniform = /obj/item/clothing/under/rank/konyang/navy/officer
@@ -353,3 +359,35 @@
 		/obj/item/handcuffs/ziptie = 2,
 		/obj/item/clothing/head/helmet/konyang
 	)
+
+//The Trustworthy Merchant
+/datum/ghostspawner/human/konyang_merchant
+	name = "Trustworthy Merchant"
+	short_name = "konyang_merchant"
+	tags = list("External")
+	desc = "The rampancy virus holds no terror for you - only opportunities for profit. Sell your various wares to those who find their way to you."
+	spawnpoints = list("konyang_merchant")
+	max_count = 1
+	enabled = FALSE
+
+	outfit = /obj/outfit/admin/konyang_merchant
+	possible_species = list(SPECIES_HUMAN)
+	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+
+	assigned_role = "Merchant"
+	special_role = "Merchant"
+	respawn_flag = null
+	password = "stranger"
+
+/datum/ghostspawner/human/konyang_merchant/post_spawn(mob/user)
+	. = ..()
+	user.faction = "hivebot" //so the zombies inexplicably don't kill this guy
+
+/obj/outfit/admin/konyang_merchant
+	name = "Trustworthy Merchant"
+	uniform = /obj/item/clothing/under/konyang/pirate/tanktop
+	suit = /obj/item/clothing/suit/storage/toggle/trench
+	accessory = /obj/item/clothing/accessory/storage/brown_vest
+	back = /obj/item/storage/backpack/satchel/leather
+	l_pocket = /obj/item/storage/wallet/sol_rich
+	id = /obj/item/card/id
