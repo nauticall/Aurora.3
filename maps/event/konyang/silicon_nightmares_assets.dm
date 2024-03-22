@@ -330,3 +330,76 @@
 		if(ismob(loc))
 			var/mob/holder = loc
 			to_chat(holder, "<span class='notice>\The [src] cannot locate chosen target, shutting down.</span>")
+
+//Hivebot Secondary Transmitter
+/mob/living/simple_animal/hostile/miniboss
+	name = "Secondary Transmitter Drone"
+	desc = "An enormous hivebot, resembling nothing so much as a twisted human spine with a long stinger-like appendage. It seems to be constantly crackling, as if broadcasting some low-level signal."
+	icon = 'maps/event/konyang/smallboss.dmi'
+	icon_state = "small_boss"
+	icon_living = "small_boss"
+	maxHealth = 600
+	health = 600
+	melee_damage_lower = 40
+	melee_damage_upper = 40
+	armor_penetration = 20
+	organ_names = list("antenna", "core", "primary appendage", "secondary appendage", "tertiary appendage", "stinger")
+	attack_flags = DAMAGE_FLAG_SHARP|DAMAGE_FLAG_EDGE
+	attacktext = "stabbed"
+	attack_sound = /singleton/sound_category/hivebot_melee
+	blood_color = COLOR_OIL
+	min_oxy = 0
+	max_oxy = 0
+	min_tox = 0
+	max_tox = 0
+	min_co2 = 0
+	max_co2 = 0
+	min_n2 = 0
+	max_n2 = 0
+	minbodytemp = 0
+	faction = "hivebot"
+	destroy_surroundings = 0
+	wander = 0
+	attack_emote = "focuses on"
+	emote_hear = list("emits a harsh noise")
+	emote_sounds = list(
+		'sound/effects/creatures/hivebot/hivebot-bark-001.ogg',
+		'sound/effects/creatures/hivebot/hivebot-bark-003.ogg',
+		'sound/effects/creatures/hivebot/hivebot-bark-005.ogg',
+	)
+	speak_chance = 5
+	psi_pingable = FALSE
+	tameable = FALSE
+	speed = 2
+	mob_bump_flag = HEAVY
+	mob_swap_flags = ~HEAVY
+	mob_push_flags = 0
+	smart_melee = TRUE
+
+/mob/living/simple_animal/hostile/miniboss/think()
+	. =..()
+	if(stance != HOSTILE_STANCE_IDLE)
+		wander = 1
+	else
+		wander = 0
+
+/mob/living/simple_animal/hostile/miniboss/death()
+	..(null,"blows apart and erupts in a cloud of noxious smoke!")
+	new /obj/effect/decal/cleanable/greenglow(src.loc)
+	var/T = get_turf(src)
+	new /obj/effect/gibspawner/robot(T)
+	spark(T, 3, GLOB.alldirs)
+	qdel(src)
+	return
+
+/mob/living/simple_animal/hostile/miniboss/isSynthetic()
+	return TRUE
+
+/mob/living/simple_animal/hostile/miniboss/adjustHalLoss(amount)
+	return FALSE
+
+/mob/living/simple_animal/hostile/miniboss/adjustToxLoss(amount)
+	return FALSE
+
+/mob/living/simple_animal/hostile/miniboss/adjustOxyLoss(amount)
+	return FALSE
