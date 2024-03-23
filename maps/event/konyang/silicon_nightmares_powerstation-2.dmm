@@ -115,6 +115,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_plant)
+"aq" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "ar" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 5
@@ -527,8 +533,14 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "bD" = (
-/turf/simulated/open,
-/area/kaneyama_interiors)
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/obj/machinery/computer/shuttle_control/lift/kaneyama{
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "bE" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -867,7 +879,7 @@
 /area/kaneyama_interiors)
 "de" = (
 /turf/simulated/open,
-/area/kaneyama_plant)
+/area/kaneyama_plant/elevator_zone)
 "df" = (
 /obj/machinery/door/airlock/multi_tile{
 	name = "Clinic"
@@ -1177,6 +1189,12 @@
 /obj/item/ammo_magazine/submachinemag,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
+"eA" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "eF" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/effect/floor_decal/industrial/warning{
@@ -2842,6 +2860,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"lA" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "lC" = (
 /obj/structure/closet/secure_closet{
 	icon_state = "sec";
@@ -3894,6 +3916,12 @@
 /obj/vehicle/bike/motor,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"oW" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "oX" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 6
@@ -4544,6 +4572,12 @@
 	},
 /turf/simulated/floor/lino,
 /area/kaneyama_plant)
+"rF" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "rG" = (
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
@@ -5727,6 +5761,9 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
+"wN" = (
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "wO" = (
 /obj/effect/landmark/map_data{
 	height = 2
@@ -5931,6 +5968,12 @@
 /obj/item/gun/projectile/automatic/tommygun/konyang,
 /turf/simulated/floor/concrete,
 /area/kaneyama_interiors)
+"xJ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "xK" = (
 /obj/structure/shipping_container{
 	icon_state = "green3"
@@ -10962,6 +11005,12 @@
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/hivebot,
 /area/kaneyama_boss)
+"RT" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "RV" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = null
@@ -13073,8 +13122,8 @@
 /area/kaneyama_plant)
 "ZN" = (
 /obj/effect/shuttle_landmark/lift/kaneyama_top,
-/turf/simulated/open,
-/area/kaneyama_interiors)
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/kaneyama)
 "ZO" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
@@ -40248,9 +40297,9 @@ ic
 Qx
 Ka
 pf
-bD
-bD
-bD
+eA
+RT
+RT
 bD
 vi
 Qx
@@ -40505,10 +40554,10 @@ ic
 Qx
 VE
 pf
-bD
+rF
 ZN
-bD
-bD
+wN
+lA
 vi
 UG
 dl
@@ -40762,10 +40811,10 @@ ic
 Qx
 kN
 pf
-bD
-bD
-bD
-bD
+rF
+wN
+wN
+lA
 vi
 Fy
 dl
@@ -41019,10 +41068,10 @@ ic
 Qx
 Ka
 pf
-bD
-bD
-bD
-bD
+xJ
+oW
+oW
+aq
 lJ
 Qx
 bK

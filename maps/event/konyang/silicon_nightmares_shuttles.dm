@@ -94,7 +94,7 @@
 
 /datum/shuttle/autodock/ferry/lift/kaneyama
 	name = "Service Elevator"
-	location = 0
+	location = 1
 	shuttle_area = /area/turbolift/kaneyama
 	waypoint_station = "nav_south_bottom"
 	waypoint_offsite = "nav_south_top"
@@ -103,13 +103,13 @@
 	name = "Upper Level"
 	landmark_tag = "nav_south_top"
 	landmark_flags = SLANDMARK_FLAG_AUTOSET
-	base_area = /area/kaneyama_interiors
+	base_area = /area/kaneyama_interiors/elevator_zone
 	base_turf = /turf/simulated/open
 
 /obj/effect/shuttle_landmark/lift/kaneyama_bottom
 	name = "Subterranean Access Tunnel"
 	landmark_tag = "nav_south_bottom"
-	base_area = /area/kaneyama_interiors
+	base_area = /area/kaneyama_interiors/subterrane/elevator_zone
 	base_turf = /turf/simulated/floor/plating
 
 /obj/machinery/computer/shuttle_control/lift/kaneyama
@@ -121,7 +121,7 @@
 /datum/shuttle/autodock/ferry/lift/kaneyama_north
 	name = "Service Elevator 2"
 	location = 0
-	shuttle_area = /area/turbolift/kaneyama
+	shuttle_area = /area/turbolift/kaneyama/north
 	waypoint_station = "nav_north_bottom"
 	waypoint_offsite = "nav_north_top"
 
@@ -129,13 +129,13 @@
 	name = "Power Plant Access"
 	landmark_tag = "nav_north_top"
 	landmark_flags = SLANDMARK_FLAG_AUTOSET
-	base_area = /area/kaneyama_plant
+	base_area = /area/kaneyama_plant/elevator_zone
 	base_turf = /turf/simulated/open
 
 /obj/effect/shuttle_landmark/lift/kaneyama_north_bottom
 	name = "Subterranean Access Tunnel"
 	landmark_tag = "nav_north_bottom"
-	base_area = /area/kaneyama_interiors/subterrane
+	base_area = /area/kaneyama_interiors/subterrane/elevator_zone/north
 	base_turf = /turf/simulated/floor/plating
 
 /obj/machinery/computer/shuttle_control/lift/kaneyama_north

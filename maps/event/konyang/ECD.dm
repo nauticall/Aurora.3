@@ -3,16 +3,17 @@
 #define ECD_WELDED 2
 
 /obj/structure/konyang_mcguffin
-	name = "Electronic Countermeasures Device"
+	name = "\improper Electronic Countermeasures Device"
 	desc = "A large, heavy duty device in the shape of a cylinder. There's something about this piece of tech that feels rather alien. Inside, something hums softly."
 	icon = 'maps/event/konyang/ECD.dmi'
 	icon_state = "ECD"
-	anchored = FALSE
+	anchored = TRUE
 	density = TRUE
 	var/active = FALSE
 	var/is_used = FALSE
-	var/state = ECD_LOOSE
+	var/state = ECD_BOLTED
 	slowdown = 10
+	layer = ABOVE_ALL_MOB_LAYER
 
 /obj/structure/konyang_mcguffin/examine(mob/living/user, distance)
 	. = ..()
