@@ -73,24 +73,12 @@
 	ambience = AMBIENCE_MAINTENANCE
 	requires_power = TRUE
 
-/area/kaneyama_interiors/subterrane/elevator_zone
-	name = "Elevator Shaft - Bottom"
-	requires_power = FALSE
-
-/area/kaneyama_interiors/subterrane/elevator_zone/north
-	name = "North Elevator Shaft - Bottom"
-
 /area/kaneyama_plant
 	name = "Kaneyama Power Plant"
 	icon_state = "green"
 	base_turf = /turf/simulated/floor/plating
 	requires_power = FALSE
 	ambience = AMBIENCE_TECH_RUINS
-
-/area/kaneyama_plant/elevator_zone
-	name = "Plant Elevator Shaft"
-	base_turf = /turf/simulated/open
-
 /area/kaneyama_boss
 	name = "Kaneyama Power Plant Reactor #2"
 	icon_state = "bluenew"

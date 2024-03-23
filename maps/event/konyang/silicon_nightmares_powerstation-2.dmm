@@ -120,7 +120,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "ar" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 5
@@ -536,11 +536,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/obj/machinery/computer/shuttle_control/lift/kaneyama{
-	pixel_y = 6
-	},
+/obj/machinery/computer/shuttle_control/lift/kaneyama,
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "bE" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -712,7 +710,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "cD" = (
 /obj/machinery/door/airlock{
 	name = "Access Hallway"
@@ -1104,7 +1102,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "el" = (
 /obj/structure/barricade/liquid{
 	dir = 8
@@ -1194,7 +1192,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "eF" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/effect/floor_decal/industrial/warning{
@@ -1356,7 +1354,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "fk" = (
 /obj/machinery/body_scanconsole{
 	dir = 4;
@@ -1599,7 +1597,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "gf" = (
 /obj/structure/barricade/metal{
 	dir = 1
@@ -2022,9 +2020,6 @@
 /obj/effect/landmark/corpse/kaneyama_guard,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/hivebot,
-/area/kaneyama_ext)
-"hP" = (
-/turf/simulated/floor/tiled/dark,
 /area/kaneyama_ext)
 "hQ" = (
 /obj/structure/utility_pole/street/on{
@@ -2829,7 +2824,7 @@
 	id = "mech_store"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "ls" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
@@ -2855,7 +2850,7 @@
 /obj/machinery/recharge_station,
 /obj/structure/cable/green,
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "lx" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/plasteel/full,
@@ -2867,7 +2862,7 @@
 "lA" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "lC" = (
 /obj/structure/closet/secure_closet{
 	icon_state = "sec";
@@ -3925,7 +3920,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "oX" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 6
@@ -3947,6 +3942,10 @@
 /obj/item/crowbar/red,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"pf" = (
+/obj/effect/shuttle_landmark/lift/kaneyama_north_top,
+/turf/simulated/open,
+/area/kaneyama_plant)
 "pg" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/industrial/warning{
@@ -4497,7 +4496,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "rz" = (
 /obj/machinery/light/colored/blue{
 	dir = 4
@@ -4577,7 +4576,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "rG" = (
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
@@ -4659,7 +4658,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "sd" = (
 /obj/item/modular_computer/console/preset/civilian,
 /turf/simulated/floor/tiled/dark,
@@ -4740,7 +4739,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "sC" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 1;
@@ -5207,7 +5206,7 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "tW" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
@@ -5779,7 +5778,7 @@
 /area/kaneyama_boss)
 "wN" = (
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "wO" = (
 /obj/effect/landmark/map_data{
 	height = 2
@@ -5906,7 +5905,7 @@
 	id = "mech_store"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "xs" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -5932,7 +5931,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "xx" = (
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -5989,7 +5988,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "xK" = (
 /obj/structure/shipping_container{
 	icon_state = "green3"
@@ -6839,7 +6838,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "AX" = (
 /turf/simulated/floor/exoplanet/grass,
 /area/kaneyama_ext)
@@ -7970,7 +7969,7 @@
 "ER" = (
 /obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "ET" = (
 /obj/structure/bed/stool/chair/padded/beige,
 /obj/machinery/light/colored/dying{
@@ -8157,7 +8156,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "FQ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -8570,7 +8569,7 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "HE" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 4
@@ -9432,7 +9431,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "Lr" = (
 /turf/simulated/floor/hivebot,
 /area/kaneyama_interiors)
@@ -9677,7 +9676,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "Mm" = (
 /obj/item/material/shard,
 /turf/simulated/floor/wood,
@@ -10621,10 +10620,6 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
-"Qm" = (
-/obj/effect/shuttle_landmark/lift/kaneyama_north_top,
-/turf/simulated/open,
-/area/kaneyama_plant)
 "Qn" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/kaneyama_suit/office,
@@ -10674,7 +10669,7 @@
 	req_access = list(218)
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "Qv" = (
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 10
@@ -11026,7 +11021,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "RV" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = null
@@ -11391,7 +11386,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "Th" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -12406,7 +12401,7 @@
 /obj/item/clothing/head/welding,
 /obj/item/clothing/glasses/welding,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "WN" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/dark,
@@ -13007,7 +13002,7 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/reagent_dispensers/extinguisher,
 /turf/simulated/floor/tiled/dark,
-/area/kaneyama_ext)
+/area/kaneyama_interiors)
 "Zg" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Power Storage";
@@ -13149,7 +13144,7 @@
 "ZN" = (
 /obj/effect/shuttle_landmark/lift/kaneyama_top,
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama)
+/area/turbolift/scc_ship/morgue_lift/kaneyama)
 "ZO" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
@@ -40492,7 +40487,7 @@ ZW
 ZW
 WA
 de
-Qm
+pf
 de
 de
 mI
@@ -41682,20 +41677,20 @@ bK
 bK
 bK
 bK
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
 bK
 No
 KR
@@ -41939,20 +41934,20 @@ bK
 QC
 bK
 bK
-qg
+pa
 HD
-hP
+Fy
 ef
 ry
 lw
-hP
+Fy
 rZ
-hP
-hP
+Fy
+Fy
 Lp
-hP
-hP
-qg
+Fy
+Fy
+pa
 bK
 bK
 bK
@@ -42196,20 +42191,20 @@ bK
 ou
 bK
 bK
-qg
+pa
 WM
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 sA
-hP
+Fy
 Qu
-qg
+pa
 Xl
 kb
 bK
@@ -42453,19 +42448,19 @@ bK
 bK
 bK
 bK
-qg
+pa
 cB
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 xp
 dl
 dl
@@ -42710,7 +42705,7 @@ KR
 QC
 bK
 bK
-qg
+pa
 Tg
 Mk
 Mk
@@ -42967,19 +42962,19 @@ bK
 QC
 bK
 bK
-qg
+pa
 fi
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 xp
 dl
 Ti
@@ -43224,20 +43219,20 @@ QC
 bK
 bK
 bK
-qg
+pa
 ER
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 sA
-hP
-hP
+Fy
+Fy
 sA
-hP
+Fy
 tV
-qg
+pa
 bK
 bK
 dl
@@ -43481,20 +43476,20 @@ bK
 QC
 KR
 bK
-qg
+pa
 Zf
-hP
+Fy
 ef
 fX
 lw
-hP
+Fy
 FO
-hP
-hP
+Fy
+Fy
 AV
-hP
-hP
-qg
+Fy
+Fy
+pa
 bK
 bK
 dl
@@ -43738,20 +43733,20 @@ KR
 QC
 bK
 bK
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
-qg
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
 bK
 kb
 dl

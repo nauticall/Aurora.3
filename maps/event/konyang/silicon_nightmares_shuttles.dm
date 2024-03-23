@@ -84,30 +84,29 @@
 	icon = 'icons/obj/spaceship/scc/shuttle_sensors.dmi'
 
 //Elevators
-/area/turbolift/kaneyama
+/area/turbolift/scc_ship/morgue_lift/kaneyama
 	name = "Service Elevator"
-	sound_env = TUNNEL_ENCLOSED
-	ambience = AMBIENCE_GHOSTLY
 
-/area/turbolift/kaneyama/north
+/area/turbolift/scc_ship/morgue_lift/kaneyama/north
 	name = "Service Elevator 2"
 
 /datum/shuttle/autodock/ferry/lift/kaneyama
 	name = "Service Elevator"
 	location = 1
-	shuttle_area = /area/turbolift/kaneyama
+	shuttle_area = /area/turbolift/scc_ship/morgue_lift/kaneyama
 	waypoint_station = "nav_south_bottom"
 	waypoint_offsite = "nav_south_top"
 
 /obj/effect/shuttle_landmark/lift/kaneyama_top
-	name = "Upper Level"
+	name = "Service Elevator Top"
 	landmark_tag = "nav_south_top"
 	base_area = /area/kaneyama_interiors
 	base_turf = /turf/simulated/open
 
 /obj/effect/shuttle_landmark/lift/kaneyama_bottom
-	name = "Subterranean Access Tunnel"
+	name = "Service Elevator Bottom"
 	landmark_tag = "nav_south_bottom"
+	landmark_flags = SLANDMARK_FLAG_AUTOSET
 	base_area = /area/kaneyama_interiors/subterrane
 	base_turf = /turf/simulated/floor/plating
 
@@ -120,20 +119,20 @@
 /datum/shuttle/autodock/ferry/lift/kaneyama_north
 	name = "Service Elevator 2"
 	location = 0
-	shuttle_area = /area/turbolift/kaneyama/north
+	shuttle_area = /area/turbolift/scc_ship/morgue_lift/kaneyama/north
 	waypoint_station = "nav_north_bottom"
 	waypoint_offsite = "nav_north_top"
 
 /obj/effect/shuttle_landmark/lift/kaneyama_north_top
 	name = "Power Plant Access"
 	landmark_tag = "nav_north_top"
-	base_area = /area/kaneyama_plant/elevator_zone
+	base_area = /area/kaneyama_plant
 	base_turf = /turf/simulated/open
 
 /obj/effect/shuttle_landmark/lift/kaneyama_north_bottom
 	name = "Subterranean Access Tunnel"
 	landmark_tag = "nav_north_bottom"
-	base_area = /area/kaneyama_interiors/subterrane/elevator_zone/north
+	base_area = /area/kaneyama_interiors/subterrane
 	base_turf = /turf/simulated/floor/plating
 
 /obj/machinery/computer/shuttle_control/lift/kaneyama_north
