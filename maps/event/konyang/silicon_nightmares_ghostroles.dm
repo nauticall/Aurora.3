@@ -43,8 +43,18 @@
 	belt = /obj/item/storage/belt/utility/full
 	id = /obj/item/card/id
 	l_ear = /obj/item/device/flashlight/headlights
-	r_hand = /obj/random/melee/konyang
 	back = /obj/item/storage/backpack/industrial
+	r_hand = list(
+		/obj/item/material/knife,
+		/obj/item/material/knife/tacknife,
+		/obj/item/hammer,
+		/obj/item/material/hatchet,
+		/obj/item/material/hatchet/machete/steel,
+		/obj/item/shovel,
+		/obj/random/toolbox,
+		/obj/item/crowbar,
+		/obj/item/crowbar/rescue_axe/red
+	)
 
 /datum/ghostspawner/human/infected/subterrane
 	name = "Infected Engineer - Underground"
@@ -102,8 +112,14 @@
 	head = /obj/item/clothing/head/helmet/security/generic
 	belt = /obj/item/storage/belt/security/full
 	accessory = /obj/item/clothing/accessory/holster
-	r_hand = /obj/random/civgun/konyang
-	suit_store = /obj/random/civgun/rifle/konyang
+	r_hand = list(
+		/obj/item/gun/energy/disruptorpistol,
+		/obj/item/gun/energy/pistol,
+		/obj/item/gun/projectile/sec,
+		/obj/item/gun/energy/taser,
+		/obj/item/gun/projectile/sec/lethal
+	)
+	back = /obj/item/storage/backpack/security
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/security
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -133,7 +149,6 @@
 	id = /obj/item/card/id
 	belt = /obj/item/storage/belt/security/full
 	accessory = /obj/item/clothing/accessory/holster
-	r_hand = /obj/random/civgun/konyang
 
 /datum/ghostspawner/human/infected/soldier
 	name = "Infected Soldier"
@@ -161,6 +176,7 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit = /obj/item/clothing/suit/armor/carrier/military
 	suit_accessory = /obj/item/clothing/accessory/flagpatch/konyang
+	back = /obj/item/storage/backpack/rucksack/green
 	belt = /obj/item/storage/belt/military
 	belt_contents = list(
 		/obj/item/melee/energy/sword/knife/sol = 1,
@@ -179,6 +195,7 @@
 	uniform = /obj/item/clothing/under/rank/konyang/mech_pilot
 	head = /obj/item/clothing/head/helmet/konyang/pilot
 	shoes = /obj/item/clothing/shoes/jackboots
+	back = /obj/item/storage/backpack/rucksack/tan
 	accessory = /obj/item/clothing/accessory/holster/hip
 	accessory_contents = list(
 		/obj/item/gun/projectile/pistol/sol/konyang = 1
@@ -192,9 +209,9 @@
 	spawnpoints = list("infected_diver")
 	max_count = 1
 	possible_species = list(SPECIES_IPC_G2, SPECIES_IPC_SHELL)
-	outfit = /obj/outfit/admin/infected_diver
+	outfit = /obj/outfit/admin/infected_engi/diver
 
-/obj/outfit/admin/infected_diver
+/obj/outfit/admin/infected_engi/diver
 	suit = null
 	head = null
 	back = /obj/item/rig/diving
@@ -316,6 +333,7 @@
 	suit_store = null
 	belt = /obj/item/material/sword/katana/konyang
 	belt_contents = null
+	back = /obj/item/storage/backpack/rucksack/radio
 	backpack_contents = list(
 		/obj/item/handcuffs/ziptie = 2,
 		/obj/item/grenade/frag = 1,

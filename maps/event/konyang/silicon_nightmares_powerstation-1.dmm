@@ -539,12 +539,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
-"gY" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
 "hc" = (
 /obj/structure/lattice/catwalk/indoor/grate{
 	name = "vent grate"
@@ -1016,6 +1010,9 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors/subterrane)
+"mM" = (
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "mU" = (
 /obj/item/clothing/glasses/thermal/aviator,
 /obj/effect/ghostspawpoint{
@@ -1024,6 +1021,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
+"mY" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "ne" = (
 /obj/structure/closet/hazmat/custodial,
 /turf/simulated/floor/tiled/dark,
@@ -1068,7 +1071,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "nL" = (
 /obj/item/crowbar,
 /turf/simulated/floor/tiled/dark/full,
@@ -1464,6 +1467,12 @@
 /obj/item/clothing/under/konyangdresstraditional/blue,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors/subterrane)
+"tJ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "tL" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/item/towel_flat,
@@ -1607,7 +1616,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "vM" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup,
@@ -1924,6 +1933,12 @@
 /obj/item/material/twohanded/baseballbat,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
+"Ap" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "Az" = (
 /obj/machinery/light/colored/dying{
 	dir = 4
@@ -1976,12 +1991,6 @@
 /obj/effect/map_effect/window_spawner/full/reinforced,
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors/subterrane)
-"AO" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
 "AX" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/plasticflaps{
@@ -2074,7 +2083,7 @@
 "BU" = (
 /obj/effect/shuttle_landmark/lift/kaneyama_north_bottom,
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "Cb" = (
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/tiled/dark/full,
@@ -2123,15 +2132,6 @@
 /obj/item/gun/energy/pistol,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
-"CR" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
-"CW" = (
-/turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
 "Dc" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
@@ -2441,7 +2441,7 @@
 	},
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "GV" = (
 /obj/machinery/power/apc/empty/west,
 /obj/structure/cable/green,
@@ -2931,7 +2931,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north)
+/area/turbolift/scc_ship/robotics_lift/kaneyama)
 "OC" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/stack/liquidbags/full,
@@ -30750,8 +30750,8 @@ sg
 sg
 vF
 Oz
-CR
-CR
+mY
+mY
 vL
 RM
 eo
@@ -31006,10 +31006,10 @@ sg
 sg
 sg
 vF
-AO
+tJ
 BU
-CW
-CW
+mM
+mM
 nr
 YO
 YO
@@ -31263,10 +31263,10 @@ sg
 sg
 sg
 vF
-AO
-CW
-CW
-CW
+tJ
+mM
+mM
+mM
 Pc
 YO
 WR
@@ -31521,9 +31521,9 @@ sg
 sg
 vF
 nB
-gY
+Ap
 GQ
-gY
+Ap
 sP
 fm
 wS

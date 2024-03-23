@@ -87,7 +87,7 @@
 /area/turbolift/scc_ship/morgue_lift/kaneyama
 	name = "Service Elevator"
 
-/area/turbolift/scc_ship/morgue_lift/kaneyama/north
+/area/turbolift/scc_ship/robotics_lift/kaneyama
 	name = "Service Elevator 2"
 
 /datum/shuttle/autodock/ferry/lift/kaneyama
@@ -119,13 +119,14 @@
 /datum/shuttle/autodock/ferry/lift/kaneyama_north
 	name = "Service Elevator 2"
 	location = 0
-	shuttle_area = /area/turbolift/scc_ship/morgue_lift/kaneyama/north
+	shuttle_area = /area/turbolift/scc_ship/robotics_lift/kaneyama
 	waypoint_station = "nav_north_bottom"
 	waypoint_offsite = "nav_north_top"
 
 /obj/effect/shuttle_landmark/lift/kaneyama_north_top
 	name = "Power Plant Access"
 	landmark_tag = "nav_north_top"
+	landmark_flags = SLANDMARK_FLAG_AUTOSET
 	base_area = /area/kaneyama_plant
 	base_turf = /turf/simulated/open
 

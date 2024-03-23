@@ -6564,7 +6564,9 @@
 	icon_state = "0-2"
 	},
 /obj/structure/table/reinforced/steel,
-/obj/machinery/power/apc/hyper/east,
+/obj/machinery/power/apc/hyper/east{
+	cell_type = /obj/item/cell/infinite
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_boss)
 "Aa" = (
