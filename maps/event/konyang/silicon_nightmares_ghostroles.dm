@@ -55,6 +55,7 @@
 		/obj/item/crowbar,
 		/obj/item/crowbar/rescue_axe/red
 	)
+	id_iff = IFF_KONYANG
 
 /datum/ghostspawner/human/infected/subterrane
 	name = "Infected Engineer - Underground"
@@ -123,6 +124,7 @@
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/security
 	shoes = /obj/item/clothing/shoes/jackboots
+	id_iff = IFF_KONYANG
 
 /datum/ghostspawner/human/infected/hos
 	name = "Infected Head of Security"
@@ -149,6 +151,7 @@
 	id = /obj/item/card/id
 	belt = /obj/item/storage/belt/security/full
 	accessory = /obj/item/clothing/accessory/holster
+	id_iff = IFF_KONYANG
 
 /datum/ghostspawner/human/infected/soldier
 	name = "Infected Soldier"
@@ -190,6 +193,7 @@
 	suit_store = /obj/item/gun/projectile/automatic/rifle/konyang/konyang47
 
 	id = /obj/item/card/id/kasf_corvette
+	id_iff = IFF_KONYANG
 
 /obj/outfit/admin/infected_pilot
 	uniform = /obj/item/clothing/under/rank/konyang/mech_pilot
@@ -202,6 +206,7 @@
 	)
 	l_ear = /obj/item/device/flashlight/headlights
 	id = /obj/item/card/id/kasf_corvette
+	id_iff = IFF_KONYANG
 
 /datum/ghostspawner/human/infected/diver
 	name = "Infected Diver"
@@ -228,12 +233,7 @@
 	spawnpoints = list("infected_diver_entrance")
 	max_count = 1
 	possible_species = list(SPECIES_IPC_SHELL)
-	outfit = /obj/outfit/admin/infected_diver
-
-/obj/outfit/admin/infected_diver
-	suit = null
-	head = null
-	back = /obj/item/rig/diving
+	outfit = /obj/outfit/admin/infected_engi/diver
 
 /datum/ghostspawner/human/infected/police
 	name = "Infected Police - South"
@@ -257,6 +257,8 @@
 /obj/outfit/admin/infected_cop
 	uniform = /obj/item/clothing/under/rank/konyang/police
 	head = /obj/item/clothing/head/konyang/police
+	shoes = /obj/item/clothing/shoes/jackboots
+	back = /obj/item/storage/backpack/satchel
 	belt = /obj/item/storage/belt/security/full
 	accessory = /obj/item/clothing/accessory/holster/hip
 	accessory_contents = list(
@@ -264,6 +266,7 @@
 	)
 	back = /obj/item/storage/backpack/satchel
 	suit = /obj/item/clothing/suit/storage/vest/konyang
+	id_iff = IFF_KONYANG
 
 //Konyang Navy & Army
 /datum/ghostspawner/human/konyang_naval_infantry
@@ -308,7 +311,6 @@
 		/obj/item/device/flashlight/maglight = 1
 	)
 	id = /obj/item/card/id
-	id_iff = IFF_KONYANG
 
 /obj/outfit/admin/konyang_navy/get_id_access()
 	return list(ACCESS_KONYANG_POLICE, ACCESS_EXTERNAL_AIRLOCKS, ACCESS_COALITION_NAVY)
@@ -397,7 +399,6 @@
 		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1
 	)
-	id_iff = IFF_KONYANG
 
 /obj/outfit/admin/sn_konyang_army/officer
 	name = "Konyang Army Officer"
