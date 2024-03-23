@@ -171,8 +171,8 @@
 	id = /obj/item/card/id/kasf_corvette
 
 /obj/outfit/admin/infected_pilot
-	uniform = /obj/item/clothing/under/rank/konyang
-	head = /obj/item/clothing/head/helmet/pilot
+	uniform = /obj/item/clothing/under/rank/konyang/mech_pilot
+	head = /obj/item/clothing/head/helmet/konyang/pilot
 	shoes = /obj/item/clothing/shoes/jackboots
 	accessory = /obj/item/clothing/accessory/holster/hip
 	accessory_contents = list(

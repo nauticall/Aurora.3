@@ -55,7 +55,7 @@
 	. = ..()
 	QDEL_NULL(cell)
 	cell = new /obj/item/cell/hyper(src)
-	mech_armor = new /obj/item/robot_parts/robot_component/armor/mech/combat(src)
+	mech_armor = new /obj/item/robot_parts/robot_component/armor/mech(src)
 
 /mob/living/heavy_vehicle/premade/konyang
 	name = "Chollima"

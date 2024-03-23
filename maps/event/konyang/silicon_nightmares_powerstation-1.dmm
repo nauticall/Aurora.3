@@ -317,7 +317,8 @@
 /area/kaneyama_interiors/subterrane)
 "ee" = (
 /obj/machinery/door/airlock{
-	name = "Washrooms"
+	name = "Washrooms";
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors/subterrane)
@@ -654,7 +655,8 @@
 /area/kaneyama_interiors/subterrane)
 "jr" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	dir = 4
+	dir = 4;
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
@@ -1293,7 +1295,8 @@
 /area/kaneyama_interiors/subterrane)
 "qX" = (
 /obj/machinery/door/airlock/security{
-	name = "Underground Checkpoint"
+	name = "Underground Checkpoint";
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
@@ -1414,7 +1417,8 @@
 /area/kaneyama_interiors/subterrane)
 "sI" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Emergency Supplies"
+	name = "Emergency Supplies";
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
@@ -1808,7 +1812,8 @@
 "yq" = (
 /obj/machinery/door/airlock/medical{
 	name = "Infirmary";
-	dir = 4
+	dir = 4;
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
@@ -2413,7 +2418,8 @@
 "Gp" = (
 /obj/machinery/door/airlock{
 	dir = 4;
-	name = "Washrooms"
+	name = "Washrooms";
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors/subterrane)
@@ -2915,7 +2921,8 @@
 "Op" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	dir = 4;
-	name = "Coolant Pumping"
+	name = "Coolant Pumping";
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
@@ -3359,7 +3366,8 @@
 "TV" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Emergency Power";
-	dir = 4
+	dir = 4;
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
@@ -3467,7 +3475,9 @@
 /turf/simulated/wall/r_wall,
 /area/kaneyama_interiors)
 "VB" = (
-/obj/machinery/door/airlock/maintenance_hatch,
+/obj/machinery/door/airlock/maintenance_hatch{
+	insecure = 0
+	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
 "VE" = (
@@ -3618,7 +3628,8 @@
 "Yb" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 1;
-	name = "Pumping & Coolant Control Room"
+	name = "Pumping & Coolant Control Room";
+	insecure = 0
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
