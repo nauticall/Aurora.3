@@ -2771,6 +2771,14 @@
 "La" = (
 /turf/unsimulated/wall/konyang,
 /area/kaneyama_ext/underground)
+"Ly" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/effect/ghostspawpoint{
+	name = "igs - konyang_merchant";
+	identifier = "konyang_merchant"
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "LB" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
@@ -32360,7 +32368,7 @@ vF
 vF
 Gr
 FL
-iC
+Ly
 iC
 OC
 ti

@@ -245,21 +245,22 @@
 
 //Konyang Navy & Army
 /datum/ghostspawner/human/konyang_naval_infantry
-	name = "Konyang Naval Infantry"
 	short_name = "konyang_naval_infantry"
-	max_count = 4
-	spawnpoints = list("konyang_naval_infantry")
+	name = "Konyang Naval Infantry"
+	desc = "You are a soldier of Konyang's Naval Infantry, deployed to assist with the Kaneyama crisis."
+	max_count = 8
 	tags = list("External")
-
+	spawnpoints = list("konyang_naval_infantry")
 	outfit = /obj/outfit/admin/konyang_navy
 	possible_species = list(SPECIES_HUMAN)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
-
 	assigned_role = "Konyang Naval Infantry"
 	special_role = "Konyang Naval Infantry"
 	respawn_flag = null
+	enabled = TRUE
 	welcome_message = "You are personnel of Konyang's Navy, deployed to locate the Hivebot master transmitter and destroy it, alongside corporate forces. Obey your commander, accomplish your objective, try not to die along the way."
 	password = "marines"
+
 
 /obj/outfit/admin/konyang_navy
 	name = "Konyang Naval Infantry"
