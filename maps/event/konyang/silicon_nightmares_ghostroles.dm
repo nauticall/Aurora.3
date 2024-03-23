@@ -308,6 +308,7 @@
 		/obj/item/device/flashlight/maglight = 1
 	)
 	id = /obj/item/card/id
+	id_iff = IFF_KONYANG
 
 /obj/outfit/admin/konyang_navy/get_id_access()
 	return list(ACCESS_KONYANG_POLICE, ACCESS_EXTERNAL_AIRLOCKS, ACCESS_COALITION_NAVY)
@@ -396,6 +397,7 @@
 		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1
 	)
+	id_iff = IFF_KONYANG
 
 /obj/outfit/admin/sn_konyang_army/officer
 	name = "Konyang Army Officer"

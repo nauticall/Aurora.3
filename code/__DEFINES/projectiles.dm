@@ -22,6 +22,7 @@
 #define IFF_LANCER "lancer"
 #define IFF_SOL "solarian"
 #define IFF_HIGHLANDER "highlander"
+#define IFF_KONYANG "konyang"
 
 #define HOLD_CASINGS	0 //do not do anything after firing. Manual action, like pump shotguns, or guns that want to define custom behaviour
 #define EJECT_CASINGS	1 //drop spent casings on the ground after firing
