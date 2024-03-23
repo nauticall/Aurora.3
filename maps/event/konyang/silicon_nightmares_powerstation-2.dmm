@@ -1451,13 +1451,10 @@
 /area/kaneyama_plant)
 "fq" = (
 /obj/structure/table/steel,
-/obj/item/clothing/accessory/armor_plate/press,
-/obj/item/clothing/suit/armor/carrier{
-	pixel_x = -10
-	},
 /obj/item/clothing/head/helmet/security/press{
 	pixel_x = 10
 	},
+/obj/item/clothing/suit/armor/carrier/press,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
 "fr" = (
