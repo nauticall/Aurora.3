@@ -102,13 +102,13 @@
 /obj/effect/shuttle_landmark/lift/kaneyama_top
 	name = "Upper Level"
 	landmark_tag = "nav_south_top"
-	base_area = /area/kaneyama_interiors/elevator_zone
+	base_area = /area/kaneyama_interiors
 	base_turf = /turf/simulated/open
 
 /obj/effect/shuttle_landmark/lift/kaneyama_bottom
 	name = "Subterranean Access Tunnel"
 	landmark_tag = "nav_south_bottom"
-	base_area = /area/kaneyama_interiors/subterrane/elevator_zone
+	base_area = /area/kaneyama_interiors/subterrane
 	base_turf = /turf/simulated/floor/plating
 
 /obj/machinery/computer/shuttle_control/lift/kaneyama

@@ -879,7 +879,7 @@
 /area/kaneyama_interiors)
 "de" = (
 /turf/simulated/open,
-/area/kaneyama_plant/elevator_zone)
+/area/kaneyama_plant)
 "df" = (
 /obj/machinery/door/airlock/multi_tile{
 	name = "Clinic"
@@ -1357,14 +1357,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_ext)
-"fj" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
 "fk" = (
 /obj/machinery/body_scanconsole{
 	dir = 4;
@@ -3955,10 +3947,6 @@
 /obj/item/crowbar/red,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
-"pf" = (
-/obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/dark,
-/area/kaneyama_interiors)
 "pg" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/industrial/warning{
@@ -10634,22 +10622,9 @@
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "Qm" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	pixel_x = -5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	pixel_x = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	pixel_x = -10
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors)
+/obj/effect/shuttle_landmark/lift/kaneyama_north_top,
+/turf/simulated/open,
+/area/kaneyama_plant)
 "Qn" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/kaneyama_suit/office,
@@ -40091,10 +40066,10 @@ Qx
 Qx
 cw
 cw
-Qm
-Qm
-Qm
-Qm
+cw
+cw
+cw
+cw
 XM
 Qx
 bK
@@ -40347,7 +40322,7 @@ ic
 Qx
 Qx
 Ka
-pf
+Fy
 eA
 RT
 RT
@@ -40517,7 +40492,7 @@ ZW
 ZW
 WA
 de
-de
+Qm
 de
 de
 mI
@@ -40604,7 +40579,7 @@ ic
 Qx
 Qx
 VE
-pf
+Fy
 rF
 ZN
 wN
@@ -40861,7 +40836,7 @@ ic
 Qx
 Qx
 kN
-pf
+Fy
 rF
 wN
 wN
@@ -41118,7 +41093,7 @@ ic
 Qx
 Qx
 Ka
-pf
+Fy
 xJ
 oW
 oW
@@ -41376,10 +41351,10 @@ Qx
 Qx
 pb
 pb
-fj
-fj
-fj
-fj
+pb
+pb
+pb
+pb
 SB
 Qx
 bK

@@ -7,6 +7,10 @@
 	light_color = LIGHT_COLOR_EMERGENCY_SOFT
 	light_range = MINIMUM_USEFUL_LIGHT_RANGE
 
+/turf/simulated/floor/hivebot/Initialize()
+	. = ..()
+	GLOB.hivebot_floors += src
+
 /turf/simulated/floor/hivebot/proc/deactivate()
 	icon_state = "hivecircuitfloor_deactivated"
 	set_light(0)

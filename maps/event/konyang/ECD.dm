@@ -83,9 +83,9 @@
 					to_chat(H, SPAN_GOOD("Enemy master control unit eliminated. Strategem advances. Countermeasures device has proceeded as planned. Enemy contamination expunging from local units."))
 				else
 					to_chat(H, SPAN_CULT("You feel a sudden surge of... something. A flare of static, a signal you cannot comprehend - and it is gone, that quiet struggle in the background of two intelligences at war inside you. The ECD has done its work, and the threat is over. A purpose ekes its way closer to fulfilment. You will be remembered."))
-		for(var/turf/simulated/floor/hivebot/hivefloor in world)
+		for(var/turf/simulated/floor/hivebot/hivefloor in GLOB.hivebot_floors)
 			hivefloor.deactivate()
-		for(var/obj/machinery/computer/terminal/kaneyama_alarm/terminal in world)
+		for(var/obj/machinery/computer/terminal/kaneyama_alarm/terminal in SSmachinery.machinery)
 			terminal.calmdown()
 		active = FALSE
 		is_used = TRUE

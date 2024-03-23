@@ -515,9 +515,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/turbolift/kaneyama/north)
 "gr" = (
@@ -547,16 +544,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
-"gY" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/dark/full,
-/area/turbolift/kaneyama/north)
 "hc" = (
 /obj/structure/lattice/catwalk/indoor/grate{
 	name = "vent grate"
@@ -671,9 +658,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
-"js" = (
-/turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane/elevator_zone)
 "jw" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -1080,12 +1064,6 @@
 "nB" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/structure/railing/mapped{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/turbolift/kaneyama/north)
@@ -1621,10 +1599,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped,
 /obj/machinery/computer/shuttle_control/lift/kaneyama_north{
 	pixel_y = 6
 	},
@@ -2001,9 +1975,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/turbolift/kaneyama/north)
 "AX" = (
@@ -2149,9 +2120,6 @@
 /area/kaneyama_interiors/subterrane)
 "CR" = (
 /obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
@@ -2435,7 +2403,7 @@
 "Gj" = (
 /obj/effect/shuttle_landmark/lift/kaneyama_bottom,
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane/elevator_zone)
+/area/kaneyama_interiors/subterrane)
 "Gm" = (
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -2463,9 +2431,6 @@
 /area/kaneyama_interiors)
 "GQ" = (
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
 	dir = 4
 	},
 /mob/living/simple_animal/hostile/ipc_zombie,
@@ -2957,12 +2922,6 @@
 "Oz" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/structure/railing/mapped{
-	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/turbolift/kaneyama/north)
@@ -30866,10 +30825,10 @@ wS
 wS
 eo
 Uz
-js
-js
-js
-js
+AA
+AA
+AA
+AA
 vF
 sg
 sg
@@ -31123,10 +31082,10 @@ YO
 YO
 YO
 QL
-js
+AA
 Gj
-js
-js
+AA
+AA
 vF
 sg
 sg
@@ -31380,10 +31339,10 @@ YO
 YO
 YO
 QL
-js
-js
-js
-js
+AA
+AA
+AA
+AA
 vF
 sg
 sg
@@ -31551,7 +31510,7 @@ vF
 nB
 gp
 GQ
-gY
+gp
 sP
 fm
 wS
@@ -31637,10 +31596,10 @@ wS
 wS
 IE
 QL
-js
-js
-js
-js
+AA
+AA
+AA
+AA
 vF
 sg
 sg
