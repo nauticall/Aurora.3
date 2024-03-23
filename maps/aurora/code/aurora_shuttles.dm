@@ -580,7 +580,7 @@ AURORA_ESCAPE_POD(4)
 /obj/effect/shuttle_landmark/distress/interim
 	name = "In Transit"
 	landmark_tag = "nav_distress_interim"
-	base_turf = /turf/space/transit/bluespace/west
+	base_turf = /turf/space/transit
 
 /obj/effect/shuttle_landmark/distress/green
 	name = "Emergency Services Dock"

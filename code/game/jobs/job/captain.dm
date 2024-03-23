@@ -41,6 +41,10 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	head = /obj/item/clothing/head/caphat/scc
 	glasses = /obj/item/clothing/glasses/sunglasses
 	id = /obj/item/card/id/gold
+	accessory = /obj/item/clothing/accessory/holster/hip
+	accessory_contents = list(
+		/obj/item/gun/energy/repeater/pistol
+	)
 
 	headset = /obj/item/device/radio/headset/heads/captain
 	bowman = /obj/item/device/radio/headset/heads/captain/alt
@@ -52,7 +56,12 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	tablet = /obj/item/modular_computer/handheld/preset/command/captain
 
 	backpack_contents = list(
-		/obj/item/storage/box/ids = 1
+		/obj/item/storage/box/ids = 1,
+		/obj/item/gun/projectile/revolver/mateba/captain = 1,
+		/obj/item/melee/telebaton = 1,
+		/obj/item/device/megaphone/command = 1,
+		/obj/item/clothing/suit/armor/carrier/scc = 1,
+		/obj/item/clothing/head/helmet/security/scc = 1
 	)
 
 	implants = list(
@@ -137,9 +146,16 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	tab_pda = /obj/item/modular_computer/handheld/pda/command/xo
 	wristbound = /obj/item/modular_computer/handheld/wristbound/preset/pda/command/xo
 	tablet = /obj/item/modular_computer/handheld/preset/command/xo
+	accessory = /obj/item/clothing/accessory/holster/waist
+	accessory_contents = list(
+		/obj/item/gun/energy/repeater/pistol = 1
+	)
 
 	backpack_contents = list(
-		/obj/item/storage/box/ids = 1
+		/obj/item/storage/box/ids = 1,
+		/obj/item/device/megaphone/command = 1,
+		/obj/item/clothing/suit/armor/carrier/scc = 1,
+		/obj/item/clothing/head/helmet/security/scc = 1
 	)
 
 	messengerbag = /obj/item/storage/backpack/messenger/com

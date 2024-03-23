@@ -182,3 +182,7 @@ GLOBAL_LIST_INIT(department_funds, list(
 
 //List of exosuit tracking beacons, to save performance
 GLOBAL_LIST_EMPTY(exo_beacons)
+
+GLOBAL_LIST_EMPTY(teleport_locs)
+
+GLOBAL_LIST_EMPTY(hivebot_floors)

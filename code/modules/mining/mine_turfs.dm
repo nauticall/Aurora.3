@@ -617,6 +617,10 @@ var/list/mineral_can_smooth_with = list(
 /turf/simulated/mineral/planet
 	mined_turf = /turf/simulated/floor/exoplanet/mineral
 
+/turf/simulated/mineral/konyang
+	mined_turf = /turf/simulated/floor/exoplanet/dirt_konyang
+	color = "#514e5c"
+
 /turf/simulated/mineral/adhomai
 	icon = 'icons/turf/smooth/icy_wall.dmi'
 	actual_icon = 'icons/turf/smooth/icy_wall.dmi'

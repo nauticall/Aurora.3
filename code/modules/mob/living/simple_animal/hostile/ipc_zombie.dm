@@ -3,7 +3,8 @@
 	desc = "A Baseline IPC, which appears to be in a state of disrepair. Wires are hanging out of it and its screen is cracked and flickering."
 	icon = 'icons/mob/npc/ipc_zombie.dmi'
 	icon_state = "baseline_grey"
-	icon_dead = "baseline_grey_off"
+	icon_living = "baseline_grey"
+	icon_dead = "baseline_grey_dead"
 	blood_type = COLOR_OIL
 	health = 100
 	maxHealth = 100
@@ -41,13 +42,16 @@
 	///Overlay of a screen to display on the zombie's monitor
 	var/image/screen_overlay
 
-	///IPC corpse to spawn on the simplemob's death
-	var/corpse = /obj/effect/landmark/corpse/ipc_zombie
+	///Is the IPC cured?
+	var/cured = FALSE
+	var/icon_off = "baseline_grey_off"
 
 /mob/living/simple_animal/hostile/ipc_zombie/Initialize()
 	. = ..()
 	icon_state = pick("baseline_grey", "baseline_red", "baseline_green", "baseline_yellow")
-	icon_dead = "[icon_state]_off"
+	icon_living = icon_state
+	icon_dead = "[icon_state]_dead"
+	icon_off = "[icon_state]_off"
 	screen = pick("screen_blue", "screen_red", "screen_orange", "screen_lumi_eyes", "screen_goggles", "screen_console", "screen_static2", "screen_static3")
 	screen_overlay = image('icons/mob/npc/ipc_zombie.dmi', "[screen]", EFFECTS_ABOVE_LIGHTING_LAYER)
 	screen_overlay.appearance_flags = KEEP_APART
@@ -55,17 +59,41 @@
 	set_light(MINIMUM_USEFUL_LIGHT_RANGE, 2, LIGHT_COLOR_TUNGSTEN)
 
 /mob/living/simple_animal/hostile/ipc_zombie/update_icon()
+	if(stat == DEAD && !cured)
+		icon_state = icon_dead
+	if(stat == DEAD && cured)
+		icon_state = icon_off
+		screen = "screen_static2"
 	cut_overlays()
-	if(screen && stat != DEAD)
+	if(screen && (stat != DEAD || cured))
 		screen_overlay = image('icons/mob/npc/ipc_zombie.dmi', "[screen]", EFFECTS_ABOVE_LIGHTING_LAYER)
 		screen_overlay.appearance_flags = KEEP_APART
 		add_overlay(screen_overlay)
 
-/mob/living/simple_animal/hostile/ipc_zombie/death()
-	..()
-	if(corpse)
-		new corpse(get_turf(src))
-		qdel(src)
+/mob/living/simple_animal/hostile/ipc_zombie/death(gibbed, deathmessage="collapses, its servos no longer functioning!")
+	if(cured)
+		dir = SOUTH
+	if(!cured)
+		set_light(0)
+	. = ..()
+
+/mob/living/simple_animal/hostile/ipc_zombie/get_examine_text(mob/user, distance, is_adjacent, infix, suffix)
+	. = ..()
+	if (stat == DEAD && !cured)
+		. += SPAN_DANGER("It looks damaged to the point of inoperability. Intensive repair will be required.")
+	if (stat == DEAD && cured)
+		. += SPAN_WARNING("It is standing perfectly still, seemingly locked in place. Its screen reads 'REBOOTING CORE OS'.")
+	if (health < maxHealth * 0.5)
+		. += "<span class='danger'>It looks badly damaged.</span>"
+	else if (health < maxHealth)
+		. += "<span class='warning'>It looks damaged.</span>"
+
+/mob/living/simple_animal/hostile/ipc_zombie/think()
+	. = ..()
+	if(stance != HOSTILE_STANCE_IDLE)
+		environment_smash = TRUE
+	else
+		environment_smash = FALSE
 
 /mob/living/simple_animal/hostile/ipc_zombie/get_bullet_impact_effect_type(var/def_zone)
 	return BULLET_IMPACT_METAL

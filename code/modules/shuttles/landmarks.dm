@@ -164,6 +164,10 @@
 	var/obj/effect/shuttle_landmark/automatic/spaceflare/landmark
 
 /obj/item/device/spaceflare/attack_self(var/mob/user)
+	var/area/A = get_area(user)
+	if(A != GLOB.areas_by_type[/area/kaneyama_ext])
+		to_chat(user, SPAN_WARNING("\The [src] cannot be activated indoors!"))
+		return
 	if(activate(user))
 		user.visible_message(SPAN_NOTICE("\The [user] pulls the cord, activating \the [src]."), SPAN_NOTICE("You pull the cord, activating \the [src]."), SPAN_ITALIC("You hear the sound of something being struck and ignited."))
 
@@ -240,7 +244,8 @@
 
 	src.beacon = beacon
 	RegisterSignal(beacon, COMSIG_MOVABLE_MOVED, PROC_REF(update_beacon_moved), TRUE)
-	//GLOB.moved_event.register(beacon, src, /obj/effect/shuttle_landmark/automatic/spaceflare/proc/update_beacon_moved)
+	var/datum/shuttle/autodock/multi/S = SSshuttle.shuttles["SCCV Canary"]
+	S.destination_tags += landmark_tag
 
 /obj/effect/shuttle_landmark/automatic/spaceflare/Destroy()
 	UnregisterSignal(beacon, COMSIG_MOVABLE_MOVED)

@@ -76,10 +76,11 @@
 	sector_hud_arrow = "menu_arrow"
 
 	lobby_tracks = list(
-		'sound/music/lobby/konyang/konyang-1.ogg',
+		/*'sound/music/lobby/konyang/konyang-1.ogg',
 		'sound/music/lobby/konyang/konyang-2.ogg',
 		'sound/music/lobby/konyang/konyang-3.ogg',
-		'sound/music/lobby/konyang/konyang-4.ogg'
+		'sound/music/lobby/konyang/konyang-4.ogg'*/
+		'sound/music/lobby/konyang/konyang-5.ogg'
 	)
 
 	lore_radio_stations = list(
