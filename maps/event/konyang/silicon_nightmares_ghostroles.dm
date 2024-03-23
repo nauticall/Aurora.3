@@ -440,6 +440,7 @@
 	l_pocket = /obj/item/storage/wallet/sol_rich
 	id = /obj/item/card/id
 	l_ear = /obj/item/device/radio/headset
+	shoes = /obj/item/clothing/shoes/workboots/brown
 
 /obj/outfit/admin/konyang_merchant/get_id_access()
 	return list(ACCESS_MERCHANT)

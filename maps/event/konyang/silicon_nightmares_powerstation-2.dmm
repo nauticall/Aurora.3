@@ -219,9 +219,9 @@
 /obj/structure/table/standard,
 /obj/item/device/radio/phone,
 /obj/item/gun/projectile/revolver/mateba/captain,
-/obj/item/ammo_magazine/c45/revolver,
 /obj/item/clothing/accessory/holster,
 /obj/item/device/binoculars,
+/obj/item/ammo_magazine/a454,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "aF" = (
@@ -3444,6 +3444,7 @@
 	name = "scc camera drone"
 	},
 /obj/item/device/binoculars,
+/obj/item/ecdpointer,
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
 "lW" = (
