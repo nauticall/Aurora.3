@@ -1262,6 +1262,70 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/kaneyama_plant)
+"eT" = (
+/obj/structure/closet,
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "33CC33";
+	name = "green armband"
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "eU" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -1830,6 +1894,70 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/sn_canary)
+"hd" = (
+/obj/structure/closet,
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FFFF00";
+	name = "yellow armband"
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "he" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -2510,6 +2638,320 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/hivebot,
 /area/kaneyama_interiors)
+"kh" = (
+/obj/structure/closet,
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/operations{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/science{
+	pixel_y = -7;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/sec{
+	pixel_y = 10;
+	pixel_x = -10
+	},
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/obj/item/clothing/accessory/armband/engine,
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "kk" = (
 /obj/structure/closet/crate/freezer/rations,
 /obj/item/storage/box/fancy/mre/menu10,
@@ -4442,6 +4884,19 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"ro" = (
+/obj/structure/closet/crate/freezer/kois/rations,
+/obj/item/storage/box/fancy/mre/menu12,
+/obj/item/storage/box/fancy/mre/menu12,
+/obj/item/storage/box/fancy/mre/menu12,
+/obj/item/storage/box/fancy/mre/menu12,
+/obj/item/storage/box/fancy/mre/menu12,
+/obj/item/storage/box/fancy/mre/menu12,
+/obj/item/storage/box/fancy/mre/menu12,
+/obj/item/storage/box/fancy/mre/menu12,
+/obj/item/storage/box/fancy/mre/menu12,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/kaneyama_ext)
 "rp" = (
 /obj/structure/cable/orange{
 	icon_state = "1-2"
@@ -5906,6 +6361,25 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
+"xq" = (
+/obj/structure/closet,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/obj/item/clothing/accessory/armband,
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "xs" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -7638,18 +8112,65 @@
 /turf/simulated/floor/wood,
 /area/kaneyama_interiors)
 "DE" = (
-/obj/structure/closet/crate/freezer/kois/rations,
-/obj/item/storage/box/fancy/mre/menu12,
-/obj/item/storage/box/fancy/mre/menu12,
-/obj/item/storage/box/fancy/mre/menu12,
-/obj/item/storage/box/fancy/mre/menu12,
-/obj/item/storage/box/fancy/mre/menu12,
-/obj/item/storage/box/fancy/mre/menu12,
-/obj/item/storage/box/fancy/mre/menu12,
-/obj/item/storage/box/fancy/mre/menu12,
-/obj/item/storage/box/fancy/mre/menu12,
+/obj/structure/closet,
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "FF6600";
+	name = "orange armband"
+	},
 /turf/simulated/floor/concrete,
-/area/kaneyama_interiors)
+/area/kaneyama_ext)
 "DF" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/spray/sterilizine,
@@ -8097,6 +8618,22 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"FC" = (
+/obj/structure/closet,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/obj/item/flag/konyang,
+/turf/simulated/floor/carpet/rubber,
+/area/kaneyama_interiors)
 "FE" = (
 /obj/structure/bed/roller,
 /turf/simulated/floor/tiled/white,
@@ -8984,6 +9521,70 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"Jw" = (
+/obj/structure/closet,
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	color = "00CCFF";
+	name = "blue armband"
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "Jx" = (
 /obj/machinery/door/airlock/engineering{
 	dir = 8;
@@ -9975,6 +10576,20 @@
 /obj/effect/map_effect/window_spawner/full/reinforced,
 /turf/simulated/floor/tiled,
 /area/kaneyama_interiors)
+"Nn" = (
+/obj/structure/closet,
+/obj/item/clothing/suit/armor/carrier/navy,
+/obj/item/clothing/suit/armor/carrier/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/head/helmet/konyang/navy,
+/obj/item/clothing/under/rank/konyang/navy,
+/obj/item/clothing/under/rank/konyang/navy,
+/obj/item/device/radio/headset/syndicate,
+/obj/item/screwdriver,
+/obj/item/device/radio/headset/alt/double/captain,
+/obj/item/device/radio/headset/alt/double/command,
+/turf/simulated/floor/carpet/rubber,
+/area/kaneyama_interiors)
 "No" = (
 /obj/structure/flora/rock/konyang/small,
 /turf/simulated/floor/exoplanet/konyang,
@@ -10291,6 +10906,70 @@
 	},
 /turf/simulated/floor/concrete,
 /area/kaneyama_interiors)
+"OF" = (
+/obj/structure/closet,
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/obj/item/clothing/accessory/armband/colourable{
+	name = "purple armband";
+	color = "9966FF"
+	},
+/turf/simulated/floor/concrete,
+/area/kaneyama_ext)
 "OG" = (
 /obj/structure/shuttle_part/scc/scout{
 	icon_state = "1,10"
@@ -11336,6 +12015,14 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
+"SW" = (
+/obj/structure/lattice/catwalk/indoor/grate{
+	pixel_x = -10
+	},
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/turf/simulated/floor/exoplanet/water/konyang,
+/area/kaneyama_ext/water)
 "SX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /turf/simulated/wall/shuttle/unique/scc/scout{
@@ -11553,6 +12240,11 @@
 	},
 /obj/effect/landmark/corpse/konyang_soldier,
 /obj/effect/decal/cleanable/blood/splatter,
+/obj/item/gun/projectile/shotgun/pump/rifle/scope{
+	desc = "A cheap ballistic rifle, the markings on this one indicate it as a civilian rifle brought in by a Konyanger trooper. This one has a telescopic sight attached to it."
+	},
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/kaneyama_ext/water)
 "TD" = (
@@ -43890,7 +44582,7 @@ ic
 FU
 Ac
 TC
-zk
+SW
 zk
 zk
 zk
@@ -52759,7 +53451,7 @@ iY
 iY
 iY
 iY
-iY
+DE
 LY
 bK
 bK
@@ -53016,7 +53708,7 @@ hA
 iY
 iY
 iY
-iY
+xq
 LY
 bK
 bK
@@ -53273,7 +53965,7 @@ Gi
 iY
 iY
 iY
-iY
+Jw
 LY
 bK
 bK
@@ -53530,7 +54222,7 @@ Gi
 iY
 iY
 qq
-iY
+eT
 LY
 bK
 bK
@@ -53787,7 +54479,7 @@ Gi
 iY
 iY
 iY
-iY
+hd
 LY
 bK
 ou
@@ -54044,7 +54736,7 @@ Gi
 iY
 iY
 iY
-iY
+OF
 LY
 bK
 bK
@@ -54301,7 +54993,7 @@ Gi
 iY
 iY
 iY
-iY
+kh
 LY
 bK
 bK
@@ -58387,7 +59079,7 @@ qq
 iY
 Ay
 CE
-CE
+ro
 pa
 mO
 mO
@@ -58644,7 +59336,7 @@ iY
 iY
 Ay
 CE
-CE
+ro
 pa
 cn
 Vk
@@ -59679,11 +60371,11 @@ Ay
 Ay
 pa
 pa
+Nn
 Bd
 Bd
 Bd
-Bd
-Bd
+FC
 pa
 pa
 iY
@@ -61749,7 +62441,7 @@ xH
 xH
 vW
 IG
-DE
+IG
 mW
 uw
 pa
