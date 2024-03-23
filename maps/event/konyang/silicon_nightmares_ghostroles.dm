@@ -244,11 +244,11 @@
 	suit = /obj/item/clothing/suit/storage/vest/konyang
 
 //Konyang Navy & Army
-/datum/ghostspawner/human/konyang_navy
+/datum/ghostspawner/human/konyang_naval_infantry
 	name = "Konyang Naval Infantry"
-	short_name = "konyang_navy"
+	short_name = "konyang_naval_infantry"
 	max_count = 4
-	spawnpoints = list("konyang_navy")
+	spawnpoints = list("konyang_naval_infantry")
 	tags = list("External")
 
 	outfit = /obj/outfit/admin/konyang_navy
@@ -289,7 +289,7 @@
 /obj/outfit/admin/konyang_navy/get_id_access()
 	return list(ACCESS_KONYANG_POLICE, ACCESS_EXTERNAL_AIRLOCKS, ACCESS_COALITION_NAVY)
 
-/datum/ghostspawner/human/konyang_navy/officer
+/datum/ghostspawner/human/konyang_naval_infantry/officer
 	name = "Konyang Navy Officer"
 	short_name = "konyang_navy_officer"
 	desc = "Command the Konyang Navy response team alongside corporate forces."

@@ -1766,8 +1766,8 @@
 "gL" = (
 /obj/structure/bed/stool,
 /obj/effect/ghostspawpoint{
-	name = "igs - konyang_navy";
-	identifier = "konyang_navy"
+	name = "igs - konyang_naval_infantry";
+	identifier = "konyang_naval_infantry"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
@@ -2812,6 +2812,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"ll" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "lm" = (
 /obj/machinery/door/airlock/glass{
 	dir = 4;
@@ -2819,6 +2825,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_plant)
+"lo" = (
+/obj/structure/ledge{
+	dir = 8
+	},
+/turf/simulated/wall/r_wall,
+/area/kaneyama_interiors)
 "lp" = (
 /obj/structure/cable/green,
 /obj/machinery/door/blast/shutters{
@@ -4620,6 +4632,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"rV" = (
+/obj/structure/ladder{
+	pixel_y = 8
+	},
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 8
+	},
+/turf/simulated/open,
+/area/kaneyama_interiors)
 "rW" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -5691,6 +5713,12 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/kaneyama_ext)
+"wq" = (
+/obj/structure/ladder{
+	pixel_y = 8
+	},
+/turf/simulated/open,
+/area/kaneyama_plant)
 "ws" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -5792,8 +5820,8 @@
 "wV" = (
 /obj/structure/bed/stool,
 /obj/effect/ghostspawpoint{
-	name = "igs - konyang_navy";
-	identifier = "konyang_navy"
+	name = "igs - konyang_naval_infantry";
+	identifier = "konyang_naval_infantry"
 	},
 /turf/simulated/floor/concrete,
 /area/kaneyama_interiors)
@@ -7884,6 +7912,10 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/hivebot,
 /area/kaneyama_interiors)
+"EA" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors)
 "EB" = (
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 1
@@ -8048,6 +8080,15 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"Fq" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light/colored/dying{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kaneyama_plant)
 "Fv" = (
 /obj/machinery/status_display/supply_display{
 	pixel_y = 32
@@ -10989,8 +11030,8 @@
 /area/kaneyama_ext)
 "RP" = (
 /obj/effect/ghostspawpoint{
-	name = "igs - konyang_navy";
-	identifier = "konyang_navy"
+	name = "igs - konyang_naval_infantry";
+	identifier = "konyang_naval_infantry"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/kaneyama_interiors)
@@ -11278,6 +11319,16 @@
 	pixel_y = -2
 	},
 /turf/simulated/floor/concrete,
+/area/kaneyama_interiors)
+"SM" = (
+/obj/structure/ladder{
+	pixel_y = 8
+	},
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 4
+	},
+/turf/simulated/open,
 /area/kaneyama_interiors)
 "SN" = (
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced,
@@ -39522,10 +39573,10 @@ ic
 ic
 ic
 ic
-ic
-ic
-ic
-ic
+Qx
+Qx
+Qx
+Qx
 Ac
 ic
 JW
@@ -39779,9 +39830,9 @@ ic
 ic
 ic
 ic
-ic
 Qx
-Qx
+rV
+EA
 Qx
 Qx
 Qx
@@ -40036,7 +40087,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 cw
 cw
@@ -40293,7 +40344,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 Ka
 pf
@@ -40550,7 +40601,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 VE
 pf
@@ -40807,7 +40858,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 kN
 pf
@@ -41064,7 +41115,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 Ka
 pf
@@ -41321,7 +41372,7 @@ ic
 ic
 ic
 ic
-ic
+Qx
 Qx
 pb
 pb
@@ -41493,8 +41544,8 @@ CV
 gR
 gR
 WA
-Kg
-Kg
+wq
+Fq
 Kg
 Kg
 OY
@@ -41578,9 +41629,9 @@ ic
 ic
 ic
 ic
-ic
 Qx
-Qx
+SM
+EA
 Qx
 Qx
 Qx
@@ -41750,8 +41801,8 @@ CV
 gR
 gR
 WA
-Kg
-Kg
+wq
+ll
 Kg
 Kg
 Kg
@@ -41835,10 +41886,10 @@ ic
 ic
 ic
 ic
-ic
-Jt
-Jt
-Jt
+Qx
+lo
+lo
+lo
 FY
 Jt
 bS

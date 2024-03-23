@@ -842,6 +842,16 @@
 /obj/structure/bed/stool/chair/folding,
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
+"lz" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/ladder/up{
+	pixel_y = 13
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors/subterrane)
 "lB" = (
 /obj/effect/ghostspawpoint{
 	name = "igs - infected_guard_underground";
@@ -2180,6 +2190,16 @@
 /obj/item/reagent_containers/spray/cleaner,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors/subterrane)
+"DQ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/ladder/up{
+	pixel_y = 13
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors/subterrane)
 "DT" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/item/tank/emergency_oxygen/double,
@@ -2962,6 +2982,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/kaneyama_interiors)
+"OG" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/ladder/up{
+	pixel_y = 13
+	},
+/turf/simulated/floor/plating,
+/area/kaneyama_interiors/subterrane)
 "OH" = (
 /obj/structure/tank_wall{
 	icon_state = "m-3"
@@ -30056,9 +30083,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+vF
+vF
+vF
 sg
 sg
 sg
@@ -30313,9 +30340,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+vF
+DQ
+vF
 sg
 sg
 sg
@@ -30571,7 +30598,7 @@ vF
 vF
 vF
 vF
-vF
+Sw
 vF
 vF
 vF
@@ -31856,7 +31883,7 @@ vF
 vF
 vF
 vF
-vF
+Sw
 vF
 vF
 vF
@@ -32027,8 +32054,8 @@ sg
 sg
 sg
 sg
-sg
-vF
+OG
+Sw
 sk
 aa
 Uk
@@ -32112,9 +32139,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+vF
+lz
+vF
 sg
 sg
 sg
@@ -32284,8 +32311,8 @@ sg
 sg
 sg
 sg
-sg
-vF
+OG
+aa
 aa
 YO
 FE
@@ -32369,9 +32396,9 @@ sg
 sg
 sg
 sg
-sg
-sg
-sg
+vF
+vF
+vF
 sg
 sg
 sg

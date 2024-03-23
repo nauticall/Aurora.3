@@ -102,7 +102,6 @@
 /obj/effect/shuttle_landmark/lift/kaneyama_top
 	name = "Upper Level"
 	landmark_tag = "nav_south_top"
-	landmark_flags = SLANDMARK_FLAG_AUTOSET
 	base_area = /area/kaneyama_interiors/elevator_zone
 	base_turf = /turf/simulated/open
 
@@ -128,7 +127,6 @@
 /obj/effect/shuttle_landmark/lift/kaneyama_north_top
 	name = "Power Plant Access"
 	landmark_tag = "nav_north_top"
-	landmark_flags = SLANDMARK_FLAG_AUTOSET
 	base_area = /area/kaneyama_plant/elevator_zone
 	base_turf = /turf/simulated/open
 
