@@ -22,6 +22,8 @@
 	. = ..()
 	renegades.add_antagonist(user.mind, do_not_equip = TRUE) //for aooc
 	user.faction = "hivebot" //so the other zombies don't kill our zombies
+	add_verb(user, /mob/living/carbon/human/proc/rampant_infect)
+	to_chat(user, SPAN_NOTICE("With a red grab on another IPC, use the 'Spread Virus' verb in the Abilities tab to infect them with the rampancy virus!"))
 
 	var/mob/living/carbon/human/M = user
 	if(istype(M))
@@ -42,6 +44,7 @@
 	id = /obj/item/card/id
 	l_ear = /obj/item/device/flashlight/headlights
 	r_hand = /obj/random/melee/konyang
+	back = /obj/item/storage/backpack/industrial
 
 /datum/ghostspawner/human/infected/subterrane
 	name = "Infected Engineer - Underground"
@@ -99,9 +102,7 @@
 	head = /obj/item/clothing/head/helmet/security/generic
 	belt = /obj/item/storage/belt/security/full
 	accessory = /obj/item/clothing/accessory/holster
-	accessory_contents = list(
-		/obj/random/civgun/konyang = 1
-	)
+	r_hand = /obj/random/civgun/konyang
 	suit_store = /obj/random/civgun/rifle/konyang
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/security
@@ -117,6 +118,12 @@
 	outfit = /obj/outfit/admin/infected_hos
 	password = "falke"
 
+/datum/ghostspawner/human/infected/hos/post_spawn(mob/user)
+	. = ..()
+	var/mob/living/carbon/human/H = user
+	if(istype(H))
+		H.mutations |= HULK
+
 /obj/outfit/admin/infected_hos
 	name = "GON-ENE HOS"
 	uniform = /obj/item/clothing/under/suit_jacket/navy
@@ -126,9 +133,7 @@
 	id = /obj/item/card/id
 	belt = /obj/item/storage/belt/security/full
 	accessory = /obj/item/clothing/accessory/holster
-	accessory_contents = list(
-		/obj/random/civgun/konyang = 1
-	)
+	r_hand = /obj/random/civgun/konyang
 
 /datum/ghostspawner/human/infected/soldier
 	name = "Infected Soldier"
@@ -203,7 +208,7 @@
 /datum/ghostspawner/human/infected/diver_entrance
 	name = "Infected Diver - Entrance"
 	short_name = "infected_diver_entrance"
-	spawnpoints = list("infected_diver")
+	spawnpoints = list("infected_diver_entrance")
 	max_count = 1
 	possible_species = list(SPECIES_IPC_SHELL)
 	outfit = /obj/outfit/admin/infected_diver

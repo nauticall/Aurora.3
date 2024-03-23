@@ -83,5 +83,6 @@
 	name = "Kaneyama Power Plant Reactor #2"
 	icon_state = "bluenew"
 	base_turf = /turf/simulated/floor/plating
+	requires_power = TRUE
 	ambience = AMBIENCE_TECH_RUINS
 	area_flags = AREA_FLAG_ECD_TRIGGER
