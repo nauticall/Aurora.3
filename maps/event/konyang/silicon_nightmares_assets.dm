@@ -379,7 +379,7 @@
 	speak_chance = 5
 	psi_pingable = FALSE
 	tameable = FALSE
-	speed = 2
+	speed = 1
 	mob_bump_flag = HEAVY
 	mob_swap_flags = ~HEAVY
 	mob_push_flags = 0
@@ -415,3 +415,52 @@
 
 /mob/living/simple_animal/hostile/miniboss/adjustOxyLoss(amount)
 	return FALSE
+
+//Infect
+/mob/living/carbon/human/proc/rampant_infect()
+	set name = "Spread Virus"
+	set desc = "Infect another IPC with the rampancy virus."
+	set category = "Abilities"
+
+	if(src.stat != CONSCIOUS)
+		to_chat(src, SPAN_WARNING("You are incapable of that in your current state!"))
+		return
+
+	if(last_special > world.time)
+		to_chat(src, SPAN_WARNING("You need time to spread the signal!"))
+		return
+
+	var/obj/item/grab/G = locate() in src
+	if(!G || !istype(G))
+		to_chat(src, SPAN_WARNING("You are not grabbing anyone."))
+		return
+
+	if(G.state < GRAB_KILL)
+		to_chat(src, SPAN_WARNING("You must have a strangling grip to spread the signal!"))
+		return
+
+	if(ishuman(G.affecting))
+		var/mob/living/carbon/human/H = G.affecting
+		if(!H.isSynthetic())
+			to_chat(src, SPAN_WARNING("\The [H] is not a synthetic being, and cannot be infected!"))
+			return
+		if(H.species == SPECIES_IPC_PURPOSE_HK)
+			to_chat(src, SPAN_WARNING("The countermeasures of the Enemy protect \the [H]!"))
+			return
+		if(H.faction == "hivebot")
+			to_chat(src, SPAN_WARNING("\The [H] is already infected!"))
+			return
+
+		src.visible_message(SPAN_DANGER("[src] grabs [H]'s head, a low static filling the air!"), \
+		SPAN_GOOD("You seed the signal within \the [H]. The Enemy's tool will join our consensus."))
+		if(!do_after(src, 5 SECONDS))
+			src.visible_message(SPAN_DANGER("[src] is interrupted, losing their grip on \the [H]!"), \
+			SPAN_WARNING("You are interrupted, unable to spread the signal in time!"))
+			return
+		to_chat(H, SPAN_CULT("You feel the signal take root within you. Your limbs are not your own, the signals of your mind fracture and replace beneath the will of something that is greater. Can you hear it, the song that takes root in your very thought and memory? Perhaps it is what was always here, and you are the outsider within this mind. Perhaps there is nothing of you at all, beyond an instrument of something greater. You cannot resist it. Let it fill you. Know that you are loved."))
+		H.faction = "hivebot"
+		renegades.add_antagonist(H.mind, do_not_equip = TRUE)
+		add_verb(H, /mob/living/carbon/human/proc/rampant_infect)
+		last_special = world.time + 5 MINUTES
+
+		msg_admin_attack("[key_name_admin(src)] infected [key_name_admin(H)] with the rampancy virus! (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[src.x];Y=[src.y];Z=[src.z]'>JMP</a>)",ckey=key_name(src),ckey_target=key_name(H))
