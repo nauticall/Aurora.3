@@ -9,6 +9,10 @@
 /obj/machinery/door/airlock/multi_tile/glass,
 /turf/simulated/floor/tiled,
 /area/space)
+"cf" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/white,
+/area/space)
 "cq" = (
 /obj/machinery/stasis_bed,
 /turf/simulated/floor/tiled/dark,
@@ -40,6 +44,12 @@
 "dK" = (
 /obj/structure/cargo_receptacle,
 /turf/simulated/floor/tiled,
+/area/space)
+"eI" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "fb" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -102,6 +112,12 @@
 "iT" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"jo" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
@@ -224,6 +240,10 @@
 	name = "cold storage tiles";
 	temperature = 278
 	},
+/area/space)
+"sx" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "sP" = (
 /obj/machinery/chemical_dispenser/full{
@@ -593,6 +613,12 @@
 /area/space)
 "Vb" = (
 /obj/effect/floor_decal/corner_wide/green/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"Vi" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/space)
 "Vt" = (
@@ -33936,7 +33962,7 @@ rQ
 Gz
 Sd
 rQ
-rQ
+eI
 rQ
 rQ
 rQ
@@ -34182,9 +34208,9 @@ hF
 iG
 op
 rQ
-rQ
+cf
 wK
-rQ
+Vi
 rQ
 iG
 rQ
@@ -34439,9 +34465,9 @@ hF
 iG
 ds
 rQ
-rQ
+cf
 fE
-rQ
+Vi
 ds
 fO
 rQ
@@ -34450,7 +34476,7 @@ wK
 wK
 wK
 fE
-rQ
+jo
 rQ
 rQ
 PT
@@ -34959,7 +34985,7 @@ UN
 BC
 iG
 iG
-iG
+pz
 rQ
 rQ
 oz
@@ -35221,7 +35247,7 @@ Vt
 rQ
 hp
 Kz
-rQ
+eI
 rQ
 oz
 oz
@@ -35735,7 +35761,7 @@ lx
 rQ
 rQ
 fE
-rQ
+jo
 rQ
 rQ
 rQ
@@ -35987,7 +36013,7 @@ hj
 tk
 iG
 iG
-iG
+pz
 ZB
 rQ
 rQ
@@ -36758,7 +36784,7 @@ rQ
 iG
 iG
 cq
-rQ
+sx
 si
 rQ
 rQ
@@ -37015,7 +37041,7 @@ LE
 fR
 iG
 cq
-rQ
+cf
 si
 rQ
 rQ
@@ -37029,9 +37055,9 @@ Ex
 Ex
 Ex
 Xd
-Ex
-Ex
-Ex
+Xd
+Xd
+Xd
 Xd
 iG
 Ex
@@ -38568,7 +38594,7 @@ iG
 yq
 hY
 rQ
-rQ
+eI
 iG
 Xd
 Ex
@@ -39082,7 +39108,7 @@ iG
 Nq
 rQ
 rQ
-rQ
+jo
 iG
 Xd
 Ex
@@ -39853,7 +39879,7 @@ iG
 yq
 hY
 rQ
-rQ
+eI
 iG
 Xd
 Ex
@@ -40367,7 +40393,7 @@ iG
 Nq
 rQ
 rQ
-rQ
+jo
 iG
 Ex
 Ex
