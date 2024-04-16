@@ -69,7 +69,9 @@
 	)
 
 /obj/effect/overmap/visitable/ship/xanu_frigate/New()
-	designation = "[pick("Sterrenlicht", "Riviere", "Vandenberg", "Sterkarm", "Fontaine", "Souverain", "Zilverberg", "Vanhoorn", "Lefebure", "Eclairant", "Liberte", "Huyghe", "Montclair")]"
+	designation = "[pick(
+		"Sterrenlicht", "Riviere", "Vandenberg", "Sterkarm", "Fontaine", "Souverain", "Zilverberg", "Vanhoorn",
+		"Lefebure", "Eclairant", "Liberte", "Huyghe", "Montclair", "Blitzwacht", "Adlerhorst", "Tempetebleue", "Mareeclaire", "Niyati", "Trishul", "Virat")]"
 	..()
 
 //Fighter

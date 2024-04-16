@@ -17,7 +17,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
 	assigned_role = "All-Xanu Spacefleet Crewman"
-	special_role = "All-Xanu Spacefleet Crewman"
+	special_role = "Xanu Frigate Crewman"
 	respawn_flag = null
 
 /datum/ghostspawner/human/xanufrigate_crewman/officer
@@ -30,6 +30,8 @@
 	outfit = /obj/outfit/admin/xanufrigate_crewman/officer
 	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_IPC, SPECIES_IPC_SHELL)
 	mob_name_prefix = "LT. "
+	assigned_role = "All-Xanu Spacefleet Officer"
+	special_role = "Xanu Frigate Officer"
 
 /datum/ghostspawner/human/xanufrigate_crewman/officer/captain
 	name = "All-Xanu Spacefleet Frigate Captain"
@@ -41,6 +43,8 @@
 	outfit = /obj/outfit/admin/xanufrigate_crewman/officer/captain
 	spawnpoints = list("xanufrigate_captain")
 	mob_name_prefix = "CDR. "
+	assigned_role = "All-Xanu Spacefleet Captain"
+	special_role = "Xanu Frigate Captain"
 
 /obj/outfit/admin/xanufrigate_crewman
 	name = "All-Xanu Armed Forces Crewman"
