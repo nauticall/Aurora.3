@@ -177,7 +177,7 @@
 			var/mutable_appearance/MA = new(attacking_item)
 			MA.pixel_x += 1
 			MA.pixel_y += 6
-			add_overlay(MA)
+			AddOverlays(MA)
 
 	return ..()
 
@@ -227,6 +227,14 @@
 /obj/structure/reagent_dispensers/fueltank/tesla_act()
 	..()
 	ex_act(2.0)
+
+//Fertilizer tank
+/obj/structure/reagent_dispensers/fertilizer
+	name = "fertilizer tank"
+	desc = "A tank filled with nutrients for plant growth"
+	icon_state = "lubetank"
+	amount_per_transfer_from_this = 30
+	reagents_to_add = list(/singleton/reagent/toxin/fertilizer = 1000)
 
 //Wall Dispensers
 
