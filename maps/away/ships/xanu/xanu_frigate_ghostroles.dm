@@ -9,7 +9,7 @@
 
 	spawnpoints = list("xanufrigate_crewman")
 	max_count = 4
-	mob_name_prefix = "PO3. "
+	mob_name_prefix = "PO. "
 
 	outfit = /obj/outfit/admin/xanufrigate_crewman
 	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_DIONA, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
@@ -50,11 +50,21 @@
 	name = "All-Xanu Armed Forces Crewman"
 	uniform = /obj/item/clothing/under/xanu
 	head = /obj/item/clothing/head/xanu
+	accessory = /obj/item/clothing/accessory/holster/thigh
+	accessory_contents = list(/obj/item/gun/projectile/xanupistol = 1)
+	belt = /obj/item/storage/belt/military
 	shoes = /obj/item/clothing/shoes/jackboots
 	l_ear = /obj/item/device/radio/headset/ship/coalition_navy
-	back = /obj/item/storage/backpack/satchel
+	back = /obj/item/storage/backpack/rucksack/tan
+	wrist = /obj/item/clothing/wrists/watch
 	id = /obj/item/card/id/coalition
 	l_pocket = /obj/item/device/radio/off
+	belt_contents = list(
+		/obj/item/material/knife/tacknife = 1,
+		/obj/item/device/flashlight/maglight = 1,
+		/obj/item/handcuffs/ziptie = 1,
+		/obj/item/ammo_magazine/c46m = 2,
+	)
 	backpack_contents = list(
 		/obj/item/storage/box/survival/engineer = 1,
 		/obj/item/clothing/mask/gas/half = 1,
@@ -64,14 +74,7 @@
 	name = "All-Xanu Armed Forces Officer"
 	uniform = /obj/item/clothing/under/xanu/officer
 	head = /obj/item/clothing/head/xanu/officer
-	accessory = /obj/item/clothing/accessory/holster/thigh
-	accessory_contents = list(/obj/item/gun/projectile/xanupistol = 1)
 	back = /obj/item/storage/backpack/satchel/leather
-	backpack_contents = list(
-		/obj/item/storage/box/survival/engineer = 1,
-		/obj/item/ammo_magazine/c46m = 2,
-		/obj/item/clothing/mask/gas/half = 1,
-		)
 
 /obj/outfit/admin/xanufrigate_crewman/officer/captain
 	name = "All-Xanu Armed Forces Senior Officer"
