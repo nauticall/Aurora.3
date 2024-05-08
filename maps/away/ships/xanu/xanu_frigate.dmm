@@ -519,11 +519,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/ship/xanu_frigate/corridor/fore_atrium)
-"bR" = (
-/obj/structure/ship_weapon_dummy,
-/obj/effect/decal/fake_object/light_source/invisible,
-/turf/space/dynamic,
-/area/space)
 "bT" = (
 /turf/simulated/wall/shuttle/dark/cardinal/coalition,
 /area/ship/xanu_frigate/corridor/aft_starboard)
@@ -986,11 +981,6 @@
 /obj/item/storage/bag/inflatable,
 /turf/simulated/floor/tiled/dark,
 /area/ship/xanu_frigate/bridge)
-"dE" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/weightlifter,
-/turf/simulated/floor/tiled/gunmetal/full,
-/area/ship/xanu_frigate/cargo_bay)
 "dF" = (
 /obj/machinery/seed_storage,
 /obj/effect/floor_decal/industrial/outline/service,
@@ -2300,6 +2290,13 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/ship/xanu_frigate/captain)
+"hP" = (
+/obj/item/reagent_containers/food/drinks/flask{
+	pixel_y = 9;
+	pixel_x = 4
+	},
+/turf/simulated/floor/tiled/gunmetal,
+/area/ship/xanu_frigate/cargo_bay)
 "hQ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3929,14 +3926,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/ship/xanu_frigate/corridor/aft)
-"nu" = (
-/obj/structure/closet/firecloset,
-/obj/effect/floor_decal/industrial/outline/firefighting_closet,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/gunmetal,
-/area/ship/xanu_frigate/corridor/central)
 "nv" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -4876,6 +4865,16 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/gunmetal,
 /area/ship/xanu_frigate/corridor/central)
+"qx" = (
+/obj/item/reagent_containers/food/drinks/cans/zorasoda/cherry{
+	pixel_x = -2
+	},
+/obj/item/reagent_containers/food/drinks/cans/zorasoda/hozm{
+	pixel_x = -11;
+	pixel_y = -7
+	},
+/turf/simulated/floor/tiled/gunmetal,
+/area/ship/xanu_frigate/cargo_bay)
 "qy" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -6518,6 +6517,11 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/shuttle/xanu_boarder/engineering)
+"wu" = (
+/obj/structure/ship_weapon_dummy,
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/space/dynamic,
+/area/space)
 "wz" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/book/manual/evaguide{
@@ -7003,16 +7007,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/ship/xanu_frigate/corridor/fore_atrium)
-"ys" = (
-/obj/item/reagent_containers/food/drinks/cans/zorasoda/cherry{
-	pixel_x = -2
-	},
-/obj/item/reagent_containers/food/drinks/cans/zorasoda/hozm{
-	pixel_x = -11;
-	pixel_y = -7
-	},
-/turf/simulated/floor/tiled/gunmetal,
-/area/ship/xanu_frigate/cargo_bay)
 "yt" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
@@ -8874,11 +8868,6 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/xanu_frigate/eva)
-"EH" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/simulated/floor/tiled/gunmetal/full,
-/area/ship/xanu_frigate/cargo_bay)
 "EK" = (
 /obj/effect/map_effect/map_helper/ruler_tiles_3,
 /turf/simulated/wall/shuttle/dark/cardinal/coalition,
@@ -9967,6 +9956,11 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/xanu_frigate/cic)
+"Ib" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/tiled/gunmetal/full,
+/area/ship/xanu_frigate/cargo_bay)
 "Ic" = (
 /obj/structure/grille,
 /obj/effect/landmark/entry_point/starboard{
@@ -10680,13 +10674,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/ship/xanu_frigate/crew_quarters)
-"Kl" = (
-/obj/item/reagent_containers/food/drinks/flask{
-	pixel_y = 9;
-	pixel_x = 4
-	},
-/turf/simulated/floor/tiled/gunmetal,
-/area/ship/xanu_frigate/cargo_bay)
 "Km" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -11977,6 +11964,14 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/ship/xanu_frigate/corridor/starboard)
+"OB" = (
+/obj/structure/closet/firecloset,
+/obj/effect/floor_decal/industrial/outline/firefighting_closet,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gunmetal,
+/area/ship/xanu_frigate/corridor/central)
 "OH" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/warning{
@@ -13800,6 +13795,11 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/xanu_frigate/cic)
+"UK" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/weightlifter,
+/turf/simulated/floor/tiled/gunmetal/full,
+/area/ship/xanu_frigate/cargo_bay)
 "UL" = (
 /obj/effect/map_effect/window_spawner/full/shuttle/coalition/firedoor,
 /turf/simulated/floor/tiled/gunmetal,
@@ -15148,6 +15148,8 @@
 	icon_state = "sterilesprayblue";
 	name = "surgery cleaner"
 	},
+/obj/item/clothing/under/rank/medical/surgeon,
+/obj/item/clothing/head/surgery,
 /turf/simulated/floor/tiled/white,
 /area/ship/xanu_frigate/medbay)
 "YY" = (
@@ -41743,7 +41745,7 @@ TF
 TF
 TF
 TF
-bR
+wu
 Zm
 Zm
 Zm
@@ -42735,9 +42737,9 @@ DF
 Zv
 xT
 GT
-dE
+UK
 sO
-EH
+Ib
 xT
 xT
 xT
@@ -42992,8 +42994,8 @@ Te
 Vb
 xT
 YA
-ys
-Kl
+qx
+hP
 rA
 WG
 XO
@@ -49435,7 +49437,7 @@ SJ
 SJ
 SJ
 SJ
-nu
+OB
 DE
 Dx
 Yr
