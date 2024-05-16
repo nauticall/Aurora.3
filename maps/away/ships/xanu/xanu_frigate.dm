@@ -1,8 +1,8 @@
 /datum/map_template/ruin/away_site/xanu_frigate
 	name = "Xanu Spacefleet Frigate"
 	description = "The Rapier-class Frigate is a formidable warship in widespread use by the All-Xanu Spacefleet throughout its expeditionary fleets. \
-	Originating as a robust upgrade package to the venerable Estoc class, the Rapier upgrade program has spared no expense, with thick hull plating, redundant power, life support, and engines, making the Rapier class notoriously survivable. \
-	These same redundancies, designed for greater survivability in a peer-on-peer conflict, make the Rapier an expensive investment, one which has seen the Estoc survive in the navies of other Coalition states."
+	Commissioned in the 2450s, the design is a refit of the venerable Estoc-class, with thicker armor, redundant systems, a larger power plant and an upgraded fighter hangar. \
+	These same features, designed for superiority in a peer-on-peer conflict, make the Rapier an expensive investment. As a result, the lighter Estoc-class is often the one chosen for export to other Coalition navies."
 
 	prefix = "ships/xanu/"
 	suffixes = list("xanu_frigate.dmm")
@@ -20,8 +20,8 @@
 /singleton/submap_archetype/xanu_frigate
 	map = "Xanu Spacefleet Frigate"
 	descriptor = "The Rapier-class Frigate is a formidable warship in widespread use by the All-Xanu Spacefleet throughout its expeditionary fleets. \
-	Originating as a robust upgrade package to the venerable Estoc class, the Rapier upgrade program has spared no expense, with thick hull plating, redundant power, life support, and engines, making the Rapier class notoriously survivable. \
-	These same redundancies, designed for greater survivability in a peer-on-peer conflict, make the Rapier an expensive investment, one which has seen the Estoc survive in the navies of other Coalition states."
+	Commissioned in the 2450s, the design is a refit of the venerable Estoc-class, with thicker armor, redundant systems, a larger power plant and an upgraded fighter hangar. \
+	These same features, designed for superiority in a peer-on-peer conflict, make the Rapier an expensive investment. As a result, the lighter Estoc-class is often the one chosen for export to other Coalition navies."
 
 //Ship
 
@@ -29,8 +29,8 @@
 	name = "Xanu Spacefleet Frigate"
 	class = "AXSV"
 	desc = "The Rapier-class Frigate is a formidable warship in widespread use by the All-Xanu Spacefleet throughout its expeditionary fleets. \
-	Originating as a robust upgrade package to the venerable Estoc class, the Rapier upgrade program has spared no expense, with thick hull plating, redundant power, life support, and engines, making the Rapier class notoriously survivable. \
-	These same redundancies, designed for greater survivability in a peer-on-peer conflict, make the Rapier an expensive investment, one which has seen the Estoc survive in the navies of other Coalition states."
+	Commissioned in the 2450s, the design is a refit of the venerable Estoc-class, with thicker armor, redundant systems, a larger power plant and an upgraded fighter hangar. \
+	These same features, designed for superiority in a peer-on-peer conflict, make the Rapier an expensive investment. As a result, the lighter Estoc-class is often the one chosen for export to other Coalition navies."
 	icon_state = "xanu_frigate"
 	moving_state = "xanu_frigate_moving"
 	colors = COLOR_COALITION
@@ -39,7 +39,7 @@
 	drive = "Medium-Speed Warp Acceleration FTL Drive"
 	propulsion = "Superheated Composite Gas Thrust"
 	weapons = "Dual extruding fore caliber ballistic armaments, aft obscured flight craft bay"
-	sizeclass = "Shrike-class Frigate"
+	sizeclass = "Rapier-class Frigate"
 	shiptype = "Naval frigate"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
@@ -92,7 +92,7 @@
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
 	designer = "dNA Defense & Aerospace Shipyards"
-	volume = "12 meters length, 9 meters beam/width, 6 meters vertical height"
+	volume = "12 meters length, 9 meters beam/width, 5.1 meters vertical height"
 	weapons = "Extruding fore-mounted low-caliber ballistic rotary armament"
 	sizeclass = "Heavy fighter and interceptor"
 	shiptype = "Anti-ship high-speed combat and interception"
