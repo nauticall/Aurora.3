@@ -12,7 +12,7 @@
 	spawn_weight = 1
 	ship_cost = 1
 	id = "xanu_frigate"
-	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED //remove before PR
 
 	unit_test_groups = list(3)
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/xanu_fighter, /datum/shuttle/autodock/overmap/xanu_boarder)

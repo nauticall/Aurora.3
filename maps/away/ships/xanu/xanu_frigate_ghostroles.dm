@@ -15,6 +15,7 @@
 	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_DIONA, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
 	uses_species_whitelist = TRUE
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	culture_restriction = list(/singleton/origin_item/culture/coalition)
 
 	assigned_role = "All-Xanu Spacefleet Crewman"
 	special_role = "Xanu Frigate Crewman"
@@ -43,7 +44,7 @@
 	outfit = /obj/outfit/admin/xanufrigate_crewman/officer/captain
 	spawnpoints = list("xanufrigate_captain")
 	mob_name_prefix = "CDR. "
-	assigned_role = "All-Xanu Spacefleet Captain"
+	assigned_role = "All-Xanu Spacefleet Commanding Officer"
 	special_role = "Xanu Frigate Captain"
 
 /obj/outfit/admin/xanufrigate_crewman
