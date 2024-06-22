@@ -76,6 +76,12 @@
 	input_level = 150000
 	output_level = 140000
 
+//Offship substations that are already flicked on
+/obj/machinery/power/smes/buildable/substation/preset
+	input_attempt = TRUE
+	output_attempt = TRUE
+	charge = 3.1e+6
+
 // The Horizon's shuttles want something with decent capacity to sustain themselves and enough transmission to meet their energy needs.
 /obj/machinery/power/smes/buildable/horizon_shuttle/Initialize()
 	. = ..()
