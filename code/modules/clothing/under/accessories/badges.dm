@@ -318,14 +318,115 @@
 	item_state = "passcard_ceti_m"
 
 /obj/item/clothing/accessory/badge/passcard/sol
-	name = "\improper ASSN passcard"
-	desc = "A passcard issued to citizens of the Alliance of Sovereign Solarian Nations, typically from planets such as the Jewel Worlds or smaller zones of authority."
+	name = "\improper Sol Alliance passcard"
+	desc = "A passcard issued to citizens of the Alliance of Sovereign Solarian Nations. Most belong to citizens of Earth, although this card is also issued to infantile Solarian territories without their own designs."
 	desc_extended = "A passcard is a modern evolution of the state-issued identification card, with all the functionality of a driver's license, birth certificate, passport, or other document, \
 	updated as necessary or able by a central government. The concept was pioneered in the early days of the Sol Alliance, and continues in most human stellar nations to this day, owing to the availability \
 	and price of consumer plastics and self-powered microholograms."
 	icon_state = "passcard_sol"
 	item_state = "passcard_sol"
 
+/obj/item/clothing/accessory/badge/passcard/sol/luna
+	name = "\improper Luna passcard"
+	desc = "A passcard issued to the elite citizens of the Sovereign Solarian Federal Republic of Luna."
+	desc_extended = "A passcard universal amongst the wealthy denizens of Luna, and its myriad domed, and subterranean cities. \
+	There are two nearly equally common variants of the Lunan passcard, in both Tradeband and Solarian common."
+	icon_state = "passcard_luna"
+
+/obj/item/clothing/accessory/badge/passcard/sol/venus
+	name = "\improper Venus passcard"
+	desc = "A passcard issued to the usually-Cytherean citizens of the Sovereign Solarian Republic of Venus."
+	desc_extended = "The heavily-segregated nature of Venus's two social classes mean that the wealthy Cythereans are usually the ones to wield this passcard, while only a few fortunate - or clever - Jintarians manage to acquire one for passage off-world."
+	icon_state = "passcard_sancolette"
+
+/obj/item/clothing/accessory/badge/passcard/sol/mars
+	name = "\improper Mars passcard"
+	desc = "A travel-restricted passcard issued to the citizens of the Solarian Provisional Government of Mars, the remnant governing body following the Violet Dawn disaster."
+	desc_extended = "These passcards bear the flag of the Solarian Provisional Government of Mars. While they still act as identification and documentation within Sol, international travel \
+	with them is difficult and subject to intense screening."
+	icon_state = "passcard_restricted_mars"
+
+/obj/item/clothing/accessory/badge/passcard/sol/mars/old
+	name = "old Mars passcard"
+	desc = "A passcard formerly issued to the citizens of the Sovereign Solarian Union of Mars prior to the Violet Dawn disaster."
+	desc_extended = "A remnant of pre-Violet Dawn Martian life, these passcards, while still recognized as valid, are no longer issued in their current form. \
+	They are almost entirely found off of Mars, with the Martian Provisional government having replaced them with an altered variant."
+	icon_state = "passcard_oldmars"
+
+/obj/item/clothing/accessory/badge/passcard/sol/sancolette
+	name = "\improper San Colette passcard"
+	desc = "A passcard issued to the citizens of the Sovereign Solarian Republic of San Colette post-reunification."
+	desc_extended = "A passcard recently reintroduced into San Colettish life following Sol's reunification. Unique to this one amongst standardized Solarian passcards are the words \
+	'My homeland so fair!' in San Colettish Tradeband, purportedly allowed by Solarian officials as a small recognition of San Colette's sacrifices during the war in the Northern Reaches."
+	icon_state = "passcard_sancolette"
+
+/obj/item/clothing/accessory/badge/passcard/sol/europa
+	name = "\improper Europa passcard"
+	desc = "A passcard issued to the sea-dwelling citizens of the Sovereign Solarian Confederation of Europa."
+	desc_extended = "A passcard issued to the  myriad submariners, researchers, and various other inhabitants of Europa.  While identical in layout and information of other Solarian passcards, \
+	it is made of much more pressure-resistant metal, largely to increase the chances of the biometric-bearing passcards surviving a catastrophic breach. This usually serves the morbid purpose of postmortem identification by salvage crews later on."
+	icon_state = "passcard"
+
+/obj/item/clothing/accessory/badge/passcard/sol/callisto
+	name = "\improper Callisto passcard"
+	desc = "A passcard."
+	desc_extended = "This passcard's issuance is strongly enforced on Callisto by the government as a result of its immense, densely packed population. \
+	It also bears a small section which identifies the Callistean district of origin, and the emblem of said district."
+	icon_state = "passcard"
+
+/obj/item/clothing/accessory/badge/passcard/sol/pluto
+	name = "\improper Pluto passcard"
+	desc = "A passcard issued to the ."
+	desc_extended = "Desc"
+	icon_state = "passcard"
+
+/obj/item/clothing/accessory/badge/passcard/sol/nhp
+	name = "\improper passcard"
+	desc = "A passcard."
+	desc_extended = "Desc"
+	icon_state = "passcard"
+
+/obj/item/clothing/accessory/badge/passcard/sol/visegrad
+	name = "\improper passcard"
+	desc = "A passcard."
+	desc_extended = "Desc"
+	icon_state = "passcard"
+
+/obj/item/clothing/accessory/badge/passcard/sol/konyang
+	name = "\improper passcard"
+	desc = "A passcard."
+	desc_extended = "Desc"
+	icon_state = "passcard"
+
+/obj/item/clothing/accessory/badge/passcard/sol/mictlan
+	name = "\improper passcard"
+	desc = "A passcard."
+	desc_extended = "Desc"
+	icon_state = "passcard"
+
+/obj/item/clothing/accessory/badge/passcard/sol/silversun
+	name = "\improper passcard"
+	desc = "A passcard."
+	desc_extended = "Desc"
+	icon_state = "passcard"
+
+/obj/item/clothing/accessory/badge/passcard/sol/mandate
+	name = "\improper passcard"
+	desc = "A passcard."
+	desc_extended = "Desc"
+	icon_state = "passcard"
+
+
+
+
+
+
+
+
+
+
+
+/*
 /obj/item/clothing/accessory/badge/passcard/sol/pluto
 	name = "plutonian passcard"
 	desc = "A passcard issued to citizens of the Solarian planetoid, Pluto."
@@ -390,6 +491,7 @@
 	urban population who could justify paying the government fee to acquire one, their manufacture is still undertaken by the Southern Solarian Military District that now controls Visegrad."
 	icon_state = "passcard_visegrad"
 	item_state = "passcard_visegrad"
+*/
 
 /obj/item/clothing/accessory/badge/passcard/eridani
 	name = "eridani passcard"
@@ -398,6 +500,8 @@
 	equipped with the right equipment. Infamous across the Orion Spur for being the most sought-after passcards for counterfeiting."
 	icon_state = "passcard_eridani"
 	item_state = "passcard_eridani"
+
+//Serene Republic of Elyra
 
 /obj/item/clothing/accessory/badge/passcard/elyra
 	name = "elyran passcard"
@@ -408,6 +512,8 @@
 	icon_state = "passcard_elyra"
 	item_state = "passcard_elyra"
 
+//Empire of Dominia
+
 /obj/item/clothing/accessory/badge/passcard/dominia
 	name = "dominian passcard"
 	desc = "A passcard issued to citizens of the Empire of Dominia."
@@ -415,6 +521,8 @@
 	testing for status as a synthetic infiltrator."
 	icon_state = "passcard_dominia"
 	item_state = "passcard_dominia"
+
+//Coalition of Colonies
 
 /obj/item/clothing/accessory/badge/passcard/coalition
 	name = "coalition passcard"
