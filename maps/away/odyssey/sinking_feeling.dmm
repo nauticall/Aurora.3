@@ -1,27 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/freezer{
-	name = "cooled tiles";
-	temperature = 253.15
-	},
-=======
-=======
->>>>>>> Stashed changes
 /obj/effect/floor_decal/corner/mauve{
 	dir = 6
 	},
 /obj/structure/cable/green,
 /obj/machinery/power/apc/high/east,
 /turf/simulated/floor/tiled/white,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "ac" = (
 /obj/structure/cable{
@@ -356,11 +340,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "aX" = (
 /obj/machinery/door/firedoor{
 	dir = 4
@@ -372,10 +351,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "aY" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/black{
 	dir = 4
@@ -429,11 +404,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "bf" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -443,10 +413,6 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "bg" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/light{
@@ -539,21 +505,12 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "bs" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "bt" = (
 /obj/effect/floor_decal/corner/mauve{
 	dir = 5
@@ -853,11 +810,6 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "ce" = (
 /obj/structure/platform,
 /obj/machinery/light{
@@ -865,10 +817,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "cf" = (
 /obj/machinery/r_n_d/circuit_imprinter,
 /turf/simulated/floor/carpet/rubber,
@@ -898,16 +846,6 @@
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"cl" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled/gridded,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "cm" = (
 /obj/effect/floor_decal/corner_wide/green/diagonal,
 /obj/structure/cable/green{
@@ -1040,21 +978,12 @@
 "cF" = (
 /turf/space,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "cG" = (
 /obj/structure/bed/stool/bar/padded/red{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "cH" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -1148,11 +1077,6 @@
 	},
 /turf/simulated/floor/lino,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "cU" = (
 /obj/machinery/icecream_vat,
 /turf/simulated/floor/tiled/freezer{
@@ -1160,10 +1084,6 @@
 	temperature = 253.15
 	},
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "cV" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -1241,16 +1161,6 @@
 /obj/effect/floor_decal/industrial/hatch_tiny/yellow,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"di" = (
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled/gridded,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "dj" = (
 /obj/item/modular_computer/console/preset/research{
 	dir = 1
@@ -1260,13 +1170,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"dm" = (
-/obj/effect/floor_decal/corner/mauve,
-=======
-=======
->>>>>>> Stashed changes
 "dl" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -1280,10 +1183,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "dn" = (
@@ -1311,19 +1210,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"dr" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/structure/table/reinforced/steel,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/turf/simulated/floor/tiled/white,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "ds" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
@@ -1355,11 +1241,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "dx" = (
 /obj/structure/table/stone/marble,
 /obj/item/flame/candle{
@@ -1378,10 +1259,6 @@
 	},
 /turf/simulated/floor/lino/diamond,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "dy" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -1461,15 +1338,7 @@
 /turf/simulated/floor/carpet/purple,
 /area/derelict/ship)
 "dJ" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/item/modular_computer/console/preset/command{
-=======
 /obj/item/modular_computer/console/preset/command/captain{
->>>>>>> Stashed changes
-=======
-/obj/item/modular_computer/console/preset/command/captain{
->>>>>>> Stashed changes
 	dir = 1
 	},
 /turf/simulated/floor/carpet/purple,
@@ -1718,25 +1587,6 @@
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"eu" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/structure/table/wood,
-/obj/machinery/recharger{
-	pixel_x = -5;
-	pixel_y = 2
-	},
-/obj/machinery/recharger{
-	pixel_x = 5;
-	pixel_y = 2
-	},
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "ev" = (
 /obj/machinery/atmospherics/binary/pump/high_power/on{
 	name = "Scrubbers to Waste"
@@ -1765,14 +1615,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/structure/table/reinforced/wood,
->>>>>>> Stashed changes
-=======
-/obj/structure/table/reinforced/wood,
->>>>>>> Stashed changes
 /turf/simulated/floor/carpet/purple,
 /area/derelict/ship)
 "eC" = (
@@ -2120,19 +1963,6 @@
 /obj/machinery/power/terminal,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"ft" = (
-/obj/structure/kitchenspike,
-/turf/simulated/floor/tiled/freezer{
-	name = "cooled tiles";
-	temperature = 253.15
-	},
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "fu" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/machinery/atmospherics/pipe/simple/visible/green{
@@ -2247,11 +2077,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "fI" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -2261,10 +2086,6 @@
 	temperature = 253.15
 	},
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "fJ" = (
 /obj/effect/floor_decal/corner_wide/green{
 	dir = 5
@@ -2311,21 +2132,8 @@
 /turf/simulated/floor/carpet/rubber,
 /area/derelict/ship)
 "fP" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/light,
-/obj/structure/bed/stool/bar/padded/red{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/gunmetal,
-=======
 /obj/structure/table/fancy,
 /turf/simulated/floor/wood,
->>>>>>> Stashed changes
-=======
-/obj/structure/table/fancy,
-/turf/simulated/floor/wood,
->>>>>>> Stashed changes
 /area/derelict/ship)
 "fQ" = (
 /obj/structure/platform{
@@ -2360,19 +2168,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "fV" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "fW" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -2384,11 +2183,6 @@
 	},
 /turf/simulated/floor/reinforced/hydrogen,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "fX" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/gridded,
@@ -2402,10 +2196,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "fZ" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -2542,11 +2332,6 @@
 /obj/effect/floor_decal/industrial/hatch_tiny/yellow,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "gv" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/bed/stool/chair/sofa/left/black{
@@ -2554,10 +2339,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "gx" = (
 /obj/machinery/vending/minimart{
 	pixel_y = 32
@@ -2618,19 +2399,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"gH" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "gI" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -2804,13 +2572,6 @@
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
 "hk" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/turf/simulated/floor/tiled/gridded,
-=======
-=======
->>>>>>> Stashed changes
 /obj/machinery/power/apc/west,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
@@ -2820,20 +2581,11 @@
 	name = "cooled tiles";
 	temperature = 253.15
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "hm" = (
 /obj/machinery/door/airlock/engineering,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "hn" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -2844,10 +2596,6 @@
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "ho" = (
 /obj/structure/bed/stool/chair/sofa/left/beige{
 	dir = 8
@@ -2919,11 +2667,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "hy" = (
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -2933,10 +2676,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "hz" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
 /obj/machinery/light{
@@ -2947,22 +2686,6 @@
 "hA" = (
 /obj/structure/table/stone/marble,
 /obj/item/flame/candle{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	pixel_x = -5
-	},
-/obj/item/flame/candle{
-	pixel_x = 5
-	},
-/obj/item/flame/candle{
-	pixel_y = 8
-	},
-/obj/item/flame/lighter/random,
-/turf/simulated/floor/wood,
-/area/derelict/ship)
-=======
-=======
->>>>>>> Stashed changes
 	pixel_x = -5;
 	pixel_y = 8
 	},
@@ -2983,10 +2706,6 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "hC" = (
 /obj/machinery/atmospherics/omni/filter{
 	tag_east = 8;
@@ -3002,11 +2721,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "hF" = (
 /obj/machinery/light{
 	dir = 8
@@ -3016,10 +2730,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "hG" = (
 /turf/simulated/wall/shuttle/dark/cardinal/khaki,
 /area/derelict/ship)
@@ -3128,19 +2838,6 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"hU" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/structure/bed/stool/chair/sofa/left/black{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "hV" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -3202,11 +2899,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "ie" = (
 /obj/machinery/light{
 	dir = 1
@@ -3214,10 +2906,6 @@
 /obj/machinery/disposal/small/west,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "if" = (
 /obj/effect/floor_decal/industrial/outline/medical,
 /obj/structure/bed/roller,
@@ -3443,44 +3131,21 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"iR" = (
-/obj/structure/bed/stool/bar/padded/red{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/gunmetal,
-=======
-=======
->>>>>>> Stashed changes
 "iS" = (
 /obj/structure/bed/stool/chair/padded/purple{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "iT" = (
 /obj/structure/table/steel,
 /obj/effect/floor_decal/corner/mauve{
 	dir = 6
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc/east,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "iU" = (
@@ -3498,17 +3163,7 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
 "iW" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/recharge_station,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/gunmetal/full,
-=======
 /turf/simulated/floor/tiled/gridded,
->>>>>>> Stashed changes
-=======
-/turf/simulated/floor/tiled/gridded,
->>>>>>> Stashed changes
 /area/derelict/ship)
 "iX" = (
 /obj/machinery/sleeper,
@@ -3592,11 +3247,6 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "ji" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -3604,10 +3254,6 @@
 /obj/machinery/alarm/south,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "jj" = (
 /obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled/white,
@@ -3655,19 +3301,9 @@
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
 "jr" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/door/airlock/research,
-=======
 /obj/machinery/door/airlock/research{
 	name = "Specimen Observation"
 	},
->>>>>>> Stashed changes
-=======
-/obj/machinery/door/airlock/research{
-	name = "Specimen Observation"
-	},
->>>>>>> Stashed changes
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
@@ -3709,19 +3345,10 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "jy" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/carpet/red,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "jA" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -3959,16 +3586,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"ki" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/turf/simulated/floor/tiled/gridded,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "kj" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/carpet/rubber,
@@ -4293,21 +3910,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"lf" = (
-/obj/structure/table/reinforced/steel,
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/item/storage/box/produce,
-/obj/item/storage/box/produce{
-	pixel_y = -10
-	},
-/turf/simulated/floor/tiled/white,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "lg" = (
 /obj/machinery/cryopod{
 	dir = 1
@@ -4380,16 +3982,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"lp" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/carpet/red,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "lq" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
@@ -4479,19 +4071,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"lB" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/light/floor{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/gunmetal/full,
-=======
-=======
->>>>>>> Stashed changes
 "lA" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -4504,10 +4083,6 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "lC" = (
 /obj/structure/cable/yellow{
@@ -4571,15 +4146,6 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"lL" = (
-/turf/simulated/floor/tiled/gridded,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "lM" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/tiled/gunmetal/full,
@@ -4828,14 +4394,7 @@
 /area/derelict/ship)
 "mB" = (
 /obj/structure/table/reinforced/wood,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/item/clothing/head/beret/corporate/zeng/alt,
->>>>>>> Stashed changes
-=======
-/obj/item/clothing/head/beret/corporate/zeng/alt,
->>>>>>> Stashed changes
 /turf/simulated/floor/wood,
 /area/derelict/ship)
 "mC" = (
@@ -4858,38 +4417,17 @@
 	pixel_y = 8
 	},
 /obj/item/flame/candle{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	pixel_x = 5
-=======
-=======
->>>>>>> Stashed changes
 	pixel_x = -5;
 	pixel_y = 3
 	},
 /obj/item/flame/candle{
 	pixel_x = -11;
 	pixel_y = 16
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 	},
 /obj/item/flame/candle{
 	pixel_x = 10;
 	pixel_y = 2
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/item/flame/candle{
-	pixel_x = -9;
-	pixel_y = 8
-	},
-/turf/simulated/floor/lino/diamond,
-/area/derelict/ship)
-=======
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/lino/diamond,
 /area/derelict/ship)
 "mF" = (
@@ -4899,10 +4437,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "mG" = (
 /obj/machinery/door/airlock/glass_command{
 	dir = 4
@@ -5280,21 +4814,12 @@
 /obj/structure/table/reinforced/steel,
 /turf/simulated/floor/lino,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "nC" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/purple,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "nD" = (
 /obj/item/modular_computer/console/preset/research{
 	dir = 8
@@ -5410,23 +4935,12 @@
 /turf/simulated/floor/plating,
 /area/derelict/ship)
 "nY" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/structure/bed/stool/chair/padded/purple{
-	dir = 4
-=======
-=======
->>>>>>> Stashed changes
 /obj/structure/table/steel,
 /obj/item/flag/zenghu/l{
 	pixel_y = 15
 	},
 /obj/item/flag/zenghu/l{
 	pixel_y = 8
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
@@ -5547,25 +5061,11 @@
 	},
 /turf/simulated/floor/reinforced/phoron/scarce,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"on" = (
-/obj/machinery/atmospherics/pipe/simple/visible/green{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/gridded,
-=======
-=======
->>>>>>> Stashed changes
 "om" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/ridged,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "oo" = (
 /obj/effect/floor_decal/corner_wide/green/diagonal,
@@ -5731,11 +5231,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "oM" = (
 /obj/machinery/power/smes/buildable/substation/preset,
 /obj/effect/floor_decal/industrial/warning/full,
@@ -5744,10 +5239,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "oN" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -5815,21 +5306,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "oV" = (
 /obj/structure/platform,
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "oW" = (
 /obj/effect/floor_decal/corner/mauve{
 	dir = 10
@@ -5877,19 +5359,10 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "ph" = (
 /obj/item/modular_computer/console/preset/command/captain,
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "pi" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/carpet/purple,
@@ -5948,11 +5421,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "pq" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/cable/green{
@@ -5960,10 +5428,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "pr" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/tank_wall/nitrogen{
@@ -5975,19 +5439,6 @@
 /obj/structure/sign/flag/zenghu,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"pt" = (
-/obj/structure/table/reinforced/steel,
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/turf/simulated/floor/tiled/white,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "pu" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -6027,11 +5478,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "pA" = (
 /obj/machinery/door/airlock/research{
 	name = "Meeting Room";
@@ -6040,10 +5486,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "pB" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -6235,21 +5677,12 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "qe" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "qf" = (
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /obj/structure/cable/yellow{
@@ -6310,19 +5743,10 @@
 /obj/machinery/vending/cola,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "qp" = (
 /obj/structure/closet/crate/gear_loadout/zenghu,
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "qq" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/random/junk{
@@ -6348,17 +5772,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"qu" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/alarm/north,
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "qw" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -6456,15 +5869,7 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"qM" = (
-=======
 "qL" = (
->>>>>>> Stashed changes
-=======
-"qL" = (
->>>>>>> Stashed changes
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/bed/stool/chair/sofa/right/black{
 	dir = 1
@@ -6503,14 +5908,6 @@
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"qV" = (
-/obj/machinery/door/airlock/glass_science,
-/obj/machinery/door/firedoor,
-=======
-=======
->>>>>>> Stashed changes
 "qU" = (
 /obj/machinery/door/firedoor{
 	dir = 4
@@ -6528,10 +5925,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
 "qW" = (
@@ -6552,28 +5945,6 @@
 /obj/effect/floor_decal/corner_wide/green/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"qY" = (
-/obj/structure/table/reinforced/steel,
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/item/material/kitchen/rollingpin{
-	pixel_x = 6;
-	pixel_y = 5
-	},
-/obj/item/material/knife{
-	layer = 2.99;
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/turf/simulated/floor/tiled/white,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "qZ" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
 	id = "sfh_holodeck_b"
@@ -6790,18 +6161,6 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/carpet/rubber,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"rP" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/gridded,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "rQ" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/material/ashtray/bronze{
@@ -6974,25 +6333,11 @@
 /turf/simulated/floor/airless,
 /area/derelict/ship)
 "su" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/structure/table/reinforced/wood,
-/obj/random/pottedplant_small{
-	pixel_y = 16
-	},
-/turf/simulated/floor/carpet/purple,
-=======
-=======
->>>>>>> Stashed changes
 /obj/machinery/light,
 /obj/structure/bed/stool/bar/padded/red{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gunmetal,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "sv" = (
 /obj/effect/floor_decal/industrial/outline_straight/yellow,
@@ -7073,28 +6418,12 @@
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "sH" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/bed/stool/bar/padded/red{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/gunmetal,
-=======
-=======
->>>>>>> Stashed changes
 /obj/machinery/door/airlock/glass_science,
 /obj/machinery/door/firedoor,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "sI" = (
 /obj/structure/tank_wall/hydrogen{
@@ -7246,19 +6575,10 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "te" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "tf" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
 	dir = 8
@@ -7500,20 +6820,11 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "tN" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/alarm/north,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "tO" = (
 /obj/machinery/door/firedoor{
 	dir = 4
@@ -7605,21 +6916,12 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "ud" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "ue" = (
 /obj/machinery/light{
 	dir = 8
@@ -7716,17 +7018,6 @@
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "us" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/structure/table/wood,
-/obj/item/device/flashlight/lamp{
-	pixel_x = -4;
-	pixel_y = 11
-	},
-/turf/simulated/floor/carpet/red,
-=======
-=======
->>>>>>> Stashed changes
 /obj/structure/platform{
 	dir = 8
 	},
@@ -7743,10 +7034,6 @@
 	dir = 10
 	},
 /turf/simulated/floor/wood,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "uu" = (
 /obj/structure/cable/yellow{
@@ -7764,25 +7051,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
 "uw" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
-/obj/structure/bed/stool/bar/padded/red{
-	dir = 8
-=======
-=======
->>>>>>> Stashed changes
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp{
 	pixel_x = -4;
 	pixel_y = 11
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
@@ -7790,18 +7063,6 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"uz" = (
-/obj/machinery/computer/cryopod{
-	pixel_x = -32
-	},
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "uA" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 9
@@ -7835,23 +7096,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"uC" = (
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
-/obj/machinery/door/airlock/glass{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "uE" = (
 /obj/structure/table/reinforced/glass,
 /obj/machinery/door/firedoor,
@@ -7963,18 +7207,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"uW" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/gunmetal/full,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "uX" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -8266,11 +7498,6 @@
 /obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "vN" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -8279,10 +7506,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "vP" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
@@ -8406,11 +7629,6 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "wh" = (
 /obj/structure/table/stone/marble,
 /obj/item/flame/candle{
@@ -8433,10 +7651,6 @@
 	},
 /turf/simulated/floor/lino/diamond,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "wi" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -8717,19 +7931,10 @@
 /obj/machinery/door/firedoor{
 	dir = 4
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 /obj/machinery/door/airlock/research{
 	name = "Specimen Observation";
 	dir = 4
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "wZ" = (
@@ -9118,20 +8323,11 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/reinforced,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "yg" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/paper_scanner,
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "yh" = (
 /obj/structure/table/steel,
 /obj/machinery/alarm/north,
@@ -9221,11 +8417,6 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "yu" = (
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -9235,10 +8426,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "yv" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
@@ -9279,11 +8466,6 @@
 /obj/effect/floor_decal/industrial/outline/emergency_closet,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "yC" = (
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -9293,10 +8475,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "yD" = (
 /obj/structure/bed/stool/chair{
 	dir = 4
@@ -9339,21 +8517,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "yJ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/purple,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "yL" = (
 /obj/machinery/computer/rdconsole/core{
 	dir = 1
@@ -9411,20 +8580,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "yV" = (
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "yX" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -9486,21 +8646,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "zf" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "zh" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass{
@@ -9523,19 +8674,6 @@
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"zl" = (
-/obj/machinery/icecream_vat,
-/turf/simulated/floor/tiled/freezer{
-	name = "cooled tiles";
-	temperature = 253.15
-	},
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "zm" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/tank_wall/carbon_dioxide{
@@ -9615,11 +8753,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "zw" = (
 /obj/effect/floor_decal/corner/mauve{
 	dir = 6
@@ -9631,10 +8764,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "zx" = (
 /obj/machinery/door/airlock/glass{
 	name = "Bar Access";
@@ -9760,23 +8889,9 @@
 /turf/simulated/floor/plating,
 /area/derelict/ship)
 "zR" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/structure/sign/flag/zenghu/large/north{
-	pixel_y = 32
-	},
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/simulated/floor/tiled/gunmetal,
-=======
 /obj/structure/table/fancy,
 /obj/item/storage/bible,
 /turf/simulated/floor/lino/diamond,
->>>>>>> Stashed changes
-=======
-/obj/structure/table/fancy,
-/obj/item/storage/bible,
-/turf/simulated/floor/lino/diamond,
->>>>>>> Stashed changes
 /area/derelict/ship)
 "zS" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -9911,25 +9026,6 @@
 	},
 /turf/simulated/floor/lino,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"Aj" = (
-/obj/structure/table/fancy,
-/turf/simulated/floor/wood,
-/area/derelict/ship)
-"Ak" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/machinery/light/floor{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/gunmetal/full,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Al" = (
 /obj/structure/tank_wall{
 	icon_state = "m-10"
@@ -9986,11 +9082,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Ar" = (
 /obj/item/modular_computer/console/preset/security{
 	dir = 8
@@ -10000,10 +9091,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "As" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -10034,11 +9121,6 @@
 /obj/effect/floor_decal/corner/mauve/full,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Aw" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/table/wood,
@@ -10052,10 +9134,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Ax" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -10204,11 +9282,6 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "AP" = (
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp{
@@ -10217,10 +9290,6 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "AQ" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 6
@@ -10269,18 +9338,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"AU" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/red,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "AV" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -10355,21 +9412,12 @@
 /obj/machinery/telecomms/server/presets/security,
 /turf/simulated/floor/bluegrid,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Bi" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Bj" = (
 /obj/machinery/vending/dinnerware/plastic,
 /turf/simulated/floor/lino,
@@ -10908,11 +9956,6 @@
 "CP" = (
 /turf/template_noop,
 /area/space)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "CQ" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -10922,10 +9965,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "CR" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -10990,18 +10029,6 @@
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "Db" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/structure/table/wood,
-/obj/item/device/flashlight/lamp{
-	pixel_x = -4;
-	pixel_y = 11
-	},
-/turf/simulated/floor/tiled/gunmetal,
-=======
-=======
->>>>>>> Stashed changes
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -11009,10 +10036,6 @@
 	name = "cooled tiles";
 	temperature = 253.15
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "Dc" = (
 /obj/structure/bed/stool/chair/sofa/right/brown,
@@ -11099,18 +10122,9 @@
 /obj/effect/floor_decal/corner/black{
 	dir = 1
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
->>>>>>> Stashed changes
-=======
-/obj/structure/cable/green{
-	icon_state = "1-8"
-	},
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "Dr" = (
@@ -11288,18 +10302,6 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"DS" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/turf/simulated/floor/tiled/white,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "DU" = (
 /obj/structure/bed/stool/chair/sofa/pew/right{
 	dir = 8
@@ -11503,11 +10505,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Ev" = (
 /obj/machinery/door/airlock/research{
 	name = "R&D Lab";
@@ -11521,10 +10518,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Ew" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -11534,18 +10527,6 @@
 	},
 /turf/simulated/floor/airless,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"Ey" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/purple,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Ez" = (
 /obj/structure/platform{
 	dir = 8
@@ -11575,32 +10556,6 @@
 /obj/machinery/disposal/small/east,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"EG" = (
-/obj/structure/table/stone/marble,
-/obj/item/flame/candle{
-	pixel_y = 8
-	},
-/obj/item/flame/candle{
-	pixel_x = 10;
-	pixel_y = 1
-	},
-/obj/item/flame/candle{
-	pixel_x = -9;
-	pixel_y = 8
-	},
-/obj/item/flame/lighter/random{
-	pixel_y = 3;
-	pixel_x = 4
-	},
-/obj/item/flame/candle{
-	pixel_x = -5
-	},
-/turf/simulated/floor/lino/diamond,
-=======
-=======
->>>>>>> Stashed changes
 "EE" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -11613,10 +10568,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/white,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "EH" = (
 /obj/structure/table/wood,
@@ -11835,11 +10786,6 @@
 /obj/machinery/disposal/small/south,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Fh" = (
 /obj/machinery/light/floor{
 	dir = 4
@@ -11849,10 +10795,6 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Fi" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/black{
 	dir = 4
@@ -11885,18 +10827,9 @@
 /obj/machinery/light{
 	dir = 4
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/item/clothing/under/rank/medical/zeng,
 /obj/item/clothing/under/rank/medical/surgeon/zeng,
 /obj/item/clothing/under/rank/medical/surgeon/zeng,
->>>>>>> Stashed changes
-=======
-/obj/item/clothing/under/rank/medical/zeng,
-/obj/item/clothing/under/rank/medical/surgeon/zeng,
-/obj/item/clothing/under/rank/medical/surgeon/zeng,
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "Fm" = (
@@ -11914,11 +10847,6 @@
 	},
 /turf/simulated/floor/airless,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Fp" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/bed/stool/chair/sofa/black{
@@ -11926,10 +10854,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Fq" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -12179,18 +11103,6 @@
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "Gc" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/item/modular_computer/console/preset/security{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/gunmetal/full,
-=======
-=======
->>>>>>> Stashed changes
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
@@ -12198,10 +11110,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gunmetal,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "Gd" = (
 /obj/item/modular_computer/console/preset/security{
@@ -12462,18 +11370,9 @@
 "GM" = (
 /obj/structure/closet/secure_closet/medical3,
 /obj/effect/floor_decal/corner_wide/green/diagonal,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/item/clothing/under/rank/medical/zeng,
 /obj/item/clothing/under/rank/medical/surgeon/zeng,
 /obj/item/clothing/under/rank/medical/surgeon/zeng,
->>>>>>> Stashed changes
-=======
-/obj/item/clothing/under/rank/medical/zeng,
-/obj/item/clothing/under/rank/medical/surgeon/zeng,
-/obj/item/clothing/under/rank/medical/surgeon/zeng,
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "GO" = (
@@ -12616,18 +11515,9 @@
 /area/derelict/ship)
 "Hh" = (
 /obj/effect/floor_decal/corner/green/full,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
->>>>>>> Stashed changes
-=======
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
 "Hi" = (
@@ -12689,19 +11579,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Hq" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/carpet/purple,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Hr" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -12734,36 +11615,10 @@
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
 "Hv" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/structure/table/stone/marble,
-/obj/item/flame/candle{
-	pixel_y = 8
-	},
-/obj/item/flame/candle{
-	pixel_x = -5;
-	pixel_y = 3
-	},
-/obj/item/flame/candle{
-	pixel_x = -11;
-	pixel_y = 16
-	},
-/obj/item/flame/candle{
-	pixel_x = 10;
-	pixel_y = 2
-	},
-/turf/simulated/floor/lino/diamond,
-=======
-=======
->>>>>>> Stashed changes
 /obj/machinery/computer/ship/sensors{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "Hw" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -12790,24 +11645,10 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"HC" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/gridded,
-=======
-=======
->>>>>>> Stashed changes
 "HA" = (
 /obj/structure/table/wood,
 /obj/machinery/alarm/east,
 /turf/simulated/floor/wood,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "HD" = (
 /obj/machinery/door/airlock/freezer,
@@ -12829,21 +11670,12 @@
 /obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "HH" = (
 /obj/machinery/computer/cryopod{
 	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "HI" = (
 /obj/random/pottedplant,
 /turf/simulated/floor/wood,
@@ -12929,11 +11761,6 @@
 /obj/effect/floor_decal/industrial/hatch_tiny/yellow,
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "HT" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning{
@@ -12941,10 +11768,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "HU" = (
 /obj/structure/cryofeed{
 	dir = 4
@@ -13153,21 +11976,12 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "It" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Iv" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -13291,17 +12105,6 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"IO" = (
-/obj/structure/table/fancy,
-/obj/item/storage/bible,
-/turf/simulated/floor/lino/diamond,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "IP" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -13393,25 +12196,6 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"Jc" = (
-/obj/structure/table/stone/marble,
-/obj/item/flame/candle{
-	pixel_x = -5;
-	pixel_y = 8
-	},
-/obj/item/flame/candle{
-	pixel_x = 5;
-	pixel_y = 8
-	},
-/obj/item/flame/candle,
-/turf/simulated/floor/wood,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Jd" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -13475,20 +12259,11 @@
 /obj/effect/floor_decal/corner/black{
 	dir = 8
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "Jn" = (
@@ -13933,11 +12708,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Ky" = (
 /obj/structure/table/reinforced/steel,
 /obj/effect/floor_decal/corner_wide/black/diagonal,
@@ -13954,10 +12724,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Kz" = (
 /obj/machinery/door/airlock/glass_science,
 /obj/machinery/door/firedoor,
@@ -14053,16 +12819,6 @@
 	},
 /turf/simulated/floor/airless,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"KJ" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/carpet/purple,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "KL" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -14102,21 +12858,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "KS" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "KT" = (
 /obj/random/pottedplant,
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -14299,21 +13046,12 @@
 /obj/item/storage/box/masks,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Lu" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
 /turf/simulated/floor/wood,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Lw" = (
 /obj/machinery/vending/tool{
 	random_itemcount = 0
@@ -14356,19 +13094,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"LB" = (
-/obj/structure/platform,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "LC" = (
 /obj/item/modular_computer/console/preset/research{
 	dir = 1
@@ -14588,18 +13313,6 @@
 /obj/effect/floor_decal/industrial/outline/custodial,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"Mk" = (
-/obj/structure/platform,
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/light/floor,
-/turf/simulated/floor/tiled/gunmetal/full,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Mm" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 10
@@ -14757,35 +13470,13 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"MF" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/structure/bed/stool/chair/sofa/black{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "MG" = (
 /obj/machinery/light{
 	dir = 4
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
->>>>>>> Stashed changes
-=======
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
 "MH" = (
@@ -15138,11 +13829,6 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "NO" = (
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -15152,10 +13838,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "NP" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
@@ -15359,11 +14041,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Oz" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -15372,21 +14049,12 @@
 /obj/machinery/power/apc/west,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "OA" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/airless,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "OB" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -15396,10 +14064,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "OC" = (
 /obj/structure/table/reinforced/steel,
 /obj/random/pottedplant_small{
@@ -15420,19 +14084,6 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"OF" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/freezer{
-	name = "cooled tiles";
-	temperature = 253.15
-	},
-=======
-=======
->>>>>>> Stashed changes
 "OE" = (
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /obj/structure/cable{
@@ -15449,10 +14100,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/white,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "OG" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
@@ -15560,19 +14207,6 @@
 /obj/effect/floor_decal/industrial/outline_straight/yellow,
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"OX" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/lattice/catwalk/indoor/grate,
-/turf/simulated/floor/plating,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "OY" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -15635,11 +14269,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/lino,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Pj" = (
 /obj/machinery/door/airlock/glass_science{
 	dir = 8
@@ -15652,10 +14281,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Pk" = (
 /obj/machinery/light/floor,
 /obj/effect/floor_decal/corner/mauve{
@@ -15711,18 +14336,9 @@
 /obj/effect/floor_decal/corner/black{
 	dir = 5
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
->>>>>>> Stashed changes
-=======
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "Ps" = (
@@ -15836,11 +14452,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "PK" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -15854,10 +14465,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "PM" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -15937,11 +14544,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "PW" = (
 /obj/structure/table/stone/marble,
 /obj/item/flame/candle{
@@ -15956,10 +14558,6 @@
 /obj/item/flame/lighter/random,
 /turf/simulated/floor/wood,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "PX" = (
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/industrial/outline/emergency_closet,
@@ -15990,11 +14588,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Qb" = (
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /obj/structure/cable{
@@ -16005,10 +14598,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Qd" = (
 /turf/simulated/wall/r_wall,
 /area/derelict/ship)
@@ -16034,11 +14623,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Qi" = (
 /obj/structure/table/reinforced/steel,
 /obj/effect/floor_decal/corner_wide/black/diagonal,
@@ -16048,10 +14632,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Qj" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 5
@@ -16091,28 +14671,6 @@
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "Qr" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-"Qs" = (
-/obj/structure/platform{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/light/floor{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/gunmetal/full,
-=======
-=======
->>>>>>> Stashed changes
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
 	},
@@ -16120,10 +14678,6 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "Qt" = (
 /obj/machinery/door/firedoor,
@@ -16605,11 +15159,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "RF" = (
 /obj/structure/table/steel,
 /obj/structure/sign/flag/zenghu/large/north{
@@ -16617,10 +15166,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "RG" = (
 /obj/machinery/light/floor{
 	dir = 8
@@ -16660,21 +15205,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "RN" = (
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "RO" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -16685,19 +15221,10 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "RP" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/carpet/purple,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "RQ" = (
 /obj/structure/toilet{
 	dir = 1;
@@ -17264,11 +15791,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "TC" = (
 /obj/structure/table/reinforced/wood,
 /obj/random/pottedplant_small{
@@ -17277,10 +15799,6 @@
 /obj/machinery/light,
 /turf/simulated/floor/carpet/purple,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "TD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -17306,11 +15824,6 @@
 	},
 /turf/simulated/floor/airless,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "TI" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -17319,10 +15832,6 @@
 	temperature = 253.15
 	},
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "TJ" = (
 /obj/machinery/light{
 	dir = 8
@@ -17341,19 +15850,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"TL" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/machinery/alarm/south,
-/turf/simulated/floor/tiled/gunmetal,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "TM" = (
 /obj/machinery/atmospherics/unary/heater{
 	dir = 1
@@ -17446,20 +15942,11 @@
 /obj/effect/floor_decal/corner/black{
 	dir = 9
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "Ua" = (
@@ -17512,21 +15999,12 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Uf" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Ug" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
@@ -17800,25 +16278,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
 "UP" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/disposal/small/west,
-=======
-=======
->>>>>>> Stashed changes
 /obj/effect/floor_decal/corner/mauve{
 	dir = 5
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "UQ" = (
@@ -18030,15 +16495,7 @@
 	},
 /turf/simulated/floor/wood,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"Vz" = (
-=======
 "Vy" = (
->>>>>>> Stashed changes
-=======
-"Vy" = (
->>>>>>> Stashed changes
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
@@ -18129,16 +16586,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"VS" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/carpet/purple,
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "VT" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -18169,11 +16616,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "VZ" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
@@ -18183,10 +16625,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Wa" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/disposalpipe/segment{
@@ -18216,21 +16654,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Wd" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "We" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/glass{
@@ -18483,18 +16912,9 @@
 /obj/effect/floor_decal/corner/green/full{
 	dir = 4
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
->>>>>>> Stashed changes
-=======
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
 "WQ" = (
@@ -18523,14 +16943,6 @@
 /turf/simulated/floor/plating,
 /area/derelict/ship)
 "WT" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/structure/table/wood,
-/obj/machinery/alarm/east,
-/turf/simulated/floor/wood,
-=======
-=======
->>>>>>> Stashed changes
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
@@ -18538,10 +16950,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "WU" = (
 /obj/machinery/door/firedoor{
@@ -18585,16 +16993,8 @@
 "Xa" = (
 /obj/structure/closet/secure_closet/medical_fr,
 /obj/effect/floor_decal/corner_wide/green/diagonal,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/item/clothing/under/rank/medical/first_responder/zeng,
 /obj/item/clothing/under/rank/medical/first_responder/zeng,
->>>>>>> Stashed changes
-=======
-/obj/item/clothing/under/rank/medical/first_responder/zeng,
-/obj/item/clothing/under/rank/medical/first_responder/zeng,
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "Xb" = (
@@ -18754,11 +17154,6 @@
 /obj/machinery/alarm/north,
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Xz" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -18768,10 +17163,6 @@
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "XA" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 8
@@ -18866,20 +17257,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"XP" = (
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/turf/simulated/floor/tiled/freezer{
-	name = "cooled tiles";
-	temperature = 253.15
-	},
-/area/derelict/ship)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "XQ" = (
 /obj/structure/tank_wall{
 	icon_state = "m-4"
@@ -19162,20 +17539,11 @@
 /obj/effect/floor_decal/corner/black{
 	dir = 9
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "YB" = (
@@ -19293,19 +17661,10 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "YP" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "YQ" = (
 /obj/machinery/atmospherics/binary/pump/high_power/on{
 	dir = 1
@@ -19395,23 +17754,10 @@
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "Zf" = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/purple,
-=======
-=======
->>>>>>> Stashed changes
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /area/derelict/ship)
 "Zg" = (
 /obj/structure/sink{
@@ -19438,21 +17784,12 @@
 "Zi" = (
 /turf/simulated/wall,
 /area/space)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 "Zj" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/red,
 /area/derelict/ship)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Zk" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor{
@@ -19461,18 +17798,9 @@
 /obj/machinery/door/airlock/glass{
 	dir = 4
 	},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
->>>>>>> Stashed changes
-=======
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
 "Zl" = (
@@ -35043,15 +33371,7 @@ QJ
 tS
 He
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 rB
 tS
 sA
@@ -35308,15 +33628,7 @@ IQ
 Hz
 tS
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 tS
 io
 Vg
@@ -35573,15 +33885,7 @@ qr
 YZ
 HX
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 HX
 ul
 qr
@@ -35838,15 +34142,7 @@ qr
 BO
 BO
 We
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Kq
-=======
 jS
->>>>>>> Stashed changes
-=======
-jS
->>>>>>> Stashed changes
 BO
 BO
 qr
@@ -36103,15 +34399,7 @@ IB
 BO
 qi
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 ck
 BO
 IB
@@ -36368,15 +34656,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -36633,15 +34913,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -36898,15 +35170,7 @@ IB
 qr
 yr
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gi
-=======
 cO
->>>>>>> Stashed changes
-=======
-cO
->>>>>>> Stashed changes
 tL
 qr
 IB
@@ -37163,15 +35427,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -37428,15 +35684,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -37693,15 +35941,7 @@ IB
 BO
 og
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 BO
 IB
@@ -37958,15 +36198,7 @@ YU
 BO
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -38223,15 +36455,7 @@ qr
 BO
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -38488,15 +36712,7 @@ dP
 kf
 yr
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gi
-=======
 cO
->>>>>>> Stashed changes
-=======
-cO
->>>>>>> Stashed changes
 tL
 qr
 IB
@@ -38753,15 +36969,7 @@ Ly
 xR
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -39018,15 +37226,7 @@ qr
 BO
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -39283,15 +37483,7 @@ YU
 BO
 qi
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 BO
 IB
@@ -39548,15 +37740,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -39813,15 +37997,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -40078,15 +38254,7 @@ IB
 qr
 yr
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gi
-=======
 cO
->>>>>>> Stashed changes
-=======
-cO
->>>>>>> Stashed changes
 tL
 qr
 IB
@@ -40343,15 +38511,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 BO
 YU
@@ -40608,15 +38768,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 BO
 BO
@@ -40873,15 +39025,7 @@ IB
 BO
 og
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 iM
 wn
@@ -41138,15 +39282,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 iM
 LF
@@ -41403,15 +39539,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 iM
 wt
@@ -41668,15 +39796,7 @@ IB
 qr
 yr
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gi
-=======
 cO
->>>>>>> Stashed changes
-=======
-cO
->>>>>>> Stashed changes
 tL
 iM
 wn
@@ -41933,15 +40053,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 iM
 LF
@@ -42198,15 +40310,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 iM
 wt
@@ -42449,18 +40553,8 @@ CW
 At
 Pr
 dm
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-vi
-vi
-=======
 zw
 aa
->>>>>>> Stashed changes
-=======
-zw
-aa
->>>>>>> Stashed changes
 jm
 vi
 CL
@@ -42473,15 +40567,7 @@ IB
 BO
 qi
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 iM
 iM
@@ -42707,19 +40793,6 @@ tS
 tS
 Qd
 jm
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-jm
-jm
-jm
-jm
-jm
-jm
-jm
-jm
-=======
-=======
->>>>>>> Stashed changes
 zf
 vA
 vA
@@ -42728,10 +40801,6 @@ vA
 vA
 vA
 vA
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 Jm
 YA
 YA
@@ -42755,15 +40824,7 @@ IB
 BO
 pz
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 Zv
 rU
 fS
@@ -42989,15 +41050,7 @@ tS
 tS
 Qd
 du
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-jm
-=======
 oN
->>>>>>> Stashed changes
-=======
-oN
->>>>>>> Stashed changes
 vi
 vi
 OK
@@ -43028,15 +41081,7 @@ IB
 BO
 BO
 xH
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-ng
-=======
 gZ
->>>>>>> Stashed changes
-=======
-gZ
->>>>>>> Stashed changes
 BO
 BO
 BO
@@ -43262,15 +41307,7 @@ tS
 tS
 Qd
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Zz
-=======
 Pj
->>>>>>> Stashed changes
-=======
-Pj
->>>>>>> Stashed changes
 BO
 BO
 Em
@@ -43301,15 +41338,7 @@ IB
 qr
 pz
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -43535,15 +41564,7 @@ tS
 tS
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 cB
->>>>>>> Stashed changes
-=======
-cB
->>>>>>> Stashed changes
 tS
 BO
 Tm
@@ -43574,15 +41595,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -43797,41 +41810,18 @@ tS
 tS
 tS
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-tS
-tS
-tS
-tS
-tS
-=======
-=======
->>>>>>> Stashed changes
 fK
 fK
 fK
 BO
 lc
 Ws
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 BO
 tS
 tS
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 cB
->>>>>>> Stashed changes
-=======
-cB
->>>>>>> Stashed changes
 tS
 BO
 Ij
@@ -43862,15 +41852,7 @@ IB
 qr
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -44083,25 +42065,6 @@ Qd
 Qd
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-BO
-tS
-tS
-tS
-tS
-tS
-tS
-BO
-tS
-tS
-Qd
-tS
-tS
-=======
-=======
->>>>>>> Stashed changes
 dl
 BM
 BM
@@ -44116,10 +42079,6 @@ tS
 Qd
 tS
 cB
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 tS
 BO
 SR
@@ -44150,15 +42109,7 @@ IB
 BO
 qi
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 BO
 IB
@@ -44371,25 +42322,6 @@ Cr
 wI
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-BO
-tS
-tS
-tS
-tS
-tS
-tS
-BO
-tS
-tS
-Qd
-tS
-tS
-=======
-=======
->>>>>>> Stashed changes
 kY
 BO
 fK
@@ -44404,10 +42336,6 @@ tS
 Qd
 tS
 cB
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 tS
 BO
 qk
@@ -44438,15 +42366,7 @@ YU
 BO
 pz
 Ty
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 BO
 YU
@@ -44659,15 +42579,7 @@ wI
 wI
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 BO
 BO
 BO
@@ -44676,25 +42588,11 @@ BO
 BO
 BO
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-tS
-Qd
-Qd
-Zz
-=======
-=======
->>>>>>> Stashed changes
 cB
 tS
 Qd
 Qd
 Pj
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 Qd
 Qd
 Qd
@@ -44725,15 +42623,7 @@ qr
 BO
 yr
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gi
-=======
 cO
->>>>>>> Stashed changes
-=======
-cO
->>>>>>> Stashed changes
 tL
 BO
 qr
@@ -44946,39 +42836,6 @@ RX
 tS
 Gu
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-=======
-=======
->>>>>>> Stashed changes
 kY
 tS
 tS
@@ -45007,10 +42864,6 @@ fK
 fK
 fK
 fK
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 tS
 tS
 Sh
@@ -45027,15 +42880,7 @@ dP
 Kz
 pz
 iL
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-ao
-=======
 UJ
->>>>>>> Stashed changes
-=======
-UJ
->>>>>>> Stashed changes
 Ny
 kf
 dP
@@ -45248,56 +43093,6 @@ Vu
 NK
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-fK
-fK
-fK
-fK
-fK
-fK
-fK
-fK
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-fK
-fK
-tS
-tS
-fK
-fK
-fK
-fK
-fK
-fK
-fK
-fK
-fK
-tS
-tS
-Sh
-ID
-ID
-MG
-ID
-qV
-ID
-kT
-Cz
-kT
-Ly
-qV
-pz
-ao
-Ty
-=======
-=======
->>>>>>> Stashed changes
 qe
 BI
 BI
@@ -45343,10 +43138,6 @@ qV
 UP
 hy
 OE
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 Zv
 xR
 ID
@@ -45559,15 +43350,7 @@ rV
 QL
 Qd
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Qd
-=======
 wX
->>>>>>> Stashed changes
-=======
-wX
->>>>>>> Stashed changes
 Qd
 Qd
 Qd
@@ -45580,28 +43363,12 @@ Qd
 Qd
 qo
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 cB
->>>>>>> Stashed changes
-=======
-cB
->>>>>>> Stashed changes
 BO
 BO
 BO
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tO
-=======
 aX
->>>>>>> Stashed changes
-=======
-aX
->>>>>>> Stashed changes
 BO
 BO
 BO
@@ -45627,15 +43394,7 @@ qr
 BO
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 BO
 qr
@@ -45861,29 +43620,13 @@ TP
 Qd
 BW
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 cB
->>>>>>> Stashed changes
-=======
-cB
->>>>>>> Stashed changes
 BO
 At
 At
 tS
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 Oz
->>>>>>> Stashed changes
-=======
-Oz
->>>>>>> Stashed changes
 sB
 Mu
 Cr
@@ -45908,15 +43651,7 @@ YU
 BO
 qi
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 BO
 YU
@@ -46142,29 +43877,13 @@ TP
 Qd
 jd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 cB
->>>>>>> Stashed changes
-=======
-cB
->>>>>>> Stashed changes
 BO
 tS
 tS
 tS
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 cB
->>>>>>> Stashed changes
-=======
-cB
->>>>>>> Stashed changes
 wI
 wI
 rO
@@ -46189,15 +43908,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -46423,18 +44134,6 @@ jm
 Qd
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-lH
-tS
-tS
-tS
-tS
-tS
-=======
-=======
->>>>>>> Stashed changes
 VZ
 PK
 qP
@@ -46442,10 +44141,6 @@ qP
 qP
 qP
 Ya
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 wI
 wI
 rO
@@ -46470,15 +44165,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -46704,15 +44391,7 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 cB
->>>>>>> Stashed changes
-=======
-cB
->>>>>>> Stashed changes
 BO
 LC
 wI
@@ -46743,15 +44422,7 @@ IB
 qr
 yr
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gi
-=======
 cO
->>>>>>> Stashed changes
-=======
-cO
->>>>>>> Stashed changes
 tL
 qr
 IB
@@ -46977,15 +44648,7 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-fK
-=======
 aB
->>>>>>> Stashed changes
-=======
-aB
->>>>>>> Stashed changes
 BO
 Cr
 wI
@@ -47016,15 +44679,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -47250,15 +44905,7 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-fK
-=======
 aB
->>>>>>> Stashed changes
-=======
-aB
->>>>>>> Stashed changes
 BO
 Cr
 Lq
@@ -47289,15 +44936,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -47523,15 +45162,7 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-fK
-=======
 aB
->>>>>>> Stashed changes
-=======
-aB
->>>>>>> Stashed changes
 BO
 BO
 BO
@@ -47562,15 +45193,7 @@ IB
 BO
 og
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 BO
 IB
@@ -47796,15 +45419,7 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-fK
-=======
 aB
->>>>>>> Stashed changes
-=======
-aB
->>>>>>> Stashed changes
 BO
 CZ
 wI
@@ -47835,15 +45450,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -48069,15 +45676,7 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-fK
-=======
 aB
->>>>>>> Stashed changes
-=======
-aB
->>>>>>> Stashed changes
 BO
 EK
 Bz
@@ -48108,15 +45707,7 @@ IB
 BO
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -48342,15 +45933,7 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-fK
-=======
 aB
->>>>>>> Stashed changes
-=======
-aB
->>>>>>> Stashed changes
 BO
 yL
 wI
@@ -48381,15 +45964,7 @@ IB
 qr
 pz
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -48615,15 +46190,7 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 cB
->>>>>>> Stashed changes
-=======
-cB
->>>>>>> Stashed changes
 BO
 Dy
 jm
@@ -48654,15 +46221,7 @@ YU
 BO
 BO
 fc
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-ng
-=======
 gZ
->>>>>>> Stashed changes
-=======
-gZ
->>>>>>> Stashed changes
 BO
 BO
 YU
@@ -48888,23 +46447,10 @@ jm
 jm
 Qd
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-jr
-jm
-jm
-=======
-=======
->>>>>>> Stashed changes
 VZ
 Ev
 vA
 It
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 jm
 DA
 jE
@@ -48932,15 +46478,7 @@ IB
 qr
 pz
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -49169,15 +46707,7 @@ tS
 tS
 BO
 dj
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-DA
-=======
 Qr
->>>>>>> Stashed changes
-=======
-Qr
->>>>>>> Stashed changes
 jm
 hr
 oW
@@ -49205,15 +46735,7 @@ IB
 BO
 qi
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 BO
 IB
@@ -49470,15 +46992,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -49735,15 +47249,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -49960,24 +47466,6 @@ jm
 Qd
 tS
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-tS
-fK
-BO
-jm
-jm
-=======
-=======
->>>>>>> Stashed changes
 qP
 qP
 qP
@@ -49991,10 +47479,6 @@ vN
 BO
 jm
 hk
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 jm
 jm
 jm
@@ -50022,15 +47506,7 @@ IB
 qr
 yr
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gi
-=======
 cO
->>>>>>> Stashed changes
-=======
-cO
->>>>>>> Stashed changes
 tL
 qr
 IB
@@ -50287,15 +47763,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -50552,15 +48020,7 @@ IB
 qr
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 qr
 IB
@@ -50787,15 +48247,7 @@ ux
 BO
 tS
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-jr
-=======
 pA
->>>>>>> Stashed changes
-=======
-pA
->>>>>>> Stashed changes
 jm
 nz
 Ke
@@ -50825,15 +48277,7 @@ IB
 BO
 og
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 ck
 BO
 IB
@@ -51090,15 +48534,7 @@ BO
 BO
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 BO
 BO
@@ -51355,15 +48791,7 @@ mh
 BO
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 BO
 lv
@@ -51620,15 +49048,7 @@ Te
 BO
 yr
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gi
-=======
 cO
->>>>>>> Stashed changes
-=======
-cO
->>>>>>> Stashed changes
 tL
 BO
 IV
@@ -51878,46 +49298,20 @@ qr
 qr
 qr
 lm
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-us
-=======
 AP
->>>>>>> Stashed changes
-=======
-AP
->>>>>>> Stashed changes
 AB
 AV
 DW
 BO
 pz
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 BO
 vj
 KX
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Zf
-Ey
-=======
 yJ
 nC
->>>>>>> Stashed changes
-=======
-yJ
-nC
->>>>>>> Stashed changes
 RG
 qr
 qr
@@ -52161,36 +49555,16 @@ qr
 rD
 Vl
 zH
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-AU
-=======
 Zj
->>>>>>> Stashed changes
-=======
-Zj
->>>>>>> Stashed changes
 zH
 wi
 js
 ON
 yw
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-vJ
-Ga
-Qr
-=======
 NO
 Ga
 mF
->>>>>>> Stashed changes
-=======
-NO
-Ga
-mF
->>>>>>> Stashed changes
 js
 js
 js
@@ -52437,15 +49811,7 @@ qr
 Qp
 EU
 pZ
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-lp
-=======
 jy
->>>>>>> Stashed changes
-=======
-jy
->>>>>>> Stashed changes
 cV
 Ir
 Tk
@@ -52453,15 +49819,7 @@ df
 BO
 qi
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 ck
 BO
 AJ
@@ -52712,15 +50070,7 @@ pZ
 zH
 cV
 JX
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-WT
-=======
 HA
->>>>>>> Stashed changes
-=======
-HA
->>>>>>> Stashed changes
 EH
 CA
 BO
@@ -52735,15 +50085,7 @@ ru
 AJ
 XD
 ru
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-VS
-=======
 RP
->>>>>>> Stashed changes
-=======
-RP
->>>>>>> Stashed changes
 js
 qr
 qr
@@ -52980,15 +50322,7 @@ IB
 qr
 qr
 DR
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-AU
-=======
 Zj
->>>>>>> Stashed changes
-=======
-Zj
->>>>>>> Stashed changes
 zH
 cV
 KT
@@ -52999,15 +50333,7 @@ BO
 BO
 qi
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 ck
 BO
 BO
@@ -53016,15 +50342,7 @@ BO
 BO
 JC
 KX
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-KJ
-=======
 Hq
->>>>>>> Stashed changes
-=======
-Hq
->>>>>>> Stashed changes
 js
 QF
 qr
@@ -53260,15 +50578,7 @@ IB
 IB
 qr
 xI
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-lp
-=======
 jy
->>>>>>> Stashed changes
-=======
-jy
->>>>>>> Stashed changes
 fF
 lZ
 ya
@@ -53280,15 +50590,7 @@ tS
 tS
 tS
 ao
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 tS
 tS
 FV
@@ -53541,25 +50843,11 @@ BO
 GA
 KO
 WN
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-yw
-yw
-yw
-ao
-ao
-=======
-=======
->>>>>>> Stashed changes
 Eb
 Eb
 Eb
 hy
 yu
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 yw
 yw
 yw
@@ -53811,15 +51099,7 @@ oG
 BO
 vm
 WN
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-yw
-=======
 Rg
->>>>>>> Stashed changes
-=======
-Rg
->>>>>>> Stashed changes
 yw
 tS
 qr
@@ -54350,15 +51630,7 @@ BO
 BO
 BO
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-uC
-=======
 qU
->>>>>>> Stashed changes
-=======
-qU
->>>>>>> Stashed changes
 BO
 BO
 BO
@@ -55881,15 +53153,7 @@ tS
 lg
 Eo
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-qu
-=======
 tN
->>>>>>> Stashed changes
-=======
-tN
->>>>>>> Stashed changes
 yw
 Hx
 BO
@@ -55902,15 +53166,7 @@ qr
 BO
 Jo
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-TL
-=======
 ji
->>>>>>> Stashed changes
-=======
-ji
->>>>>>> Stashed changes
 BO
 tS
 tS
@@ -56156,15 +53412,7 @@ Eo
 BO
 qd
 Hh
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-yw
-=======
 xT
->>>>>>> Stashed changes
-=======
-xT
->>>>>>> Stashed changes
 yw
 tS
 qr
@@ -56422,25 +53670,11 @@ BO
 GA
 xg
 Hh
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-yw
-yw
-yw
-ao
-ao
-=======
-=======
->>>>>>> Stashed changes
 Eb
 Eb
 Eb
 hy
 yC
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 yw
 yw
 yw
@@ -56464,18 +53698,8 @@ IB
 IB
 IB
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-ft
-zl
-=======
 hl
 cU
->>>>>>> Stashed changes
-=======
-hl
-cU
->>>>>>> Stashed changes
 sg
 BO
 YU
@@ -56707,15 +53931,7 @@ tS
 tS
 tS
 vJ
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 tS
 tS
 tS
@@ -56740,18 +53956,8 @@ IB
 IB
 BO
 sg
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-aa
-OF
-=======
 Db
 fI
->>>>>>> Stashed changes
-=======
-Db
-fI
->>>>>>> Stashed changes
 BO
 IB
 IB
@@ -56982,15 +54188,7 @@ BO
 BO
 qi
 Ga
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 ck
 BO
 pF
@@ -57016,15 +54214,7 @@ IB
 BO
 Kh
 rw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-XP
-=======
 TI
->>>>>>> Stashed changes
-=======
-TI
->>>>>>> Stashed changes
 BO
 IB
 IB
@@ -57246,15 +54436,7 @@ qr
 qr
 cR
 ym
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-uz
-=======
 HH
->>>>>>> Stashed changes
-=======
-HH
->>>>>>> Stashed changes
 BO
 HU
 uZ
@@ -57509,15 +54691,7 @@ IB
 IB
 IB
 qr
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-iW
-=======
 yV
->>>>>>> Stashed changes
-=======
-yV
->>>>>>> Stashed changes
 cR
 ym
 FV
@@ -57528,15 +54702,7 @@ IT
 BO
 qi
 Ga
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 kY
->>>>>>> Stashed changes
-=======
-kY
->>>>>>> Stashed changes
 ck
 BO
 ci
@@ -57562,15 +54728,7 @@ IB
 BO
 Iw
 Zh
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-DS
-=======
 RN
->>>>>>> Stashed changes
-=======
-RN
->>>>>>> Stashed changes
 xh
 ni
 Zh
@@ -57593,21 +54751,9 @@ IB
 IB
 BO
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-hA
-Vi
-Jc
-=======
 PW
 Vi
 hA
->>>>>>> Stashed changes
-=======
-PW
-Vi
-hA
->>>>>>> Stashed changes
 HI
 BO
 gj
@@ -57803,15 +54949,7 @@ IB
 IB
 qr
 qr
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-iW
-=======
 yV
->>>>>>> Stashed changes
-=======
-yV
->>>>>>> Stashed changes
 cR
 ym
 tS
@@ -57821,15 +54959,7 @@ tS
 BO
 pz
 sT
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Ty
-=======
 kg
->>>>>>> Stashed changes
-=======
-kg
->>>>>>> Stashed changes
 Zv
 BO
 ci
@@ -57855,18 +54985,8 @@ IB
 qr
 Ah
 xh
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-dr
-lf
-=======
 OF
 Qi
->>>>>>> Stashed changes
-=======
-OF
-Qi
->>>>>>> Stashed changes
 JA
 xh
 Tr
@@ -57887,15 +55007,7 @@ YU
 YU
 YU
 qr
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Aj
-=======
 fP
->>>>>>> Stashed changes
-=======
-fP
->>>>>>> Stashed changes
 df
 df
 df
@@ -58104,15 +55216,7 @@ tS
 Vj
 pz
 vJ
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-qg
-=======
 Qb
->>>>>>> Stashed changes
-=======
-Qb
->>>>>>> Stashed changes
 bL
 hD
 II
@@ -58138,15 +55242,7 @@ IB
 qr
 AK
 xh
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-DS
-=======
 RN
->>>>>>> Stashed changes
-=======
-RN
->>>>>>> Stashed changes
 xh
 xh
 Rs
@@ -58170,15 +55266,7 @@ IB
 qr
 cN
 cN
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-IO
-=======
 zR
->>>>>>> Stashed changes
-=======
-zR
->>>>>>> Stashed changes
 cN
 Yh
 DB
@@ -58411,21 +55499,9 @@ IB
 qr
 AK
 xh
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-dr
-qY
-pt
-=======
 OF
 Ky
 EG
->>>>>>> Stashed changes
-=======
-OF
-Ky
-EG
->>>>>>> Stashed changes
 LZ
 LZ
 dK
@@ -59654,28 +56730,12 @@ tS
 wV
 Qd
 cj
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-uW
-=======
 KS
->>>>>>> Stashed changes
-=======
-KS
->>>>>>> Stashed changes
 ag
 pz
 Zv
 ps
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-LB
-=======
 ce
->>>>>>> Stashed changes
-=======
-ce
->>>>>>> Stashed changes
 tS
 tS
 qr
@@ -59934,15 +56994,7 @@ Zv
 DZ
 tu
 Rx
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-lB
-=======
 WT
->>>>>>> Stashed changes
-=======
-WT
->>>>>>> Stashed changes
 Rx
 xo
 qr
@@ -60194,15 +57246,7 @@ Qd
 Pz
 pz
 BQ
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-BQ
-=======
 tS
->>>>>>> Stashed changes
-=======
-tS
->>>>>>> Stashed changes
 Zv
 xt
 nu
@@ -60459,19 +57503,6 @@ qr
 RH
 SY
 BQ
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-BQ
-Zv
-dv
-Mk
-wI
-GJ
-wI
-Ak
-=======
-=======
->>>>>>> Stashed changes
 tS
 Zv
 dv
@@ -60480,10 +57511,6 @@ wI
 GJ
 wI
 Xz
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 tS
 qr
 YU
@@ -60551,21 +57578,9 @@ IB
 IB
 BO
 Tl
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-mE
-Hv
-EG
-=======
 dx
 mE
 wh
->>>>>>> Stashed changes
-=======
-dx
-mE
-wh
->>>>>>> Stashed changes
 uO
 BO
 Dr
@@ -60745,15 +57760,7 @@ qr
 nT
 pz
 BQ
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-BQ
-=======
 tS
->>>>>>> Stashed changes
-=======
-tS
->>>>>>> Stashed changes
 Hs
 HF
 hK
@@ -61010,27 +58017,12 @@ qr
 If
 SY
 BQ
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-BQ
-Zv
-dv
-vx
-Da
-Qs
-=======
-=======
->>>>>>> Stashed changes
 tS
 Zv
 ph
 vx
 Da
 us
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 pn
 bM
 fT
@@ -61282,23 +58274,10 @@ Qd
 tI
 pz
 BQ
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-BQ
-Zv
-nT
-IK
-=======
-=======
->>>>>>> Stashed changes
 tS
 Zv
 nT
 Hv
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 IK
 BJ
 EP
@@ -61549,15 +58528,7 @@ qr
 tS
 sT
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Pz
-=======
 yg
->>>>>>> Stashed changes
-=======
-yg
->>>>>>> Stashed changes
 Ze
 De
 Hz
@@ -61575,15 +58546,7 @@ tS
 BO
 Rr
 mB
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-mB
-=======
 df
->>>>>>> Stashed changes
-=======
-df
->>>>>>> Stashed changes
 pE
 Qd
 IB
@@ -61823,15 +58786,7 @@ tS
 sT
 Qd
 Pz
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Gc
-=======
 Ar
->>>>>>> Stashed changes
-=======
-Ar
->>>>>>> Stashed changes
 Gd
 YZ
 De
@@ -61878,15 +58833,7 @@ yw
 yw
 yw
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-sH
-=======
 hF
->>>>>>> Stashed changes
-=======
-hF
->>>>>>> Stashed changes
 BO
 MO
 tS
@@ -62352,21 +59299,9 @@ Qd
 tS
 sT
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-LF
-nY
-nY
-=======
 nY
 iS
 iS
->>>>>>> Stashed changes
-=======
-nY
-iS
-iS
->>>>>>> Stashed changes
 iM
 iM
 BO
@@ -62412,15 +59347,7 @@ MA
 ku
 dg
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-uw
-=======
 Gc
->>>>>>> Stashed changes
-=======
-Gc
->>>>>>> Stashed changes
 DB
 tS
 tS
@@ -62629,15 +59556,7 @@ Qd
 tS
 sT
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-At
-=======
 RF
->>>>>>> Stashed changes
-=======
-RF
->>>>>>> Stashed changes
 tS
 tS
 tS
@@ -62648,36 +59567,15 @@ At
 At
 tS
 tS
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-tS
-=======
 Gw
->>>>>>> Stashed changes
-=======
-Gw
->>>>>>> Stashed changes
 BO
 aC
 tS
 yP
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-df
-df
-df
-df
-=======
-=======
->>>>>>> Stashed changes
 lA
 Wd
 Wd
 ut
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 qr
 IB
 IB
@@ -62915,15 +59813,7 @@ Qd
 tS
 sT
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-zR
-=======
 ux
->>>>>>> Stashed changes
-=======
-ux
->>>>>>> Stashed changes
 tS
 tS
 tS
@@ -62939,23 +59829,10 @@ BO
 tS
 tS
 BO
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-df
-df
-df
-df
-=======
-=======
->>>>>>> Stashed changes
 EE
 Bi
 Bi
 Lu
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 qr
 IB
 IB
@@ -63193,15 +60070,7 @@ Qd
 tS
 sT
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-df
-=======
 HI
->>>>>>> Stashed changes
-=======
-HI
->>>>>>> Stashed changes
 df
 BR
 df
@@ -63217,23 +60086,10 @@ BO
 tS
 tS
 wK
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-KX
-iK
-iK
-KX
-=======
-=======
->>>>>>> Stashed changes
 FL
 KX
 iK
 iK
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 qr
 IB
 IB
@@ -63487,23 +60343,10 @@ BO
 tS
 tS
 wK
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-KX
-WC
-su
-Dj
-=======
-=======
->>>>>>> Stashed changes
 WC
 KX
 WC
 TC
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 Qd
 IB
 IB
@@ -63532,15 +60375,7 @@ jU
 nS
 dg
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-iR
-=======
 cG
->>>>>>> Stashed changes
-=======
-cG
->>>>>>> Stashed changes
 DB
 Gw
 tS
@@ -63766,21 +60601,9 @@ tS
 WR
 BO
 ez
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-SP
-SP
-KX
-=======
 KX
 SP
 SP
->>>>>>> Stashed changes
-=======
-KX
-SP
-SP
->>>>>>> Stashed changes
 Qd
 IB
 IB
@@ -64066,15 +60889,7 @@ fi
 zx
 Pi
 yw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-fP
-=======
 su
->>>>>>> Stashed changes
-=======
-su
->>>>>>> Stashed changes
 BO
 tW
 tS
@@ -65871,15 +62686,7 @@ BY
 BY
 BY
 Vw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Db
-=======
 uw
->>>>>>> Stashed changes
-=======
-uw
->>>>>>> Stashed changes
 AT
 Ga
 Vn
@@ -66136,15 +62943,7 @@ BY
 BY
 BY
 Vw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-eu
-=======
 Aw
->>>>>>> Stashed changes
-=======
-Aw
->>>>>>> Stashed changes
 AT
 vJ
 vn
@@ -66346,21 +63145,9 @@ PD
 PD
 PD
 PD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-PD
-PD
-PD
-=======
 qp
 qp
 qp
->>>>>>> Stashed changes
-=======
-qp
-qp
-qp
->>>>>>> Stashed changes
 Qd
 tS
 tS
@@ -66413,15 +63200,7 @@ BY
 BY
 BY
 Vw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-hU
-=======
 gv
->>>>>>> Stashed changes
-=======
-gv
->>>>>>> Stashed changes
 BO
 vJ
 tS
@@ -66935,15 +63714,7 @@ BY
 BY
 BY
 vM
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-MF
-=======
 Fp
->>>>>>> Stashed changes
-=======
-Fp
->>>>>>> Stashed changes
 AT
 vJ
 tS
@@ -67200,15 +63971,7 @@ BY
 BY
 BY
 Vw
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-qM
-=======
 qL
->>>>>>> Stashed changes
-=======
-qL
->>>>>>> Stashed changes
 AT
 vJ
 tS
@@ -67236,15 +63999,7 @@ Pt
 zE
 VI
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-UP
-=======
 ie
->>>>>>> Stashed changes
-=======
-ie
->>>>>>> Stashed changes
 ZD
 Yp
 Mv
@@ -67759,21 +64514,9 @@ LQ
 LQ
 Np
 qR
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-rP
-rP
-rP
-=======
 bs
 bs
 bs
->>>>>>> Stashed changes
-=======
-bs
-bs
-bs
->>>>>>> Stashed changes
 sV
 Xj
 Mh
@@ -68022,15 +64765,7 @@ Ac
 hN
 tS
 Kg
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Vz
-=======
 Vy
->>>>>>> Stashed changes
-=======
-Vy
->>>>>>> Stashed changes
 hZ
 Mm
 dq
@@ -68289,24 +65024,6 @@ Qd
 Qd
 Ee
 kq
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-lL
-HS
-mu
-lL
-lL
-lL
-kp
-OX
-OX
-mm
-nc
-Wn
-rP
-=======
-=======
->>>>>>> Stashed changes
 iW
 HS
 mu
@@ -68320,10 +65037,6 @@ mm
 nc
 Wn
 bs
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 Ku
 Qd
 pC
@@ -68565,23 +65278,10 @@ GO
 Qd
 ua
 ua
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-lL
-op
-eX
-hk
-=======
-=======
->>>>>>> Stashed changes
 iW
 op
 eX
 YP
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 LD
 pM
 AC
@@ -69090,30 +65790,14 @@ Ty
 Ty
 Ty
 wB
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-lL
-=======
 iW
->>>>>>> Stashed changes
-=======
-iW
->>>>>>> Stashed changes
 XB
 ml
 rR
 Ix
 Yv
 Yr
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-on
-=======
 Zf
->>>>>>> Stashed changes
-=======
-Zf
->>>>>>> Stashed changes
 Zu
 Rw
 by
@@ -69620,30 +66304,14 @@ fK
 PG
 PG
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-HC
-=======
 ud
->>>>>>> Stashed changes
-=======
-ud
->>>>>>> Stashed changes
 eJ
 CX
 hi
 DK
 Ye
 Cs
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-on
-=======
 Zf
->>>>>>> Stashed changes
-=======
-Zf
->>>>>>> Stashed changes
 hN
 Rw
 yv
@@ -69651,15 +66319,7 @@ bb
 Lm
 Rw
 Pp
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Vz
-=======
 Vy
->>>>>>> Stashed changes
-=======
-Vy
->>>>>>> Stashed changes
 Pe
 kU
 lq
@@ -69901,15 +66561,7 @@ fK
 GB
 GB
 Qd
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-HC
-=======
 ud
->>>>>>> Stashed changes
-=======
-ud
->>>>>>> Stashed changes
 DH
 ml
 Nz
@@ -69924,15 +66576,7 @@ au
 Qd
 Qd
 KD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-cl
-=======
 fX
->>>>>>> Stashed changes
-=======
-fX
->>>>>>> Stashed changes
 Cc
 Qd
 lq
@@ -70188,21 +66832,9 @@ Qd
 ta
 sy
 iV
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-gH
-lL
-di
-=======
 HT
 iW
 te
->>>>>>> Stashed changes
-=======
-HT
-iW
-te
->>>>>>> Stashed changes
 Qd
 Fo
 SL
@@ -70444,27 +67076,12 @@ fK
 kD
 Qd
 NG
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-ki
-ki
-ki
-jR
-ki
-ki
-=======
-=======
->>>>>>> Stashed changes
 fV
 fV
 fV
 jR
 fV
 fV
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 WM
 Qd
 gE
@@ -70472,15 +67089,7 @@ Qd
 ta
 Qd
 Uo
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-gH
-=======
 HT
->>>>>>> Stashed changes
-=======
-HT
->>>>>>> Stashed changes
 gU
 yb
 Qd
