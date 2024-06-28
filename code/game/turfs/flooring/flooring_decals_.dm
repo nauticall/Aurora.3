@@ -898,6 +898,12 @@
 /obj/effect/floor_decal/sign/two
 	icon_state = "white_2"
 
+/obj/effect/floor_decal/sign/one_alt
+	icon_state = "white_1_alt"
+
+/obj/effect/floor_decal/sign/two_alt
+	icon_state = "white_2_alt"
+
 /obj/effect/floor_decal/sign/a
 	icon_state = "white_a"
 
@@ -909,6 +915,18 @@
 
 /obj/effect/floor_decal/sign/d
 	icon_state = "white_d"
+
+/obj/effect/floor_decal/sign/di
+	icon_state = "white_di"
+
+/obj/effect/floor_decal/sign/e
+	icon_state = "white_e"
+
+/obj/effect/floor_decal/sign/e
+	icon_state = "white_f"
+
+/obj/effect/floor_decal/sign/e
+	icon_state = "white_g"
 
 /obj/effect/floor_decal/sign/ex
 	icon_state = "white_ex"
