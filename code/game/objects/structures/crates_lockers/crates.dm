@@ -15,11 +15,13 @@
 	open_sound_volume = 35
 	close_sound_volume = 50
 	store_structure = TRUE
-	dense_when_open = TRUE
+	dense_when_open = FALSE
 	door_anim_squish = 0.30
 	door_anim_time = 3
 	door_anim_angle = 140
 	door_hinge = 3.5
+	maximum_mob_size = 6
+	store_mobs = TRUE
 	pass_flags_self = PASSSTRUCTURE | LETPASSTHROW
 
 	var/tablestatus = 0
