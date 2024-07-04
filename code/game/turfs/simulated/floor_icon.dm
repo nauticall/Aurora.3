@@ -98,7 +98,6 @@
 				I.pixel_x = -world.icon_size
 			else if (icon_dir & EAST)
 				I.pixel_x = world.icon_size
-		I.layer = flooring.decal_layer
 
 		flooring_cache[cache_key] = I
 	return flooring_cache[cache_key]
