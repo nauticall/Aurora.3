@@ -36,6 +36,7 @@
 "adh" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/bed/stool/chair/sofa/black,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "adp" = (
@@ -383,6 +384,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
 "aut" = (
@@ -466,6 +470,7 @@
 	name = "Holodeck B";
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "aCq" = (
@@ -847,8 +852,31 @@
 /area/derelict/ship)
 "aRm" = (
 /obj/structure/table/rack/retail_shelf,
-/obj/machinery/light,
-/turf/simulated/floor/tiled/gunmetal,
+/obj/item/storage/box/donkpockets{
+	pixel_x = -7;
+	pixel_y = -2
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = 9;
+	pixel_y = -2
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = -7;
+	pixel_y = 3
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = 9;
+	pixel_y = 8
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "aRK" = (
 /obj/structure/table/steel,
@@ -1314,6 +1342,14 @@
 "brM" = (
 /obj/machinery/chem_master,
 /turf/simulated/floor/carpet/rubber,
+/area/derelict/ship)
+"bsj" = (
+/obj/effect/floor_decal/corner/dark_green/diagonal,
+/obj/random/junk{
+	pixel_x = 9;
+	pixel_y = 8
+	},
+/turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "bsI" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
@@ -2127,6 +2163,13 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
+"cgS" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 5
+	},
+/obj/machinery/alarm/freezer/north,
+/turf/simulated/floor/tiled/ridged,
+/area/derelict/ship)
 "cha" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2677,6 +2720,9 @@
 /obj/structure/platform_deco,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/freezer{
 	name = "cooled tiles";
 	temperature = 278.15
@@ -2779,6 +2825,15 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/gridded,
+/area/derelict/ship)
+"cXx" = (
+/obj/machinery/door/airlock/external,
+/obj/machinery/access_button{
+	pixel_x = -32;
+	pixel_y = 12;
+	dir = 1
+	},
+/turf/simulated/floor/plating,
 /area/derelict/ship)
 "cXZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -2949,10 +3004,22 @@
 /turf/simulated/floor/plating,
 /area/derelict/ship)
 "dgH" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/tiled/freezer{
 	name = "cooled tiles";
 	temperature = 278.15
 	},
+/area/derelict/ship)
+"dgM" = (
+/obj/machinery/door/airlock/external,
+/obj/machinery/access_button{
+	pixel_x = -32;
+	pixel_y = -5
+	},
+/turf/simulated/floor/plating,
 /area/derelict/ship)
 "dhp" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -3108,6 +3175,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
+/area/derelict/ship)
+"dtl" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/structure/bed/stool/chair/sofa/right/beige,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "dtv" = (
 /obj/machinery/door/firedoor,
@@ -3427,6 +3500,12 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled/white,
+/area/derelict/ship)
+"dPM" = (
+/obj/structure/bed/stool/chair/office/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "dQR" = (
 /obj/effect/floor_decal/spline/plain/black{
@@ -3918,27 +3997,21 @@
 /area/derelict/ship)
 "epA" = (
 /obj/structure/table/rack/retail_shelf,
-/obj/item/reagent_containers/food/snacks/proteinbar{
-	pixel_y = 3;
-	pixel_x = 8
+/obj/item/reagent_containers/toothpaste{
+	pixel_x = -15;
+	pixel_y = -3
 	},
-/obj/item/reagent_containers/food/snacks/proteinbar{
-	pixel_x = -8;
-	pixel_y = 3
+/obj/item/reagent_containers/toothpaste{
+	pixel_x = -15;
+	pixel_y = 2
 	},
-/obj/item/reagent_containers/food/snacks/proteinbar{
-	pixel_y = 3
+/obj/item/reagent_containers/toothpaste{
+	pixel_x = -15;
+	pixel_y = 7
 	},
-/obj/item/reagent_containers/food/snacks/proteinbar{
-	pixel_x = -8;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/snacks/proteinbar{
-	pixel_y = 3;
-	pixel_x = 8
-	},
-/obj/item/reagent_containers/food/snacks/proteinbar{
-	pixel_y = 3
+/obj/item/reagent_containers/toothpaste{
+	pixel_x = -15;
+	pixel_y = 12
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
@@ -4135,6 +4208,9 @@
 	},
 /obj/machinery/light/floor{
 	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
@@ -4557,6 +4633,43 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
+"eUH" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/machinery/light,
+/obj/item/reagent_containers/food/drinks/bottle/cola{
+	pixel_x = -11;
+	pixel_y = 22
+	},
+/obj/item/reagent_containers/food/drinks/bottle/cola{
+	pixel_x = -4;
+	pixel_y = 22
+	},
+/obj/item/reagent_containers/food/drinks/bottle/cola{
+	pixel_x = 3;
+	pixel_y = 22
+	},
+/obj/item/reagent_containers/food/drinks/bottle/cola{
+	pixel_x = 10;
+	pixel_y = 22
+	},
+/obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind{
+	pixel_x = -11;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind{
+	pixel_x = 3;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind{
+	pixel_x = 10;
+	pixel_y = 8
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
+/area/derelict/ship)
 "eVE" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1
@@ -4892,6 +5005,10 @@
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
+"frr" = (
+/obj/structure/table/reinforced/glass,
+/turf/simulated/floor/tiled/gunmetal/full,
+/area/derelict/ship)
 "frV" = (
 /obj/structure/tank_wall{
 	icon_state = "m-9"
@@ -5105,7 +5222,14 @@
 /area/derelict/ship)
 "fFd" = (
 /obj/structure/table/reinforced/steel,
-/obj/machinery/recharger,
+/obj/machinery/recharger{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/machinery/recharger{
+	pixel_x = -5;
+	pixel_y = 4
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/derelict/ship)
 "fFs" = (
@@ -6516,6 +6640,8 @@
 	pixel_x = 6;
 	pixel_y = 26
 	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "hhI" = (
@@ -7711,6 +7837,9 @@
 /obj/structure/platform_deco{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "iIR" = (
@@ -8835,6 +8964,7 @@
 	pixel_x = -7;
 	pixel_y = 8
 	},
+/obj/random/junk,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "jKG" = (
@@ -8903,6 +9033,9 @@
 	},
 /obj/machinery/light/floor{
 	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
@@ -9566,7 +9699,14 @@
 /area/derelict/ship)
 "kxh" = (
 /obj/structure/table/rack/retail_shelf,
-/obj/item/device/quikpay,
+/obj/item/device/quikpay{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/device/quikpay{
+	pixel_x = 7;
+	pixel_y = 3
+	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "kxw" = (
@@ -9664,6 +9804,12 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
+/area/derelict/ship)
+"kEz" = (
+/obj/random/loot,
+/obj/random/loot,
+/obj/structure/table/steel,
+/turf/simulated/floor/plating,
 /area/derelict/ship)
 "kFq" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -10317,6 +10463,38 @@
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
+"lne" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/reagent_containers/food/drinks/bottle/small/midynhr_water{
+	pixel_x = -12;
+	pixel_y = 21
+	},
+/obj/item/reagent_containers/food/drinks/bottle/small/midynhr_water{
+	pixel_x = -5;
+	pixel_y = 21
+	},
+/obj/item/reagent_containers/food/drinks/bottle/small/midynhr_water{
+	pixel_x = 2;
+	pixel_y = 21
+	},
+/obj/item/reagent_containers/food/drinks/bottle/small/midynhr_water{
+	pixel_x = 9;
+	pixel_y = 21
+	},
+/obj/item/reagent_containers/food/drinks/bottle/bestblend{
+	pixel_x = -10;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/food/drinks/bottle/bestblend{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/food/drinks/bottle/bestblend{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
+/area/derelict/ship)
 "loE" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -10475,14 +10653,16 @@
 /area/derelict/ship)
 "lvC" = (
 /obj/structure/table/rack/retail_shelf,
-/obj/item/storage/box/fancy/donut,
-/obj/item/storage/box/fancy/donut{
-	pixel_y = 5
+/obj/random/soap{
+	pixel_x = -4;
+	pixel_y = -5
 	},
-/obj/item/storage/box/fancy/donut{
-	pixel_y = 5
+/obj/random/soap{
+	pixel_x = -4;
+	pixel_y = 3
 	},
-/obj/item/storage/box/fancy/donut{
+/obj/random/soap{
+	pixel_x = -5;
 	pixel_y = 10
 	},
 /turf/simulated/floor/tiled/gunmetal,
@@ -11287,6 +11467,14 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
+"miU" = (
+/obj/structure/table/reinforced/glass,
+/obj/structure/cash_register{
+	pixel_y = 4;
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
+/area/derelict/ship)
 "mjr" = (
 /obj/machinery/door/firedoor/multi_tile{
 	dir = 1
@@ -11404,6 +11592,12 @@
 	dir = 9
 	},
 /turf/simulated/floor/wood,
+/area/derelict/ship)
+"moK" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "moS" = (
 /obj/structure/bed/stool/chair/shuttle,
@@ -11791,6 +11985,18 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
+"mMp" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/floor_decal/spline/plain/black,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/freezer{
+	name = "cooled tiles";
+	temperature = 278.15
+	},
+/area/derelict/ship)
 "mMF" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5
@@ -11845,8 +12051,39 @@
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "mSc" = (
-/obj/machinery/vending/ramen,
-/obj/effect/floor_decal/industrial/outline/service,
+/obj/structure/table/stone/marble,
+/obj/item/reagent_containers/food/drinks/takeaway_cup_idris{
+	pixel_x = 14;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/food/drinks/takeaway_cup_idris{
+	pixel_x = 14;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/drinks/takeaway_cup_idris{
+	pixel_x = -10;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/food/drinks/takeaway_cup_idris{
+	pixel_x = -2;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/food/drinks/takeaway_cup_idris{
+	pixel_x = 6;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/food/drinks/takeaway_cup_idris{
+	pixel_x = 6;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/drinks/takeaway_cup_idris{
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/drinks/takeaway_cup_idris{
+	pixel_x = -10;
+	pixel_y = 2
+	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "mSM" = (
@@ -11985,6 +12222,7 @@
 /obj/structure/platform_deco{
 	dir = 5
 	},
+/obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "mWS" = (
@@ -12066,6 +12304,10 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/derelict/ship)
+"naO" = (
+/obj/machinery/door/airlock/maintenance,
+/turf/simulated/floor/plating,
+/area/derelict/ship)
 "nbB" = (
 /obj/structure/platform,
 /obj/machinery/seed_extractor,
@@ -12089,7 +12331,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/gunmetal,
+/turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "nbS" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
@@ -12600,7 +12842,7 @@
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "nEh" = (
-/obj/structure/table/reinforced/steel,
+/obj/structure/table/reinforced/glass,
 /obj/item/folder/yellow{
 	pixel_y = 3
 	},
@@ -12682,6 +12924,20 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/ridged,
+/area/derelict/ship)
+"nIH" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer{
+	name = "cooled tiles";
+	temperature = 278.15
+	},
 /area/derelict/ship)
 "nJl" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -12992,9 +13248,25 @@
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
 "nYF" = (
-/obj/effect/floor_decal/industrial/outline/engineering,
-/obj/structure/closet/crate/loot,
-/turf/simulated/floor/tiled/gunmetal,
+/obj/structure/table/rack/retail_shelf,
+/obj/machinery/light,
+/obj/item/reagent_containers/food/snacks/pepperoniroll{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/snacks/pepperoniroll{
+	pixel_x = 2;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/snacks/pepperoniroll{
+	pixel_x = -2;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/snacks/pepperoniroll{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "nYR" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -13017,6 +13289,11 @@
 /obj/machinery/meter,
 /turf/simulated/floor/tiled/dark,
 /area/derelict/ship)
+"oal" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/cyan,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
+/area/derelict/ship)
 "oaP" = (
 /obj/structure/lattice/catwalk/indoor/grate/gunmetal,
 /obj/structure/cable/yellow{
@@ -13026,6 +13303,9 @@
 /area/derelict/ship)
 "oaW" = (
 /obj/structure/platform_deco{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gunmetal,
@@ -13141,6 +13421,26 @@
 	},
 /obj/effect/floor_decal/industrial/hatch_tiny/yellow,
 /turf/simulated/floor/plating,
+/area/derelict/ship)
+"oiH" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/reagent_containers/food/drinks/boba{
+	pixel_x = 6;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/food/drinks/boba{
+	pixel_x = -6;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/food/drinks/boba{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/boba{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "ojb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -13453,6 +13753,13 @@
 	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
+"oAV" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/structure/bed/stool/chair/sofa/left/black,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/simulated/floor/tiled/gunmetal,
+/area/derelict/ship)
 "oBk" = (
 /obj/machinery/door/firedoor{
 	dir = 4
@@ -13481,6 +13788,18 @@
 /area/derelict/ship)
 "oCW" = (
 /turf/simulated/floor/tiled/ridged,
+/area/derelict/ship)
+"oFr" = (
+/obj/effect/floor_decal/corner/dark_green/diagonal,
+/obj/random/junk{
+	pixel_x = 14;
+	pixel_y = 2
+	},
+/obj/random/junk{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "oFs" = (
 /obj/structure/tank_wall{
@@ -13705,9 +14024,37 @@
 /turf/simulated/floor/lino/diamond,
 /area/derelict/ship)
 "oPN" = (
-/obj/structure/table/reinforced/steel,
+/obj/structure/table/rack,
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/item/stock_parts/micro_laser/high{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/stock_parts/micro_laser/high{
+	pixel_x = 3;
+	pixel_y = 11
+	},
+/obj/item/stock_parts/micro_laser/high{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/item/stock_parts/subspace/treatment{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/stock_parts/subspace/treatment{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/stock_parts/subspace/ansible{
+	pixel_x = -3;
+	pixel_y = -8
+	},
+/obj/item/stock_parts/subspace/ansible{
+	pixel_x = -3;
+	pixel_y = -11
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
@@ -13778,6 +14125,7 @@
 /area/derelict/ship)
 "oTP" = (
 /obj/effect/floor_decal/industrial/outline/engineering,
+/obj/structure/safe/cash,
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "oTU" = (
@@ -15080,6 +15428,12 @@
 /area/derelict/ship)
 "qiC" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/freezer{
 	name = "cooled tiles";
 	temperature = 278.15
@@ -15449,6 +15803,11 @@
 	},
 /turf/simulated/floor/wood,
 /area/derelict/ship)
+"qDk" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/turf/simulated/floor/tiled/gunmetal,
+/area/derelict/ship)
 "qEb" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -15769,7 +16128,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/gunmetal,
+/turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "qVm" = (
 /obj/structure/railing/mapped{
@@ -16531,9 +16890,18 @@
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "rLz" = (
-/obj/structure/table/reinforced/steel,
-/obj/machinery/light{
-	dir = 8
+/obj/structure/table/rack/retail_shelf,
+/obj/item/reagent_containers/food/snacks/skrellsnacks{
+	pixel_x = 7;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/food/snacks/skrellsnacks{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/snacks/skrellsnacks{
+	pixel_x = 7;
+	pixel_y = 9
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
@@ -16795,6 +17163,17 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
+"rVI" = (
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/obj/machinery/door/airlock/glass{
+	name = "Holodeck A";
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/simulated/floor/tiled/gunmetal,
+/area/derelict/ship)
 "rVT" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/corner_wide/green/diagonal,
@@ -17039,6 +17418,46 @@
 	},
 /obj/machinery/alarm/north,
 /turf/simulated/floor/plating,
+/area/derelict/ship)
+"shg" = (
+/obj/structure/table/rack{
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/item/stock_parts/subspace/analyzer{
+	pixel_x = -3;
+	pixel_y = 9
+	},
+/obj/item/stock_parts/subspace/analyzer{
+	pixel_x = 1;
+	pixel_y = 9
+	},
+/obj/item/stock_parts/subspace/analyzer{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/stock_parts/subspace/amplifier{
+	pixel_x = 3;
+	pixel_y = 0
+	},
+/obj/item/stock_parts/subspace/amplifier{
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/obj/item/stock_parts/subspace/amplifier{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/stock_parts/subspace/filter,
+/obj/item/stock_parts/subspace/filter{
+	pixel_x = -4;
+	pixel_y = -5
+	},
+/obj/item/stock_parts/subspace/filter{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/derelict/ship)
 "sjU" = (
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced,
@@ -17434,6 +17853,26 @@
 	},
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
+/area/derelict/ship)
+"sHp" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/reagent_containers/food/snacks/maps{
+	pixel_x = 11;
+	pixel_y = -5
+	},
+/obj/item/reagent_containers/food/snacks/maps{
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/item/reagent_containers/food/snacks/maps{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/maps{
+	pixel_x = 11;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "sIb" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -18281,6 +18720,8 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/vending/frontiervend,
+/obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "tFr" = (
@@ -18328,6 +18769,13 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
+/area/derelict/ship)
+"tHR" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "tHZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -18568,6 +19016,7 @@
 /area/derelict/ship)
 "tWD" = (
 /obj/structure/platform,
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "tWH" = (
@@ -18657,6 +19106,15 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
+/area/derelict/ship)
+"udI" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/random/loot,
+/obj/random/loot,
+/obj/structure/table/steel,
+/turf/simulated/floor/plating,
 /area/derelict/ship)
 "uem" = (
 /obj/structure/table/reinforced/steel,
@@ -18962,6 +19420,13 @@
 	name = "sfh_atmos_supermatter"
 	},
 /turf/simulated/floor/reinforced/reactor,
+/area/derelict/ship)
+"uBm" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 5
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/ridged,
 /area/derelict/ship)
 "uCk" = (
 /obj/structure/cable/green{
@@ -19425,6 +19890,8 @@
 	pixel_x = -6;
 	pixel_y = 26
 	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "vai" = (
@@ -19527,6 +19994,10 @@
 "ver" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/floor_decal/spline/plain/corner/black,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/freezer{
 	name = "cooled tiles";
 	temperature = 278.15
@@ -20026,6 +20497,9 @@
 /obj/structure/platform_deco{
 	dir = 9
 	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "vEk" = (
@@ -20034,6 +20508,16 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/airless,
+/area/derelict/ship)
+"vEs" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/reagent_containers/food/snacks/adhomian_can{
+	pixel_y = -5
+	},
+/obj/item/reagent_containers/food/snacks/adhomian_can{
+	pixel_y = 3
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "vED" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -20278,6 +20762,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/derelict/ship)
+"vSO" = (
+/obj/effect/floor_decal/corner/dark_green/diagonal,
+/obj/random/junk{
+	pixel_x = -10;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/gunmetal,
+/area/derelict/ship)
 "vTs" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -20361,6 +20853,8 @@
 "vXy" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/machinery/power/apc/super/north,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/tiled/gunmetal,
 /area/derelict/ship)
 "vYd" = (
@@ -20802,6 +21296,13 @@
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/derelict/ship)
+"wsP" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 5
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/ridged,
+/area/derelict/ship)
 "wtp" = (
 /obj/structure/table/rack/retail_shelf,
 /turf/simulated/floor/tiled/gunmetal/full,
@@ -21120,6 +21621,14 @@
 /obj/structure/bed/stool/chair/sofa/right/brown,
 /turf/simulated/floor/wood,
 /area/derelict/ship)
+"wIV" = (
+/obj/effect/floor_decal/corner/dark_green/diagonal,
+/obj/random/junk{
+	pixel_x = 8;
+	pixel_y = -9
+	},
+/turf/simulated/floor/tiled/gunmetal,
+/area/derelict/ship)
 "wJx" = (
 /obj/effect/floor_decal/corner_wide/green{
 	dir = 6
@@ -21228,6 +21737,15 @@
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/derelict/ship)
+"wQl" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/derelict/ship)
 "wQB" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
@@ -21305,9 +21823,9 @@
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "wVu" = (
-/obj/structure/table/reinforced/steel,
-/obj/structure/cash_register{
-	pixel_y = 4
+/obj/structure/table/reinforced/glass,
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
@@ -21465,6 +21983,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/obj/machinery/light,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
 "xeP" = (
@@ -21864,6 +22386,23 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /turf/simulated/floor/plating,
 /area/derelict/ship)
+"xGI" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
+	},
+/obj/machinery/airlock_sensor{
+	dir = 4;
+	pixel_x = -22;
+	pixel_y = 2
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/derelict/ship)
 "xGK" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -22085,6 +22624,9 @@
 /obj/structure/railing/mapped,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/freezer{
 	name = "cooled tiles";
 	temperature = 278.15
@@ -22236,6 +22778,19 @@
 	},
 /turf/simulated/floor/reinforced/phoron/scarce,
 /area/derelict/ship)
+"yav" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 4;
+	pixel_x = -20
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/simulated/floor/plating,
+/area/derelict/ship)
 "yaU" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/material/ashtray/bronze{
@@ -22258,7 +22813,39 @@
 /area/derelict/ship)
 "ybz" = (
 /obj/structure/table/rack/retail_shelf,
-/turf/simulated/floor/tiled/gunmetal,
+/obj/item/reagent_containers/food/drinks/bottle/cola{
+	pixel_x = -11;
+	pixel_y = 22
+	},
+/obj/item/reagent_containers/food/drinks/bottle/cola{
+	pixel_x = -4;
+	pixel_y = 22
+	},
+/obj/item/reagent_containers/food/drinks/bottle/cola{
+	pixel_x = 3;
+	pixel_y = 22
+	},
+/obj/item/reagent_containers/food/drinks/bottle/cola{
+	pixel_x = 10;
+	pixel_y = 22
+	},
+/obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind{
+	pixel_x = -11;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind{
+	pixel_x = 3;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind{
+	pixel_x = 10;
+	pixel_y = 8
+	},
+/turf/simulated/floor/tiled/gunmetal/full,
 /area/derelict/ship)
 "ybM" = (
 /obj/machinery/door/airlock/external{
@@ -48008,9 +48595,9 @@ gUk
 szJ
 aJI
 dNv
-fTa
+dPM
 iTi
-fTa
+dPM
 lWD
 dAm
 tcr
@@ -49830,7 +50417,7 @@ aJI
 aJI
 kNF
 kNF
-ver
+mMp
 kNF
 aJI
 iTi
@@ -50087,7 +50674,7 @@ aJI
 sfE
 sfE
 sfE
-ver
+mMp
 sfE
 aJI
 iTi
@@ -50344,7 +50931,7 @@ aJI
 hRj
 kzZ
 uIf
-ver
+nIH
 sXq
 aJI
 iTi
@@ -54694,7 +55281,7 @@ rfX
 rfX
 uyT
 eis
-bjD
+uBm
 jHq
 eis
 uyT
@@ -55207,8 +55794,8 @@ rfX
 rfX
 rfX
 uyT
-eis
-bjD
+aJI
+cgS
 jHq
 eis
 uyT
@@ -55722,7 +56309,7 @@ rfX
 rfX
 uyT
 eis
-bjD
+wsP
 jHq
 eis
 uyT
@@ -57521,7 +58108,7 @@ rfX
 rfX
 uyT
 eis
-bjD
+uBm
 fXb
 eis
 uyT
@@ -58034,8 +58621,8 @@ aJI
 uyT
 uyT
 uyT
-eis
-bjD
+aJI
+cgS
 fXb
 eis
 uyT
@@ -58549,7 +59136,7 @@ rfX
 rfX
 uyT
 eis
-bjD
+wsP
 fXb
 eis
 uyT
@@ -59090,7 +59677,7 @@ iTi
 aJI
 tbc
 keF
-rLz
+aJI
 kxh
 wtp
 aJI
@@ -59353,9 +59940,9 @@ dcp
 dtv
 xQe
 xQe
-hTv
 xQe
-hTv
+tHR
+lGo
 aJI
 aJI
 aJI
@@ -59605,22 +60192,22 @@ aJI
 tbc
 txY
 nEh
-sSC
-sSC
+miU
+frr
 aJI
 xQe
 xQe
 xQe
 xQe
-lGo
-aJI
-iTi
-iTi
-iTi
-iTi
-iTi
-iTi
-aJI
+xQe
+naO
+jVG
+jVG
+jVG
+jVG
+jVG
+jVG
+naO
 iTi
 dcp
 iTi
@@ -59871,12 +60458,12 @@ xQe
 llE
 llE
 aJI
-iTi
-iTi
-iTi
-iTi
-iTi
-iTi
+jVG
+jVG
+jVG
+jVG
+jVG
+jVG
 aJI
 iTi
 fqB
@@ -60120,7 +60707,7 @@ sJL
 fQY
 lvC
 fQY
-hPt
+nYF
 aJI
 aJI
 aJI
@@ -60128,12 +60715,12 @@ mEw
 aJI
 aJI
 aJI
-iTi
-iTi
-iTi
-iTi
-iTi
-iTi
+aJI
+aJI
+aJI
+aJI
+aJI
+aJI
 aJI
 iTi
 fqB
@@ -60376,14 +60963,14 @@ nex
 vzn
 kjB
 epA
-fQY
-wtp
+oFr
+sHp
 aJI
-nYF
+nRy
 xQe
 xQe
 xQe
-ybz
+wtp
 aJI
 iTi
 iTi
@@ -60634,13 +61221,13 @@ xxh
 fQY
 nhV
 fQY
-wtp
+vEs
 aJI
 nbR
 xQe
 nRy
 xQe
-aRm
+hPt
 aJI
 iTi
 iTi
@@ -60888,16 +61475,16 @@ xWl
 iTi
 oqy
 dcp
+wIV
 fQY
 fQY
-fQY
-wtp
+aRm
 aJI
-nYF
+nRy
 xQe
 nRy
 xQe
-ybz
+wtp
 aJI
 iTi
 iTi
@@ -61147,14 +61734,14 @@ aJI
 aEq
 fQY
 jKv
-fQY
-wtp
+vSO
+rLz
 aJI
-nYF
+nRy
 xQe
 nRy
 xQe
-ybz
+wtp
 aJI
 iTi
 iTi
@@ -61402,16 +61989,16 @@ eaC
 iTi
 nex
 mSc
-fQY
+bsj
 aPF
 fQY
-wtp
+lne
 aJI
 ybz
 xQe
 nRy
 xQe
-ybz
+wtp
 aJI
 iTi
 iTi
@@ -61662,13 +62249,13 @@ qbF
 fQY
 cJC
 fQY
-hPt
+eUH
 aJI
 qVk
 xQe
 nRy
 xQe
-aRm
+hPt
 aJI
 iTi
 iTi
@@ -61919,13 +62506,13 @@ lqL
 dcp
 dcp
 dcp
-wtp
+oiH
 aJI
-ybz
+wtp
 xQe
 xQe
 xQe
-ybz
+wtp
 aJI
 iTi
 iTi
@@ -67520,8 +68107,8 @@ rfX
 rfX
 rfX
 aJI
-dVX
-iTi
+dtl
+uPh
 aSw
 xtO
 xtO
@@ -68034,8 +68621,8 @@ rfX
 rfX
 rfX
 aJI
-wDg
-iTi
+oAV
+rGX
 gYk
 xtO
 xtO
@@ -68548,7 +69135,7 @@ rfX
 rfX
 rfX
 uCO
-xQe
+moK
 iTi
 aSw
 xtO
@@ -68805,7 +69392,7 @@ rfX
 rfX
 rfX
 uCO
-xQe
+moK
 iTi
 aSw
 xtO
@@ -69062,7 +69649,7 @@ eis
 rfX
 rfX
 uCO
-xQe
+moK
 iTi
 gYk
 xtO
@@ -69320,7 +69907,7 @@ uyT
 uyT
 aJI
 hhj
-iTi
+iqN
 aSw
 xtO
 xtO
@@ -69341,7 +69928,7 @@ umd
 aCF
 aCF
 oPN
-cFp
+shg
 umd
 umd
 umd
@@ -69577,7 +70164,7 @@ eis
 eis
 aJI
 aJI
-gUc
+rVI
 aJI
 aJI
 uCO
@@ -69600,8 +70187,8 @@ umd
 umd
 umd
 umd
-jVG
-hMJ
+kEz
+udI
 tcA
 czY
 umd
@@ -69834,7 +70421,7 @@ vdw
 oCW
 wHw
 arB
-iTi
+nPQ
 iTi
 dvQ
 tVA
@@ -69853,8 +70440,8 @@ eUp
 aJI
 uTq
 fIF
-jVG
-jVG
+jrq
+caZ
 hMJ
 cZG
 jVG
@@ -70605,7 +71192,7 @@ uyT
 uyT
 aJI
 vaf
-iTi
+iqN
 uTM
 xtO
 xtO
@@ -70861,7 +71448,7 @@ eis
 rfX
 rfX
 sVF
-xQe
+moK
 iTi
 kFV
 xtO
@@ -71118,7 +71705,7 @@ rfX
 rfX
 rfX
 sVF
-xQe
+moK
 iTi
 aSw
 xtO
@@ -71375,7 +71962,7 @@ rfX
 rfX
 rfX
 sVF
-xQe
+moK
 iTi
 aSw
 xtO
@@ -71889,8 +72476,8 @@ rfX
 rfX
 rfX
 aJI
-xQe
-iTi
+moK
+rGX
 kFV
 xtO
 xtO
@@ -72146,7 +72733,7 @@ rfX
 rfX
 rfX
 aJI
-xQe
+qDk
 iTi
 gYk
 xtO
@@ -72403,8 +72990,8 @@ rfX
 rfX
 rfX
 aJI
-xQe
-iTi
+qDk
+uPh
 aSw
 xtO
 xtO
@@ -73699,8 +74286,8 @@ aJI
 aJI
 aJI
 aJI
-iTi
-iTi
+sqG
+rjg
 aJI
 hUA
 fQY
@@ -73952,8 +74539,8 @@ rfX
 rfX
 rfX
 aJI
-qxM
-qxM
+xGI
+yav
 aJI
 iTi
 iTi
@@ -74208,10 +74795,10 @@ rfX
 rfX
 rfX
 rfX
-kXR
+cXx
 auo
-btH
-kXR
+oal
+dgM
 vYu
 iTi
 uFf
@@ -74466,7 +75053,7 @@ rfX
 rfX
 rfX
 aJI
-xej
+wQl
 xej
 aJI
 trY

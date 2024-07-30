@@ -2,7 +2,7 @@
 	name = "Zeng-Hu Station"
 	description = "A Zeng-Hu Pharmaceuticals-operated xenobiological research facility in the atmosphere of the gas giant Vejovis. "
 	prefix = "odyssey/"
-	suffixes = list("sinking_feeling.dmm")
+	suffix = "sinking_feeling.dmm"
 
 	sectors = ALL_POSSIBLE_SECTORS
 	id = "tempest"
