@@ -1,6 +1,4 @@
-/mob/living/simple_animal/hostile
-	abstract_type = /mob/living/simple_animal/hostile
-
+ABSTRACT_TYPE(/mob/living/simple_animal/hostile)
 	faction = "hostile"
 	var/stance = HOSTILE_STANCE_IDLE	//Used to determine behavior
 	var/mob/living/target_mob
@@ -54,7 +52,7 @@
 	friends = null
 	target_mob = null
 	targets = null
-	QDEL_LIST_ASSOC_VAL(target_type_validator_map)
+	target_type_validator_map = null
 	return ..()
 
 /mob/living/simple_animal/hostile/can_name(var/mob/living/M)
@@ -120,10 +118,13 @@
 	change_stance(HOSTILE_STANCE_ATTACKING)
 	visible_message(SPAN_WARNING("\The [src] gets taunted by \the [H] and begins to retaliate!"))
 
-/mob/living/simple_animal/hostile/bullet_act(var/obj/projectile/P, var/def_zone)
-	..()
-	if (ismob(P.firer) && target_mob != P.firer)
-		target_mob = P.firer
+/mob/living/simple_animal/hostile/bullet_act(obj/projectile/hitting_projectile, def_zone, piercing_hit)
+	. = ..()
+	if(. != BULLET_ACT_HIT)
+		return .
+
+	if (ismob(hitting_projectile.firer) && target_mob != hitting_projectile.firer)
+		target_mob = hitting_projectile.firer
 		change_stance(HOSTILE_STANCE_ATTACK)
 
 /mob/living/simple_animal/hostile/handle_attack_by(var/mob/user)
@@ -132,12 +133,11 @@
 		target_mob = user
 		change_stance(HOSTILE_STANCE_ATTACK)
 
-/mob/living/simple_animal/hostile/hitby(atom/movable/AM as mob|obj,var/speed = THROWFORCE_SPEED_DIVISOR)//Standardization and logging -Sieve
+/mob/living/simple_animal/hostile/hitby(atom/movable/hitting_atom, skipcatch, hitpush, blocked, datum/thrownthing/throwingdatum)
 	..()
-	if(istype(AM,/obj/))
-		var/obj/O = AM
-		if((target_mob != O.throwing?.thrower?.resolve()) && ismob(O.throwing?.thrower?.resolve()))
-			target_mob = O.throwing?.thrower?.resolve()
+	if(isobj(hitting_atom))
+		if((target_mob != throwingdatum?.thrower?.resolve()) && ismob(throwingdatum?.thrower?.resolve()))
+			target_mob =throwingdatum.thrower.resolve()
 			change_stance(HOSTILE_STANCE_ATTACK)
 
 /mob/living/simple_animal/hostile/attack_generic(var/mob/user, var/damage, var/attack_message)
@@ -156,14 +156,20 @@
 /mob/living/simple_animal/hostile/proc/FoundTarget()
 	return
 
-/mob/living/simple_animal/hostile/proc/see_target()
-	return is_in_sight(src, target_mob)
+/mob/living/simple_animal/hostile/proc/see_target(atom/target)
+	SHOULD_NOT_SLEEP(TRUE)
+
+	if(!target)
+		stack_trace("see_target() called with null target!")
+		return FALSE
+
+	return is_in_sight(src, target)
 
 /mob/living/simple_animal/hostile/proc/MoveToTarget()
 	stop_automated_movement = 1
 	if(QDELETED(target_mob) || SA_attackable(target_mob))
 		LoseTarget()
-	if(!see_target())
+	if(!see_target(target_mob))
 		LoseTarget()
 	if(target_mob in targets)
 		if(ranged)
@@ -188,7 +194,7 @@
 	if(!(target_mob in targets))
 		LoseTarget()
 		return 0
-	if(!see_target())
+	if(!see_target(target_mob))
 		LoseTarget()
 	if(ON_ATTACK_COOLDOWN(src))
 		return
@@ -210,7 +216,7 @@
 		return
 	if(!canmove)
 		return
-	if(!see_target())
+	if(!see_target(target_mob))
 		LoseTarget()
 	for(var/grab in grabbed_by)
 		var/obj/item/grab/G = grab
@@ -323,11 +329,19 @@
 
 	return TRUE
 
-/mob/living/simple_animal/hostile/proc/OpenFire(target_mob)
+/**
+ * Handles the logic of firing at a target for the hostile mob
+ *
+ * * target_mob - The mob to fire at
+ * * ignore_visibility - Whether or not to ignore the visibility check
+ */
+/mob/living/simple_animal/hostile/proc/OpenFire(target_mob, ignore_visibility = FALSE)
 	set waitfor = FALSE
 
-	if(!see_target())
+	if(!ignore_visibility && !see_target(target_mob))
 		LoseTarget()
+		return
+
 	var/target = target_mob
 	// This code checks if we are not going to hit our target
 	if(smart_ranged && !check_fire(target_mob))
@@ -376,18 +390,16 @@
 	if(target == start)
 		return
 
-	var/obj/projectile/A = new projectiletype(user.loc)
-	playsound(user, projectilesound, 100, 1)
-	if(!A)	return
-	var/def_zone = get_exposed_defense_zone(target)
-	A.launch_projectile(target, def_zone)
+	// var/def_zone = get_exposed_defense_zone(target)
+
+	fire_projectile(/obj/projectile, target, projectilesound, firer = user)
 
 /mob/living/simple_animal/hostile/proc/DestroySurroundings(var/bypass_prob = FALSE)
 	if(ON_ATTACK_COOLDOWN(src))
 		return FALSE
 
 	if(prob(break_stuff_probability) || bypass_prob) //bypass_prob is used to make mob destroy things in the way to our target
-		for(var/card_dir in GLOB.cardinal) // North, South, East, West
+		for(var/card_dir in GLOB.cardinals) // North, South, East, West
 			var/turf/target_turf = get_step(src, card_dir)
 
 			var/obj/found_obj = locate(/obj/effect/energy_field) in target_turf
@@ -403,7 +415,7 @@
 
 			found_obj = locate(/obj/structure/window) in target_turf
 			if(found_obj)
-				if((found_obj.atom_flags & ATOM_FLAG_CHECKS_BORDER) && found_obj.dir != GLOB.reverse_dir[card_dir])
+				if((found_obj.atom_flags & ATOM_FLAG_CHECKS_BORDER) && found_obj.dir != REVERSE_DIR(card_dir))
 					continue
 				found_obj.attack_generic(src, rand(melee_damage_lower, melee_damage_upper), attacktext, TRUE)
 				hostile_last_attack = world.time

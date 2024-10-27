@@ -4,7 +4,7 @@
 	icon_state = "mecha_clamp"
 	restricted_hardpoints = list(HARDPOINT_LEFT_HAND, HARDPOINT_RIGHT_HAND)
 	restricted_software = list(MECH_SOFTWARE_UTILITY)
-	w_class = ITEMSIZE_HUGE
+	w_class = WEIGHT_CLASS_HUGE
 	var/carrying_capacity = 5
 	var/list/obj/carrying = list()
 	origin_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
@@ -480,8 +480,8 @@
 								for(var/obj/item/ore/ore in range(owner,1))
 									if(get_dir(owner,ore)&owner.dir)
 										ore.Move(ore_box)
-				else if(istype(target, /turf/unsimulated/floor/asteroid))
-					for(var/turf/unsimulated/floor/asteroid/M in range(owner,1))
+				else if(istype(target, /turf/simulated/floor/exoplanet/asteroid))
+					for(var/turf/simulated/floor/exoplanet/asteroid/M in range(owner,1))
 						if(get_dir(owner,M)&owner.dir)
 							M.gets_dug()
 							drill_head.durability -= 1
@@ -706,7 +706,7 @@
 	desc = "A large back-mounted device with installed hydraulics, capable of quickly lifting the user into their piloting seat."
 	icon_state = "mecha_quickie"
 	restricted_hardpoints = list(HARDPOINT_BACK)
-	w_class = ITEMSIZE_HUGE
+	w_class = WEIGHT_CLASS_HUGE
 	origin_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 3)
 
 /obj/item/mecha_equipment/quick_enter/installed()
@@ -729,7 +729,7 @@
 	desc_info = "It needs an anomaly core to function. You can install some simply by using a core on it."
 	icon_state = "mecha_phazon"
 	restricted_hardpoints = list(HARDPOINT_BACK)
-	w_class = ITEMSIZE_HUGE
+	w_class = WEIGHT_CLASS_HUGE
 	origin_tech = list(TECH_MATERIAL = 6, TECH_ENGINEERING = 6, TECH_BLUESPACE = 6)
 	active_power_use = 88 KILO WATTS
 

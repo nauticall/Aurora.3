@@ -185,7 +185,7 @@
 		stop_automated_movement = 1
 	if(QDELETED(target_mob) || SA_attackable(target_mob))
 		LoseTarget()
-	if(!see_target())
+	if(!see_target(target_mob))
 		LoseTarget()
 	if(target_mob in targets)
 		if(get_dist(src, target_mob) <= 6)
@@ -208,11 +208,11 @@
 /mob/living/simple_animal/hostile/hivebotbeacon/AirflowCanMove(n)
 	return 0
 
-/mob/living/simple_animal/hostile/hivebotbeacon/bullet_act(var/obj/projectile/Proj)
-	if(istype(Proj, /obj/projectile/bullet/pistol/hivebotspike) || istype(Proj, /obj/projectile/beam/hivebot))
-		return PROJECTILE_CONTINUE
+/mob/living/simple_animal/hostile/hivebotbeacon/bullet_act(obj/projectile/hitting_projectile, def_zone, piercing_hit)
+	if(istype(hitting_projectile, /obj/projectile/bullet/pistol/hivebotspike) || istype(hitting_projectile, /obj/projectile/beam/hivebot))
+		return BULLET_ACT_BLOCK
 	else
-		..(Proj)
+		. = ..()
 
 /mob/living/simple_animal/hostile/hivebotbeacon/emp_act(severity)
 	. = ..()
@@ -294,7 +294,7 @@
 				latest_child = new /mob/living/simple_animal/hostile/hivebot/bomber(Destination, src)
 			if(GUARDIAN)
 				Destination = null
-				for(var/check_dir in GLOB.cardinal)
+				for(var/check_dir in GLOB.cardinals)
 					var/turf/T = get_step(src, check_dir)
 					if(turf_clear(T))
 						Destination = T

@@ -17,6 +17,8 @@
 	permit_ao = FALSE
 	z_eventually_space = TRUE
 	turf_flags = TURF_FLAG_BACKGROUND
+	explosion_resistance = 3
+
 	var/use_space_appearance = TRUE
 	var/use_starlight = TRUE
 
@@ -210,9 +212,6 @@
 				if ((A && A.loc))
 					A.loc.Entered(A)
 	return
-
-/turf/space/ChangeTurf(N, tell_universe = TRUE, force_lighting_update = FALSE, ignore_override = FALSE, mapload = FALSE)
-	return ..()
 
 /turf/space/is_open()
 	return TRUE

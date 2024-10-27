@@ -80,7 +80,7 @@
 	desc = "A tiny, delicious piece of milk chocolate with some sort of filling inside of it."
 	icon = 'icons/obj/item/reagent_containers/food/confections.dmi'
 	icon_state = "praline1"
-	w_class = ITEMSIZE_TINY
+	w_class = WEIGHT_CLASS_TINY
 	filling_color = "#4d280f"
 	reagents_to_add = list(/singleton/reagent/nutriment = 1)
 	reagent_data = list(/singleton/reagent/nutriment = list("milk chocolate and caramel" = 1))
@@ -214,10 +214,10 @@
 	is_liquid = TRUE
 
 //Custard + blowtorch = creme brulee
-/obj/item/reagent_containers/food/snacks/custard/attackby(obj/item/W, mob/living/user)
+/obj/item/reagent_containers/food/snacks/custard/attackby(obj/item/attacking_item, mob/user, params)
 	. = ..()
-	if(W.iswelder())
-		var/obj/item/weldingtool/welder = W
+	if(attacking_item.iswelder())
+		var/obj/item/weldingtool/welder = attacking_item
 		if(welder.isOn())
 			new /obj/item/reagent_containers/food/snacks/creme_brulee(src)
 			to_chat(user, "You apply the flame to the sugary custard, caramelizing it.")

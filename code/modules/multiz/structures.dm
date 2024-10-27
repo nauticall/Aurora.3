@@ -179,6 +179,8 @@
 	return M.forceMove(T)
 
 /obj/structure/ladder/CanPass(obj/mover, turf/source, height, airflow)
+	if(mover?.movement_type & PHASING)
+		return TRUE
 	return airflow || !density
 
 /obj/structure/ladder/update_icon()
@@ -237,6 +239,7 @@
 
 /obj/structure/stairs/Initialize()
 	. = ..()
+
 	for(var/turf/turf in locs)
 		var/turf/simulated/open/above = GET_TURF_ABOVE(turf)
 		if(!above)
@@ -246,12 +249,16 @@
 			above.ChangeToOpenturf()
 
 /obj/structure/stairs/CheckExit(atom/movable/mover, turf/target)
+	//This means the mob is moving, don't bump
+	if(mover.z != target.z)
+		return TRUE
+
 	if(get_dir(loc, target) == dir && upperStep(mover.loc))
 		return FALSE
 
 	var/obj/structure/stairs/staircase = locate() in target
 	var/target_dir = get_dir(mover, target)
-	if(!staircase && (target_dir != dir && target_dir != GLOB.reverse_dir[dir]))
+	if(!staircase && (target_dir != dir && target_dir != REVERSE_DIR(dir)))
 		INVOKE_ASYNC(src, PROC_REF(mob_fall), mover)
 
 	return ..()
@@ -271,7 +278,7 @@
 		return
 	if(target.z > (z + 1)) //Prevents wheelchair fuckery. Basically, you teleport twice because both the wheelchair + your mob collide with the stairs.
 		return
-	if(target.Enter(AM, src) && AM.dir == dir)
+	if(target.Enter(AM) && AM.dir == dir)
 		AM.forceMove(target)
 		if(isliving(AM))
 			var/mob/living/living_mob = AM
@@ -289,6 +296,9 @@
 
 /obj/structure/stairs/CanPass(obj/mover, turf/source, height, airflow)
 	if(airflow)
+		return TRUE
+
+	if(mover?.movement_type & PHASING)
 		return TRUE
 
 	// Disallow stepping onto the elevated part of the stairs.
@@ -342,6 +352,9 @@
 	density = TRUE
 
 /obj/structure/stairs_railing/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
+	if(mover?.movement_type & PHASING)
+		return TRUE
+
 	if(istype(mover,/obj/projectile))
 		return TRUE
 	if(!istype(mover) || mover.pass_flags & PASSRAILING)
@@ -415,13 +428,16 @@
 	color = COLOR_DARK_GUNMETAL
 
 /obj/structure/platform/CanPass(atom/movable/mover, turf/target, height, air_group)
+	if(mover?.movement_type & PHASING)
+		return TRUE
+
 	if(istype(mover, /obj/projectile))
 		return TRUE
 	if(!istype(mover) || mover.pass_flags & PASSRAILING)
 		return TRUE
 	if(mover.throwing)
 		return TRUE
-	if(get_dir(mover, target) == GLOB.reverse_dir[dir])
+	if(get_dir(mover, target) == REVERSE_DIR(dir))
 		return FALSE
 	if(height && (mover.dir == dir))
 		return FALSE
@@ -430,7 +446,7 @@
 /obj/structure/platform/CheckExit(var/atom/movable/O, var/turf/target)
 	if(istype(O) && CanPass(O, target))
 		return TRUE
-	if(get_dir(O, target) == GLOB.reverse_dir[dir])
+	if(get_dir(O, target) == REVERSE_DIR(dir))
 		return FALSE
 	return TRUE
 
@@ -440,7 +456,7 @@
 		/// If the user is on the same turf as the platform, we're trying to go past it, so we need to use reverse_dir.
 		/// Otherwise, use our own turf.
 		var/same_turf = get_turf(user) == get_turf(src)
-		var/turf/next_turf = get_step(src, same_turf ? GLOB.reverse_dir[dir] : 0)
+		var/turf/next_turf = get_step(src, same_turf ? REVERSE_DIR(dir) : 0)
 		if(istype(next_turf) && !next_turf.density && can_climb(user))
 			var/climb_text = same_turf ? "over" : "down"
 			LAZYADD(climbers, user)

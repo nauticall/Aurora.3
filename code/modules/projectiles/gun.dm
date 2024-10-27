@@ -53,7 +53,7 @@
 	obj_flags = OBJ_FLAG_CONDUCTABLE
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
-	w_class = ITEMSIZE_NORMAL
+	w_class = WEIGHT_CLASS_NORMAL
 	throwforce = 5
 	throw_speed = 4
 	throw_range = 5
@@ -302,18 +302,18 @@
 	else
 		Fire(A,user,params) //Otherwise, fire normally.
 
-/obj/item/gun/attack(atom/A, mob/living/user, def_zone)
-	if (A == user && user.zone_sel.selecting == BP_MOUTH && !mouthshoot)
+/obj/item/gun/attack(mob/living/target_mob, mob/living/user, target_zone)
+	if (target_mob == user && user.zone_sel.selecting == BP_MOUTH && !mouthshoot)
 		handle_suicide(user)
 	else if(user.a_intent != I_HURT && user.aiming && user.aiming.active) //if aim mode, don't pistol whip
-		if (user.aiming.aiming_at != A)
-			PreFire(A, user)
+		if (user.aiming.aiming_at != target_mob)
+			PreFire(target_mob, user)
 		else
-			Fire(A, user, pointblank=1)
+			Fire(target_mob, user, pointblank=1)
 	else if(user.a_intent == I_HURT) //point blank shooting
-		Fire(A, user, pointblank=1)
+		Fire(target_mob, user, pointblank=1)
 	else if(bayonet)
-		bayonet.attack(A, user, def_zone)
+		bayonet.attack(target_mob, user, target_zone)
 	else
 		return ..() //Pistolwhippin'
 
@@ -428,12 +428,13 @@
 			var/disp = dispersion[min(i, dispersion.len)]
 
 			P.accuracy = accuracy + acc
-			P.dispersion = disp
+			P.spread += disp
 
-			P.shot_from = src.name
 			P.suppressed =  suppressed
 
-			P.launch_projectile(target)
+			P.preparePixelProjectile(target, get_turf(src))
+			P.fired_from = src
+			P.fire()
 
 			handle_post_fire() // should be safe to not include arguments here, as there are failsafes in effect (?)
 
@@ -539,7 +540,7 @@
 
 	//Accuracy modifiers
 	P.accuracy = accuracy + acc_mod
-	P.dispersion = dispersion
+	P.spread += dispersion
 
 	//Increasing accuracy across the board, ever so slightly
 	P.accuracy += 1
@@ -556,7 +557,7 @@
 		F = firemodes[sel_mode]
 	if(one_hand_fa_penalty > 2 && !wielded && F?.name == "full auto") // todo: make firemode names defines
 		P.accuracy -= one_hand_fa_penalty * 0.5
-		P.dispersion -= one_hand_fa_penalty * 0.5
+		P.spread -= one_hand_fa_penalty * 0.5
 
 //does the actual launching of the projectile
 /obj/item/gun/proc/process_projectile(obj/projectile, mob/user, atom/target, target_zone, params)
@@ -573,7 +574,12 @@
 		else if(mob.shock_stage > 70)
 			added_spread = 15
 
-	return !P.launch_from_gun(target, target_zone, user, params, null, added_spread, src)
+	P.preparePixelProjectile(target, src, deviation = added_spread)
+	P.firer = user
+	P.fired_from = src
+	P.def_zone = target_zone
+
+	return !P.fire()
 
 //Suicide handling.
 /obj/item/gun/var/mouthshoot = FALSE //To stop people from suiciding twice... >.>
@@ -807,14 +813,15 @@
 #undef LYING_DOWN_FIRE_DELAY_AND_RECOIL_STAT_MULTIPLIER
 #undef LYING_DOWN_ACCURACY_STAT_MULTIPLIER
 
-/obj/item/gun/mob_can_equip(mob/user, slot, disable_warning, ignore_blocked)
-	//Cannot equip wielded items.
+/obj/item/gun/on_slotmove(mob/user, slot, disable_warning, ignore_blocked)
+	. = ..()
+	if(!.)
+		return
 	if(wielded)
 		unwield()
 		var/obj/item/offhand/O = user.get_inactive_hand()
 		if(istype(O))
 			O.unwield()
-	return ..()
 
 /obj/item/gun/throw_at()
 	..()
@@ -850,7 +857,7 @@
 
 ///////////OFFHAND///////////////
 /obj/item/offhand
-	w_class = ITEMSIZE_HUGE
+	w_class = WEIGHT_CLASS_HUGE
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "offhand"
 	item_state = "nothing"
