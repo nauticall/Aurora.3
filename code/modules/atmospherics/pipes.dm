@@ -1442,16 +1442,8 @@
 
 	if (node1)
 		universal_underlays(node1)
-		if(node2)
-			universal_underlays(node2)
-		else
-			var/node1_dir = get_dir(node1,src)
-			universal_underlays(,node1_dir)
-	else if (node2)
+	if (node2)
 		universal_underlays(node2)
-	else
-		universal_underlays(,dir)
-		universal_underlays(,turn(dir, -180))
 
 /obj/machinery/atmospherics/pipe/simple/visible/universal/update_underlays()
 	..()
@@ -1482,63 +1474,34 @@
 
 	if (node1)
 		universal_underlays(node1)
-		if(node2)
-			universal_underlays(node2)
-		else
-			var/node2_dir = turn(get_dir(src,node1),-180)
-			universal_underlays(,node2_dir)
-	else if (node2)
+	if(node2)
 		universal_underlays(node2)
-		var/node1_dir = turn(get_dir(src,node2),-180)
-		universal_underlays(,node1_dir)
-	else
-		universal_underlays(,dir)
-		universal_underlays(,turn(dir, -180))
 
 /obj/machinery/atmospherics/pipe/simple/hidden/universal/update_underlays()
 	..()
 	queue_icon_update()
 
-/obj/machinery/atmospherics/proc/universal_underlays(var/obj/machinery/atmospherics/node, var/direction)
-	var/turf/T = loc
-	if(node)
-		var/node_dir = get_dir(src,node)
-		if(node.icon_connect_type == "-supply")
-			add_underlay_adapter(T, , node_dir, "")
-			add_underlay_adapter(T, node, node_dir, "-supply")
-			add_underlay_adapter(T, , node_dir, "-scrubbers")
-			add_underlay_adapter(T, , node_dir, "-fuel")
-			add_underlay_adapter(T, , node_dir, "-aux")
-		else if (node.icon_connect_type == "-scrubbers")
-			add_underlay_adapter(T, , node_dir, "")
-			add_underlay_adapter(T, , node_dir, "-supply")
-			add_underlay_adapter(T, node, node_dir, "-scrubbers")
-			add_underlay_adapter(T, , node_dir, "-fuel")
-			add_underlay_adapter(T, , node_dir, "-aux")
-		else if (node.icon_connect_type == "-fuel")
-			add_underlay_adapter(T, , node_dir, "")
-			add_underlay_adapter(T, , node_dir, "-supply")
-			add_underlay_adapter(T, , node_dir, "-scrubbers")
-			add_underlay_adapter(T, node, node_dir, "-fuel")
-			add_underlay_adapter(T, , node_dir, "-aux")
-		else if (node.icon_connect_type == "-aux")
-			add_underlay_adapter(T, , node_dir, "")
-			add_underlay_adapter(T, , node_dir, "-supply")
-			add_underlay_adapter(T, , node_dir, "-scrubbers")
-			add_underlay_adapter(T, , node_dir, "-fuel")
-			add_underlay_adapter(T, node, node_dir, "-aux")
+/obj/machinery/atmospherics/proc/universal_underlays(var/obj/machinery/atmospherics/node, var/direction, var/draw_unconnected = TRUE)
+	var/dir_to_use = direction
+	if(!dir_to_use)
+		if(node)
+			dir_to_use = get_dir(src, node)
 		else
-			add_underlay_adapter(T, node, node_dir, "")
-			add_underlay_adapter(T, , node_dir, "-supply")
-			add_underlay_adapter(T, , node_dir, "-scrubbers")
-			add_underlay_adapter(T, , node_dir, "-fuel")
-			add_underlay_adapter(T, , node_dir, "-aux")
-	else
-		add_underlay_adapter(T, , direction, "-supply")
-		add_underlay_adapter(T, , direction, "-scrubbers")
-		add_underlay_adapter(T, , direction, "")
-		add_underlay_adapter(T, , direction, "-fuel")
-		add_underlay_adapter(T, , direction, "-aux")
+			dir_to_use = dir
+
+	var/turf/T = loc
+
+	var/list/_suffixes = list("", "-supply", "-scrubbers", "-fuel", "-aux")
+
+	var/node_suffix = ""
+	if(node && istext(node.icon_connect_type) && (node.icon_connect_type in _suffixes))
+		node_suffix = node.icon_connect_type
+
+	for(var/sfx in _suffixes)
+		var/obj/machinery/atmospherics/which = (node && sfx == node_suffix) ? node : null
+		if(!which && !draw_unconnected)
+			continue
+		add_underlay_adapter(T, which, dir_to_use, sfx)
 
 /obj/machinery/atmospherics/proc/add_underlay_adapter(var/turf/T, var/obj/machinery/atmospherics/node, var/direction, var/icon_connect_type) //modified from add_underlay, does not make exposed underlays
 	if(node)
