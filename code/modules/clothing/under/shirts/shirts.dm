@@ -139,6 +139,12 @@
 	icon_state = "tshirt_crop"
 	item_state = "tshirt_crop"
 
+/obj/item/clothing/under/dressshirt/croptop
+	name = "crop top"
+	desc = "A short-sleeved breezy crop top."
+	icon_state = "croptop"
+	item_state = "tshirt_crop"
+
 // Blouses and Tops
 
 /obj/item/clothing/under/dressshirt/blouse
@@ -159,11 +165,23 @@
 	icon_state = "puffyblouse"
 	item_state = "puffyblouse"
 
+/obj/item/clothing/under/dressshirt/offshouldertop
+	name = "off-shoulder top"
+	desc = "A long-sleeved off-shoulder top."
+	icon_state = "off_shoulder"
+	item_state = "off_shoulder"
+
 /obj/item/clothing/under/dressshirt/haltertop
 	name = "halter top"
 	desc = "A sleeveless tank with straps tied behind the neck, commonly seen worn in Biesel."
 	icon_state = "haltertop"
 	item_state = "haltertop"
+
+/obj/item/clothing/under/dressshirt/sleeveless_turtleneck
+	name = "sleeveless turtleneck top"
+	desc = "A sleeveless mock turtleneck top with a high collar."
+	icon_state = "s_tneck"
+	item_state = "s_tneck"
 
 /obj/item/clothing/under/dressshirt/tanktop
 	name = "tank top"
